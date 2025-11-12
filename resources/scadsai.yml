@@ -1,0 +1,34 @@
+resources:
+- authors:
+  - Robert Haase
+  description: This repository contains training resources for Students at Uni Leipzig
+    who want to dive into bio-image data science with Python.
+  license: CC-BY-4.0
+  name: Bio-image Data Science
+  proficiency_level: advanced beginner
+  tags:
+  - Research Data Management
+  - artificial intelligence
+  - Bio-Image Analysis
+  - Python
+  - include in DALIA
+  type:
+  - Notebook
+  url: https://github.com/ScaDS/BIDS-lecture-2024
+  uuid: 49ce8445-c356-4810-855f-cf53f5db59e3
+- authors:
+  - Costantin Pape
+  description: This course consists of lectures and exercises that teach the background
+    of deep learning for image analysis and show applications to classification and
+    segmentation analysis problems.
+  license: MIT
+  name: Introduction to Deep Learning for Microscopy
+  proficiency_level: competent
+  tags:
+  - artificial intelligence
+  - Python
+  - include in DALIA
+  type:
+  - Notebook
+  url: https://github.com/computational-cell-analytics/dl-for-micro
+  uuid: 89ef565d-f686-46cb-bed1-9f31bb04c351
