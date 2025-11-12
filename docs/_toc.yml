@@ -13,14 +13,6 @@ parts:
     - file: contributing/submit_app
     - file: contributing/format
 
-  - caption: By tag
-    chapters:
-{tag_toc}
-
-  - caption: By content type
-    chapters:
-{type_toc}
-
   - caption: By license
     chapters:
 {license_toc}
