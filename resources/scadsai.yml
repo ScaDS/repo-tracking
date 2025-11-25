@@ -964,4 +964,17 @@ resources:
   submission_date: '2025-11-12T11:18:59.765105'
   type: GitHub Repository
   url: https://github.com/ScaDS/OSTMap
-  
+  - authors:
+  - Haase, Robert
+  description: In this slide-deck we dive into large language models for bioimage
+    data science, focusing on code generation for bio image analysis. The slides also
+    give an outlook on how AI-systems may change data analysis in the future through
+    data analysis code generation.
+  license: cc-by-4.0
+  name: How LLMs impact BioImage Data Science
+  num_downloads: 12
+  publication_date: '2025-11-21'
+  submission_date: '2025-11-25T14:15:13.694981'
+  url:
+  - https://zenodo.org/records/17669681
+  - https://doi.org/10.5281/zenodo.17669681
