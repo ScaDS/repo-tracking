@@ -978,3 +978,15 @@ resources:
   url:
   - https://zenodo.org/records/17669681
   - https://doi.org/10.5281/zenodo.17669681
+
+- authors:
+  - Maximilian Joas
+  - Jan Ewald
+  description: Framework for multi-omics data integration by autoencoders
+  license: Other
+  name: autoencodix
+  publication_date: '2024-02-21T15:50:16+00:00'
+  submission_date: '2025-11-26T11:35:21.822994'
+  type: GitHub Repository
+  url: https://github.com/jan-forest/autoencodix
+  
