@@ -1,4 +1,4 @@
-# Github.com (36)
+# Github.com (37)
 ## BIDS-lecture-2024
 
 Robert Haase
@@ -333,6 +333,25 @@ Licensed Creative Commons Attribution 4.0 International
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/ai_training_ufz_2025](https://github.com/ScaDS/ai_training_ufz_2025)
+
+
+---
+
+## autoencodix
+
+Maximilian Joas, Jan Ewald
+
+Published 2024-02-21T15:50:16+00:00
+
+Licensed Other
+
+
+
+Framework for multi-omics data integration by autoencoders
+
+Content type: GitHub Repository
+
+[https://github.com/jan-forest/autoencodix](https://github.com/jan-forest/autoencodix)
 
 
 ---

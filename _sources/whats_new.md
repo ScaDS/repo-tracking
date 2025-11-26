@@ -92,21 +92,21 @@ Content type: GitHub Repository
 
 ---
 
-## csv_to_tex
+## autoencodix
 
-Robert Haase
+Maximilian Joas, Jan Ewald
 
-Published 2024-06-28T07:25:51+00:00
+Published 2024-02-21T15:50:16+00:00
 
-Licensed BSD 3-Clause "New" or "Revised" License
-
-
+Licensed Other
 
 
+
+Framework for multi-omics data integration by autoencoders
 
 Content type: GitHub Repository
 
-[https://github.com/ScaDS/csv_to_tex](https://github.com/ScaDS/csv_to_tex)
+[https://github.com/jan-forest/autoencodix](https://github.com/jan-forest/autoencodix)
 
 
 ---
