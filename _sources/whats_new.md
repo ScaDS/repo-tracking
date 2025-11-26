@@ -1,19 +1,19 @@
 # Recently added (10)
-## BIDS-lecture-2024
+## How LLMs impact BioImage Data Science
 
-Robert Haase
+Haase, Robert
 
-Published 2024-03-19T12:46:28+00:00
+Published 2025-11-21
 
-Licensed Creative Commons Attribution 4.0 International
+Licensed cc-by-4.0
 
 
 
-Training resources for Students at Uni Leipzig who want to dive into bio-image data science with Python. The material will develop between April and July 2024
+In this slide-deck we dive into large language models for bioimage data science, focusing on code generation for bio image analysis. The slides also give an outlook on how AI-systems may change data analysis in the future through data analysis code generation.
 
-Content type: GitHub Repository
+[https://zenodo.org/records/17669681](https://zenodo.org/records/17669681)
 
-[https://github.com/ScaDS/BIDS-lecture-2024](https://github.com/ScaDS/BIDS-lecture-2024)
+[https://doi.org/10.5281/zenodo.17669681](https://doi.org/10.5281/zenodo.17669681)
 
 
 ---

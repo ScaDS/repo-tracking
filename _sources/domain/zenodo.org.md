@@ -1,4 +1,4 @@
-# Zenodo.org (25)
+# Zenodo.org (26)
 ## AI4Psychology KI-Kompetenz-Training
 
 Haase, Robert
@@ -180,6 +180,25 @@ In this Lunch Lecture at Leipzig University, we explore how Generative Artificia
 [https://zenodo.org/records/17422917](https://zenodo.org/records/17422917)
 
 [https://doi.org/10.5281/zenodo.17422917](https://doi.org/10.5281/zenodo.17422917)
+
+
+---
+
+## How LLMs impact BioImage Data Science
+
+Haase, Robert
+
+Published 2025-11-21
+
+Licensed cc-by-4.0
+
+
+
+In this slide-deck we dive into large language models for bioimage data science, focusing on code generation for bio image analysis. The slides also give an outlook on how AI-systems may change data analysis in the future through data analysis code generation.
+
+[https://zenodo.org/records/17669681](https://zenodo.org/records/17669681)
+
+[https://doi.org/10.5281/zenodo.17669681](https://doi.org/10.5281/zenodo.17669681)
 
 
 ---
