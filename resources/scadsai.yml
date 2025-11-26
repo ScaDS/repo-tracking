@@ -964,7 +964,7 @@ resources:
   submission_date: '2025-11-12T11:18:59.765105'
   type: GitHub Repository
   url: https://github.com/ScaDS/OSTMap
-  - authors:
+- authors:
   - Haase, Robert
   description: In this slide-deck we dive into large language models for bioimage
     data science, focusing on code generation for bio image analysis. The slides also
