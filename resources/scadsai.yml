@@ -990,3 +990,13 @@ resources:
   type: GitHub Repository
   url: https://github.com/jan-forest/autoencodix
   
+- authors:
+  - Daniel Obraczka
+  description: "\U0001F9F1 blocking methods for entity resolution"
+  license: MIT License
+  name: klinker
+  publication_date: '2023-02-12T14:00:38+00:00'
+  submission_date: '2025-12-14T08:37:58.941184'
+  type: GitHub Repository
+  url: https://github.com/dobraczka/klinker
+  
