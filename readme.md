@@ -1,8 +1,8 @@
-# Zenodo Tracking
+# Repo Tracking
 
-This repository contains a collection of links to Zenodo and Github resources maintained by members of ScaDS.AI. The collection can be browsed under this URL:
+This repository contains a collection of links to Zenodo and Github repositories maintained by members of ScaDS.AI. The collection can be browsed under this URL:
 
-https://scads.github.io/zenodo-tracking
+https://scads.github.io/repo-tracking
 
 It is maintained using [Jupyter lab](https://jupyterlab.readthedocs.io/en/stable/) and build using [Jupyter book](https://jupyterbook.org/intro.html).
 
