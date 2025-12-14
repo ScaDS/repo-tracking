@@ -1,311 +1,184 @@
 # Recently added (10)
-## Same Sentiment Classification Train/Dev/Test Pair IDs
+## acl23-trigger-warning-assignment
 
-Erik Körner, Ahmad Dawar Hakimi, Gerhard Heyer, Martin Potthast
+Matti Wiegmann
 
-Published 2021-09-09
+Published 2023-01-20T15:50:09+00:00
 
-Licensed cc-by-4.0
-
-
-
-This &quot;dataset&quot; only includes the compiled pairings of the Yelp Business Review Dataset. To get access to the actual review texts, please follow the instructions on the Yelp Dataset webpage.
-
-The data format is JSONlines.
-Python Load Example:
-
-import pandas as pd
-traindev_df = pd.read_json("df_traindev.jsonl", lines=True)
-test_df = pd.read_json("df_test.jsonl", lines=True)
-
-# example access to single business/review id
-s1_bid = test_df.iloc[0]["sent1_business_id"]
-s1_rid = test_df.iloc[0]["sent1_review_id"]
-s2_bid = test_df.iloc[0]["sent2_business_id"]
-s2_rid = test_df.iloc[0]["sent2_review_id"]
-label = test_df.iloc[0]["is_same_side"]
-
-See documentation at:
+Licensed MIT License
 
 
-	Yelp Dataset Schemata (only business.json and review.json were used)
-	Yelp Business Category Hierarchy (download the json file as all_category_list.json)
 
 
-For details on how the data was compiled and used in our experiments, please refer to our code repository. Other derived data splits can be reproduced deterministically by using the same random seed as in our experiments.
 
-[https://zenodo.org/records/5495793](https://zenodo.org/records/5495793)
+Content type: GitHub Repository
 
-[https://doi.org/10.5281/zenodo.5495793](https://doi.org/10.5281/zenodo.5495793)
+[https://github.com/MattiWe/acl23-trigger-warning-assignment](https://github.com/MattiWe/acl23-trigger-warning-assignment)
 
 
 ---
 
-## Same Side Stance Classification Adversarial Test Cases
+## archive-query-log
 
-Ahmad Dawar Hakimi, Erik Körner, Gregor Wiedemann, Gerhard Heyer, Martin Potthast
+Jan Heinrich Merker, Sebastian Heineking, dependabot[bot], Maik Fröbe, Simon Ruth, Martin Potthast, Julian Klüber
 
-Published 2021-09-09
+Published 2025-05-16T10:02:42+00:00
 
-Licensed cc-by-4.0
-
-
-
-This dataset contains 175 cases. It is manually created to reveal the ability of models to solve different types of adversarial cases for same side stance predictions more systematically. The examples selected here are derived from the dataset used in the Same Side Stance Classification shared task.
-
-We have selected 25 distinct arguments from the &quot;gay marriage&quot; topic that are short and express their stance clearly. For each selected argument, we construct new arguments of four distinct types to obtain two pairs, one with the same stance, and one with an opposing stance:
+Licensed MIT License
 
 
-	Negation: a simple negation of the argument.
-	Paraphrase: alters important words from the argument to synonymous expressions with the same stance.
-	Argument: uses an argument from the same topic and stance, but semantically completely different regarding the first one.
-	Citation: repeats or summarizes the first argument and then expresses agreement or rejection (a case frequently occurring in the dataset).
 
+📜 The Archive Query Log.
 
-The types Paraphrase, Argument, and Citation are also formulated in a negated version to create additional test instances for the opposite stance.
+Content type: GitHub Repository
 
-[https://zenodo.org/records/5282635](https://zenodo.org/records/5282635)
-
-[https://doi.org/10.5281/zenodo.5282635](https://doi.org/10.5281/zenodo.5282635)
+[https://github.com/webis-de/archive-query-log](https://github.com/webis-de/archive-query-log)
 
 
 ---
 
-## Same Side Stance Classification Resampled Datasets
+## ijcai24-manipulating-embeddings-stable-diffusion
 
-Gregor Wiedemann, Erik Körner, Ahmad Dawar Hakimi, Gerhard Heyer, Martin Potthast
+Niklas Deckers, Julia310
 
-Published 2021-09-09
+Published 2023-08-23T09:34:19+00:00
 
-Licensed cc-by-4.0
+Licensed MIT License
 
 
 
-The resampled datasets for the Same Side Stance Classification problem used in the EMNLP&#39;21 paper &quot;On Classifying whether Two Texts are on the Same Side of an Argument&quot;.
+Code for the paper "Manipulating Embeddings of Stable Diffusion Prompts".
 
-The data is based on the publicly available S3C training datasets.
+Content type: GitHub Repository
 
-The data format is JSONlines.
-Python Load Example: (for every single task split)
-
-import pandas as pd
-df_cross_dev = pd.read_json("cross_dev.jsonl", lines=True)
-
-For details on how the data was compiled, please refer to our code.
-
-[https://zenodo.org/records/5380989](https://zenodo.org/records/5380989)
-
-[https://doi.org/10.5281/zenodo.5380989](https://doi.org/10.5281/zenodo.5380989)
+[https://github.com/webis-de/arxiv23-prompt-embedding-manipulation](https://github.com/webis-de/arxiv23-prompt-embedding-manipulation)
 
 
 ---
 
-## Webis Abstractive Snippet Corpus 2020
+## ir-experiment-platform
 
-Chen ,Wei-Fan, Syed, Shahbaz, Potthast, Martin, Hagen, Matthias, Stein, Benno
+Maik Fröbe, theelstner
 
-Published 2020-02-07
-
-Licensed cc-by-4.0
+Published 2023-02-21T07:09:43+00:00
 
 
 
-The Webis Abstractive Snippet 2020 (Webis-Snippete-20) comprises four abstractive snippet dataset from ClueWeb09, Clueweb12, and DMOZ descriptions. More than 10 million &lt;webpage, abstractive snippet&gt; pairs / 3.5 million &lt;query, webpage, abstractive snippet&gt; pairs were collected.
 
-[https://zenodo.org/records/3653834](https://zenodo.org/records/3653834)
 
-[https://doi.org/10.5281/zenodo.3653834](https://doi.org/10.5281/zenodo.3653834)
+Content type: GitHub Repository
+
+[https://github.com/tira-io/ir-experiment-platform](https://github.com/tira-io/ir-experiment-platform)
 
 
 ---
 
-## Webis Gmane Email Corpus 2019
+## jcdl23-multi-authorship-corpus
 
-Janek Bevendorff, Khalid Al-Khatib, Martin Potthast, Benno Stein
+Philipp, ddrkige
 
-Published 2020-06-03
-
-
-
-The Webis Gmane Email Corpus 2019 is a dataset of more than 153 million parsed and segmented emails&nbsp;crawled between February and May 2019 from gmane.io covering more than 20 years&nbsp;of public mailing lists. The dataset has been published as a resource at ACL 2020.
-
-The dataset comes as a set of Gzip-compressed files containing line-based JSON&nbsp;in the&nbsp;Elasticsearch bulk format. Each data record&nbsp;consists of two lines:
-
-{"index": {"_id": "&lt;urn:uuid:c1d95e4b-0f43-46c7-a99e-c575d1d8e1ce&gt;"}}
-{"headers": {"header name": "header value", ...}, "text_plain": "plaintext body", "lang": "en", "segments": [{"end": 99, "label": "paragraph", "begin": 0}, ...], "group": "gmane group name"}
+Published 2023-04-13T06:48:40+00:00
 
 
-The first line is the Elasticsearch index action with a document UUID, the second one the actual parsed email with a (reduced and anonymized) set of headers, the detected language, the original Gmane group name and the predicted content segments as character spans. The Gzip files are splittable every 1,000 records (line pairs) for parallel processing in, e.g., Hadoop.
-
-Available email headers are:
 
 
-	message_id
-	date (yyyy-MM-dd HH:mm:ssZZ)
-	subject
-	from
-	to
-	cc
-	in_reply_to
-	references
-	list_id
 
+Content type: GitHub Repository
 
-Available segment classes are:
-
-
-	paragraph
-	closing
-	inline_headers
-	log_data
-	mua_signature
-	patch
-	personal_signature
-	quotation
-	quotation_marker
-	raw_code
-	salutation
-	section_heading
-	tabular
-	technical
-	visual_separator
-
-
-Find more information about the dataset and the segmentation model at&nbsp;webis.de.
-
-If you are using this resource in your work, please cite it&nbsp;as:
-
-@InProceedings{stein:2020o,
-  author =              {Janek Bevendorff and Khalid Al-Khatib and Martin Potthast and Benno Stein},
-  booktitle =           {58th Annual Meeting of the Association for Computational Linguistics (ACL 2020)},
-  month =               jul,
-  publisher =           {Association for Computational Linguistics},
-  site =                {Seattle, USA},
-  title =               {{Crawling and Preprocessing Mailing Lists At Scale for Dialog Analysis}},
-  year =                2020
-}
-
-
-&nbsp;
-
-[https://zenodo.org/records/3766985](https://zenodo.org/records/3766985)
-
-[https://doi.org/10.5281/zenodo.3766985](https://doi.org/10.5281/zenodo.3766985)
+[https://github.com/webis-de/jcdl23-multi-authorship-corpus](https://github.com/webis-de/jcdl23-multi-authorship-corpus)
 
 
 ---
 
-## Webis SCSmeta 2021
+## jcdl23-wikipedia-history-sections
 
-Lars Meyer, Johannes Kiesel, Martin Potthast, Benno Stein
+Wolfgang Kircheis
 
-Published 2020-10-20
-
-Licensed cc-by-4.0
+Published 2023-08-14T12:52:00+00:00
 
 
 
-This dataset is an extension of the Spoken Conversational Search dataset, specifically of the SCSdataset.csv, with annotations of types of meta-information mentioned in each turn.
 
-[https://zenodo.org/records/4108196](https://zenodo.org/records/4108196)
 
-[https://doi.org/10.5281/zenodo.4108196](https://doi.org/10.5281/zenodo.4108196)
+Content type: GitHub Repository
+
+[https://github.com/webis-de/jcdl23-wikipedia-history-sections](https://github.com/webis-de/jcdl23-wikipedia-history-sections)
 
 
 ---
 
-## Webis-Context-sensitive-Word-Search-Queries-2022
+## pybool_ir
 
-Matti Wiegmann, Michael Vöslke, Martin Potthast, Benno Stein
+Harry Scells, Ferdinand Schlatt, Xinyu Mao
 
-Published 2022-04-08
+Published 2022-03-09T11:47:34+00:00
 
-Licensed cc-by-4.0
-
-
-
-This is the dataset created for Language Models as Context-sensitive Word Search Engines at the In2Writing workshop at ACL22.
+Licensed MIT License
 
 
-&nbsp;
 
-Cite&nbsp;
+Toolkit for domain-specific information retrieval experimentation
 
-@inproceedings{wiegmann:2022,
-    title =     "Language Models as Context-sensitive Word Search Engines",
-    author =    "Wiegmann, Matti and V{\"{o}}lske, Michael and Potthast, Martin and Stein, Benno",
-    booktitle = "Proceedings of the 1st Workshop on Intelligent and Interactive Writing Assistants (In2Writing 2022)",
-    month =     may,
-    year =      "2022",
-    address =   "Online",
-    publisher = "Association for Computational Linguistics",
+Content type: GitHub Repository
 
-Datasets
-
-This repository contains two datasets with word search queries. Each&nbsp;word search query consists of a token n-gram with one&nbsp;wildcard token ([MASK]). The answers to each query are the most likely token to replace the mask. All queries originate from wikitext-103 and CLOTH, the respected source is annotated for each query.
-
-The original-token dataset lists exactly one top answer for each query. The&nbsp;ranked-answers dataset lists multiple, sorted answers in three relevance categories, where 3 is the most relevant. Please refer to the citation for more details.
-
-[https://zenodo.org/records/6425595](https://zenodo.org/records/6425595)
-
-[https://doi.org/10.5281/zenodo.6425595](https://doi.org/10.5281/zenodo.6425595)
+[https://github.com/hscells/pybool_ir](https://github.com/hscells/pybool_ir)
 
 
 ---
 
-## Webis-STEREO-21
+## sigir23-stance-detection-in-image-retrieval-for-argumentation
 
-Gienapp, Lukas, Kircheis, Wolfgang, Sievers, Bjarne, Stein, Benno, Potthast, Martin
+Miriam Louise Carnot
 
-Published 2021-10-18
+Published 2023-04-26T08:57:14+00:00
 
-Licensed cc-by-4.0
+Licensed BSD 2-Clause "Simplified" License
 
 
 
-We present the Webis-STEREO-21 dataset, a massive collection of Scientific Text Reuse in Open-access publications. It contains more than 91 million cases of reused text passages found in 4.2 million unique open-access publications. Featuring a high coverage of scientific disciplines and varieties of reuse, as well as comprehensive metadata to contextualize each case, our dataset addresses the most salient shortcomings of previous ones on scientific writing. Webis-STEREO-21 allows for tackling a wide range of research questions from different scientific backgrounds, facilitating both qualitative and quantitative analysis of the phenomenon as well as a first-time grounding on the base rate of text reuse in scientific publications.
+Code for the paper "On Stance Detection in Image Retrieval for Argumentation" @ SIGIR'23
 
-This is the open-access version of the dataset, which includes only the metadata of each reuse case. Due to licensing issues, the matched text is not included.
+Content type: GitHub Repository
 
-[https://zenodo.org/records/5575285](https://zenodo.org/records/5575285)
-
-[https://doi.org/10.5281/zenodo.5575285](https://doi.org/10.5281/zenodo.5575285)
+[https://github.com/webis-de/sigir23-stance-detection-in-image-retrieval-for-argumentation](https://github.com/webis-de/sigir23-stance-detection-in-image-retrieval-for-argumentation)
 
 
 ---
 
-## Webis-STEREO-21 (Full Version)
+## small-text
 
-Gienapp, Lukas, Kircheis, Wolfgang, Sievers, Bjarne, Stein, Benno, Potthast, Martin
+Christopher Schröder, peter, Jimmy Pöhlmann, Raghav Prabhakar, Humza Zaki, PD Hall, Raphael Mitsch, Vijay Manchiraju
 
-Published 2021-12-21
+Published 2025-08-17T13:35:39+00:00
+
+Licensed MIT License
 
 
 
-We present the Webis-STEREO-21 dataset, a massive collection of Scientific Text Reuse in Open-access publications. It contains more than 91 million cases of reused text passages found in 4.2 million unique open-access publications. Featuring a high coverage of scientific disciplines and varieties of reuse, as well as comprehensive metadata to contextualize each case, our dataset addresses the most salient shortcomings of previous ones on scientific writing. Webis-STEREO-21 allows for tackling a wide range of research questions from different scientific backgrounds, facilitating both qualitative and quantitative analysis of the phenomenon as well as a first-time grounding on the base rate of text reuse in scientific publications.
+Active Learning for Text Classification in Python
 
-[https://zenodo.org/records/5575320](https://zenodo.org/records/5575320)
+Content type: GitHub Repository
 
-[https://doi.org/10.5281/zenodo.5575320](https://doi.org/10.5281/zenodo.5575320)
+[https://github.com/webis-de/small-text](https://github.com/webis-de/small-text)
 
 
 ---
 
-## Webis-Web-Archive-17
+## topic-ontologies-for-arguments
 
-Kiesel, Johannes, Potthast, Martin, Hagen, Matthias, Kneist, Florian, Stein, Benno
+YamenAjjour
 
-Published 2017-10-04
+Published 2023-07-18T12:36:32+00:00
 
-Licensed cc-by-sa-4.0
+Licensed MIT License
 
 
 
-The Webis-Web-Archive-17 comprises a total of 10,000 web page archives from mid-2017 that were carefully sampled from the Common Crawl to involve a mixture of high-ranking and low-ranking web pages. The dataset contains the web archive files, HTML DOM, and screenshots of each web page, as well as per-page annotations of visual web archive quality. See this overview for all datasets that built upon this one. If you use this dataset in your research, please cite it using this paper.
 
-[https://zenodo.org/records/4064019](https://zenodo.org/records/4064019)
 
-[https://doi.org/10.5281/zenodo.4064019](https://doi.org/10.5281/zenodo.4064019)
+Content type: GitHub Repository
+
+[https://github.com/webis-de/topic-ontologies-for-arguments](https://github.com/webis-de/topic-ontologies-for-arguments)
 
 
 ---

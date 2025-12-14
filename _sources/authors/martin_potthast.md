@@ -1,4 +1,4 @@
-# Martin potthast (8)
+# Martin potthast (11)
 ## PAN23 Trigger Detection
 
 Matti Wiegmann, Magdalena Wolska, Christopher Schröder, Ole Borchardt, Benno Stein, Martin Potthast
@@ -280,6 +280,63 @@ Generated images and case study report for the paper &quot;The Infinite Index: I
 [https://zenodo.org/records/7525482](https://zenodo.org/records/7525482)
 
 [https://doi.org/10.5281/zenodo.7525482](https://doi.org/10.5281/zenodo.7525482)
+
+
+---
+
+## archive-query-log
+
+Jan Heinrich Merker, Sebastian Heineking, dependabot[bot], Maik Fröbe, Simon Ruth, Martin Potthast, Julian Klüber
+
+Published 2025-05-16T10:02:42+00:00
+
+Licensed MIT License
+
+
+
+📜 The Archive Query Log.
+
+Content type: GitHub Repository
+
+[https://github.com/webis-de/archive-query-log](https://github.com/webis-de/archive-query-log)
+
+
+---
+
+## ecir20-effect-of-near-duplicates-on-ir-evaluation
+
+Maik Fröbe, Martin Potthast, dependabot[bot], Jan Philipp Bittner, Jan Heinrich Merker
+
+Published 2019-10-21T12:05:47+00:00
+
+Licensed MIT License
+
+
+
+
+
+Content type: GitHub Repository
+
+[https://github.com/webis-de/ecir20-effect-of-near-duplicates-on-ir-evaluation](https://github.com/webis-de/ecir20-effect-of-near-duplicates-on-ir-evaluation)
+
+
+---
+
+## tira
+
+Maik Fröbe, Matti Wiegmann, Sheldon, Nikolay Kolyada, Christopher Akiki, theelstner, Kavlahkaff, Bastian Grahm, Martin Potthast, juhehehe, Nicolas Handke, Patrick Stahl, dependabot[bot], Jan Heinrich Merker, Gijs Hendriksen, Shahbaz Syed, Ferdinand Schlatt, Simon Reich, Anthony Miyaguchi, Glopix, Johannes Kiesel
+
+Published 2025-12-05T08:44:40+00:00
+
+Licensed MIT License
+
+
+
+The source code for the TIRA Shared Task Platform
+
+Content type: GitHub Repository
+
+[https://github.com/tira-io/tira](https://github.com/tira-io/tira)
 
 
 ---

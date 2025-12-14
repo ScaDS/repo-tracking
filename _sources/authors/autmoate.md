@@ -1,4 +1,4 @@
-# Autmoate (5)
+# Autmoate (7)
 ## faster-whisper-stt
 
 autmoate
@@ -52,6 +52,44 @@ ScaDS.AI x HS Merseburg regarding a powerful and cheat-free alternative to copy-
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/learn-coding-basics-with-ai](https://github.com/ScaDS/learn-coding-basics-with-ai)
+
+
+---
+
+## meetup-vibe-coding-contest
+
+autmoate, ScaDSAILLLE
+
+Published 2025-12-08T10:12:16+00:00
+
+Licensed MIT License
+
+
+
+Repository regarding vibe coding contest @scads-ai-living-lab
+
+Content type: GitHub Repository
+
+[https://github.com/ScaDSAILLLE/meetup-vibe-coding-contest](https://github.com/ScaDSAILLLE/meetup-vibe-coding-contest)
+
+
+---
+
+## meetup-workshop-mcp
+
+ricardofauch, Gregor Wolf, autmoate, PhilippSch0tt
+
+Published 2025-09-01T13:47:13+00:00
+
+Licensed MIT License
+
+
+
+Step-by-step MCP workshop: Connect LMStudio to Obsidian, DeutscheBahn & Blender. Learn to build custom fastmcp servers with example scripts including a dummy webapp integration. Complete guide from setup to advanced implementations.
+
+Content type: GitHub Repository
+
+[https://github.com/ScaDSAILLLE/meetup-workshop-mcp](https://github.com/ScaDSAILLLE/meetup-workshop-mcp)
 
 
 ---

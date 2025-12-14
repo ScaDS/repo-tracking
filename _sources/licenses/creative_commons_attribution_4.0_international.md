@@ -1,4 +1,4 @@
-# Creative commons attribution 4.0 international (16)
+# Creative commons attribution 4.0 international (18)
 ## BIDS-lecture-2024
 
 Robert Haase
@@ -299,6 +299,44 @@ Training Materials for a session on LLMs
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/secai_llm_training](https://github.com/ScaDS/secai_llm_training)
+
+
+---
+
+## training
+
+Robert Haase, github-actions[bot], Mara Lampert, Yixin Huang, Lea Gihlein, Riccardo Massei, Clement Caporal, Conni Wetzker, Christian, MaximilianMueller1, Rensu Theart, Andrea Schrader, rumangerst
+
+Published 2025-10-21T12:22:24+00:00
+
+Licensed Creative Commons Attribution 4.0 International
+
+
+
+
+
+Content type: GitHub Repository
+
+[https://github.com/nfdi4bioimage/training/](https://github.com/nfdi4bioimage/training/)
+
+
+---
+
+## xai
+
+Robert Haase
+
+Published 2025-02-17T18:11:03+00:00
+
+Licensed Creative Commons Attribution 4.0 International
+
+
+
+
+
+Content type: GitHub Repository
+
+[https://github.com/haesleinhuepf/xai](https://github.com/haesleinhuepf/xai)
 
 
 ---
