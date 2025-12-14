@@ -989,7 +989,7 @@ resources:
   submission_date: '2025-11-26T11:35:21.822994'
   type: GitHub Repository
   url: https://github.com/jan-forest/autoencodix
-  - authors:
+- authors:
   - Robert Haase
   - github-actions[bot]
   description: ''
