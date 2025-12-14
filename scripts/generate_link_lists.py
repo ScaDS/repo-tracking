@@ -110,7 +110,7 @@ def all_content(directory_path):
     import os
     content = {'resources':[]}
     for filename in os.listdir(directory_path):
-        if filename.endswith('.yml'):
+        if filename.endswith('.yml') and filename != 'github_organizations.yml':
             #print("Adding", filename)
             new_content = read_yaml_file(os.path.join(directory_path, filename))  # Corrected line
             content['resources'] = content['resources'] + new_content['resources']

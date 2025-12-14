@@ -1,0 +1,31 @@
+name: Scan GitHub Organizations for New Repositories
+
+on:
+  schedule:
+    - cron: '0 11 * * 1'  # This runs the job every Monday at 11 AM
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  scan-organizations:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Scan GitHub Organizations
+      env:
+        GITHUB_API_KEY: "${{ secrets.GITHUB_TOKEN }}"
+        GITHUB_RUN_ID: "${{ github.run_id }}"
+      run: |
+        python scripts/auto-add-from-github-organizations.py scads/zenodo-tracking
