@@ -1816,3 +1816,1027 @@ resources:
   - https://zenodo.org/records/7745740
   - https://doi.org/10.5281/zenodo.7745740
   
+- authors:
+  - Daniel Obraczka
+  description: "\U0001F9F1 blocking methods for entity resolution"
+  license: MIT License
+  name: klinker
+  publication_date: '2023-02-12T14:00:38+00:00'
+  submission_date: '2025-12-14T11:47:45.878419'
+  type: GitHub Repository
+  url: 'https://github.com/dobraczka/klinker '
+  
+- authors:
+  - Daniel Obraczka
+  - Charles Tapley Hoyt
+  description: "\U0001F3D8\uFE0F Hubness reduced nearest neighbor search for entity\
+    \ alignment with knowledge graph embeddings"
+  license: BSD 3-Clause "New" or "Revised" License
+  name: kiez
+  publication_date: '2024-01-11T16:48:00+00:00'
+  submission_date: '2025-12-14T11:47:49.399657'
+  type: GitHub Repository
+  url: 'https://github.com/dobraczka/kiez'
+  
+- authors:
+  - Daniel Obraczka
+  description: ''
+  name: eager
+  publication_date: '2021-03-10T15:50:24+00:00'
+  submission_date: '2025-12-14T11:47:51.931809'
+  type: GitHub Repository
+  url: https://github.com/jonathanschuchart/eager
+  
+- authors:
+  - ricardofauch
+  - Gregor Wolf
+  - autmoate
+  - PhilippSch0tt
+  description: 'Step-by-step MCP workshop: Connect LMStudio to Obsidian, DeutscheBahn
+    & Blender. Learn to build custom fastmcp servers with example scripts including
+    a dummy webapp integration. Complete guide from setup to advanced implementations.'
+  license: MIT License
+  name: meetup-workshop-mcp
+  publication_date: '2025-09-01T13:47:13+00:00'
+  submission_date: '2025-12-14T11:47:55.790009'
+  type: GitHub Repository
+  url: https://github.com/ScaDSAILLLE/meetup-workshop-mcp
+  
+- authors:
+  - autmoate
+  - ScaDSAILLLE
+  description: Repository regarding vibe coding contest @scads-ai-living-lab
+  license: MIT License
+  name: meetup-vibe-coding-contest
+  publication_date: '2025-12-08T10:12:16+00:00'
+  submission_date: '2025-12-14T11:47:58.785041'
+  type: GitHub Repository
+  url: https://github.com/ScaDSAILLLE/meetup-vibe-coding-contest
+  
+- authors:
+  - ScaDSAILLLE
+  description: ''
+  name: meetup-agents
+  publication_date: '2025-05-06T13:04:42+00:00'
+  submission_date: '2025-12-14T11:48:01.262848'
+  type: GitHub Repository
+  url: https://github.com/ScaDSAILLLE/meetup-agents
+  
+- authors:
+  - alkor200
+  - boneymoy
+  - Martin Grimmer
+  - "Dennis Kreu\xDFel"
+  - Mlyfall
+  - tini
+  - "Martin Max R\xF6hling"
+  - Lukas Hempel
+  - Toni Rucks
+  - tzschiet
+  description: 'LID-DS is an intrusion detection data simulation framework. '
+  license: Other
+  name: LID-DS
+  publication_date: '2018-11-20T12:21:17+00:00'
+  submission_date: '2025-12-14T11:48:11.105701'
+  type: GitHub Repository
+  url: https://github.com/LID-DS/LID-DS
+  
+- authors:
+  - DaphneOdekerken
+  - mattiberthold
+  - AMBorg
+  - Michiel Bron
+  description: ''
+  license: MIT License
+  name: PyArg
+  publication_date: '2023-05-23T09:40:28+00:00'
+  submission_date: '2025-12-14T11:48:15.069307'
+  type: GitHub Repository
+  url: 'https://github.com/DaphneOdekerken/PyArg '
+  
+- authors:
+  - mattiberthold
+  description: A collection of forgetting operators over logic programs, in a web interface
+  license: GNU General Public License v3.0
+  name: ForgettingWeb
+  publication_date: '2023-06-16T17:49:56+00:00'
+  submission_date: '2025-12-14T11:48:17.691099'
+  type: GitHub Repository
+  url: 'https://github.com/mattiberthold/ForgettingWeb '
+  
+- authors:
+  - mattiberthold
+  description: ''
+  license: GNU General Public License v3.0
+  name: Forgetting-via-ASP
+  publication_date: '2023-04-20T10:42:55+00:00'
+  submission_date: '2025-12-14T11:48:20.366345'
+  type: GitHub Repository
+  url: https://github.com/mattiberthold/Forgetting-via-ASP
+  
+- authors:
+  - Johannes Dorn
+  - Niclas Stoffregen
+  description: 'Companion website to the ASE''20 submission "Mastering Uncertainty in
+    Performance Estimations of Configurable Software Systems" '
+  name: Mastering-Uncertainty-in-Performance-Estimations-of-Configurable-Software-Systems
+  publication_date: '2020-08-24T14:12:39+00:00'
+  submission_date: '2025-12-14T11:48:23.428325'
+  type: GitHub Repository
+  url: https://github.com/AI-4-SE/Mastering-Uncertainty-in-Performance-Estimations-of-Configurable-Software-Systems
+  
+- authors:
+  - Sebastian Simon
+  - "Jakob B\xE9la Ruckel"
+  - mj
+  - Nicolai Ruckel
+  description: CfgNet models the configuration landscape of software projects to enable
+    the early detection of configuration dependency conflicts across the used technology
+    stack.
+  license: GNU General Public License v3.0
+  name: CfgNet
+  publication_date: '2025-04-06T07:28:59+00:00'
+  submission_date: '2025-12-14T11:48:27.991730'
+  type: GitHub Repository
+  url: https://github.com/AI-4-SE/CfgNet
+  
+- authors:
+  - Max
+  description: ''
+  license: GNU General Public License v2.0
+  name: TwinsOrFalseFriends
+  publication_date: '2023-02-16T18:06:02+00:00'
+  submission_date: '2025-12-14T11:48:31.184845'
+  type: GitHub Repository
+  url: https://github.com/AI-4-SE/TwinsOrFalseFriends
+  
+- authors:
+  - Robert Haase
+  - github-actions[bot]
+  - Mara Lampert
+  - Guillaume Witz
+  - Markus J. Ankenbrand
+  - Till Korten
+  - Elisabeth Kugler
+  - Lea Kabjesz
+  - Marcelo Zoccoler
+  - amgfernandes
+  - Shannon Taylor
+  - Anirban Ray
+  - Yiteng Dang
+  description: Python Jupyter notebooks for BioImageAnalysis, GPU-accelerated image
+    processing, bio-image data science and more
+  license: BSD 3-Clause "New" or "Revised" License
+  name: BioImageAnalysisNotebooks
+  publication_date: '2024-01-06T19:51:12+00:00'
+  submission_date: '2025-12-14T11:48:39.581247'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/BioImageAnalysisNotebooks/
+  
+- authors:
+  - Robert Haase
+  - github-actions[bot]
+  - Mara Lampert
+  - Yixin Huang
+  - Lea Gihlein
+  - Riccardo Massei
+  - Clement Caporal
+  - Conni Wetzker
+  - Christian
+  - MaximilianMueller1
+  - Rensu Theart
+  - Andrea Schrader
+  - rumangerst
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: training
+  publication_date: '2025-10-21T12:22:24+00:00'
+  submission_date: '2025-12-14T11:48:48.143752'
+  type: GitHub Repository
+  url: https://github.com/nfdi4bioimage/training/
+  
+- authors:
+  - Stephane Rigaud
+  - dependabot[bot]
+  - Robert Haase
+  - pre-commit-ci[bot]
+  - github-actions[bot]
+  - Johannes Soltwedel
+  - grahamross123
+  - Marvin Albert
+  - Pradeep Rajasekhar
+  description: GPU-accelerated Image Processing library for Python
+  license: BSD 3-Clause "New" or "Revised" License
+  name: pyclesperanto
+  publication_date: '2025-10-24T15:14:33+00:00'
+  submission_date: '2025-12-14T11:48:54.891400'
+  type: GitHub Repository
+  url: https://github.com/clEsperanto/pyclesperanto
+  
+- authors:
+  - Robert Haase
+  - Pradeep Rajasekhar
+  - Talley Lambert
+  - grahamross123
+  - Juan Nunez-Iglesias
+  - Lachie
+  - Clement Caporal
+  - Christophe Avenel
+  - ENicolay
+  - Elissavet
+  - Till Korten
+  description: GPU-accelerated bio-image analysis focusing on 3D+t microscopy image
+    data
+  license: BSD 3-Clause "New" or "Revised" License
+  name: pyclesperanto_prototype
+  publication_date: '2024-09-29T13:10:53+00:00'
+  submission_date: '2025-12-14T11:49:03.137912'
+  type: GitHub Repository
+  url: https://github.com/clEsperanto/pyclesperanto_prototype
+  
+- authors:
+  - Robert Haase
+  - Ruth
+  - mmongy
+  - Christopher Schmied
+  - LPUoO
+  - Laurent Guerard
+  - Matthias Arzt
+  - phaub
+  description: GPU-accelerated image processing for everyone
+  license: Other
+  name: clij2
+  publication_date: '2024-02-27T13:43:11+00:00'
+  submission_date: '2025-12-14T11:49:09.897293'
+  type: GitHub Repository
+  url: https://github.com/clij/clij2
+  
+- authors:
+  - Robert Haase
+  - github-actions[bot]
+  - "Jord\xE3o Bragantini"
+  - Oren Amsalem
+  - Yiqun Ma
+  description: Interactive image stack viewing in jupyter notebooks based on ipycanvas
+    and ipywidgets
+  license: BSD 3-Clause "New" or "Revised" License
+  name: stackview
+  publication_date: '2025-05-13T15:11:19+00:00'
+  submission_date: '2025-12-14T11:49:14.751096'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/stackview
+  
+- authors:
+  - Robert Haase
+  - Christian Tischer
+  - Mara Lampert
+  - github-actions[bot]
+  - Fabian Rost
+  - Kevin Yamauchi
+  - Till Korten
+  description: BIA Bob is a Jupyter+LLM-based assistant for interacting with image data
+    and for working on Bio-image Analysis tasks.
+  license: BSD 3-Clause "New" or "Revised" License
+  name: bia-bob
+  publication_date: '2025-08-07T09:32:33+00:00'
+  submission_date: '2025-12-14T11:49:20.572394'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/bia-bob
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: MIT License
+  name: embeddoor
+  publication_date: '2025-12-04T17:32:36+00:00'
+  submission_date: '2025-12-14T11:49:23.644653'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/embeddoor
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: BSD 3-Clause "New" or "Revised" License
+  name: erase-pptx-comments
+  publication_date: '2025-12-01T14:39:49+00:00'
+  submission_date: '2025-12-14T11:49:26.349201'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/erase-pptx-comments
+  
+- authors:
+  - Robert Haase
+  description: Convert all pptx files to pdf recursively in folders
+  license: BSD 3-Clause "New" or "Revised" License
+  name: pptx2pdf
+  publication_date: '2025-11-30T09:51:58+00:00'
+  submission_date: '2025-12-14T11:49:28.930307'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/pptx2pdf
+  
+- authors:
+  - Robert Haase
+  - github-actions[bot]
+  - "Martin Sch\xE4tz"
+  description: git-bob uses AI to solve Github-issues. It runs inside the Github CI,
+    no need to install anything on your computer.
+  license: BSD 3-Clause "New" or "Revised" License
+  name: git-bob
+  publication_date: '2025-08-09T21:16:45+00:00'
+  submission_date: '2025-12-14T11:49:32.936434'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/git-bob
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: BSD 3-Clause "New" or "Revised" License
+  name: ipylisten
+  publication_date: '2025-09-06T15:36:01+00:00'
+  submission_date: '2025-12-14T11:49:35.438216'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/ipylisten
+  
+- authors:
+  - Robert Haase
+  - Kevin Yamauchi
+  - Johannes Soltwedel
+  - Isuru Fernando
+  description: Accelerated Pixel and Object Classifiers (APOC)
+  license: BSD 3-Clause "New" or "Revised" License
+  name: apoc
+  publication_date: '2022-12-28T13:49:38+00:00'
+  submission_date: '2025-12-14T11:49:40.410643'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/apoc
+  
+- authors:
+  - Robert Haase
+  description: Summarize clipboard contents with a single keyboard shortcut
+  license: BSD 3-Clause "New" or "Revised" License
+  name: clipboard-summarizer
+  publication_date: '2025-07-10T14:31:12+00:00'
+  submission_date: '2025-12-14T11:49:43.018507'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/clipboard-summarizer
+  
+- authors:
+  - Robert Haase
+  description: An AI-assistant which gives unprompted feedback about code helping you
+    to write better code in Jupyter notebooks
+  license: BSD 3-Clause "New" or "Revised" License
+  name: unprompted
+  publication_date: '2025-07-10T08:47:31+00:00'
+  submission_date: '2025-12-14T11:49:46.374017'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/unprompted
+  
+- authors:
+  - Robert Haase
+  description: outlook-bob is an LLM-based assistant for answering emails. It uses local
+    LLMs using ollama for optimal privacy.
+  name: outlook-bob
+  publication_date: '2025-06-12T06:56:52+00:00'
+  submission_date: '2025-12-14T11:49:48.959844'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/outlook-bob
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: BSD 3-Clause "New" or "Revised" License
+  name: screenshot-question-answerer
+  publication_date: '2025-05-14T18:27:13+00:00'
+  submission_date: '2025-12-14T11:49:51.557094'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/screenshot-question-answerer
+  
+- authors:
+  - Robert Haase
+  description: Solve bio-image analysis puzzles!
+  license: BSD 3-Clause "New" or "Revised" License
+  name: bia-bubbles
+  publication_date: '2025-04-26T20:03:17+00:00'
+  submission_date: '2025-12-14T11:49:54.950407'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/bia-bubbles
+  
+- authors:
+  - Robert Haase
+  description: cli-bob uses AI to generate command line code in case you can't remember
+    the exact syntax.
+  license: BSD 3-Clause "New" or "Revised" License
+  name: cli-bob
+  publication_date: '2025-03-22T10:26:02+00:00'
+  submission_date: '2025-12-14T11:49:58.066843'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/cli-bob
+  
+- authors:
+  - Robert Haase
+  description: ''
+  license: Creative Commons Attribution 4.0 International
+  name: xai
+  publication_date: '2025-02-17T18:11:03+00:00'
+  submission_date: '2025-12-14T11:50:01.184903'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/xai
+  
+- authors:
+  - Robert Haase
+  - github-actions[bot]
+  description: translate-pptx is a command line tool that translates PowerPoint PPTX
+    files from one language to another.
+  license: BSD 3-Clause "New" or "Revised" License
+  name: translate-pptx
+  publication_date: '2025-03-09T15:26:33+00:00'
+  submission_date: '2025-12-14T11:50:04.951324'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/translate-pptx
+  
+- authors:
+  - Robert Haase
+  - github-actions[bot]
+  description: Checks Zenodo Communities for updates and posts about them on Bluesky
+  license: BSD 3-Clause "New" or "Revised" License
+  name: zenodo-bluesky-bob
+  publication_date: '2024-12-14T10:57:47+00:00'
+  submission_date: '2025-12-14T11:50:08.052971'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/zenodo-bluesky-bob
+  
+- authors:
+  - Robert Haase
+  - Lea Gihlein
+  - Tom Mohr
+  description: Play pictionary with Vision Language Models!
+  license: BSD 3-Clause "New" or "Revised" License
+  name: vlm-pictionary
+  publication_date: '2024-11-29T18:30:29+00:00'
+  submission_date: '2025-12-14T11:50:11.428125'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/vlm-pictionary
+  
+- authors:
+  - Robert Haase
+  description: A bot that uses LLMs to respond on bluesky
+  license: BSD 3-Clause "New" or "Revised" License
+  name: bluesky-bob
+  publication_date: '2024-12-03T17:14:18+00:00'
+  submission_date: '2025-12-14T11:50:14.484554'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/bluesky-bob
+  
+- authors:
+  - Robert Haase
+  description: A Python utility to convert simple docx files to markdown and back
+  license: BSD 3-Clause "New" or "Revised" License
+  name: docx2markdown
+  publication_date: '2024-11-23T21:11:22+00:00'
+  submission_date: '2025-12-14T11:50:17.546274'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/docx2markdown
+  
+- authors:
+  - Robert Haase
+  - Ian Coccimiglio
+  - Nico Scherf
+  - "Jean-Karim H\xE9rich\xE9"
+  - Christian Tischer
+  - Pradeep Rajasekhar
+  - Qiming Yuan
+  - Yichen Xu
+  description: Benchmarking Large Language Models for Bio-Image Analysis Code Generation
+  license: MIT License
+  name: human-eval-bia
+  publication_date: '2024-07-04T13:58:32+00:00'
+  submission_date: '2025-12-14T11:50:24.051287'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/human-eval-bia
+  
+- authors:
+  - Robert Haase
+  description: Workshop repository for the I2K (virtual) workshop on Bio Image Analysis
+    Code Generation
+  license: BSD 3-Clause "New" or "Revised" License
+  name: i2k2024-ai-code-generation
+  publication_date: '2024-10-23T08:44:04+00:00'
+  submission_date: '2025-12-14T11:50:27.000961'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/i2k2024-ai-code-generation
+  
+- authors:
+  - Robert Haase
+  description: A Jupyter kernel for communicating with large language models
+  license: BSD 3-Clause "New" or "Revised" License
+  name: ipy-llm-kernel
+  publication_date: '2024-09-02T14:38:13+00:00'
+  submission_date: '2025-12-14T11:50:30.396219'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/ipy-llm-kernel
+  
+- authors:
+  - Robert Haase
+  description: blablado is an extensible Assistant that listens to your voice and can
+    execute custom Python functions you provided. It can speak as well.
+  license: BSD 3-Clause "New" or "Revised" License
+  name: blablado
+  publication_date: '2024-08-03T12:40:00+00:00'
+  submission_date: '2025-12-14T11:50:33.857692'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/blablado
+  
+- authors:
+  - Robert Haase
+  description: An AI-based story writer and Python library which uses OpenAI's chatGPT
+    and Dall-E to generate PDFs with a story and a picture from a prompt and writes
+    them into a PDF.
+  license: BSD 3-Clause "New" or "Revised" License
+  name: story-writer
+  publication_date: '2024-01-11T13:29:30+00:00'
+  submission_date: '2025-12-14T11:50:36.947364'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/story-writer
+  
+- authors:
+  - "Maik Fr\xF6be"
+  - Martin Potthast
+  - dependabot[bot]
+  - Jan Philipp Bittner
+  - Jan Heinrich Merker
+  description: ''
+  license: MIT License
+  name: ecir20-effect-of-near-duplicates-on-ir-evaluation
+  publication_date: '2019-10-21T12:05:47+00:00'
+  submission_date: '2025-12-14T11:50:42.005046'
+  type: GitHub Repository
+  url: https://github.com/webis-de/ecir20-effect-of-near-duplicates-on-ir-evaluation
+  
+- authors:
+  - "Maik Fr\xF6be"
+  description: ''
+  name: ecir20-police-pr-demo
+  publication_date: '2021-05-07T21:33:28+00:00'
+  submission_date: '2025-12-14T11:50:44.592758'
+  type: GitHub Repository
+  url: https://github.com/webis-de/ecir20-police-pr-demo
+  
+- authors:
+  - Janek Bevendorff
+  description: ''
+  license: Apache License 2.0
+  name: acl19-heuristic-authorship-obfuscation
+  publication_date: '2019-07-29T08:29:12+00:00'
+  submission_date: '2025-12-14T11:50:47.271093'
+  type: GitHub Repository
+  url: https://github.com/webis-de/acl19-heuristic-authorship-obfuscation
+  
+- authors:
+  - Janek Bevendorff
+  description: NAACL 2019 Code and Data
+  name: NAACL-19
+  publication_date: '2019-04-03T18:04:38+00:00'
+  submission_date: '2025-12-14T11:50:49.991119'
+  type: GitHub Repository
+  url: https://github.com/webis-de/NAACL-19
+  
+- authors:
+  - Milad Alshomary
+  description: ''
+  name: acl20-target-inference-in-conclusion-generation
+  publication_date: '2020-04-20T15:09:33+00:00'
+  submission_date: '2025-12-14T11:50:52.702369'
+  type: GitHub Repository
+  url: https://github.com/webis-de/acl20-target-inference-in-conclusion-generation
+  
+- authors:
+  - Janek Bevendorff
+  description: ''
+  name: acl20-crawling-mailing-lists
+  publication_date: '2020-04-23T10:44:15+00:00'
+  submission_date: '2025-12-14T11:50:55.614899'
+  type: GitHub Repository
+  url: https://github.com/webis-de/acl20-crawling-mailing-lists
+  
+- authors:
+  - Lukas Gienapp
+  description: ''
+  name: acl20-efficient-argument-quality-annotation
+  publication_date: '2020-04-21T12:08:03+00:00'
+  submission_date: '2025-12-14T11:50:58.270667'
+  type: GitHub Repository
+  url: https://github.com/webis-de/acl20-efficient-argument-quality-annotation
+  
+- authors:
+  - "Maik Fr\xF6be"
+  - dependabot[bot]
+  - Lukas Gienapp
+  - nachshonc
+  description: 'Code for the CIKM20 Short Paper: "The Impact of Negative Relevance Judgments
+    on NDCG"'
+  name: cikm20-ndcg-negative-relevance-judgements
+  publication_date: '2020-10-21T12:10:19+00:00'
+  submission_date: '2025-12-14T11:51:02.781220'
+  type: GitHub Repository
+  url: https://github.com/webis-de/cikm20-ndcg-negative-relevance-judgements
+  
+- authors:
+  - Shahbaz Syed
+  description: ''
+  name: COLING-20
+  publication_date: '2020-10-20T10:14:04+00:00'
+  submission_date: '2025-12-14T11:51:05.782174'
+  type: GitHub Repository
+  url: https://github.com/webis-de/COLING-20
+  
+- authors:
+  - Johannes Kiesel
+  description: ''
+  license: GNU Lesser General Public License v2.1
+  name: ecir21-an-empirical-comparison-of-web-page-segmentation-algorithms
+  publication_date: '2021-01-20T11:33:24+00:00'
+  submission_date: '2025-12-14T11:51:09.366843'
+  type: GitHub Repository
+  url: https://github.com/webis-de/ecir21-an-empirical-comparison-of-web-page-segmentation-algorithms
+  
+- authors:
+  - "Maik Fr\xF6be"
+  - Lukas Gienapp
+  description: CopyCat is a resource for deduplication in TREC-style experimental setups.
+  license: MIT License
+  name: chatnoir-copycat
+  publication_date: '2021-03-02T22:08:56+00:00'
+  submission_date: '2025-12-14T11:51:12.825920'
+  type: GitHub Repository
+  url: https://github.com/chatnoir-eu/copycat
+  
+- authors:
+  - ChristianKahmann
+  description: ''
+  name: sigir21-ir-anthology
+  publication_date: '2021-05-10T11:52:01+00:00'
+  submission_date: '2025-12-14T11:51:15.745096'
+  type: GitHub Repository
+  url: https://github.com/webis-de/sigir21-ir-anthology
+  
+- authors:
+  - Milad Alshomary
+  - Milad
+  description: ''
+  name: acl21-counter-argument-generation-by-attacking-weak-premises
+  publication_date: '2021-05-28T07:54:51+00:00'
+  submission_date: '2025-12-14T11:51:18.942283'
+  type: GitHub Repository
+  url: https://github.com/webis-de/acl21-counter-argument-generation-by-attacking-weak-premises
+  
+- authors:
+  - Shahbaz Syed
+  description: ''
+  name: acl21-informative-conclusion-generation
+  publication_date: '2021-05-27T13:11:55+00:00'
+  submission_date: '2025-12-14T11:51:21.533310'
+  type: GitHub Repository
+  url: https://github.com/webis-de/acl21-informative-conclusion-generation
+  
+- authors:
+  - Christopher Akiki
+  description: 'Code repository for "BERTian Poetics: Constrained Composition with Masked
+    LMs"'
+  license: Apache License 2.0
+  name: ML4CD-21
+  publication_date: '2021-09-23T08:29:57+00:00'
+  submission_date: '2025-12-14T11:51:24.186571'
+  type: GitHub Repository
+  url: https://github.com/webis-de/ml4cd-21
+  
+- authors:
+  - "Erik K\xF6rner"
+  - Gregor W
+  description: EMNLP 2021 - On Classifying whether Two Texts are on the Same Side of
+    an Argument
+  name: emnlp21-same-stance
+  publication_date: '2021-08-27T10:37:52+00:00'
+  submission_date: '2025-12-14T11:51:27.419804'
+  type: GitHub Repository
+  url: https://github.com/webis-de/emnlp21-same-stance
+  
+- authors:
+  - "Erik K\xF6rner"
+  description: EMNLP 2021 - Casting the Same Sentiment Classification Problem
+  name: emnlp21-same-sentiment
+  publication_date: '2021-08-27T10:37:01+00:00'
+  submission_date: '2025-12-14T11:51:30.191166'
+  type: GitHub Repository
+  url: https://github.com/webis-de/emnlp21-same-sentiment
+  
+- authors:
+  - Shahbaz Syed
+  - Tariq Yousef
+  - Jan Heinrich Merker
+  - dependabot[bot]
+  description: Summary Explorer is a tool to visually explore the state-of-the-art in
+    text summarization.
+  license: MIT License
+  name: summary-explorer
+  publication_date: '2021-07-02T09:51:14+00:00'
+  submission_date: '2025-12-14T11:51:34.225489'
+  type: GitHub Repository
+  url: https://github.com/webis-de/summary-explorer
+  
+- authors:
+  - Milad
+  - Shahbaz Syed
+  - Milad Alshomary
+  - Philipp Heinisch
+  description: The code for the our submission for the key point  analysis sharedtask
+    (2021)
+  name: argmining-21-keypoint-analysis-sharedtask-code
+  publication_date: '2021-10-26T11:27:21+00:00'
+  submission_date: '2025-12-14T11:51:38.805375'
+  type: GitHub Repository
+  url: https://github.com/webis-de/argmining-21-keypoint-analysis-sharedtask-code
+  
+- authors:
+  - Christopher Akiki
+  - Lukas Gienapp
+  description: This repository documents our entry in the 2021 Amoc Hackathon
+  license: Apache License 2.0
+  name: AMOC-21
+  publication_date: '2021-02-05T19:23:02+00:00'
+  submission_date: '2025-12-14T11:51:42.160675'
+  type: GitHub Repository
+  url: https://github.com/webis-de/amoc-21
+  
+- authors:
+  - "Maik Fr\xF6be"
+  - dependabot[bot]
+  description: Code and Data for the paper on anchor text for MS Marco.
+  license: MIT License
+  name: ecir22-anchor-text
+  publication_date: '2021-10-20T06:25:34+00:00'
+  submission_date: '2025-12-14T11:51:45.283089'
+  type: GitHub Repository
+  url: https://github.com/webis-de/ecir22-anchor-text
+  
+- authors:
+  - "Maik Fr\xF6be"
+  description: ''
+  name: acl22-clickbait-spoiling
+  publication_date: '2022-03-08T05:51:01+00:00'
+  submission_date: '2025-12-14T11:51:47.963018'
+  type: GitHub Repository
+  url: https://github.com/webis-de/acl22-clickbait-spoiling
+  
+- authors:
+  - "Christopher Schr\xF6der"
+  - dependabot[bot]
+  description: Revisiting Uncertainty-based Query Strategies for Active Learning with
+    Transformers
+  license: MIT License
+  name: acl22-revisiting-uncertainty-based-query-strategies-for-active-learning-with-transformers
+  publication_date: '2022-03-03T12:19:56+00:00'
+  submission_date: '2025-12-14T11:51:51.221878'
+  type: GitHub Repository
+  url: https://github.com/webis-de/acl22-revisiting-uncertainty-based-query-strategies-for-active-learning-with-transformers
+  
+- authors:
+  - Matti Wiegmann
+  description: ''
+  license: MIT License
+  name: in2writing22-language-models-as-context-sensitive-word-search-engines
+  publication_date: '2022-04-08T16:03:17+00:00'
+  submission_date: '2025-12-14T11:51:53.826831'
+  type: GitHub Repository
+  url: https://github.com/webis-de/in2writing22-language-models-as-context-sensitive-word-search-engines
+  
+- authors:
+  - Lukas Gienapp
+  description: Repository for the paper "Sparse Pairwise Re-ranking with Pre-trained
+    Transformers" published at ICTIR 2022.
+  name: ICTIR-22
+  publication_date: '2022-06-30T06:48:11+00:00'
+  submission_date: '2025-12-14T11:51:56.723139'
+  type: GitHub Repository
+  url: https://github.com/webis-de/ICTIR-22
+  
+- authors:
+  - theelstner
+  description: ''
+  name: tpdl22-visual-web-archive-quality-assessment
+  publication_date: '2022-07-19T14:26:27+00:00'
+  submission_date: '2025-12-14T11:51:59.374229'
+  type: GitHub Repository
+  url: https://github.com/webis-de/tpdl22-visual-web-archive-quality-assessment
+  
+- authors:
+  - Alexander Bondarenko
+  - LukasBluebaum
+  - dependabot[bot]
+  description: ''
+  license: MIT License
+  name: coling22-benchmark-for-causal-question-answering
+  publication_date: '2022-08-17T07:55:30+00:00'
+  submission_date: '2025-12-14T11:52:03.783848'
+  type: GitHub Repository
+  url: https://github.com/webis-de/coling22-benchmark-for-causal-question-answering
+  
+- authors:
+  - Ferdinand Schlatt
+  - Niklas Deckers
+  description: ''
+  name: coling22-mining-health-related-statements
+  publication_date: '2022-09-27T06:57:18+00:00'
+  submission_date: '2025-12-14T11:52:07.163658'
+  type: GitHub Repository
+  url: https://github.com/webis-de/coling22-mining-health-related-statements
+  
+- authors:
+  - Niklas Deckers
+  description: This pipeline allows extracting data from WARC files on a CPU cluster
+    and streaming it to a GPU server, where it is processed.
+  license: MIT License
+  name: chatnoir-warc-dl
+  publication_date: '2022-01-31T17:12:21+00:00'
+  submission_date: '2025-12-14T11:52:09.871511'
+  type: GitHub Repository
+  url: https://github.com/chatnoir-eu/chatnoir-warc-dl
+  
+- authors:
+  - Dominik Schwabe
+  - Shahbaz Syed
+  - Jan Heinrich Merker
+  description: Framework for unified summarisation and evaluation of English documents
+    using state-of-the-art models and measures.
+  license: MIT License
+  name: summary-workbench
+  publication_date: '2022-07-22T11:54:49+00:00'
+  submission_date: '2025-12-14T11:52:13.887934'
+  type: GitHub Repository
+  url: https://github.com/webis-de/summary-workbench
+  
+- authors:
+  - Lukas Gienapp
+  description: ''
+  name: scidata22-stereo-scientific-text-reuse
+  publication_date: '2021-12-17T13:50:58+00:00'
+  submission_date: '2025-12-14T11:52:16.531890'
+  type: GitHub Repository
+  url: https://github.com/webis-de/scidata22-stereo-scientific-text-reuse
+  
+- authors:
+  - "Maik Fr\xF6be"
+  - Jan Heinrich Merker
+  - Lukas Gienapp
+  - dependabot[bot]
+  description: ''
+  name: ECIR-23
+  publication_date: '2023-01-11T20:41:04+00:00'
+  submission_date: '2025-12-14T11:52:20.479926'
+  type: GitHub Repository
+  url: https://github.com/webis-de/ECIR-23
+  
+- authors:
+  - "Maik Fr\xF6be"
+  - Matti Wiegmann
+  - Sheldon
+  - Nikolay Kolyada
+  - Christopher Akiki
+  - theelstner
+  - Kavlahkaff
+  - Bastian Grahm
+  - Martin Potthast
+  - juhehehe
+  - Nicolas Handke
+  - Patrick Stahl
+  - dependabot[bot]
+  - Jan Heinrich Merker
+  - Gijs Hendriksen
+  - Shahbaz Syed
+  - Ferdinand Schlatt
+  - Simon Reich
+  - Anthony Miyaguchi
+  - Glopix
+  - Johannes Kiesel
+  description: The source code for the TIRA Shared Task Platform
+  license: MIT License
+  name: tira
+  publication_date: '2025-12-05T08:44:40+00:00'
+  submission_date: '2025-12-14T11:52:32.832213'
+  type: GitHub Repository
+  url: https://github.com/tira-io/tira
+  
+- authors:
+  - "Christopher Schr\xF6der"
+  - peter
+  - "Jimmy P\xF6hlmann"
+  - Raghav Prabhakar
+  - Humza Zaki
+  - PD Hall
+  - Raphael Mitsch
+  - Vijay Manchiraju
+  description: Active Learning for Text Classification in Python
+  license: MIT License
+  name: small-text
+  publication_date: '2025-08-17T13:35:39+00:00'
+  submission_date: '2025-12-14T11:52:39.547536'
+  type: GitHub Repository
+  url: https://github.com/webis-de/small-text
+  
+- authors:
+  - YamenAjjour
+  description: ''
+  license: MIT License
+  name: topic-ontologies-for-arguments
+  publication_date: '2023-07-18T12:36:32+00:00'
+  submission_date: '2025-12-14T11:52:42.228930'
+  type: GitHub Repository
+  url: https://github.com/webis-de/topic-ontologies-for-arguments
+  
+- authors:
+  - Philipp
+  - ddrkige
+  description: ''
+  name: jcdl23-multi-authorship-corpus
+  publication_date: '2023-04-13T06:48:40+00:00'
+  submission_date: '2025-12-14T11:52:45.449372'
+  type: GitHub Repository
+  url: https://github.com/webis-de/jcdl23-multi-authorship-corpus
+  
+- authors:
+  - Wolfgang Kircheis
+  description: ''
+  name: jcdl23-wikipedia-history-sections
+  publication_date: '2023-08-14T12:52:00+00:00'
+  submission_date: '2025-12-14T11:52:48.189108'
+  type: GitHub Repository
+  url: https://github.com/webis-de/jcdl23-wikipedia-history-sections
+  
+- authors:
+  - Miriam Louise Carnot
+  description: Code for the paper "On Stance Detection in Image Retrieval for Argumentation"
+    @ SIGIR'23
+  license: BSD 2-Clause "Simplified" License
+  name: sigir23-stance-detection-in-image-retrieval-for-argumentation
+  publication_date: '2023-04-26T08:57:14+00:00'
+  submission_date: '2025-12-14T11:52:50.807655'
+  type: GitHub Repository
+  url: https://github.com/webis-de/sigir23-stance-detection-in-image-retrieval-for-argumentation
+  
+- authors:
+  - "Maik Fr\xF6be"
+  - theelstner
+  description: ''
+  name: ir-experiment-platform
+  publication_date: '2023-02-21T07:09:43+00:00'
+  submission_date: '2025-12-14T11:52:53.853274'
+  type: GitHub Repository
+  url: https://github.com/tira-io/ir-experiment-platform
+  
+- authors:
+  - Jan Heinrich Merker
+  - Sebastian Heineking
+  - dependabot[bot]
+  - "Maik Fr\xF6be"
+  - Simon Ruth
+  - Martin Potthast
+  - "Julian Kl\xFCber"
+  description: "\U0001F4DC The Archive Query Log."
+  license: MIT License
+  name: archive-query-log
+  publication_date: '2025-05-16T10:02:42+00:00'
+  submission_date: '2025-12-14T11:53:00.039559'
+  type: GitHub Repository
+  url: https://github.com/webis-de/archive-query-log
+  
+- authors:
+  - Harry Scells
+  - Ferdinand Schlatt
+  - Xinyu Mao
+  description: Toolkit for domain-specific information retrieval experimentation
+  license: MIT License
+  name: pybool_ir
+  publication_date: '2022-03-09T11:47:34+00:00'
+  submission_date: '2025-12-14T11:53:03.424385'
+  type: GitHub Repository
+  url: https://github.com/hscells/pybool_ir
+  
+- authors:
+  - Matti Wiegmann
+  description: ''
+  license: MIT License
+  name: acl23-trigger-warning-assignment
+  publication_date: '2023-01-20T15:50:09+00:00'
+  submission_date: '2025-12-14T11:53:06.000473'
+  type: GitHub Repository
+  url: https://github.com/MattiWe/acl23-trigger-warning-assignment
+  
+- authors:
+  - Niklas Deckers
+  - Julia310
+  description: Code for the paper "Manipulating Embeddings of Stable Diffusion Prompts".
+  license: MIT License
+  name: ijcai24-manipulating-embeddings-stable-diffusion
+  publication_date: '2023-08-23T09:34:19+00:00'
+  submission_date: '2025-12-14T11:53:09.739342'
+  type: GitHub Repository
+  url: https://github.com/webis-de/arxiv23-prompt-embedding-manipulation
+  
