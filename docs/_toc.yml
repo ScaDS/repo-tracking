@@ -10,7 +10,6 @@ parts:
   - caption: Contributing
     chapters:
     - file: contributing/index
-    - file: contributing/submit_app
     - file: contributing/format
 
   - caption: By license

@@ -58,7 +58,7 @@ def main():
     # Save the updated content back to GitHub and create a pull request
     write_file(repository, branch, yml_filename, file_content, "Add " + github_repo_url)
     res = send_pull_request(repository, branch, "Add " + github_repo_url, f"""This is an automatically created pull-request. Before merging this, please make sure the content is correct.
- [Read more](https://scads.github.io/zenodo-tracking/contributing/format.html) 
+ [Read more](https://scads.github.io/repo-tracking/contributing/format.html) 
    
 closes #{issue}
 """)
