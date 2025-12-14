@@ -20,10 +20,11 @@ def get_github_repository(repository):
         The GitHub repository object.
     """
     from github import Github
+    from github.Auth import Token
     access_token = os.getenv('GITHUB_API_KEY')
 
     # Create a PyGithub instance using the access token
-    g = Github(access_token)
+    g = Github(auth=Token(access_token))
 
     # Get the repository object
     return g.get_repo(repository)

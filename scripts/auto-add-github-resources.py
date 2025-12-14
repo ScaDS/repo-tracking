@@ -79,11 +79,12 @@ def complete_github_data(github_repo_url):
     entry : dict
         A dictionary containing the repository metadata in the correct order.
     """
+    from github.Auth import Token
     token = os.getenv("GITHUB_API_KEY")
     if not token:
         raise Exception("GitHub API key not found. Please set GITHUB_API_KEY.")
 
-    g = Github(token)
+    g = Github(auth=Token(token))
     repo_path = github_repo_url.replace("https://github.com/", "")
     if repo_path.endswith("/"):
         repo_path = repo_path[:-1]
