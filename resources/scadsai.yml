@@ -1776,4 +1776,43 @@ resources:
   url:
   - https://zenodo.org/records/3653834
   - https://doi.org/10.5281/zenodo.3653834
+
+- authors:
+  - Mailach, Alina
+  - Siegmund, Norbert
+  description: 'This material documents the coding process and theme evolution for the
+    reflexive thematic analysis conducted in the paper &nbsp;&quot;Socio-Technical Anti-Patterns
+    in Building ML-Enabled Software&quot;, published at International Conference on&nbsp;Software
+    Engineering, 2023. The provided codes and themes&nbsp;represent&nbsp;an intermediate
+    stage of our work, where the file&nbsp;&nbsp;initial_themes.pdf&nbsp;holds initial
+    themes and codes and interim_and_final_themes.xlsx&nbsp;depicts more evolved themes
+    and codes as well as a tracing of which codes belong&nbsp;to which&nbsp;themes.
+    The themes developed over time and represent development contexts and activities,
+    containing anti-patterns, causes, and recommendations.&nbsp;We had not fully developed
+    anti-patterns during the coding process, but&nbsp;rather used symptoms.&nbsp;&nbsp;
+  
+  
+    &nbsp;'
+  license: cc-by-4.0
+  name: Socio-Technical Anti-Patterns in Building ML-Enabled Software (Supplementary
+    Material)
+  num_downloads: 24
+  publication_date: '2023-01-18'
+  submission_date: '2025-12-14T09:05:34.671591'
+  url:
+  - https://zenodo.org/records/7520777
+  - https://doi.org/10.5281/zenodo.7520777
+  
+- authors:
+  - Sebastian Simon
+  description: No description provided.
+  license: other-open
+  name: 'AI-4-SE/Exploring-Hyperparameter-Usage-And-Tuning-In-Machine-Learning-Research:
+    CAIN-2023 Submission'
+  num_downloads: 42
+  publication_date: '2023-03-17'
+  submission_date: '2025-12-14T09:05:35.218366'
+  url:
+  - https://zenodo.org/records/7745740
+  - https://doi.org/10.5281/zenodo.7745740
   
