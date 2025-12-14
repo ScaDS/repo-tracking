@@ -990,3 +990,829 @@ resources:
   type: GitHub Repository
   url: https://github.com/jan-forest/autoencodix
   
+- authors:
+  - Achkar, Pierre
+  - Gollub, Tim
+  - Potthast, Martin
+  description: "SR4CS: Systematic Reviews for Computer Science&nbsp;\nSR4CS is a benchmark\
+    \ dataset linking computer science systematic reviews (SRs) to their reported Boolean\
+    \ queries and curated reference pools, enabling reproducible research on Boolean\
+    \ query generation, retrieval effectiveness, and screening beyond the biomedical\
+    \ domain.\n\n\nTotal SRs: 1,212\n\n\nResolved references: 104,316 (incl. 89,447\
+    \ with abstracts)\n\n\nTasks supported: Boolean query generation, retrieval benchmarking,\
+    \ screening\n\n\n&nbsp;\nPaper: tba\nCode: https://github.com/webis-de/jcdl25-sr4cs\n\
+    Contents\n1)&nbsp;sr4cs.json\nPrimary dataset of SR entries.\nA&nbsp;list of SR\
+    \ objects:\n{\n  \"id\": \"1000688\",\n  \"databases\": [\"Google Scholar\", \"\
+    Scopus\", \"Web of Science\"],\n  \"search_strings_boolean\": [\n    \"INTITLE (\\\
+    \"green\\\" OR \\\"sustainab*\\\") AND INTITLE (\\\"AI\\\" OR \\\"ML\\\" OR \\\"\
+    artificial intelligence\\\" OR \\\"machine learning\\\" OR \\\"deep learning\\\"\
+    )\"\n  ],\n  \"year_range\": \"unbounded\",\n  \"language_restrictions\": [\"English\"\
+    ],\n  \"inclusion_criteria\": [\"...\"],\n  \"exclusion_criteria\": [\"...\"],\n\
+    \  \"topic\": \"Green AI\",\n  \"objective\": \"Analyze Green AI literature ...\"\
+    ,\n  \"research_questions\": [\"What are the characteristics ...?\"],\n  \"snowballing\"\
+    : true,\n  \"sr_title\": \"A systematic review of Green AI.\",\n  \"sr_doi\": \"\
+    10.1002/widm.1507\",\n  \"sr_pdf_link\": \"https://...\",\n  \"ref_id\": [86, 113,\
+    \ 114, \"...\"],\n  \"num_refs\": 97\n}\nField summary\n\n\nid (string): SR identifier\
+    \ (internal).\n\n\ndatabases (list[str]): Databases reported in the SR.\n\n\nsearch_strings_boolean\
+    \ (list[str]): Reported Boolean queries (verbatim).\n\n\nyear_range (string): Year\
+    \ bounds, e.g., \"2018-2022\" or \"unbounded\".\n\n\nlanguage_restrictions (list[str]):\
+    \ Reported language constraints.\n\n\ninclusion_criteria / exclusion_criteria (list[str]):\
+    \ As stated in the SR.\n\n\ntopic, objective (string): SR topic &amp; objective\
+    \ (verbatim).\n\n\nresearch_questions (list[str]): RQs (verbatim).\n\n\nsnowballing\
+    \ (bool): Whether the SR reports snowballing/citation chasing.\n\n\nsr_title, sr_doi,\
+    \ sr_pdf_link (metadata for the SR).\n\n\nref_id (list[int]): Integer IDs linking\
+    \ to the reference pool.\n\n\nnum_refs (int): Count of linked references for this\
+    \ SR.\n\n\n2) sr4cs_with_sql.json\nSame structure as sr4cs.json, plus translated\
+    \ SQL-style queries for uniform execution:\n\n\nsqlite_refined_queries (list[str]):\
+    \ SQLite FTS5 MATCH clauses translated from the reported Boolean strings (field-scoped\
+    \ to title/abstract).\n\n\n3) Reference pool (metadata + abstracts)\nThe full reference\
+    \ pool is provided in three complementary formats:\n\n\nrefs.db &mdash; SQLite database\
+    \ with FTS5 indexes (ready for querying)\n\n\nrefs.ndjson &mdash; Elasticsearch\
+    \ bulk dump (for index import)\n\n\nrefs.parquet &mdash; Tabular format (not indexed)\n\
+    \n\nReference fields (columns/keys):\nref_id, arxiv, author, citation-number, collection-title,\
+    \ container-title, date, director, doi, edition, editor, genre, id, isbn, issue,\
+    \ location, note, pages, pmcid, pmid, producer, publisher, raw, source, title, translator,\
+    \ type, url, volume, title_norm, abstract\nNotes:\n\n\nref_id is the primary key\
+    \ linking SR entries to references.\n\n\ntitle_norm is a normalized version of the\
+    \ title (lowercased, standardized spacing/characters) to support matching.\n\n\n\
+    title_norm and abstract are prioritized fields for retrieval.\n\n\nMany entries\
+    \ also include doi and url.\n\n\nAbstract coverage is ~89k; the remainder provide\
+    \ title-only metadata.\n\n\nIntended Use\n\n\nBoolean query generation: Compare\
+    \ generated queries against transleted expert-reported queries and their retrieval\
+    \ on the shared reference pool.\n\n\nRetrieval benchmarking: Evaluate title/abstract\
+    \ retrieval engines (e.g., SQLite FTS5, Elasticsearch) on realistic CS SR topics.\n\
+    \n\nScreening experiments: Use the linked reference pools to prototype screening/prioritization\
+    \ pipelines.\n\n\nProvenance &amp; Construction (summary)\n\n\nCandidate SRs collected\
+    \ from DBLP by title search for &ldquo;systematic review&rdquo; on 2025-07-03, then\
+    \ filtered (peer-reviewed, OA, DOI, plausible page counts).\n\n\nPDFs parsed to\
+    \ structured text; SR metadata (databases, queries, criteria, RQs, etc.) extracted\
+    \ and manually checked.&nbsp;\n\n\nReferences extracted with a GROBID + AnyStyle\
+    \ pipeline; metadata resolved via Crossref, OpenAlex, Semantic Scholar, PubMed/Europe\
+    \ PMC; abstracts added where available.\n\n\nFile Inventory\n\n\nsr4cs.json &mdash;\
+    \ SR entries with reported queries and linkage to reference IDs\n\n\nsr4cs_with_sql.json\
+    \ &mdash; SR entries plus sqlite_refined_queries (rewritten Boolean queries for\
+    \ SQLite FTS5)\n\n\nrefs.db &mdash; SQLite database with reference metadata (FTS5\
+    \ indexed)\n\n\nrefs.ndjson &mdash; Elasticsearch bulk dump of references (ready\
+    \ for import)\n\n\nrefs.parquet &mdash; Tabular reference metadata (not indexed)\n\
+    \n\nKnown Limitations\n\n\nReference coverage is large but not exhaustive; some\
+    \ entries are title-only.\n\n\nTranslated SQL queries approximate original database\
+    \ behavior; engine differences (tokenization, indexing, operators) can affect results.\n\
+    \n\nFAIR &amp; Documentation\n\n\nFindable: DOI, searchable metadata, stable identifiers\
+    \ (ref_id).\n\n\nAccessible: Public files (JSON/SQLite/NDJSON).\n\n\nInteroperable:\
+    \ Common schemas; JSON/SQL; ES bulk format.\n\n\nReusable: Development code and\
+    \ usage examples.\n\n\nContact\n\n\nPierre Achkar &mdash; pierre.achkar@uni-leipzig.de\n\
+    \n\nTim Gollub &mdash; tim.gollub@uni-weimar.de\n\n\nMartin Potthast &mdash; martin.potthast@uni-kassel.de\n\
+    \n\nIf you build on SR4CS, we&rsquo;d love to hear about your use case or results\
+    \ (Issues welcome in the GitHub repo)."
+  license: cc-by-4.0
+  name: Webis Systematic Reviews for Computer Science 2025
+  num_downloads: 147
+  publication_date: '2025-09-20'
+  submission_date: '2025-12-14T09:31:46.509208'
+  url:
+  - https://zenodo.org/records/17163932
+  - https://doi.org/10.5281/zenodo.17163932
+  
+- authors:
+  - "Schr\xF6der, Christopher"
+  - "M\xFCller, Lydia"
+  - Niekler, Andreas
+  - Potthast, Martin
+  description: We present small-text, an easy-to-use active learning library, which
+    offers pool-based active learning for single- and multi-label text classification
+    in Python. It features many pre-implemented state-of-the-art query strategies, including
+    some that leverage the GPU. Standardized interfaces allow the combination of a variety
+    of classifiers, query strategies, and stopping criteria, facilitating a quick mix
+    and match, and enabling a rapid development of both active learning experiments
+    and applications. To make various classifiers and query strategies accessible in
+    a unified way, small-text integrates the well-known machine learning libraries scikit-learn,
+    PyTorch, and huggingface transformers. The latter integrations are available as
+    optionally installable extensions, making the availability of a GPU competely optional.
+    The library is publicly available under the MIT License at https://github.com/webis-de/small-text.
+  license: mit-license
+  name: 'Small-Text: Active Learning for Text Classification in Python'
+  num_downloads: 471
+  publication_date: '2025-08-17'
+  submission_date: '2025-12-14T09:31:47.143335'
+  url:
+  - https://zenodo.org/records/16890132
+  - https://doi.org/10.5281/zenodo.16890132
+  
+- authors:
+  - Heineking, Sebastian
+  - Zelch, Ines
+  - Potthast, Martin
+  - Hagen, Matthias
+  description: Dataset for Sub-Task 1 (Generation) of the Touch&eacute; 2025 Task 4.
+    The goal of this task is to research advertisements in retrieval augmented generation
+    (RAG). Towards this goal, the dataset provides queries from the Webis Generated
+    Native Ads 2024 dataset and corresponding document segments from the segmented version
+    of MS MARCO V2.1.
+  license: cc-by-4.0
+  name: "Touch\xE9-25-Advertisement-in-Retrieval-Augmented-Generation"
+  num_downloads: 1314
+  publication_date: '2025-05-06'
+  submission_date: '2025-12-14T09:31:47.744019'
+  url:
+  - https://zenodo.org/records/15347992
+  - https://doi.org/10.5281/zenodo.15347992
+  
+- authors:
+  - Heineking, Sebastian
+  - Zelch, Ines
+  - Bevendorff, Janek
+  - Stein, Benno
+  - Hagen, Matthias
+  - Potthast, Martin
+  description: 'Version of the&nbsp;Webis Generated Native Ads 2024 dataset prepared
+    for Sub-Task 2 of the Advertisement in Retrieval-Augmented Generation task at Touch&eacute;
+    2025.
+  
+    The dataset contains the same data but split into JSONL-files and with separate
+    files for responses/sentence pairs and labels.
+  
+    Citation
+  
+    @InProceedings{schmidt:2024,  author = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; {Sebastian Schmidt and Ines Zelch and Janek Bevendorff and
+    Benno Stein and Matthias Hagen and Martin Potthast},  booktitle = &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{WWW ''24: Proceedings of the ACM Web Conference
+    2024},  doi = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp;{10.1145/3589335.3651489},&nbsp; publisher = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp;{ACM},  site = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; {Singapore, Singapore},  title = &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{Detecting Generated Native Ads in Conversational
+    Search}},  year = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; 2024}'
+  license: cc-by-4.0
+  name: Webis Generated Native Ads 2024
+  num_downloads: 2229
+  publication_date: '2025-04-23'
+  submission_date: '2025-12-14T09:31:48.396051'
+  url:
+  - https://zenodo.org/records/15270283
+  - https://doi.org/10.5281/zenodo.15270283
+  
+- authors:
+  - Gienapp, Lukas
+  - Potthast, Martin
+  - Wachsmuth, Henning
+  - Hagen, Matthias
+  - "Fr\xF6be, Maik"
+  - Bondarenko, Alexander
+  - Ajjour, Yamen
+  - Stein, Benno
+  description: Data for the Argument Retrieval for Controversial Questions task at Touch&eacute;
+    2021.
+  license: cc-by-4.0
+  name: "Touch\xE921-Argument-Retrieval-for-Controversial-Questions"
+  num_downloads: 4639
+  publication_date: '2024-09-30'
+  submission_date: '2025-12-14T09:31:49.003448'
+  url:
+  - https://zenodo.org/records/13860524
+  - https://doi.org/10.5281/zenodo.13860524
+  
+- authors:
+  - Deckers, Niklas
+  - Peters, Julia
+  - Potthast, Martin
+  description: 'Supplementary material of the paper&nbsp;Manipulating Embeddings of
+    Stable Diffusion Prompts.
+  
+    The paper can be found in the proceedings: IJCAI 2024 Proceedings
+  
+    Please cite&nbsp;as:
+  
+    @InProceedings{deckers:2024a,&nbsp; author = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; {Niklas Deckers and Julia Peters and Martin Potthast},&nbsp;
+    booktitle = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{Proceedings
+    of the Thirty-Third International Joint Conference on Artificial Intelligence, {IJCAI-24}},&nbsp;
+    doi = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{10.24963/ijcai.2024/845},&nbsp;
+    editor = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {Kate Larson},&nbsp;
+    month = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;aug,&nbsp;
+    pages = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{7636--7644},&nbsp;
+    publisher = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{International
+    Joint Conferences on Artificial Intelligence Organization},&nbsp; title = &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{Manipulating Embeddings
+    of Stable Diffusion Prompts}},&nbsp; url = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{https://doi.org/10.24963/ijcai.2024/845},&nbsp;
+    year = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2024}
+  
+    &nbsp;'
+  license: cc-by-4.0
+  name: Manipulating Embeddings of Stable Diffusion Prompts
+  num_downloads: 78
+  publication_date: '2024-05-16'
+  submission_date: '2025-12-14T09:31:49.547261'
+  url:
+  - https://zenodo.org/records/11203881
+  - https://doi.org/10.5281/zenodo.11203881
+  
+- authors:
+  - Akiki, Christopher
+  - Barschel, Hanno
+  - Elstner, Theresa
+  - Fleisch, Till
+  - Franke, Johannes
+  - "Fr\xF6be, Maik"
+  - Gienapp, Lukas
+  - "Gr\xFCndel, Marlene"
+  - Hagen, Matthias
+  - Kucera, Paul
+  - Marschner, Paul
+  - Niederhausen, Tim
+  - Potthast, Martin
+  - Reimer, Jan Heinrich
+  - Scells, Harrisen
+  - Stein, Benno
+  - Weber, Malte
+  - Wild, Dominic
+  description: "The Datasets for the Information Retrieval Course at the University\
+    \ Leipzig and Jena in Winter Term 2023/2024\nThis repository contains resources\
+    \ coupled to ir_datasets and TIREx for IR courses that focus their hands-on labs\
+    \ on shared tasks. During the IR exercises in winter term 2023/2024, we collaboratively\
+    \ developed and evaluated IR systems in a shared task style setup, covering corpus\
+    \ creation, system development, and statistical analysis. The resulting artifacts,\
+    \ i.e., the documents, topics, runs, relevance judgments can be browsed at https://tira-io.github.io/ir-lab-ws-23.\
+    \ This zenodo artifact contains all of the underlying datasets used and produced\
+    \ during the course together with instructions on how to easily access the data\
+    \ using ir_datasets.\n&nbsp;Overview of resources\nThis dataset contains the resources\
+    \ used and created during the IR course at https://temir.org/teaching/information-retrieval-ws23/information-retrieval-ws23.html.\n\
+    The artifact in this dataset include the following files:\n\ntraining-20231104-training-inputs.zip\
+    \ containing the training inputs of LongEval 2023 to systems, i.e., containing the\
+    \ document corpus and the topics.\ntraining-20231104-training-truths.zip containing\
+    \ the training truth of LongEval 2023 to evaluate and tune systems, i.e., the topics\
+    \ and relevance judgments.\nvalidation-20231104-inputs.zip containing the validation\
+    \ inputs of LongEval 2023 to systems, i.e., containing the document corpus and the\
+    \ topics.\nvalidation-20231104-truths.zip containing the validation truth of LongEval\
+    \ 2023 to evaluate and tune systems, i.e., the topics and relevance judgments.\n\
+    jena-topics-small-20240119-inputs.zip containing the inputs to systems created in\
+    \ the course at the University of Jena, i.e., containing the document corpus and\
+    \ the topics.\njena-topics-small-20240119-training-truths.zip containing the truth\
+    \ to evaluate and tune systems created in the course at the University of Jena,\
+    \ i.e., the topics and relevance judgments.\nleipzig-topics-small-20240119-training-inputs.zip\
+    \ containing the inputs to systems created in the course at the University of Leipzig,\
+    \ i.e., containing the document corpus and the topics.\nleipzig-topics-small-20240119-training-truths.zip\
+    \ containing the truth to evaluate and tune systems created in the course at the\
+    \ University of Leipzig, i.e., the topics and relevance judgments.\n\nAccessing\
+    \ the Data with ir_datasets\nWe provide wrapper code to easily access the resources\
+    \ with ir_datasets:\n# this loads a patched version of ir_datasets that can load\
+    \ resources from TIRA\nfrom tira.third_party_integrations import ir_datasets\n\n\
+    training_dataset = ir_datasets.load('ir-lab-jena-leipzig-wise-2023/training-20231104-training')\n\
+    validation_dataset = ir_datasets.load('ir-lab-jena-leipzig-wise-2023/validation-20231104-training')\n\
+    leipzig_dataset = ir_datasets.load('ir-lab-jena-leipzig-wise-2023/leipzig-topics-small-20240119-training')\n\
+    jena_dataset = ir_datasets.load('ir-lab-jena-leipzig-wise-2023/jena-topics-small-20240119-training')\n\
+    Similarly, the same is possible with the ir_datasets integration to PyTerrier:\n\
+    from tira.third_party_integrations import ensure_pyterrier_is_loaded\nimport pyterrier\
+    \ as pt\n\n# this patches ir_datasets and loads PyTerrier so that it can load resources\
+    \ from TIRA and can run in the TIRA sandbox\nensure_pyterrier_is_loaded()\n\ntraining_dataset\
+    \ = pt.datasets.get_dataset('irds:ir-lab-jena-leipzig-wise-2023/training-20231104-training')\n\
+    validation_dataset = pt.datasets.get_dataset('irds:ir-lab-jena-leipzig-wise-2023/validation-20231104-training')\n\
+    leipzig_dataset = pt.datasets.get_dataset('irds:ir-lab-jena-leipzig-wise-2023/leipzig-topics-small-20240119-training')\n\
+    jena_dataset = pt.datasets.get_dataset('irds:ir-lab-jena-leipzig-wise-2023/jena-topics-small-20240119-training')\n\
+    &nbsp;\nLicense\nThe dataset is derived from the [LongEval 2024](https://clef-longeval.github.io/)\
+    \ shared task hosted at [CLEF 2024]().We use the LongEval documents, therefore,\
+    \ if you use this resource, please cite the [corresponding dataset](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-5151):\n\
+    \ @misc{11234/1-5151,\n title = {{LongEval} Click-Model Relevance Judgements (Qrels)},\n\
+    \ author = {Galu{\\v s}{\\v c}{\\'a}kov{\\'a}, Petra and Devaud, Romain and Gonzalez-Saez,\
+    \ Gabriela and Mulhem, Philippe and Goeuriot, Lorraine and Piroi, Florina and Popel,\
+    \ Martin},\n url = {http://hdl.handle.net/11234/1-5151},\n note = {{LINDAT}/{CLARIAH}-{CZ}\
+    \ digital library at the Institute of Formal and Applied Linguistics ({{\\'U}FAL}),\
+    \ Faculty of Mathematics and Physics, Charles University},\n copyright = {Qwant\
+    \ {LongEval} Attribution-{NonCommercial}-{ShareAlike} License},\n year = {2023}\
+    \ }\nFurthermore, because we use the LongEval documents, this resource is under\
+    \ the Qwant LongEval Attribution-NonCommercial-ShareAlike License and by reusing\
+    \ this resource you also accept and aggree to do this under the sharealike qwant\
+    \ license."
+  license: cc-by-4.0
+  name: IR Lab Leipzig/Jena Winter Term 2023/2024
+  num_downloads: 31157
+  publication_date: '2024-02-07'
+  submission_date: '2025-12-14T09:31:50.178208'
+  url:
+  - https://zenodo.org/records/10628882
+  - https://doi.org/10.5281/zenodo.10628882
+  
+- authors:
+  - Scells, Harrisen
+  - Elstner, Theresa
+  - "Fr\xF6be, Maik"
+  - Akiki, Christopher
+  - Gienapp, Lukas
+  - Reimer, Jan Heinrich
+  - Hagen, Matthias
+  - Potthast, Martin
+  description: 'The Datasets for the Information Retrieval Course at the University
+    Leipzig and Jena in Summer Term 2023
+  
+    This repository contains resources coupled to ir_datasets and TIREx for IR courses
+    that focus their hands-on labs on shared tasks. During the IR exercises in summer
+    term 2023, we collaboratively developed and evaluated IR systems in a shared task
+    style setup, covering corpus creation, system development, and statistical analysis.
+    The resulting artifacts, i.e., the documents, topics, runs, relevance judgments
+    can be browsed at https://tira-io.github.io/ir-lab-sose-23. This zenodo artifact
+    contains all of the underlying datasets used and produced during the course together
+    with instructions on how to easily access the data using ir_datasets.
+  
+    Overview of resources
+  
+    This dataset contains the resources used and created during the IR course at https://temir.org/teaching/information-retrieval-ss23/information-retrieval-ss23.html.
+  
+    The artifact contains the following files:
+  
+  
+    &nbsp;iranthology-20230618-training-inputs.zip containing the inputs to systems,
+    i.e., containing the document corpus and the topics.
+  
+    iranthology-20230618-training-truths.zip containing the truth to evaluate and tune
+    systems, i.e., the topics and relevance judgments.
+  
+  
+    &nbsp;Accessing the Data with ir_datasets
+  
+    We provide wrapper code to easily access the resources with ir_datasets:
+  
+    # this loads a patched version of ir_datasets that can load resources from TIRA
+  
+    from tira.third_party_integrations import ir_datasets
+  
+  
+    dataset = ir_datasets.load(''ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training'')
+  
+    Similarly, the same is possible with the ir_datasets integration to PyTerrier:
+  
+    from tira.third_party_integrations import ensure_pyterrier_is_loaded
+  
+    import pyterrier as pt
+  
+  
+    # this patches ir_datasets and loads PyTerrier so that it can load resources from
+    TIRA and can run in the TIRA sandbox
+  
+    ensure_pyterrier_is_loaded()
+  
+  
+    dataset = pt.datasets.get_dataset(''irds:ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training'')'
+  license: cc-by-4.0
+  name: IR Lab Leipzig Jena Summer Term 2023
+  num_downloads: 13237
+  publication_date: '2024-02-07'
+  submission_date: '2025-12-14T09:31:50.834151'
+  url:
+  - https://zenodo.org/records/10628640
+  - https://doi.org/10.5281/zenodo.10628640
+  
+- authors:
+  - Wolska, Magdalena
+  - Wiegmann, Matti
+  - "Schr\xF6der, Christopher"
+  - Borchardt, Ole
+  - Stein, Benno
+  - Potthast, Martin
+  description: 'Data for the paper `Trigger Warnings: Bootstrapping a Violence Detector
+    for Fan Fiction`.&nbsp;Code: https://github.com/webis-de/emnlp23-bootstrapping-a-violence-detector-for-fan-fictionPublication:
+    tbd.&nbsp;Citation: https://webis.de/publications.html?q=wolska_2023&nbsp;'
+  license: cc-by-4.0
+  name: EMNLP-23-Bootstrapping-a-Violence-Detector-for-Fan-Fiction
+  num_downloads: 63
+  publication_date: '2023-10-24'
+  submission_date: '2025-12-14T09:31:51.405230'
+  url:
+  - https://zenodo.org/records/10036479
+  - https://doi.org/10.5281/zenodo.10036479
+  
+- authors:
+  - Matti Wiegmann
+  - Magdalena Wolska
+  - "Christopher Schr\xF6der"
+  - Ole Borchardt
+  - Benno Stein
+  - Martin Potthast
+  description: "This is the dataset for the shared task on Trigger Detection at PAN@CLEF2023.\
+    \ Please consult the task&#39;s page for further details on the format, the dataset&#39;s\
+    \ creation, and links to baselines and utility code.\n\nYou can find a more refined\
+    \ version of this work here: github.com/webis-de/ACL-23.\n\nTask: In trigger detection,\
+    \ we want to assign trigger warning labels to documents that contain potentially\
+    \ discomforting or distressing (triggering) content. We model trigger detection\
+    \ as a multi-label document classification challenge: assign each document all appropriate\
+    \ trigger warnings, but not more. All warnings are chosen from the author&#39;s\
+    \ perspective, i.e. the work&#39;s author decided which kind of trigger the document\
+    \ contains.\n\nDataset:&nbsp;This dataset contains annotated works of fanfiction,\
+    \ extracted from archiveofourown.org&nbsp;(AO3).&nbsp;Each work is between 50 and\
+    \ 6,000 words long and has between 1 and many trigger warnings assigned. Our training\
+    \ dataset contains 307,102 examples, with 17,104 in validation and 17,040 in the\
+    \ test split. The label set contains 32 different trigger warnings. All labels are\
+    \ based on the&nbsp;freeform content warnings&nbsp;added to a fanwork by its author.\n\
+    \nVersioning:&nbsp;\n\n\n\t1.0: initial upload\n\t1.1 fixed a minor bug where some\
+    \ works in the labels.jsonl contained labels that are not used in the competition\
+    \ (heteronormativity and religious-discrimination). Those labels have been removed.&nbsp;&nbsp;\n\
+    \t1.2 added labels.jsonl for the test dataset.\n"
+  name: PAN23 Trigger Detection
+  num_downloads: 320
+  publication_date: '2023-02-02'
+  submission_date: '2025-12-14T09:31:51.987512'
+  url:
+  - https://zenodo.org/records/8383863
+  - https://doi.org/10.5281/zenodo.8383863
+  
+- authors:
+  - Wiegmann
+  - Wolska
+  - "Schr\xF6der"
+  - Borchardt
+  - Stein
+  - Potthast
+  description: "Abstract&nbsp; &nbsp;A trigger warning or a content warning is intended\
+    \ to enable individuals to make an informed decision about whether to expose themselves\
+    \ to potentially distressing content. We introduce trigger warning assignment as\
+    \ a multilabel classification task and create the Webis&nbsp;Trigger Warning Corpus\
+    \ (WTWC), the first&nbsp;dataset of 1 million fanfiction works from the&nbsp;Archive\
+    \ of our Own with up to 36 different&nbsp;warnings per document. To provide a reliable\
+    \ catalog of trigger warnings, we carefully&nbsp;mapped institutionally-recommended\
+    \ trigger&nbsp;warnings against the millions of free-form tags&nbsp;assigned by\
+    \ fanfiction authors and organized&nbsp;them into the first comprehensive taxonomy\
+    \ of&nbsp;trigger warnings.\n\n&nbsp;\n\nCode for dehydration&nbsp;&nbsp;&nbsp;https://github.com/webis-de/ACL-23\n\
+    \n&nbsp;\n\nCite&nbsp; &nbsp;\n\n@InProceedings{wiegmann:2023a,\n  address =   \
+    \            {Toronto, Canada},\n  author =                {Matti Wiegmann and Magdalena\
+    \ Wolska and Christopher Schr{\\&quot;{o}}der and Ole Borchardt and Benno Stein\
+    \ and Martin Potthast},\n  booktitle =             {Proceedings of the 61th Annual\
+    \ Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n\
+    \  month =                 jul,\n  publisher =             {Association for Computational\
+    \ Linguistics},\n  title =                 {{Trigger Warning Assignment as a Multi-Label\
+    \ Document Classification Problem}},\n  year =                  2023\n}\n\n\n&nbsp;"
+  license: cc-by-4.0
+  name: Webis Trigger Warning Corpus 2023
+  num_downloads: 125
+  publication_date: '2023-05-27'
+  submission_date: '2025-12-14T09:31:52.525404'
+  url:
+  - https://zenodo.org/records/7976807
+  - https://doi.org/10.5281/zenodo.7976807
+  
+- authors:
+  - Niklas Deckers
+  - "Maik Fr\xF6be"
+  - Johannes Kiesel
+  - Gianluca Pandolfo
+  - "Christopher Schr\xF6der"
+  - Benno Stein
+  - Martin Potthast
+  description: 'Generated images and case study report for the paper &quot;The Infinite
+    Index: Information Retrieval on Generative Text-To-Image Models&quot;'
+  license: cc-by-4.0
+  name: Webis-Generated-Game-Art-23
+  num_downloads: 211
+  publication_date: '2023-01-10'
+  submission_date: '2025-12-14T09:31:53.093772'
+  url:
+  - https://zenodo.org/records/7525482
+  - https://doi.org/10.5281/zenodo.7525482
+  
+- authors:
+  - Kiesel, Johannes
+  - Potthast, Martin
+  - Stein, Benno
+  description: 'Data for the&nbsp;Image Retrieval for Arguments task at Touch&eacute;
+    2022.
+  
+  
+    This version is lacking the touche22-image-search-archives.zip and touche22-image-search-screenshots.zip
+    for space restrictions. Please get them from https://files.webis.de/corpora/corpora-webis/corpus-touche-image-search-22/'
+  license: cc-by-4.0
+  name: "Touch\xE922-Image-Retrieval-for-Arguments"
+  num_downloads: 6610
+  publication_date: '2022-06-13'
+  submission_date: '2025-12-14T09:31:53.695152'
+  url:
+  - https://zenodo.org/records/6873575
+  - https://doi.org/10.5281/zenodo.6873575
+  
+- authors:
+  - Potthast, Martin
+  - Gienapp, Lukas
+  - Wachsmuth, Henning
+  - Hagen, Matthias
+  - "Fr\xF6be, Maik"
+  - Bondarenko, Alexander
+  - Ajjour, Yamen
+  - Stein, Benno
+  description: Data for the Argument Retrieval for Controversial Questions task at Touch&eacute;
+    2020.
+  license: cc-by-4.0
+  name: "Touch\xE920-Argument-Retrieval-for-Controversial-Questions"
+  num_downloads: 4985
+  publication_date: '2020-09-23'
+  submission_date: '2025-12-14T09:31:54.247843'
+  url:
+  - https://zenodo.org/records/6873564
+  - https://doi.org/10.5281/zenodo.6873564
+  
+- authors:
+  - Matti Wiegmann
+  - "Michael V\xF6slke"
+  - Martin Potthast
+  - Benno Stein
+  description: "This is the dataset created for Language Models as Context-sensitive\
+    \ Word Search Engines at the In2Writing workshop at ACL22.\n\n\n&nbsp;\n\nCite&nbsp;\n\
+    \n@inproceedings{wiegmann:2022,\n    title =     \"Language Models as Context-sensitive\
+    \ Word Search Engines\",\n    author =    \"Wiegmann, Matti and V{\\\"{o}}lske,\
+    \ Michael and Potthast, Martin and Stein, Benno\",\n    booktitle = \"Proceedings\
+    \ of the 1st Workshop on Intelligent and Interactive Writing Assistants (In2Writing\
+    \ 2022)\",\n    month =     may,\n    year =      \"2022\",\n    address =   \"\
+    Online\",\n    publisher = \"Association for Computational Linguistics\",\n\nDatasets\n\
+    \nThis repository contains two datasets with word search queries. Each&nbsp;word\
+    \ search query consists of a token n-gram with one&nbsp;wildcard token ([MASK]).\
+    \ The answers to each query are the most likely token to replace the mask. All queries\
+    \ originate from wikitext-103 and CLOTH, the respected source is annotated for each\
+    \ query.\n\nThe original-token dataset lists exactly one top answer for each query.\
+    \ The&nbsp;ranked-answers dataset lists multiple, sorted answers in three relevance\
+    \ categories, where 3 is the most relevant. Please refer to the citation for more\
+    \ details."
+  license: cc-by-4.0
+  name: Webis-Context-sensitive-Word-Search-Queries-2022
+  num_downloads: 51
+  publication_date: '2022-04-08'
+  submission_date: '2025-12-14T09:31:54.888523'
+  url:
+  - https://zenodo.org/records/6425595
+  - https://doi.org/10.5281/zenodo.6425595
+  
+- authors:
+  - Gienapp, Lukas
+  - Kircheis, Wolfgang
+  - Sievers, Bjarne
+  - Stein, Benno
+  - Potthast, Martin
+  description: We present the Webis-STEREO-21 dataset, a massive collection of Scientific
+    Text Reuse in Open-access publications. It contains more than 91 million cases of
+    reused text passages found in 4.2 million unique open-access publications. Featuring
+    a high coverage of scientific disciplines and varieties of reuse, as well as comprehensive
+    metadata to contextualize each case, our dataset addresses the most salient shortcomings
+    of previous ones on scientific writing. Webis-STEREO-21 allows for tackling a wide
+    range of research questions from different scientific backgrounds, facilitating
+    both qualitative and quantitative analysis of the phenomenon as well as a first-time
+    grounding on the base rate of text reuse in scientific publications.
+  name: Webis-STEREO-21 (Full Version)
+  num_downloads: 0
+  publication_date: '2021-12-21'
+  submission_date: '2025-12-14T09:31:55.482401'
+  url:
+  - https://zenodo.org/records/5575320
+  - https://doi.org/10.5281/zenodo.5575320
+  
+- authors:
+  - Gienapp, Lukas
+  - Kircheis, Wolfgang
+  - Sievers, Bjarne
+  - Stein, Benno
+  - Potthast, Martin
+  description: 'We present the Webis-STEREO-21 dataset, a massive collection of Scientific
+    Text Reuse in Open-access publications. It contains more than 91 million cases of
+    reused text passages found in 4.2 million unique open-access publications. Featuring
+    a high coverage of scientific disciplines and varieties of reuse, as well as comprehensive
+    metadata to contextualize each case, our dataset addresses the most salient shortcomings
+    of previous ones on scientific writing. Webis-STEREO-21 allows for tackling a wide
+    range of research questions from different scientific backgrounds, facilitating
+    both qualitative and quantitative analysis of the phenomenon as well as a first-time
+    grounding on the base rate of text reuse in scientific publications.
+  
+  
+    This is the open-access version of the dataset, which includes only the metadata
+    of each reuse case. Due to licensing issues, the matched text is not included.'
+  license: cc-by-4.0
+  name: Webis-STEREO-21
+  num_downloads: 420
+  publication_date: '2021-10-18'
+  submission_date: '2025-12-14T09:31:56.025753'
+  url:
+  - https://zenodo.org/records/5575285
+  - https://doi.org/10.5281/zenodo.5575285
+  
+- authors:
+  - "Erik K\xF6rner"
+  - Ahmad Dawar Hakimi
+  - Gerhard Heyer
+  - Martin Potthast
+  description: "This &quot;dataset&quot; only includes the compiled pairings of the\
+    \ Yelp Business Review Dataset. To get access to the actual review texts, please\
+    \ follow the instructions on the Yelp Dataset webpage.\n\nThe data format is JSONlines.\n\
+    Python Load Example:\n\nimport pandas as pd\ntraindev_df = pd.read_json(\"df_traindev.jsonl\"\
+    , lines=True)\ntest_df = pd.read_json(\"df_test.jsonl\", lines=True)\n\n# example\
+    \ access to single business/review id\ns1_bid = test_df.iloc[0][\"sent1_business_id\"\
+    ]\ns1_rid = test_df.iloc[0][\"sent1_review_id\"]\ns2_bid = test_df.iloc[0][\"sent2_business_id\"\
+    ]\ns2_rid = test_df.iloc[0][\"sent2_review_id\"]\nlabel = test_df.iloc[0][\"is_same_side\"\
+    ]\n\nSee documentation at:\n\n\n\tYelp Dataset Schemata (only business.json and\
+    \ review.json were used)\n\tYelp Business Category Hierarchy (download the json\
+    \ file as all_category_list.json)\n\n\nFor details on how the data was compiled\
+    \ and used in our experiments, please refer to our code repository. Other derived\
+    \ data splits can be reproduced deterministically by using the same random seed\
+    \ as in our experiments."
+  license: cc-by-4.0
+  name: Same Sentiment Classification Train/Dev/Test Pair IDs
+  num_downloads: 34
+  publication_date: '2021-09-09'
+  submission_date: '2025-12-14T09:31:56.631625'
+  url:
+  - https://zenodo.org/records/5495793
+  - https://doi.org/10.5281/zenodo.5495793
+  
+- authors:
+  - Gregor Wiedemann
+  - "Erik K\xF6rner"
+  - Ahmad Dawar Hakimi
+  - Gerhard Heyer
+  - Martin Potthast
+  description: 'The resampled datasets for the Same Side Stance Classification problem
+    used in the EMNLP&#39;21 paper &quot;On Classifying whether Two Texts are on the
+    Same Side of an Argument&quot;.
+  
+  
+    The data is based on the publicly available S3C training datasets.
+  
+  
+    The data format is JSONlines.
+  
+    Python Load Example: (for every single task split)
+  
+  
+    import pandas as pd
+  
+    df_cross_dev = pd.read_json("cross_dev.jsonl", lines=True)
+  
+  
+    For details on how the data was compiled, please refer to our code.'
+  license: cc-by-4.0
+  name: Same Side Stance Classification Resampled Datasets
+  num_downloads: 120
+  publication_date: '2021-09-09'
+  submission_date: '2025-12-14T09:31:57.188061'
+  url:
+  - https://zenodo.org/records/5380989
+  - https://doi.org/10.5281/zenodo.5380989
+  
+- authors:
+  - Ahmad Dawar Hakimi
+  - "Erik K\xF6rner"
+  - Gregor Wiedemann
+  - Gerhard Heyer
+  - Martin Potthast
+  description: "This dataset contains 175 cases. It is manually created to reveal the\
+    \ ability of models to solve different types of adversarial cases for same side\
+    \ stance predictions more systematically. The examples selected here are derived\
+    \ from the dataset used in the Same Side Stance Classification shared task.\n\n\
+    We have selected 25 distinct arguments from the &quot;gay marriage&quot; topic that\
+    \ are short and express their stance clearly. For each selected argument, we construct\
+    \ new arguments of four distinct types to obtain two pairs, one with the same stance,\
+    \ and one with an opposing stance:\n\n\n\tNegation: a simple negation of the argument.\n\
+    \tParaphrase: alters important words from the argument to synonymous expressions\
+    \ with the same stance.\n\tArgument: uses an argument from the same topic and stance,\
+    \ but semantically completely different regarding the first one.\n\tCitation: repeats\
+    \ or summarizes the first argument and then expresses agreement or rejection (a\
+    \ case frequently occurring in the dataset).\n\n\nThe types Paraphrase, Argument,\
+    \ and Citation are also formulated in a negated version to create additional test\
+    \ instances for the opposite stance."
+  license: cc-by-4.0
+  name: Same Side Stance Classification Adversarial Test Cases
+  num_downloads: 63
+  publication_date: '2021-09-09'
+  submission_date: '2025-12-14T09:31:57.765240'
+  url:
+  - https://zenodo.org/records/5282635
+  - https://doi.org/10.5281/zenodo.5282635
+  
+- authors:
+  - Lars Meyer
+  - Johannes Kiesel
+  - Martin Potthast
+  - Benno Stein
+  description: This dataset is an extension of the Spoken Conversational Search dataset,
+    specifically of the SCSdataset.csv, with annotations of types of meta-information
+    mentioned in each turn.
+  license: cc-by-4.0
+  name: Webis SCSmeta 2021
+  num_downloads: 107
+  publication_date: '2020-10-20'
+  submission_date: '2025-12-14T09:31:58.337699'
+  url:
+  - https://zenodo.org/records/4108196
+  - https://doi.org/10.5281/zenodo.4108196
+  
+- authors:
+  - Kiesel, Johannes
+  - Potthast, Martin
+  - Hagen, Matthias
+  - Kneist, Florian
+  - Stein, Benno
+  description: The Webis-Web-Archive-17 comprises a total of 10,000 web page archives
+    from mid-2017 that were carefully sampled from the Common Crawl to involve a mixture
+    of high-ranking and low-ranking web pages. The dataset contains the web archive
+    files, HTML DOM, and screenshots of each web page, as well as per-page annotations
+    of visual web archive quality. See this overview for all datasets that built upon
+    this one. If you use this dataset in your research, please cite it using this paper.
+  license: cc-by-sa-4.0
+  name: Webis-Web-Archive-17
+  num_downloads: 820405
+  publication_date: '2017-10-04'
+  submission_date: '2025-12-14T09:31:58.970005'
+  url:
+  - https://zenodo.org/records/4064019
+  - https://doi.org/10.5281/zenodo.4064019
+  
+- authors:
+  - Janek Bevendorff
+  - Khalid Al-Khatib
+  - Martin Potthast
+  - Benno Stein
+  description: "The Webis Gmane Email Corpus 2019 is a dataset of more than 153 million\
+    \ parsed and segmented emails&nbsp;crawled between February and May 2019 from gmane.io\
+    \ covering more than 20 years&nbsp;of public mailing lists. The dataset has been\
+    \ published as a resource at ACL 2020.\n\nThe dataset comes as a set of Gzip-compressed\
+    \ files containing line-based JSON&nbsp;in the&nbsp;Elasticsearch bulk format. Each\
+    \ data record&nbsp;consists of two lines:\n\n{\"index\": {\"_id\": \"&lt;urn:uuid:c1d95e4b-0f43-46c7-a99e-c575d1d8e1ce&gt;\"\
+    }}\n{\"headers\": {\"header name\": \"header value\", ...}, \"text_plain\": \"plaintext\
+    \ body\", \"lang\": \"en\", \"segments\": [{\"end\": 99, \"label\": \"paragraph\"\
+    , \"begin\": 0}, ...], \"group\": \"gmane group name\"}\n\n\nThe first line is the\
+    \ Elasticsearch index action with a document UUID, the second one the actual parsed\
+    \ email with a (reduced and anonymized) set of headers, the detected language, the\
+    \ original Gmane group name and the predicted content segments as character spans.\
+    \ The Gzip files are splittable every 1,000 records (line pairs) for parallel processing\
+    \ in, e.g., Hadoop.\n\nAvailable email headers are:\n\n\n\tmessage_id\n\tdate (yyyy-MM-dd\
+    \ HH:mm:ssZZ)\n\tsubject\n\tfrom\n\tto\n\tcc\n\tin_reply_to\n\treferences\n\tlist_id\n\
+    \n\nAvailable segment classes are:\n\n\n\tparagraph\n\tclosing\n\tinline_headers\n\
+    \tlog_data\n\tmua_signature\n\tpatch\n\tpersonal_signature\n\tquotation\n\tquotation_marker\n\
+    \traw_code\n\tsalutation\n\tsection_heading\n\ttabular\n\ttechnical\n\tvisual_separator\n\
+    \n\nFind more information about the dataset and the segmentation model at&nbsp;webis.de.\n\
+    \nIf you are using this resource in your work, please cite it&nbsp;as:\n\n@InProceedings{stein:2020o,\n\
+    \  author =              {Janek Bevendorff and Khalid Al-Khatib and Martin Potthast\
+    \ and Benno Stein},\n  booktitle =           {58th Annual Meeting of the Association\
+    \ for Computational Linguistics (ACL 2020)},\n  month =               jul,\n  publisher\
+    \ =           {Association for Computational Linguistics},\n  site =           \
+    \     {Seattle, USA},\n  title =               {{Crawling and Preprocessing Mailing\
+    \ Lists At Scale for Dialog Analysis}},\n  year =                2020\n}\n\n\n&nbsp;"
+  name: Webis Gmane Email Corpus 2019
+  num_downloads: 899
+  publication_date: '2020-06-03'
+  submission_date: '2025-12-14T09:31:59.563791'
+  url:
+  - https://zenodo.org/records/3766985
+  - https://doi.org/10.5281/zenodo.3766985
+  
+- authors:
+  - Chen ,Wei-Fan
+  - Syed, Shahbaz
+  - Potthast, Martin
+  - Hagen, Matthias
+  - Stein, Benno
+  description: The Webis Abstractive Snippet 2020 (Webis-Snippete-20) comprises four
+    abstractive snippet dataset from ClueWeb09, Clueweb12, and DMOZ descriptions. More
+    than 10 million &lt;webpage, abstractive snippet&gt; pairs / 3.5 million &lt;query,
+    webpage, abstractive snippet&gt; pairs were collected.
+  license: cc-by-4.0
+  name: Webis Abstractive Snippet Corpus 2020
+  num_downloads: 3008
+  publication_date: '2020-02-07'
+  submission_date: '2025-12-14T09:32:00.135783'
+  url:
+  - https://zenodo.org/records/3653834
+  - https://doi.org/10.5281/zenodo.3653834
+
+- authors:
+  - Mailach, Alina
+  - Siegmund, Norbert
+  description: 'This material documents the coding process and theme evolution for the
+    reflexive thematic analysis conducted in the paper &nbsp;&quot;Socio-Technical Anti-Patterns
+    in Building ML-Enabled Software&quot;, published at International Conference on&nbsp;Software
+    Engineering, 2023. The provided codes and themes&nbsp;represent&nbsp;an intermediate
+    stage of our work, where the file&nbsp;&nbsp;initial_themes.pdf&nbsp;holds initial
+    themes and codes and interim_and_final_themes.xlsx&nbsp;depicts more evolved themes
+    and codes as well as a tracing of which codes belong&nbsp;to which&nbsp;themes.
+    The themes developed over time and represent development contexts and activities,
+    containing anti-patterns, causes, and recommendations.&nbsp;We had not fully developed
+    anti-patterns during the coding process, but&nbsp;rather used symptoms.&nbsp;&nbsp;
+  
+  
+    &nbsp;'
+  license: cc-by-4.0
+  name: Socio-Technical Anti-Patterns in Building ML-Enabled Software (Supplementary
+    Material)
+  num_downloads: 24
+  publication_date: '2023-01-18'
+  submission_date: '2025-12-14T09:05:34.671591'
+  url:
+  - https://zenodo.org/records/7520777
+  - https://doi.org/10.5281/zenodo.7520777
+  
+- authors:
+  - Sebastian Simon
+  description: No description provided.
+  license: other-open
+  name: 'AI-4-SE/Exploring-Hyperparameter-Usage-And-Tuning-In-Machine-Learning-Research:
+    CAIN-2023 Submission'
+  num_downloads: 42
+  publication_date: '2023-03-17'
+  submission_date: '2025-12-14T09:05:35.218366'
+  url:
+  - https://zenodo.org/records/7745740
+  - https://doi.org/10.5281/zenodo.7745740
+  
