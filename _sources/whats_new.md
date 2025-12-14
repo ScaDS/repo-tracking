@@ -1,4 +1,23 @@
 # Recently added (10)
+## AI-4-SE/Exploring-Hyperparameter-Usage-And-Tuning-In-Machine-Learning-Research: CAIN-2023 Submission
+
+Sebastian Simon
+
+Published 2023-03-17
+
+Licensed other-open
+
+
+
+No description provided.
+
+[https://zenodo.org/records/7745740](https://zenodo.org/records/7745740)
+
+[https://doi.org/10.5281/zenodo.7745740](https://doi.org/10.5281/zenodo.7745740)
+
+
+---
+
 ## How LLMs impact BioImage Data Science
 
 Haase, Robert
@@ -73,21 +92,23 @@ Content type: GitHub Repository
 
 ---
 
-## Python-training-2024
+## Socio-Technical Anti-Patterns in Building ML-Enabled Software (Supplementary Material)
 
-Matthias Täschner, Robert Haase
+Mailach, Alina, Siegmund, Norbert
 
-Published 2024-05-23T11:56:39+00:00
+Published 2023-01-18
 
-Licensed Creative Commons Attribution 4.0 International
+Licensed cc-by-4.0
 
 
 
-Training on Python programming basics and the use of chatbots
+This material documents the coding process and theme evolution for the reflexive thematic analysis conducted in the paper &nbsp;&quot;Socio-Technical Anti-Patterns in Building ML-Enabled Software&quot;, published at International Conference on&nbsp;Software Engineering, 2023. The provided codes and themes&nbsp;represent&nbsp;an intermediate stage of our work, where the file&nbsp;&nbsp;initial_themes.pdf&nbsp;holds initial themes and codes and interim_and_final_themes.xlsx&nbsp;depicts more evolved themes and codes as well as a tracing of which codes belong&nbsp;to which&nbsp;themes. The themes developed over time and represent development contexts and activities, containing anti-patterns, causes, and recommendations.&nbsp;We had not fully developed anti-patterns during the coding process, but&nbsp;rather used symptoms.&nbsp;&nbsp;
 
-Content type: GitHub Repository
+&nbsp;
 
-[https://github.com/ScaDS/Python-training-2024](https://github.com/ScaDS/Python-training-2024)
+[https://zenodo.org/records/7520777](https://zenodo.org/records/7520777)
+
+[https://doi.org/10.5281/zenodo.7520777](https://doi.org/10.5281/zenodo.7520777)
 
 
 ---
@@ -145,25 +166,6 @@ This Jupyter Book contains notebooks demonstrating OpenAI’s API for using chat
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/prompt-engineering-tutorial-2023](https://github.com/ScaDS/prompt-engineering-tutorial-2023)
-
-
----
-
-## prompting-with-api
-
-autmoate, Robert Haase
-
-Published 2024-03-15T08:15:54+00:00
-
-Licensed BSD 3-Clause "New" or "Revised" License
-
-
-
-This jupyter-based and voilá-ready prompting app gives the ability to use an api key for prompting workshops with an unlimited number of participants (while keeping in mind that some models cost per request). It bridges the temporary situation that there are no institutional LLM accesses yet and solutions such as GPTX are still a work in progress. 
-
-Content type: GitHub Repository
-
-[https://github.com/ScaDS/prompting-with-api](https://github.com/ScaDS/prompting-with-api)
 
 
 ---

@@ -1,4 +1,23 @@
-# Zenodo.org (26)
+# Zenodo.org (28)
+## AI-4-SE/Exploring-Hyperparameter-Usage-And-Tuning-In-Machine-Learning-Research: CAIN-2023 Submission
+
+Sebastian Simon
+
+Published 2023-03-17
+
+Licensed other-open
+
+
+
+No description provided.
+
+[https://zenodo.org/records/7745740](https://zenodo.org/records/7745740)
+
+[https://doi.org/10.5281/zenodo.7745740](https://doi.org/10.5281/zenodo.7745740)
+
+
+---
+
 ## AI4Psychology KI-Kompetenz-Training
 
 Haase, Robert
@@ -459,6 +478,27 @@ We acknowledge funding by the Deutsche Forschungsgemeinschaft (DFG, German Resea
 [https://zenodo.org/records/17541532](https://zenodo.org/records/17541532)
 
 [https://doi.org/10.5281/zenodo.17541532](https://doi.org/10.5281/zenodo.17541532)
+
+
+---
+
+## Socio-Technical Anti-Patterns in Building ML-Enabled Software (Supplementary Material)
+
+Mailach, Alina, Siegmund, Norbert
+
+Published 2023-01-18
+
+Licensed cc-by-4.0
+
+
+
+This material documents the coding process and theme evolution for the reflexive thematic analysis conducted in the paper &nbsp;&quot;Socio-Technical Anti-Patterns in Building ML-Enabled Software&quot;, published at International Conference on&nbsp;Software Engineering, 2023. The provided codes and themes&nbsp;represent&nbsp;an intermediate stage of our work, where the file&nbsp;&nbsp;initial_themes.pdf&nbsp;holds initial themes and codes and interim_and_final_themes.xlsx&nbsp;depicts more evolved themes and codes as well as a tracing of which codes belong&nbsp;to which&nbsp;themes. The themes developed over time and represent development contexts and activities, containing anti-patterns, causes, and recommendations.&nbsp;We had not fully developed anti-patterns during the coding process, but&nbsp;rather used symptoms.&nbsp;&nbsp;
+
+&nbsp;
+
+[https://zenodo.org/records/7520777](https://zenodo.org/records/7520777)
+
+[https://doi.org/10.5281/zenodo.7520777](https://doi.org/10.5281/zenodo.7520777)
 
 
 ---
