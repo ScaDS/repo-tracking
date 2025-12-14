@@ -20,7 +20,7 @@ def main():
 
     Examples
     --------
-    >>> python scripts/auto-add-github-resources.py scads/zenodo-tracking 236
+    >>> python scripts/auto-add-github-resources.py scads/repo-tracking 236
     """
     # Retrieve repository and issue number from command-line arguments
     repository = sys.argv[1]
