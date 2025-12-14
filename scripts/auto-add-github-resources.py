@@ -85,7 +85,7 @@ def complete_github_data(github_repo_url):
         raise Exception("GitHub API key not found. Please set GITHUB_API_KEY.")
 
     g = Github(auth=Token(token))
-    repo_path = github_repo_url.replace("https://github.com/", "")
+    repo_path = github_repo_url.replace("https://github.com/", "").strip()
     if repo_path.endswith("/"):
         repo_path = repo_path[:-1]
 
