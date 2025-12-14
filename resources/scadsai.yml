@@ -990,3 +990,12 @@ resources:
   type: GitHub Repository
   url: https://github.com/jan-forest/autoencodix
   
+- authors:
+  - Daniel Obraczka
+  description: ''
+  name: eager
+  publication_date: '2021-03-10T15:50:24+00:00'
+  submission_date: '2025-12-14T08:38:40.952594'
+  type: GitHub Repository
+  url: https://github.com/jonathanschuchart/eager
+  
