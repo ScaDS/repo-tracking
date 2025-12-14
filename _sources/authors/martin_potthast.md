@@ -1,4 +1,35 @@
-# Recently added (10)
+# Martin potthast (8)
+## PAN23 Trigger Detection
+
+Matti Wiegmann, Magdalena Wolska, Christopher Schröder, Ole Borchardt, Benno Stein, Martin Potthast
+
+Published 2023-02-02
+
+
+
+This is the dataset for the shared task on Trigger Detection at PAN@CLEF2023. Please consult the task&#39;s page for further details on the format, the dataset&#39;s creation, and links to baselines and utility code.
+
+You can find a more refined version of this work here: github.com/webis-de/ACL-23.
+
+Task: In trigger detection, we want to assign trigger warning labels to documents that contain potentially discomforting or distressing (triggering) content. We model trigger detection as a multi-label document classification challenge: assign each document all appropriate trigger warnings, but not more. All warnings are chosen from the author&#39;s perspective, i.e. the work&#39;s author decided which kind of trigger the document contains.
+
+Dataset:&nbsp;This dataset contains annotated works of fanfiction, extracted from archiveofourown.org&nbsp;(AO3).&nbsp;Each work is between 50 and 6,000 words long and has between 1 and many trigger warnings assigned. Our training dataset contains 307,102 examples, with 17,104 in validation and 17,040 in the test split. The label set contains 32 different trigger warnings. All labels are based on the&nbsp;freeform content warnings&nbsp;added to a fanwork by its author.
+
+Versioning:&nbsp;
+
+
+	1.0: initial upload
+	1.1 fixed a minor bug where some works in the labels.jsonl contained labels that are not used in the competition (heteronormativity and religious-discrimination). Those labels have been removed.&nbsp;&nbsp;
+	1.2 added labels.jsonl for the test dataset.
+
+
+[https://zenodo.org/records/8383863](https://zenodo.org/records/8383863)
+
+[https://doi.org/10.5281/zenodo.8383863](https://doi.org/10.5281/zenodo.8383863)
+
+
+---
+
 ## Same Sentiment Classification Train/Dev/Test Pair IDs
 
 Erik Körner, Ahmad Dawar Hakimi, Gerhard Heyer, Martin Potthast
@@ -96,25 +127,6 @@ For details on how the data was compiled, please refer to our code.
 [https://zenodo.org/records/5380989](https://zenodo.org/records/5380989)
 
 [https://doi.org/10.5281/zenodo.5380989](https://doi.org/10.5281/zenodo.5380989)
-
-
----
-
-## Webis Abstractive Snippet Corpus 2020
-
-Chen ,Wei-Fan, Syed, Shahbaz, Potthast, Martin, Hagen, Matthias, Stein, Benno
-
-Published 2020-02-07
-
-Licensed cc-by-4.0
-
-
-
-The Webis Abstractive Snippet 2020 (Webis-Snippete-20) comprises four abstractive snippet dataset from ClueWeb09, Clueweb12, and DMOZ descriptions. More than 10 million &lt;webpage, abstractive snippet&gt; pairs / 3.5 million &lt;query, webpage, abstractive snippet&gt; pairs were collected.
-
-[https://zenodo.org/records/3653834](https://zenodo.org/records/3653834)
-
-[https://doi.org/10.5281/zenodo.3653834](https://doi.org/10.5281/zenodo.3653834)
 
 
 ---
@@ -253,59 +265,21 @@ The original-token dataset lists exactly one top answer for each query. The&nbsp
 
 ---
 
-## Webis-STEREO-21
+## Webis-Generated-Game-Art-23
 
-Gienapp, Lukas, Kircheis, Wolfgang, Sievers, Bjarne, Stein, Benno, Potthast, Martin
+Niklas Deckers, Maik Fröbe, Johannes Kiesel, Gianluca Pandolfo, Christopher Schröder, Benno Stein, Martin Potthast
 
-Published 2021-10-18
+Published 2023-01-10
 
 Licensed cc-by-4.0
 
 
 
-We present the Webis-STEREO-21 dataset, a massive collection of Scientific Text Reuse in Open-access publications. It contains more than 91 million cases of reused text passages found in 4.2 million unique open-access publications. Featuring a high coverage of scientific disciplines and varieties of reuse, as well as comprehensive metadata to contextualize each case, our dataset addresses the most salient shortcomings of previous ones on scientific writing. Webis-STEREO-21 allows for tackling a wide range of research questions from different scientific backgrounds, facilitating both qualitative and quantitative analysis of the phenomenon as well as a first-time grounding on the base rate of text reuse in scientific publications.
+Generated images and case study report for the paper &quot;The Infinite Index: Information Retrieval on Generative Text-To-Image Models&quot;
 
-This is the open-access version of the dataset, which includes only the metadata of each reuse case. Due to licensing issues, the matched text is not included.
+[https://zenodo.org/records/7525482](https://zenodo.org/records/7525482)
 
-[https://zenodo.org/records/5575285](https://zenodo.org/records/5575285)
-
-[https://doi.org/10.5281/zenodo.5575285](https://doi.org/10.5281/zenodo.5575285)
-
-
----
-
-## Webis-STEREO-21 (Full Version)
-
-Gienapp, Lukas, Kircheis, Wolfgang, Sievers, Bjarne, Stein, Benno, Potthast, Martin
-
-Published 2021-12-21
-
-
-
-We present the Webis-STEREO-21 dataset, a massive collection of Scientific Text Reuse in Open-access publications. It contains more than 91 million cases of reused text passages found in 4.2 million unique open-access publications. Featuring a high coverage of scientific disciplines and varieties of reuse, as well as comprehensive metadata to contextualize each case, our dataset addresses the most salient shortcomings of previous ones on scientific writing. Webis-STEREO-21 allows for tackling a wide range of research questions from different scientific backgrounds, facilitating both qualitative and quantitative analysis of the phenomenon as well as a first-time grounding on the base rate of text reuse in scientific publications.
-
-[https://zenodo.org/records/5575320](https://zenodo.org/records/5575320)
-
-[https://doi.org/10.5281/zenodo.5575320](https://doi.org/10.5281/zenodo.5575320)
-
-
----
-
-## Webis-Web-Archive-17
-
-Kiesel, Johannes, Potthast, Martin, Hagen, Matthias, Kneist, Florian, Stein, Benno
-
-Published 2017-10-04
-
-Licensed cc-by-sa-4.0
-
-
-
-The Webis-Web-Archive-17 comprises a total of 10,000 web page archives from mid-2017 that were carefully sampled from the Common Crawl to involve a mixture of high-ranking and low-ranking web pages. The dataset contains the web archive files, HTML DOM, and screenshots of each web page, as well as per-page annotations of visual web archive quality. See this overview for all datasets that built upon this one. If you use this dataset in your research, please cite it using this paper.
-
-[https://zenodo.org/records/4064019](https://zenodo.org/records/4064019)
-
-[https://doi.org/10.5281/zenodo.4064019](https://doi.org/10.5281/zenodo.4064019)
+[https://doi.org/10.5281/zenodo.7525482](https://doi.org/10.5281/zenodo.7525482)
 
 
 ---
