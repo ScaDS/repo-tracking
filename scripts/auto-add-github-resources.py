@@ -41,7 +41,7 @@ def main():
         if not issue_text.startswith("https://github.com/"):
             continue
 
-        github_repo_url = issue_text
+        github_repo_url = issue_text.strip()
 
         # Retrieve GitHub metadata
         github_data_dict = complete_github_data(github_repo_url)
