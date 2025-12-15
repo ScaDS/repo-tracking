@@ -2839,4 +2839,46 @@ resources:
   submission_date: '2025-12-14T11:53:09.739342'
   type: GitHub Repository
   url: https://github.com/webis-de/arxiv23-prompt-embedding-manipulation
-  
+  - authors:
+  - Robert Haase
+  - github-actions[bot]
+  description: ''
+  license: CC-BY-4.0
+  name: repo-tracking
+  publication_date: '2025-11-12'
+  submission_date: '2025-12-15T11:13:30.710941'
+  type: software
+  url:
+  - https://github.com/ScaDS/repo-tracking
+- authors:
+  - Matthias Täschner
+  description: This repository serves as playground for the CICD DevOps workshop at
+    ScaDS.AI GA 09.2025
+  name: cicd-ga-scadsai
+  publication_date: '2025-08-29'
+  submission_date: '2025-12-15T11:13:32.148503'
+  type: software
+  url:
+  - https://github.com/ScaDS/cicd-ga-scadsai
+- authors:
+  - Robert Haase
+  description: ''
+  license: CC-BY-4.0
+  name: BIDS-lecture-2025
+  publication_date: '2025-04-09'
+  submission_date: '2025-12-15T11:13:33.636414'
+  type: software
+  url:
+  - https://github.com/ScaDS/BIDS-lecture-2025
+- authors:
+  - Robert Haase
+  description: 'In this Jupyter Book we collect famous quotes from computer scientists.
+    The repository serves training purposes at the DataWeek Leipzig 2024: We learn
+    how to fork, send pull-requests and merge contents on github.com.'
+  license: CC-BY-4.0
+  name: famous_computer_science_quotes
+  publication_date: '2024-04-07'
+  submission_date: '2025-12-15T11:13:35.023922'
+  type: software
+  url:
+  - https://github.com/ScaDS/famous_computer_science_quotes
