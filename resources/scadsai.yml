@@ -2882,3 +2882,205 @@ resources:
   type: software
   url:
   - https://github.com/ScaDS/famous_computer_science_quotes
+- authors:
+  - Norman
+  - Jingbo He
+  - ines besrour
+  - Tobias Schreieder
+  description: 'SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented
+    Generation'
+  license: BSD-3-Clause
+  name: SQuAI
+  publication_date: '2025-06-17'
+  submission_date: '2025-12-16T13:53:00.946477'
+  tags:
+  - large-language-models
+  - multi-agent-systems
+  - question-answering
+  - retrieval-augmented-generation
+  type: software
+  url:
+  - https://github.com/faerber-lab/SQuAI
+- authors:
+  - William LaCroix
+  - ShuzhouYuan
+  description: ''
+  name: CoDAE
+  publication_date: '2025-08-05'
+  submission_date: '2025-12-16T13:53:02.857933'
+  type: software
+  url:
+  - https://github.com/faerber-lab/CoDAE
+- authors:
+  - Matthias Jobst
+  - Michael Färber
+  - susantiyuni
+  description: ''
+  name: lightweight-scholarly-qa
+  publication_date: '2025-08-04'
+  submission_date: '2025-12-16T13:53:05.080823'
+  type: software
+  url:
+  - https://github.com/faerber-lab/lightweight-scholarly-qa
+- authors:
+  - Syeda Khushbakht Batool
+  - Michael Färber
+  description: ''
+  name: HF-NLP10K
+  publication_date: '2025-06-17'
+  submission_date: '2025-12-16T13:53:06.908715'
+  type: software
+  url:
+  - https://github.com/faerber-lab/HF-NLP10K
+- authors:
+  - Tobias Schreieder
+  description: 'Attribution, Citation, and Quotation: A Survey of Evidence-based Text
+    Generation with Large Language Models'
+  license: BSD-3-Clause
+  name: AttributeCiteQuote
+  publication_date: '2025-08-01'
+  submission_date: '2025-12-16T13:53:08.410832'
+  tags:
+  - attribution
+  - citation
+  - large-language-model
+  - trustworthy-ai
+  - quotation
+  type: software
+  url:
+  - https://github.com/faerber-lab/AttributeCiteQuote
+- authors:
+  - Jingbo He
+  - Tobias Schreieder
+  - ines besrour
+  description: 'Repository for the SIGIR LiveRAG challenge: "RAGentA: Multi-Agent
+    Retrieval-Augmented Generation for Attributed Question Answering"'
+  license: BSD-3-Clause
+  name: RAGentA
+  publication_date: '2025-06-20'
+  submission_date: '2025-12-16T13:53:10.748756'
+  tags:
+  - large-language-model
+  - multi-agent-system
+  - question-answering
+  - retrieval-augmented-generation
+  type: software
+  url:
+  - https://github.com/faerber-lab/RAGentA
+- authors:
+  - A.F.M. Mohimenul Joaa
+  description: Natural language based git cli
+  license: GPL-3.0
+  name: ngit-cli
+  publication_date: '2025-05-27'
+  submission_date: '2025-12-16T13:53:12.303517'
+  type: software
+  url:
+  - https://github.com/faerber-lab/ngit-cli
+- authors:
+  - giorluca
+  description: This is the repository containing code and data of the miniGPTKB experiments.
+  license: NOASSERTION
+  name: miniGPTKB
+  publication_date: '2025-09-25'
+  submission_date: '2025-12-16T13:53:14.385396'
+  type: software
+  url:
+  - https://github.com/Knowledge-aware-AI/miniGPTKB
+- authors:
+  - Tuan-Phong Nguyen
+  - Yujia Hu
+  - Shrestha Ghosh
+  - Simon Razniewski
+  description: 'Code for KB construction from LLMs - ACL 2025 paper: "Enabling LLM
+    Knowledge Analysis via Extensive Materialization""'
+  license: CC-BY-4.0
+  name: GPTKB
+  publication_date: '2024-10-30'
+  submission_date: '2025-12-16T13:53:17.087117'
+  tags:
+  - knowledge-base
+  - knowledge-base-construction
+  - large-language-models
+  type: software
+  url:
+  - https://github.com/Knowledge-aware-AI/GPTKB
+- authors:
+  - Benjamin Gallusser
+  - Martin Weigert
+  - Cyril Achard
+  - Anwai Archit
+  - Jean-Yves Tinevez
+  - Jordão Bragantini
+  - Albert Dominguez Mantes
+  - Johannes Seiffarth
+  - Kevin Yamauchi
+  - Richard D. Paul
+  description: Transformer-based cell tracking for live-cell microscopy
+  license: BSD-3-Clause
+  name: trackastra
+  publication_date: '2024-03-08'
+  submission_date: '2025-12-16T13:53:22.820456'
+  type: software
+  url:
+  - https://github.com/weigertlab/trackastra
+- authors:
+  - Albert Dominguez Mantes
+  - Martin Weigert
+  - Ajinkya Kulkarni
+  - Qin Yu
+  - Anwai Archit
+  - Miguel A. Ibarra-Arellano
+  description: Accurate and efficient spot detection for microscopy data
+  license: BSD-3-Clause
+  name: spotiflow
+  publication_date: '2024-02-02'
+  submission_date: '2025-12-16T13:53:26.166304'
+  type: software
+  url:
+  - https://github.com/weigertlab/spotiflow
+- authors:
+  - Benjamin Gallusser
+  - Martin Weigert
+  - ilyasdc
+  description: napari plugin for trackastra
+  license: BSD-3-Clause
+  name: napari-trackastra
+  publication_date: '2024-05-27'
+  submission_date: '2025-12-16T13:53:28.474530'
+  type: software
+  url:
+  - https://github.com/weigertlab/napari-trackastra
+- authors:
+  - Albert Dominguez Mantes
+  - Martin Weigert
+  - Qin Yu
+  description: Spotiflow plugin for napari
+  license: BSD-3-Clause
+  name: napari-spotiflow
+  publication_date: '2024-02-02'
+  submission_date: '2025-12-16T13:53:30.636602'
+  type: software
+  url:
+  - https://github.com/weigertlab/napari-spotiflow
+- authors:
+  - Martin Weigert
+  - Albert Dominguez Mantes
+  - Anna Foix
+  description: ''
+  name: diffusion_model_tutorial
+  publication_date: '2025-02-06'
+  submission_date: '2025-12-16T13:53:32.807445'
+  type: software
+  url:
+  - https://github.com/weigertlab/diffusion_model_tutorial
+- authors:
+  - Johannes Dorn
+  description: ''
+  license: GPL-3.0
+  name: bayesify
+  publication_date: '2025-07-22'
+  submission_date: '2025-12-16T13:53:35.178442'
+  type: software
+  url:
+  - https://github.com/AI-4-SE/bayesify
