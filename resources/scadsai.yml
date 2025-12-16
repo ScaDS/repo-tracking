@@ -2862,7 +2862,7 @@ resources:
   - https://github.com/ScaDS/cicd-ga-scadsai
 - authors:
   - Robert Haase
-  description: ''
+  description: 'This repository contains training resources for Students at Uni Leipzig who want to dive into bio-image data science with Python.'
   license: CC-BY-4.0
   name: BIDS-lecture-2025
   publication_date: '2025-04-09'
