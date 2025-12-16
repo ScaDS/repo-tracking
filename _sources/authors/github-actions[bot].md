@@ -1,4 +1,4 @@
-# Github-actions[bot] (10)
+# Github-actions[bot] (11)
 ## BioImageAnalysisNotebooks
 
 Robert Haase, github-actions[bot], Mara Lampert, Guillaume Witz, Markus J. Ankenbrand, Till Korten, Elisabeth Kugler, Lea Kabjesz, Marcelo Zoccoler, amgfernandes, Shannon Taylor, Anirban Ray, Yiteng Dang
@@ -109,6 +109,25 @@ GPU-accelerated Image Processing library for Python
 Content type: GitHub Repository
 
 [https://github.com/clEsperanto/pyclesperanto](https://github.com/clEsperanto/pyclesperanto)
+
+
+---
+
+## repo-tracking
+
+Robert Haase, github-actions[bot]
+
+Published 2025-11-12
+
+Licensed CC-BY-4.0
+
+
+
+
+
+Content type: software
+
+[https://github.com/ScaDS/repo-tracking](https://github.com/ScaDS/repo-tracking)
 
 
 ---

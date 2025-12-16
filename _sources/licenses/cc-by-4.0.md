@@ -1,4 +1,4 @@
-# Cc-by-4.0 (45)
+# Cc-by-4.0 (48)
 ## AI4Psychology KI-Kompetenz-Training
 
 Haase, Robert
@@ -64,6 +64,25 @@ In this slide deck we go through challenges towards building Autonomous AI Syste
 [https://zenodo.org/records/17017890](https://zenodo.org/records/17017890)
 
 [https://doi.org/10.5281/zenodo.17017890](https://doi.org/10.5281/zenodo.17017890)
+
+
+---
+
+## BIDS-lecture-2025
+
+Robert Haase
+
+Published 2025-04-09
+
+Licensed CC-BY-4.0
+
+
+
+This repository contains training resources for Students at Uni Leipzig who want to dive into bio-image data science with Python.
+
+Content type: software
+
+[https://github.com/ScaDS/BIDS-lecture-2025](https://github.com/ScaDS/BIDS-lecture-2025)
 
 
 ---
@@ -1312,6 +1331,44 @@ Dieses Slide-Deck f&uuml;hrt Generative K&uuml;nstliche Intelligenz z&uuml;gig e
 [https://zenodo.org/records/15646539](https://zenodo.org/records/15646539)
 
 [https://doi.org/10.5281/zenodo.15646539](https://doi.org/10.5281/zenodo.15646539)
+
+
+---
+
+## famous_computer_science_quotes
+
+Robert Haase
+
+Published 2024-04-07
+
+Licensed CC-BY-4.0
+
+
+
+In this Jupyter Book we collect famous quotes from computer scientists. The repository serves training purposes at the DataWeek Leipzig 2024: We learn how to fork, send pull-requests and merge contents on github.com.
+
+Content type: software
+
+[https://github.com/ScaDS/famous_computer_science_quotes](https://github.com/ScaDS/famous_computer_science_quotes)
+
+
+---
+
+## repo-tracking
+
+Robert Haase, github-actions[bot]
+
+Published 2025-11-12
+
+Licensed CC-BY-4.0
+
+
+
+
+
+Content type: software
+
+[https://github.com/ScaDS/repo-tracking](https://github.com/ScaDS/repo-tracking)
 
 
 ---

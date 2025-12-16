@@ -1,4 +1,23 @@
 # Recently added (10)
+## BIDS-lecture-2025
+
+Robert Haase
+
+Published 2025-04-09
+
+Licensed CC-BY-4.0
+
+
+
+This repository contains training resources for Students at Uni Leipzig who want to dive into bio-image data science with Python.
+
+Content type: software
+
+[https://github.com/ScaDS/BIDS-lecture-2025](https://github.com/ScaDS/BIDS-lecture-2025)
+
+
+---
+
 ## acl23-trigger-warning-assignment
 
 Matti Wiegmann
@@ -33,6 +52,42 @@ Licensed MIT License
 Content type: GitHub Repository
 
 [https://github.com/webis-de/archive-query-log](https://github.com/webis-de/archive-query-log)
+
+
+---
+
+## cicd-ga-scadsai
+
+Matthias Täschner
+
+Published 2025-08-29
+
+
+
+This repository serves as playground for the CICD DevOps workshop at ScaDS.AI GA 09.2025
+
+Content type: software
+
+[https://github.com/ScaDS/cicd-ga-scadsai](https://github.com/ScaDS/cicd-ga-scadsai)
+
+
+---
+
+## famous_computer_science_quotes
+
+Robert Haase
+
+Published 2024-04-07
+
+Licensed CC-BY-4.0
+
+
+
+In this Jupyter Book we collect famous quotes from computer scientists. The repository serves training purposes at the DataWeek Leipzig 2024: We learn how to fork, send pull-requests and merge contents on github.com.
+
+Content type: software
+
+[https://github.com/ScaDS/famous_computer_science_quotes](https://github.com/ScaDS/famous_computer_science_quotes)
 
 
 ---
@@ -73,40 +128,6 @@ Content type: GitHub Repository
 
 ---
 
-## jcdl23-multi-authorship-corpus
-
-Philipp, ddrkige
-
-Published 2023-04-13T06:48:40+00:00
-
-
-
-
-
-Content type: GitHub Repository
-
-[https://github.com/webis-de/jcdl23-multi-authorship-corpus](https://github.com/webis-de/jcdl23-multi-authorship-corpus)
-
-
----
-
-## jcdl23-wikipedia-history-sections
-
-Wolfgang Kircheis
-
-Published 2023-08-14T12:52:00+00:00
-
-
-
-
-
-Content type: GitHub Repository
-
-[https://github.com/webis-de/jcdl23-wikipedia-history-sections](https://github.com/webis-de/jcdl23-wikipedia-history-sections)
-
-
----
-
 ## pybool_ir
 
 Harry Scells, Ferdinand Schlatt, Xinyu Mao
@@ -126,6 +147,25 @@ Content type: GitHub Repository
 
 ---
 
+## repo-tracking
+
+Robert Haase, github-actions[bot]
+
+Published 2025-11-12
+
+Licensed CC-BY-4.0
+
+
+
+
+
+Content type: software
+
+[https://github.com/ScaDS/repo-tracking](https://github.com/ScaDS/repo-tracking)
+
+
+---
+
 ## sigir23-stance-detection-in-image-retrieval-for-argumentation
 
 Miriam Louise Carnot
@@ -141,44 +181,6 @@ Code for the paper "On Stance Detection in Image Retrieval for Argumentation" @ 
 Content type: GitHub Repository
 
 [https://github.com/webis-de/sigir23-stance-detection-in-image-retrieval-for-argumentation](https://github.com/webis-de/sigir23-stance-detection-in-image-retrieval-for-argumentation)
-
-
----
-
-## small-text
-
-Christopher Schröder, peter, Jimmy Pöhlmann, Raghav Prabhakar, Humza Zaki, PD Hall, Raphael Mitsch, Vijay Manchiraju
-
-Published 2025-08-17T13:35:39+00:00
-
-Licensed MIT License
-
-
-
-Active Learning for Text Classification in Python
-
-Content type: GitHub Repository
-
-[https://github.com/webis-de/small-text](https://github.com/webis-de/small-text)
-
-
----
-
-## topic-ontologies-for-arguments
-
-YamenAjjour
-
-Published 2023-07-18T12:36:32+00:00
-
-Licensed MIT License
-
-
-
-
-
-Content type: GitHub Repository
-
-[https://github.com/webis-de/topic-ontologies-for-arguments](https://github.com/webis-de/topic-ontologies-for-arguments)
 
 
 ---

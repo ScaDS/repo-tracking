@@ -1,4 +1,4 @@
-# Robert haase (53)
+# Robert haase (56)
 ## BIDS-lecture-2024
 
 Robert Haase
@@ -14,6 +14,25 @@ Training resources for Students at Uni Leipzig who want to dive into bio-image d
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/BIDS-lecture-2024](https://github.com/ScaDS/BIDS-lecture-2024)
+
+
+---
+
+## BIDS-lecture-2025
+
+Robert Haase
+
+Published 2025-04-09
+
+Licensed CC-BY-4.0
+
+
+
+This repository contains training resources for Students at Uni Leipzig who want to dive into bio-image data science with Python.
+
+Content type: software
+
+[https://github.com/ScaDS/BIDS-lecture-2025](https://github.com/ScaDS/BIDS-lecture-2025)
 
 
 ---
@@ -491,6 +510,25 @@ Content type: GitHub Repository
 
 ---
 
+## famous_computer_science_quotes
+
+Robert Haase
+
+Published 2024-04-07
+
+Licensed CC-BY-4.0
+
+
+
+In this Jupyter Book we collect famous quotes from computer scientists. The repository serves training purposes at the DataWeek Leipzig 2024: We learn how to fork, send pull-requests and merge contents on github.com.
+
+Content type: software
+
+[https://github.com/ScaDS/famous_computer_science_quotes](https://github.com/ScaDS/famous_computer_science_quotes)
+
+
+---
+
 ## generative-ai-notebooks
 
 Robert Haase, Martin Czygan
@@ -789,6 +827,25 @@ GPU-accelerated bio-image analysis focusing on 3D+t microscopy image data
 Content type: GitHub Repository
 
 [https://github.com/clEsperanto/pyclesperanto_prototype](https://github.com/clEsperanto/pyclesperanto_prototype)
+
+
+---
+
+## repo-tracking
+
+Robert Haase, github-actions[bot]
+
+Published 2025-11-12
+
+Licensed CC-BY-4.0
+
+
+
+
+
+Content type: software
+
+[https://github.com/ScaDS/repo-tracking](https://github.com/ScaDS/repo-tracking)
 
 
 ---

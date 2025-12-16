@@ -1,4 +1,4 @@
-# Matthias täschner (7)
+# Matthias täschner (8)
 ## BIDS-training-2024
 
 Robert Haase, Jan Ewald, AnjaNeumann, Matthias Täschner, Laura Žigutytė, Marie-Sophie von Braun, Christian Martin, dusan-prascevic
@@ -126,6 +126,23 @@ Published 2025-05-15T10:58:51+00:00
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/cicd-demo-dataweek2025](https://github.com/ScaDS/cicd-demo-dataweek2025)
+
+
+---
+
+## cicd-ga-scadsai
+
+Matthias Täschner
+
+Published 2025-08-29
+
+
+
+This repository serves as playground for the CICD DevOps workshop at ScaDS.AI GA 09.2025
+
+Content type: software
+
+[https://github.com/ScaDS/cicd-ga-scadsai](https://github.com/ScaDS/cicd-ga-scadsai)
 
 
 ---

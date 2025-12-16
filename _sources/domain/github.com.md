@@ -1,4 +1,4 @@
-# Github.com (123)
+# Github.com (127)
 ## AMOC-21
 
 Christopher Akiki, Lukas Gienapp
@@ -33,6 +33,25 @@ Training resources for Students at Uni Leipzig who want to dive into bio-image d
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/BIDS-lecture-2024](https://github.com/ScaDS/BIDS-lecture-2024)
+
+
+---
+
+## BIDS-lecture-2025
+
+Robert Haase
+
+Published 2025-04-09
+
+Licensed CC-BY-4.0
+
+
+
+This repository contains training resources for Students at Uni Leipzig who want to dive into bio-image data science with Python.
+
+Content type: software
+
+[https://github.com/ScaDS/BIDS-lecture-2025](https://github.com/ScaDS/BIDS-lecture-2025)
 
 
 ---
@@ -957,6 +976,23 @@ Content type: GitHub Repository
 
 ---
 
+## cicd-ga-scadsai
+
+Matthias Täschner
+
+Published 2025-08-29
+
+
+
+This repository serves as playground for the CICD DevOps workshop at ScaDS.AI GA 09.2025
+
+Content type: software
+
+[https://github.com/ScaDS/cicd-ga-scadsai](https://github.com/ScaDS/cicd-ga-scadsai)
+
+
+---
+
 ## cikm20-ndcg-negative-relevance-judgements
 
 Maik Fröbe, dependabot[bot], Lukas Gienapp, nachshonc
@@ -1302,6 +1338,25 @@ Licensed BSD 3-Clause "New" or "Revised" License
 Content type: GitHub Repository
 
 [https://github.com/haesleinhuepf/erase-pptx-comments](https://github.com/haesleinhuepf/erase-pptx-comments)
+
+
+---
+
+## famous_computer_science_quotes
+
+Robert Haase
+
+Published 2024-04-07
+
+Licensed CC-BY-4.0
+
+
+
+In this Jupyter Book we collect famous quotes from computer scientists. The repository serves training purposes at the DataWeek Leipzig 2024: We learn how to fork, send pull-requests and merge contents on github.com.
+
+Content type: software
+
+[https://github.com/ScaDS/famous_computer_science_quotes](https://github.com/ScaDS/famous_computer_science_quotes)
 
 
 ---
@@ -1881,6 +1936,25 @@ GPU-accelerated bio-image analysis focusing on 3D+t microscopy image data
 Content type: GitHub Repository
 
 [https://github.com/clEsperanto/pyclesperanto_prototype](https://github.com/clEsperanto/pyclesperanto_prototype)
+
+
+---
+
+## repo-tracking
+
+Robert Haase, github-actions[bot]
+
+Published 2025-11-12
+
+Licensed CC-BY-4.0
+
+
+
+
+
+Content type: software
+
+[https://github.com/ScaDS/repo-tracking](https://github.com/ScaDS/repo-tracking)
 
 
 ---
