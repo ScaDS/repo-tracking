@@ -2839,7 +2839,7 @@ resources:
   submission_date: '2025-12-14T11:53:09.739342'
   type: GitHub Repository
   url: https://github.com/webis-de/arxiv23-prompt-embedding-manipulation
-  - authors:
+- authors:
   - Robert Haase
   - github-actions[bot]
   description: ''
