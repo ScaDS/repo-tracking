@@ -1,4 +1,61 @@
-# Recently added (10)
+# Software (19)
+## AttributeCiteQuote
+
+Tobias Schreieder
+
+Published 2025-08-01
+
+Licensed BSD-3-Clause
+
+
+
+Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models
+
+Tags: attribution, citation, large-language-model, trustworthy-ai, quotation
+
+Content type: software
+
+[https://github.com/faerber-lab/AttributeCiteQuote](https://github.com/faerber-lab/AttributeCiteQuote)
+
+
+---
+
+## BIDS-lecture-2025
+
+Robert Haase
+
+Published 2025-04-09
+
+Licensed CC-BY-4.0
+
+
+
+This repository contains training resources for Students at Uni Leipzig who want to dive into bio-image data science with Python.
+
+Content type: software
+
+[https://github.com/ScaDS/BIDS-lecture-2025](https://github.com/ScaDS/BIDS-lecture-2025)
+
+
+---
+
+## CoDAE
+
+William LaCroix, ShuzhouYuan
+
+Published 2025-08-05
+
+
+
+
+
+Content type: software
+
+[https://github.com/faerber-lab/CoDAE](https://github.com/faerber-lab/CoDAE)
+
+
+---
+
 ## GPTKB
 
 Tuan-Phong Nguyen, Yujia Hu, Shrestha Ghosh, Simon Razniewski
@@ -16,6 +73,23 @@ Tags: knowledge-base, knowledge-base-construction, large-language-models
 Content type: software
 
 [https://github.com/Knowledge-aware-AI/GPTKB](https://github.com/Knowledge-aware-AI/GPTKB)
+
+
+---
+
+## HF-NLP10K
+
+Syeda Khushbakht Batool, Michael Färber
+
+Published 2025-06-17
+
+
+
+
+
+Content type: software
+
+[https://github.com/faerber-lab/HF-NLP10K](https://github.com/faerber-lab/HF-NLP10K)
 
 
 ---
@@ -41,6 +115,27 @@ Content type: software
 
 ---
 
+## SQuAI
+
+Norman, Jingbo He, ines besrour, Tobias Schreieder
+
+Published 2025-06-17
+
+Licensed BSD-3-Clause
+
+
+
+SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation
+
+Tags: large-language-models, multi-agent-systems, question-answering, retrieval-augmented-generation
+
+Content type: software
+
+[https://github.com/faerber-lab/SQuAI](https://github.com/faerber-lab/SQuAI)
+
+
+---
+
 ## bayesify
 
 Johannes Dorn
@@ -60,6 +155,23 @@ Content type: software
 
 ---
 
+## cicd-ga-scadsai
+
+Matthias Täschner
+
+Published 2025-08-29
+
+
+
+This repository serves as playground for the CICD DevOps workshop at ScaDS.AI GA 09.2025
+
+Content type: software
+
+[https://github.com/ScaDS/cicd-ga-scadsai](https://github.com/ScaDS/cicd-ga-scadsai)
+
+
+---
+
 ## diffusion_model_tutorial
 
 Martin Weigert, Albert Dominguez Mantes, Anna Foix
@@ -73,6 +185,42 @@ Published 2025-02-06
 Content type: software
 
 [https://github.com/weigertlab/diffusion_model_tutorial](https://github.com/weigertlab/diffusion_model_tutorial)
+
+
+---
+
+## famous_computer_science_quotes
+
+Robert Haase
+
+Published 2024-04-07
+
+Licensed CC-BY-4.0
+
+
+
+In this Jupyter Book we collect famous quotes from computer scientists. The repository serves training purposes at the DataWeek Leipzig 2024: We learn how to fork, send pull-requests and merge contents on github.com.
+
+Content type: software
+
+[https://github.com/ScaDS/famous_computer_science_quotes](https://github.com/ScaDS/famous_computer_science_quotes)
+
+
+---
+
+## lightweight-scholarly-qa
+
+Matthias Jobst, Michael Färber, susantiyuni
+
+Published 2025-08-04
+
+
+
+
+
+Content type: software
+
+[https://github.com/faerber-lab/lightweight-scholarly-qa](https://github.com/faerber-lab/lightweight-scholarly-qa)
 
 
 ---
@@ -149,6 +297,25 @@ Natural language based git cli
 Content type: software
 
 [https://github.com/faerber-lab/ngit-cli](https://github.com/faerber-lab/ngit-cli)
+
+
+---
+
+## repo-tracking
+
+Robert Haase, github-actions[bot]
+
+Published 2025-11-12
+
+Licensed CC-BY-4.0
+
+
+
+
+
+Content type: software
+
+[https://github.com/ScaDS/repo-tracking](https://github.com/ScaDS/repo-tracking)
 
 
 ---

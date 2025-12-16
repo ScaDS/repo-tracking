@@ -1,4 +1,4 @@
-# Cc-by-4.0 (48)
+# Cc-by-4.0 (49)
 ## AI4Psychology KI-Kompetenz-Training
 
 Haase, Robert
@@ -199,6 +199,27 @@ Related training materials are available online too: https://scads.github.io/ai4
 [https://zenodo.org/records/17116758](https://zenodo.org/records/17116758)
 
 [https://doi.org/10.5281/zenodo.17116758](https://doi.org/10.5281/zenodo.17116758)
+
+
+---
+
+## GPTKB
+
+Tuan-Phong Nguyen, Yujia Hu, Shrestha Ghosh, Simon Razniewski
+
+Published 2024-10-30
+
+Licensed CC-BY-4.0
+
+
+
+Code for KB construction from LLMs - ACL 2025 paper: "Enabling LLM Knowledge Analysis via Extensive Materialization""
+
+Tags: knowledge-base, knowledge-base-construction, large-language-models
+
+Content type: software
+
+[https://github.com/Knowledge-aware-AI/GPTKB](https://github.com/Knowledge-aware-AI/GPTKB)
 
 
 ---

@@ -1,21 +1,21 @@
-# Recently added (10)
-## GPTKB
+# Bsd-3-clause (7)
+## AttributeCiteQuote
 
-Tuan-Phong Nguyen, Yujia Hu, Shrestha Ghosh, Simon Razniewski
+Tobias Schreieder
 
-Published 2024-10-30
+Published 2025-08-01
 
-Licensed CC-BY-4.0
+Licensed BSD-3-Clause
 
 
 
-Code for KB construction from LLMs - ACL 2025 paper: "Enabling LLM Knowledge Analysis via Extensive Materialization""
+Attribution, Citation, and Quotation: A Survey of Evidence-based Text Generation with Large Language Models
 
-Tags: knowledge-base, knowledge-base-construction, large-language-models
+Tags: attribution, citation, large-language-model, trustworthy-ai, quotation
 
 Content type: software
 
-[https://github.com/Knowledge-aware-AI/GPTKB](https://github.com/Knowledge-aware-AI/GPTKB)
+[https://github.com/faerber-lab/AttributeCiteQuote](https://github.com/faerber-lab/AttributeCiteQuote)
 
 
 ---
@@ -41,57 +41,23 @@ Content type: software
 
 ---
 
-## bayesify
+## SQuAI
 
-Johannes Dorn
+Norman, Jingbo He, ines besrour, Tobias Schreieder
 
-Published 2025-07-22
+Published 2025-06-17
 
-Licensed GPL-3.0
-
-
+Licensed BSD-3-Clause
 
 
 
-Content type: software
+SQuAI: Scientific Question-Answering with Multi-Agent Retrieval-Augmented Generation
 
-[https://github.com/AI-4-SE/bayesify](https://github.com/AI-4-SE/bayesify)
-
-
----
-
-## diffusion_model_tutorial
-
-Martin Weigert, Albert Dominguez Mantes, Anna Foix
-
-Published 2025-02-06
-
-
-
-
+Tags: large-language-models, multi-agent-systems, question-answering, retrieval-augmented-generation
 
 Content type: software
 
-[https://github.com/weigertlab/diffusion_model_tutorial](https://github.com/weigertlab/diffusion_model_tutorial)
-
-
----
-
-## miniGPTKB
-
-giorluca
-
-Published 2025-09-25
-
-Licensed NOASSERTION
-
-
-
-This is the repository containing code and data of the miniGPTKB experiments.
-
-Content type: software
-
-[https://github.com/Knowledge-aware-AI/miniGPTKB](https://github.com/Knowledge-aware-AI/miniGPTKB)
+[https://github.com/faerber-lab/SQuAI](https://github.com/faerber-lab/SQuAI)
 
 
 ---
@@ -130,25 +96,6 @@ napari plugin for trackastra
 Content type: software
 
 [https://github.com/weigertlab/napari-trackastra](https://github.com/weigertlab/napari-trackastra)
-
-
----
-
-## ngit-cli
-
-A.F.M. Mohimenul Joaa
-
-Published 2025-05-27
-
-Licensed GPL-3.0
-
-
-
-Natural language based git cli
-
-Content type: software
-
-[https://github.com/faerber-lab/ngit-cli](https://github.com/faerber-lab/ngit-cli)
 
 
 ---
