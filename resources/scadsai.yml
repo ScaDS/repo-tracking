@@ -3084,3 +3084,22 @@ resources:
   type: software
   url:
   - https://github.com/AI-4-SE/bayesify
+- authors:
+  - Rajarshi SinhaRoy
+  description: ''
+  license: MIT
+  name: pHoptNN
+  publication_date: '2025-11-14'
+  submission_date: '2025-12-22T11:12:47.403302'
+  type: software
+  url:
+  - https://github.com/kuenzelab/pHoptNN
+- authors:
+  - kuenzelab
+  description: Collection of scripts to perform benchmarking.
+  name: binding_sites_prediction
+  publication_date: '2025-04-25'
+  submission_date: '2025-12-22T11:12:48.952273'
+  type: software
+  url:
+  - https://github.com/kuenzelab/binding_sites_prediction
