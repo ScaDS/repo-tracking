@@ -3084,3 +3084,65 @@ resources:
   type: software
   url:
   - https://github.com/AI-4-SE/bayesify
+- authors:
+  - Engelhardt, Claudia
+  - Haase, Robert
+  - Hundt, Carolin
+  - Langermann, Florence
+  - Voigt, Pia
+  description: Im Rahmen einer Kooperation zwischen der s&auml;chsischen FDM-Landesinitiative
+    SaxFDM, dem Datenkompetenzzentrum Come2Data sowie dem Data Science Center ScaDS.AI
+    in Leipzig und NFDI4Bioimage wurde der Train-the-Trainer Workshop f&uuml;r das
+    Forschungsdatenmanagement durchgef&uuml;hrt. Die hier ver&ouml;ffentlichten Folien
+    basieren auf dem Train-the-Trainer Konzept (v05) erarbeitet durch Mitglieder der&nbsp;UAG
+    Schulungen/Fortbildungen der DINI/nestor-AG Forschungsdaten. Die behandelten Themen
+    umfassen sowohl die Aspekte des Forschungsdatenmanagements als auch didaktischen
+    Einheiten zu Lernkonzepten, Workshopgestaltung und Methoden.
+  license: cc-by-4.0
+  name: Train-the-Trainer Workshop zum Forschungsdatenmanagement (Sachsen)
+  num_downloads: 488
+  publication_date: '2025-12-18'
+  submission_date: '2025-12-30T14:15:56.593590'
+  url:
+  - https://zenodo.org/records/17978132
+  - https://doi.org/10.5281/zenodo.17978132
+- authors:
+  - Welz, Oliver
+  description: '
+
+    Presentation on Vibe Coding followed by a workshop as well as a contest at the
+    Meetup #11 2025 at ScaDS.AI.
+
+    The presentation covers the concept of vibe coding, what it is, where the trend
+    comes from, and how you can try it out for yourself. It also introduces selected
+    software that you can use for this purpose.
+
+    The repository provides insight into the software, how to set it up and use it
+    yourself. Examples are also provided so that you can familiarize yourself with
+    vibe coding in a practical way.
+
+    '
+  license: cc-by-4.0
+  name: 'ScaDS.AI Meetup #11 2025: Workshop Vibe Coding Contest'
+  num_downloads: 0
+  publication_date: '2025-12-15'
+  submission_date: '2025-12-30T14:15:58.329589'
+  url:
+  - https://zenodo.org/records/17935652
+  - https://doi.org/10.5281/zenodo.17935652
+- authors:
+  - Haase, Robert
+  description: In this Arqus Artificial Intelligence and Digital Transformation (AI&amp;DT)
+    Living Lab lecture, we&nbsp;will explore how Generative Artificial Intelligence
+    (GenAI) impacts research and teaching. We will dive into specialised GenAI-based
+    web applications for scientific [literature] research and for generating teaching
+    materials. We will also look at pitfalls, potential ways to avoid them and good
+    scientific practice.
+  license: cc-by-4.0
+  name: How Generative AI impacts research and teaching
+  num_downloads: 33
+  publication_date: '2025-12-08'
+  submission_date: '2025-12-30T14:16:07.834614'
+  url:
+  - https://zenodo.org/records/17857298
+  - https://doi.org/10.5281/zenodo.17857298
