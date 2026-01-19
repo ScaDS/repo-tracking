@@ -3084,3 +3084,37 @@ resources:
   type: software
   url:
   - https://github.com/AI-4-SE/bayesify
+- authors:
+  - Tobias Schreieder
+  description: Repository for Claim2Source's Participation at CLEF CheckThat! 2025
+    Lab Task 4b
+  license: BSD-3-Clause
+  name: Claim2Source
+  publication_date: '2025-06-30'
+  submission_date: '2026-01-19T11:16:12.658297'
+  tags:
+  - information-retrieval
+  - large-language-model
+  - text-style-transfer
+  type: software
+  url:
+  - https://github.com/faerber-lab/Claim2Source
+- authors:
+  - Rajarshi SinhaRoy
+  description: ''
+  license: MIT
+  name: pHoptNN
+  publication_date: '2025-11-14'
+  submission_date: '2026-01-19T11:16:17.745168'
+  type: software
+  url:
+  - https://github.com/kuenzelab/pHoptNN
+- authors:
+  - kuenzelab
+  description: Collection of scripts to perform benchmarking.
+  name: binding_sites_prediction
+  publication_date: '2025-04-25'
+  submission_date: '2026-01-19T11:16:19.071385'
+  type: software
+  url:
+  - https://github.com/kuenzelab/binding_sites_prediction
