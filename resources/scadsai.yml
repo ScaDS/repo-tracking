@@ -3084,3 +3084,81 @@ resources:
   type: software
   url:
   - https://github.com/AI-4-SE/bayesify
+- authors:
+  - OutlyingWest
+  - Elias Werner
+  description: ''
+  name: jumper_wrapper_kernel
+  publication_date: '2025-10-23'
+  submission_date: '2026-02-23T11:33:54.060468'
+  type: software
+  url:
+  - https://github.com/ScaDS/jumper_wrapper_kernel
+- authors:
+  - Matthias Täschner
+  - mar-chem
+  description: ' Resources and materials for a DataScience / AI training school for
+    the medical domain, conducted as part of the Come2Data (https://come2data.de/)
+    project. scads.github.io/ai4medicine-2026/ '
+  license: CC-BY-4.0
+  name: ai4medicine-2026
+  publication_date: '2026-01-12'
+  submission_date: '2026-02-23T11:33:55.824175'
+  type: software
+  url:
+  - https://github.com/ScaDS/ai4medicine-2026
+- authors:
+  - logalyst
+  description: Real-Time Multi-Agent Simulations with Latency-Aware Distributed Reasoning
+  license: Apache-2.0
+  name: Chatopia
+  publication_date: '2026-02-16'
+  submission_date: '2026-02-23T11:33:57.191628'
+  type: software
+  url:
+  - https://github.com/ScaDS/Chatopia
+- authors:
+  - babaksepehrirad
+  - Elias Werner
+  description: Drift Detection Demonstrator
+  license: NOASSERTION
+  name: dddemo
+  publication_date: '2026-02-07'
+  submission_date: '2026-02-23T11:33:58.985496'
+  type: software
+  url:
+  - https://github.com/ScaDS/dddemo
+- authors:
+  - Tobias Schreieder
+  description: Repository for Claim2Source's Participation at CLEF CheckThat! 2025
+    Lab Task 4b
+  license: BSD-3-Clause
+  name: Claim2Source
+  publication_date: '2025-06-30'
+  submission_date: '2026-02-23T11:34:01.427668'
+  tags:
+  - information-retrieval
+  - large-language-model
+  - text-style-transfer
+  type: software
+  url:
+  - https://github.com/faerber-lab/Claim2Source
+- authors:
+  - Rajarshi SinhaRoy
+  description: ''
+  license: MIT
+  name: pHoptNN
+  publication_date: '2025-11-14'
+  submission_date: '2026-02-23T11:34:05.513351'
+  type: software
+  url:
+  - https://github.com/kuenzelab/pHoptNN
+- authors:
+  - kuenzelab
+  description: Collection of scripts to perform benchmarking.
+  name: binding_sites_prediction
+  publication_date: '2025-04-25'
+  submission_date: '2026-02-23T11:34:06.658895'
+  type: software
+  url:
+  - https://github.com/kuenzelab/binding_sites_prediction
