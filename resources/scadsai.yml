@@ -3084,3 +3084,108 @@ resources:
   type: software
   url:
   - https://github.com/AI-4-SE/bayesify
+- authors:
+  - Matthias Täschner
+  - mar-chem
+  - mxsunc
+  description: ' Resources and materials for a DataScience / AI training school for
+    the medical domain, conducted as part of the Come2Data (https://come2data.de/)
+    project. scads.github.io/ai4medicine-2026/ '
+  license: CC-BY-4.0
+  name: ai4medicine-2026
+  publication_date: '2026-01-12'
+  submission_date: '2026-03-16T11:40:29.616829'
+  type: software
+  url:
+  - https://github.com/ScaDS/ai4medicine-2026
+- authors:
+  - OutlyingWest
+  - Elias Werner
+  description: ''
+  name: jumper_wrapper_kernel
+  publication_date: '2025-10-23'
+  submission_date: '2026-03-16T11:40:31.419636'
+  type: software
+  url:
+  - https://github.com/ScaDS/jumper_wrapper_kernel
+- authors:
+  - logalyst
+  description: Real-Time Multi-Agent Simulations with Latency-Aware Distributed Reasoning
+  license: Apache-2.0
+  name: Chatopia
+  publication_date: '2026-02-16'
+  submission_date: '2026-03-16T11:40:32.811757'
+  type: software
+  url:
+  - https://github.com/ScaDS/Chatopia
+- authors:
+  - babaksepehrirad
+  - Elias Werner
+  description: Drift Detection Demonstrator
+  license: NOASSERTION
+  name: dddemo
+  publication_date: '2026-02-07'
+  submission_date: '2026-03-16T11:40:34.640825'
+  type: software
+  url:
+  - https://github.com/ScaDS/dddemo
+- authors:
+  - ines besrour
+  description: This project presents an updated and extended version of the UnarXive
+    dataset, a large-scale full-text scholarly corpus derived from arXiv. We process
+    and structure over 2.3 million papers, preserving rich document content and enriching
+    metadata. Our pipeline enhances section-level grouping while maintaining compatibility
+    with existing formats.
+  license: MIT
+  name: UnarXive-2024
+  publication_date: '2025-05-16'
+  submission_date: '2026-03-16T11:40:36.838223'
+  type: software
+  url:
+  - https://github.com/faerber-lab/UnarXive-2024
+- authors:
+  - Tobias Schreieder
+  description: Repository for Claim2Source's Participation at CLEF CheckThat! 2025
+    Lab Task 4b
+  license: BSD-3-Clause
+  name: Claim2Source
+  publication_date: '2025-06-30'
+  submission_date: '2026-03-16T11:40:38.266734'
+  tags:
+  - information-retrieval
+  - large-language-model
+  - text-style-transfer
+  type: software
+  url:
+  - https://github.com/faerber-lab/Claim2Source
+- authors:
+  - Albert Dominguez Mantes
+  - Martin Weigert
+  description: Official implementation of MuViT (CVPR 2026), a ViT-based architecture
+    for multi-scale modelling of gigapixel microscopy images.
+  license: BSD-3-Clause
+  name: muvit
+  publication_date: '2026-02-26'
+  submission_date: '2026-03-16T11:40:41.277790'
+  type: software
+  url:
+  - https://github.com/weigertlab/muvit
+- authors:
+  - Rajarshi SinhaRoy
+  description: ''
+  license: MIT
+  name: pHoptNN
+  publication_date: '2025-11-14'
+  submission_date: '2026-03-16T11:40:44.189364'
+  type: software
+  url:
+  - https://github.com/kuenzelab/pHoptNN
+- authors:
+  - kuenzelab
+  description: Collection of scripts to perform benchmarking.
+  name: binding_sites_prediction
+  publication_date: '2025-04-25'
+  submission_date: '2026-03-16T11:40:45.315232'
+  type: software
+  url:
+  - https://github.com/kuenzelab/binding_sites_prediction
