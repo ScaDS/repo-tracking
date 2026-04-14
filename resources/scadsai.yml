@@ -3084,3 +3084,456 @@ resources:
   type: software
   url:
   - https://github.com/AI-4-SE/bayesify
+- authors:
+  - "H\xF6ck, Lina Lisa"
+  - Haase, Robert
+  description: 'This slide deck accompanies the AI4Science for scientists at UFZ Magdeburg:
+    https://scads.github.io/ai4science-ufz-madgeburg-2026/intro.html
+
+    It outlines the topics:
+
+
+
+    Introduction to Artificial Intelligence, AI systems, and language models
+
+
+
+    Application areas and limitations of AI in text generation
+
+
+
+    AI-assisted literature research
+
+
+
+    Prompt engineering
+
+
+
+    Prompting with large context
+
+
+
+    Knowledge distillation
+
+
+
+    Text Analysis / Information Retrieval
+
+
+
+    Embeddings and retrieval-augmented generation
+
+
+
+    Data analysis
+
+
+
+    Data and code generation
+
+
+
+    Bias
+
+
+
+    Privacy-compliant use
+
+
+
+    Copyright
+
+
+
+    EU AI Act
+
+
+    '
+  license: cc-by-4.0
+  name: AI4Science Training @ UFZ Magdeburg
+  num_downloads: 118
+  publication_date: '2026-03-27'
+  submission_date: '2026-04-14T15:08:18.194854'
+  url:
+  - https://zenodo.org/records/19246441
+  - https://doi.org/10.5281/zenodo.19246441
+- authors:
+  - Welz, Oliver
+  description: Brief introduction and presentation on computer vision, origin of the
+    term, history, and state-of-the-art at the beginning of 2026. Information about
+    the prepared workshop (MediaPipe and local/cloud VLM- Qwen3.5:0.8B) including
+    setup (OpenCode, uv, project) and link to the GitHub repository.
+  license: cc-by-4.0
+  name: 'ScaDS.AI Meetup Projektwerkstatt #1 2026: Hands-on Computer Vision'
+  num_downloads: 21
+  publication_date: '2026-03-10'
+  submission_date: '2026-04-14T15:08:18.817369'
+  url:
+  - https://zenodo.org/records/18958000
+  - https://doi.org/10.5281/zenodo.18958000
+- authors:
+  - Haase, Robert
+  description: "This presentation introduces how generative AI and large language\
+    \ models can support scientific work, from writing and coding to data analysis\
+    \ and literature research. It explains the functioning and limitations of AI systems,\
+    \ highlights the importance of effective prompt engineering, and compares commercial\
+    \ and data\u2011secure academic tools. Emphasis is placed on critical evaluation,\
+    \ responsible use, and transparent reporting of AI\u2011generated content. Practical\
+    \ exercises illustrate how researchers can safely integrate AI into their workflows."
+  license: cc-by-4.0
+  name: How to use Generative Artificial Intelligence for Science
+  num_downloads: 78
+  publication_date: '2026-03-08'
+  submission_date: '2026-04-14T15:08:19.432857'
+  url:
+  - https://zenodo.org/records/18908461
+  - https://doi.org/10.5281/zenodo.18908461
+- authors:
+  - Haase, Robert
+  description: In this 90-minute workshop, we will dive into the basic principles
+    of generative artificial intelligence systems such as ChatGPT and learn what these
+    systems can do and what not. We go through the most important best-practices,
+    e.g. in prompt-engineering and quality assurance so that we can get the most out
+    of this technology for our daily work in scientific research.
+  license: cc-by-4.0
+  name: How to use Generative Artificial Intelligence for Science
+  num_downloads: 62
+  publication_date: '2026-02-27'
+  submission_date: '2026-04-14T15:08:20.085966'
+  url:
+  - https://zenodo.org/records/18804366
+  - https://doi.org/10.5281/zenodo.18804366
+- authors:
+  - Haase, Robert
+  description: In&nbsp; this slide deck we dive into generative artificial intelligence
+    in particular used for code generation and see how it impacts Bio-Image Data Science.
+    We learn about benchmarking large language models for data analysis code generation,
+    and how to use them practically in our work.
+  license: cc-by-4.0
+  name: How Generative Artificial Intelligence impacts Bio-Image Data Science
+  num_downloads: 61
+  publication_date: '2026-02-22'
+  submission_date: '2026-04-14T15:08:20.834972'
+  url:
+  - https://zenodo.org/records/18735653
+  - https://doi.org/10.5281/zenodo.18735653
+- authors:
+  - Haase, Robert
+  description: In this Arqus Artificial Intelligence and Digital Transformation (AI&amp;DT)
+    Living Lab lecture, we&nbsp;will explore how Generative Artificial Intelligence
+    (GenAI) impacts research and teaching. We will dive into specialised GenAI-based
+    web applications for scientific [literature] research and for generating teaching
+    materials. We will also look at pitfalls, potential ways to avoid them and good
+    scientific practice.
+  license: cc-by-4.0
+  name: How Generative AI impacts research and teaching
+  num_downloads: 478
+  publication_date: '2026-01-26'
+  submission_date: '2026-04-14T15:08:21.494799'
+  url:
+  - https://zenodo.org/records/18377121
+  - https://doi.org/10.5281/zenodo.18377121
+- authors:
+  - Nestler, Till
+  - Burghardt, Thomas
+  description: '
+
+    Description
+
+
+    This dataset contains 77 complete pages of German handwriting, with each page
+    representing an excerpt from a Wikipedia article. For each handwritten page (in
+    JPG data format), a transcription in plain UTF-8 text is provided (can be used
+    as ground truth).
+
+    &nbsp;
+
+
+    Structure
+
+    - images/: one jpg file per handwritten page (a total of 77 items)
+
+    - ground_truth/: one text file per handwritten page (a total of 77 items)
+
+    - metadata/scads_topic_list.csv: dataset description
+
+    - metadata/scads_topic_list.xml: TEI-Lite description
+
+    - metadata/Uni_Leipzig_01-export-251205.csv:&nbsp;contains URLs to the corresponding
+    Wikipedia articles
+
+    - README.md
+
+    - license.txt
+
+    The usable dataset includes 77 images with German handwritten Wikipedia excerpts
+    and corresponding ground truth text files.
+
+    Version
+
+    * 1.0 (January 17, 2026)
+
+    Authors
+
+    * Thomas Burghardt (0009-0003-7874-9134)
+
+    * Till Nestler (0009-0001-2922-525X)
+
+
+    Licence
+
+    Creative Commons Attribution 4.0 International
+
+
+    Use cases
+
+    - Handwritten Text Recognition (HTR)
+
+    - OCR training
+
+    - Computer vision / handwriting analysis
+
+
+    Acknowledgements
+
+    We acknowledge the financial support by the Federal Ministry of Education and
+    Research of Germany and by S&auml;chsische Staatsministerium f&uuml;r Wissenschaft,
+    Kultur und Tourismus in the programme Center of Excellence for AI-research &bdquo;Center
+    for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig&ldquo;,
+    project identification number: ScaDS.AI
+
+    &nbsp;'
+  license: cc-by-4.0
+  name: ScaDS.AI German Full-Page Handwriting Dataset
+  num_downloads: 30
+  publication_date: '2026-01-17'
+  submission_date: '2026-04-14T15:08:22.119319'
+  url:
+  - https://zenodo.org/records/18283705
+  - https://doi.org/10.5281/zenodo.18283705
+- authors:
+  - Burghardt, Thomas
+  - Alzin, Ahmad
+  description: 'This dataset contains 775 full-page images, 5.843 line images and
+    37.406 word images with German handwritings and corresponding line- and word-level
+    ground truth text files. There are no ground truth text files for the full-page
+    images. If you need full-page images with ground truth,
+
+    check out our dataset with the name &bdquo;ScaDS.AI German full-page Handwriting
+    Dataset&ldquo; on Zenodo (includes 77 pages).
+
+    &nbsp;
+
+    Structure
+
+    - /ground_truth/xml: 775 ground truth xml files
+
+    - /ground_truth/csv/line_annotations.csv: ground truth texts
+
+    - /ground_truth/csv/word_annotations.csv: ground truth texts
+
+    - /images/pages: 775 full-page images with German handwriting
+
+    - /images/lines: 5.843 line images with German handwriting
+
+    - /images/words: 37.406 word images with German handwriting
+
+    - /metadata/Uni_Leipzig_01-export-251205.csv (further descriptions, e.g. corresponding
+    wikipedia urls)
+
+    &nbsp;
+
+    Description
+
+    We offer ground truth files both in XML format and in CSV format with annotated
+    words and lines which cover about 90% of the pages (relating on the content in
+    Uni_Leipzig_01-export-251205.csv). Annotating partially unreadable hundred of
+    manuscripts (775) is hard work and takes a lot of time.
+
+    We provide about 43.249 annotated lines and words from excerpts of Wikipedia articles
+    with ground truth text. Handwriting OCR in German is underserved.
+
+    The quality is not perfect. We did our best, but still there are mistakes.
+
+    &nbsp;
+
+    Version
+
+    * 1.0 created on January 19, 2026 (10.5281/zenodo.18301532)
+
+
+    Authors
+
+    * Thomas Burghardt (0009-0003-7874-9134)
+
+    * Ahmad Alzin (0009-0006-4791-5939)
+
+
+    Licence
+
+    Creative Commons Attribution 4.0 International
+
+    &nbsp;
+
+    Use cases
+
+    - Handwritten Text Recognition (HTR)
+
+    - OCR training
+
+    - Computer vision / handwriting analysis
+
+    &nbsp;
+
+    Acknowledgements
+
+    We acknowledge the financial support by the Federal Ministry of Education and
+    Research of Germany and by S&auml;chsische Staatsministerium f&uuml;r Wissenschaft,
+    Kultur und Tourismus in the programme Center of Excellence for AI-research &bdquo;Center
+    for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig&ldquo;,
+    project identification number: ScaDS.AI
+
+    '
+  license: cc-by-4.0
+  name: ScaDS.AI German Line- and Word-Level Handwriting Dataset
+  num_downloads: 24
+  publication_date: '2026-01-19'
+  submission_date: '2026-04-14T15:08:22.757354'
+  url:
+  - https://zenodo.org/records/18301532
+  - https://doi.org/10.5281/zenodo.18301532
+- authors:
+  - Haase, Robert
+  description: In these slide decks, we introduce Vision Language Models (VLM), a
+    form of Generative Artificial Intelligence that can combine textual information
+    and image data. One the one hand these can classify, interpret and describe images.
+    To retrieve the correct information from VLMs, prompt engineering plays a key-role.
+    On the other hand, image-generation models can produce images from text alone,
+    or by combining images and text. The second slide deck introduces agentic systems,
+    as a form of computer system that acts on behalf of humans. Und the hood, large
+    language models run that can call functions from a pre-defined list of available
+    tools, or generate code. After function and/or code execution, these systems interpret
+    the result and plan next steps. As an example of ongoing standardization efforts
+    in this domain, we learn about the Model Context Protocol. Both, VLMs and agents,
+    bring new challenges to our society which are also part of the materials to start
+    a discussion.
+  license: cc-by-4.0
+  name: Vision Language Models & Agentic Systems
+  num_downloads: 411
+  publication_date: '2026-01-19'
+  submission_date: '2026-04-14T15:08:23.645982'
+  url:
+  - https://zenodo.org/records/18297737
+  - https://doi.org/10.5281/zenodo.18297737
+- authors:
+  - Engelhardt, Claudia
+  - Haase, Robert
+  - Hundt, Carolin
+  - Langermann, Florence
+  - Voigt, Pia
+  description: Im Rahmen einer Kooperation zwischen der s&auml;chsischen FDM-Landesinitiative
+    SaxFDM, dem Datenkompetenzzentrum Come2Data sowie dem Data Science Center ScaDS.AI
+    in Leipzig und NFDI4Bioimage wurde der Train-the-Trainer Workshop f&uuml;r das
+    Forschungsdatenmanagement durchgef&uuml;hrt. Die hier ver&ouml;ffentlichten Folien
+    basieren auf dem Train-the-Trainer Konzept (v05) erarbeitet durch Mitglieder der&nbsp;UAG
+    Schulungen/Fortbildungen der DINI/nestor-AG Forschungsdaten. Die behandelten Themen
+    umfassen sowohl die Aspekte des Forschungsdatenmanagements als auch didaktischen
+    Einheiten zu Lernkonzepten, Workshopgestaltung und Methoden.
+  license: cc-by-4.0
+  name: Train-the-Trainer Workshop zum Forschungsdatenmanagement (Sachsen)
+  num_downloads: 1057
+  publication_date: '2025-12-18'
+  submission_date: '2026-04-14T15:08:24.684187'
+  url:
+  - https://zenodo.org/records/17978132
+  - https://doi.org/10.5281/zenodo.17978132
+- authors:
+  - Welz, Oliver
+  description: '
+
+    Presentation on Vibe Coding followed by a workshop as well as a contest at the
+    Meetup #11 2025 at ScaDS.AI.
+
+    The presentation covers the concept of vibe coding, what it is, where the trend
+    comes from, and how you can try it out for yourself. It also introduces selected
+    software that you can use for this purpose.
+
+    The repository provides insight into the software, how to set it up and use it
+    yourself. Examples are also provided so that you can familiarize yourself with
+    vibe coding in a practical way.
+
+    '
+  license: cc-by-4.0
+  name: 'ScaDS.AI Meetup #11 2025: Workshop Vibe Coding Contest'
+  num_downloads: 6
+  publication_date: '2025-12-15'
+  submission_date: '2026-04-14T15:08:25.299831'
+  url:
+  - https://zenodo.org/records/17935652
+  - https://doi.org/10.5281/zenodo.17935652
+- authors:
+  - Haase, Robert
+  description: 'This slide deck accompanies the AI Competence Training for scientists
+    at UFZ Leipzig: https://scads.github.io/ki-kompetenz-training-2025/intro.html
+
+    It outlines the topics:
+
+
+
+    Introduction to Artificial Intelligence, AI systems, and language models
+
+
+
+    Application areas and limitations of AI in text generation
+
+
+
+    Prompt engineering
+
+
+
+    Prompting with large context
+
+
+
+    Knowledge distillation
+
+
+
+    Embeddings and retrieval-augmented generation
+
+
+
+    Data analysis
+
+
+
+    Data and code generation
+
+
+
+    Bias
+
+
+
+    Privacy-compliant use
+
+
+
+    Copyright
+
+
+
+    EU AI Act
+
+
+    '
+  license: cc-by-4.0
+  name: AI4Science Training @ UFZ Leipzig
+  num_downloads: 227
+  publication_date: '2025-12-11'
+  submission_date: '2026-04-14T15:08:25.953299'
+  url:
+  - https://zenodo.org/records/17901300
+  - https://doi.org/10.5281/zenodo.17901300
