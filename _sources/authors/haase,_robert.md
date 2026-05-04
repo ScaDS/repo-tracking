@@ -1,4 +1,54 @@
-# Haase, robert (19)
+# Haase, robert (27)
+## 199 AI-generated logos
+
+Haase, Robert
+
+Published 2026-04-17
+
+Licensed cc-zero
+
+
+
+199 AI-generated logos of AI-generated company names. Used image generation model:&nbsp;gpt-image-1-mini
+Corresponding image generation code: https://github.com/ScaDS/vest/tree/main/examples/logos
+
+[https://zenodo.org/records/19633745](https://zenodo.org/records/19633745)
+
+[https://doi.org/10.5281/zenodo.19633745](https://doi.org/10.5281/zenodo.19633745)
+
+
+---
+
+## 396 Satellite images
+
+Haase, Robert
+
+Published 2026-04-17
+
+Licensed cc-zero
+
+
+
+Collection of 396 satellite images.
+Sources:
+
+200 synthetic images generated using OpenAI's gpt-image1-mini model
+
+100 images from single regions / bioms (1..100*.png)
+100 images from pairs of regions&nbsp; (101..200*.png)
+
+
+196 images (naip_rgb_*.png) from the region around Chicago, from the USGS National Map &mdash; NAIP ImageServer (https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer)
+
+Corresponding code: https://github.com/ScaDS/vest/tree/main/examples/satellite_images
+
+[https://zenodo.org/records/19635484](https://zenodo.org/records/19635484)
+
+[https://doi.org/10.5281/zenodo.19635484](https://doi.org/10.5281/zenodo.19635484)
+
+
+---
+
 ## AI4Psychology KI-Kompetenz-Training
 
 Haase, Robert
@@ -45,6 +95,128 @@ EU AI Act
 [https://zenodo.org/records/17203260](https://zenodo.org/records/17203260)
 
 [https://doi.org/10.5281/zenodo.17203260](https://doi.org/10.5281/zenodo.17203260)
+
+
+---
+
+## AI4Science Training @ UFZ Leipzig
+
+Haase, Robert
+
+Published 2025-12-11
+
+Licensed cc-by-4.0
+
+
+
+This slide deck accompanies the AI Competence Training for scientists at UFZ Leipzig: https://scads.github.io/ki-kompetenz-training-2025/intro.html
+It outlines the topics:
+
+
+Introduction to Artificial Intelligence, AI systems, and language models
+
+
+Application areas and limitations of AI in text generation
+
+
+Prompt engineering
+
+
+Prompting with large context
+
+
+Knowledge distillation
+
+
+Embeddings and retrieval-augmented generation
+
+
+Data analysis
+
+
+Data and code generation
+
+
+Bias
+
+
+Privacy-compliant use
+
+
+Copyright
+
+
+EU AI Act
+
+
+
+[https://zenodo.org/records/17901300](https://zenodo.org/records/17901300)
+
+[https://doi.org/10.5281/zenodo.17901300](https://doi.org/10.5281/zenodo.17901300)
+
+
+---
+
+## AI4Science Training @ UFZ Magdeburg
+
+Höck, Lina Lisa, Haase, Robert
+
+Published 2026-03-27
+
+Licensed cc-by-4.0
+
+
+
+This slide deck accompanies the AI4Science for scientists at UFZ Magdeburg: https://scads.github.io/ai4science-ufz-madgeburg-2026/intro.html
+It outlines the topics:
+
+
+Introduction to Artificial Intelligence, AI systems, and language models
+
+
+Application areas and limitations of AI in text generation
+
+
+AI-assisted literature research
+
+
+Prompt engineering
+
+
+Prompting with large context
+
+
+Knowledge distillation
+
+
+Text Analysis / Information Retrieval
+
+
+Embeddings and retrieval-augmented generation
+
+
+Data analysis
+
+
+Data and code generation
+
+
+Bias
+
+
+Privacy-compliant use
+
+
+Copyright
+
+
+EU AI Act
+
+
+
+[https://zenodo.org/records/19246441](https://zenodo.org/records/19246441)
+
+[https://doi.org/10.5281/zenodo.19246441](https://doi.org/10.5281/zenodo.19246441)
 
 
 ---
@@ -149,17 +321,36 @@ Related training materials are available online too: https://scads.github.io/ai4
 
 Haase, Robert
 
-Published 2025-10-23
+Published 2026-01-26
 
 Licensed cc-by-4.0
 
 
 
-In this Lunch Lecture at Leipzig University, we explore how Generative Artificial Intelligence (GenAI) impacts Reseaerch and Teaching. We dive into specialized GenAI-based web applications for scientific [literature] research and for generating teaching materials. There is a soft focus on pitfalls and potential ways to avoid them.
+In this Arqus Artificial Intelligence and Digital Transformation (AI&amp;DT) Living Lab lecture, we&nbsp;will explore how Generative Artificial Intelligence (GenAI) impacts research and teaching. We will dive into specialised GenAI-based web applications for scientific [literature] research and for generating teaching materials. We will also look at pitfalls, potential ways to avoid them and good scientific practice.
 
-[https://zenodo.org/records/17422917](https://zenodo.org/records/17422917)
+[https://zenodo.org/records/18377121](https://zenodo.org/records/18377121)
 
-[https://doi.org/10.5281/zenodo.17422917](https://doi.org/10.5281/zenodo.17422917)
+[https://doi.org/10.5281/zenodo.18377121](https://doi.org/10.5281/zenodo.18377121)
+
+
+---
+
+## How Generative Artificial Intelligence impacts Bio-Image Data Science
+
+Haase, Robert
+
+Published 2026-02-22
+
+Licensed cc-by-4.0
+
+
+
+In&nbsp; this slide deck we dive into generative artificial intelligence in particular used for code generation and see how it impacts Bio-Image Data Science. We learn about benchmarking large language models for data analysis code generation, and how to use them practically in our work.
+
+[https://zenodo.org/records/18735653](https://zenodo.org/records/18735653)
+
+[https://doi.org/10.5281/zenodo.18735653](https://doi.org/10.5281/zenodo.18735653)
 
 
 ---
@@ -198,6 +389,25 @@ In this slide deck we dive into Large Language Models (LLMs) and Vision Language
 [https://zenodo.org/records/17102027](https://zenodo.org/records/17102027)
 
 [https://doi.org/10.5281/zenodo.17102027](https://doi.org/10.5281/zenodo.17102027)
+
+
+---
+
+## How to use Generative Artificial Intelligence for Science
+
+Haase, Robert
+
+Published 2026-02-27
+
+Licensed cc-by-4.0
+
+
+
+In this 90-minute workshop, we will dive into the basic principles of generative artificial intelligence systems such as ChatGPT and learn what these systems can do and what not. We go through the most important best-practices, e.g. in prompt-engineering and quality assurance so that we can get the most out of this technology for our daily work in scientific research.
+
+[https://zenodo.org/records/18804366](https://zenodo.org/records/18804366)
+
+[https://doi.org/10.5281/zenodo.18804366](https://doi.org/10.5281/zenodo.18804366)
 
 
 ---
@@ -339,6 +549,25 @@ We acknowledge funding by the Deutsche Forschungsgemeinschaft (DFG, German Resea
 
 ---
 
+## Train-the-Trainer Workshop zum Forschungsdatenmanagement (Sachsen)
+
+Engelhardt, Claudia, Haase, Robert, Hundt, Carolin, Langermann, Florence, Voigt, Pia
+
+Published 2025-12-18
+
+Licensed cc-by-4.0
+
+
+
+Im Rahmen einer Kooperation zwischen der s&auml;chsischen FDM-Landesinitiative SaxFDM, dem Datenkompetenzzentrum Come2Data sowie dem Data Science Center ScaDS.AI in Leipzig und NFDI4Bioimage wurde der Train-the-Trainer Workshop f&uuml;r das Forschungsdatenmanagement durchgef&uuml;hrt. Die hier ver&ouml;ffentlichten Folien basieren auf dem Train-the-Trainer Konzept (v05) erarbeitet durch Mitglieder der&nbsp;UAG Schulungen/Fortbildungen der DINI/nestor-AG Forschungsdaten. Die behandelten Themen umfassen sowohl die Aspekte des Forschungsdatenmanagements als auch didaktischen Einheiten zu Lernkonzepten, Workshopgestaltung und Methoden.
+
+[https://zenodo.org/records/17978132](https://zenodo.org/records/17978132)
+
+[https://doi.org/10.5281/zenodo.17978132](https://doi.org/10.5281/zenodo.17978132)
+
+
+---
+
 ## Using Large Language Models for Bio-image Analysis
 
 Haase, Robert
@@ -355,6 +584,25 @@ In this slide-deck we learn how prompt large language models for bio-image analy
 [https://zenodo.org/records/17053832](https://zenodo.org/records/17053832)
 
 [https://doi.org/10.5281/zenodo.17053832](https://doi.org/10.5281/zenodo.17053832)
+
+
+---
+
+## Vision Language Models & Agentic Systems
+
+Haase, Robert
+
+Published 2026-01-19
+
+Licensed cc-by-4.0
+
+
+
+In these slide decks, we introduce Vision Language Models (VLM), a form of Generative Artificial Intelligence that can combine textual information and image data. One the one hand these can classify, interpret and describe images. To retrieve the correct information from VLMs, prompt engineering plays a key-role. On the other hand, image-generation models can produce images from text alone, or by combining images and text. The second slide deck introduces agentic systems, as a form of computer system that acts on behalf of humans. Und the hood, large language models run that can call functions from a pre-defined list of available tools, or generate code. After function and/or code execution, these systems interpret the result and plan next steps. As an example of ongoing standardization efforts in this domain, we learn about the Model Context Protocol. Both, VLMs and agents, bring new challenges to our society which are also part of the materials to start a discussion.
+
+[https://zenodo.org/records/18297737](https://zenodo.org/records/18297737)
+
+[https://doi.org/10.5281/zenodo.18297737](https://doi.org/10.5281/zenodo.18297737)
 
 
 ---

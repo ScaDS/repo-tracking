@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Zenodo.org (52) &#8212; ScaDS.AI Zenodo Materials</title>
+    <title>Zenodo.org (65) &#8212; ScaDS.AI Zenodo Materials</title>
   
   
   
@@ -16,44 +16,47 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-
-  
-  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/css/searchbox.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="../_static/copybutton.js?v=f281be69"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/0.6.0/lunr.min.js"></script>
     <script src="../_static/js/searchbox.js"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../_static/togglebutton.js?v=b8b12719"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
@@ -67,7 +70,8 @@
     <link rel="prev" title="Github.com (142)" href="github.com.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="2026-01-01"/>
+  <meta name="docsearch:version" content="" />
+    <meta name="docbuild:last-update" content="2026-05-04"/>
   </head>
   
   
@@ -83,19 +87,8 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-primary-sidebar-checkbox"/>
-  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-secondary-sidebar-checkbox"/>
-  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="../search.html"
       method="get">
@@ -103,7 +96,6 @@
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -111,8 +103,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -128,7 +120,8 @@
       
       
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -158,21 +151,17 @@
     
     
     <img src="../_static/logo.png" class="logo__image only-light" alt="ScaDS.AI Zenodo Materials - Home"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="ScaDS.AI Zenodo Materials - Home"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="ScaDS.AI Zenodo Materials - Home"/>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
- <script>
- document.write(`
-   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -185,7 +174,7 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">What's new</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../whats_new.html">Recently added (10)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../whats_new.html">Recently added (9)</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Contributing</span></p>
 <ul class="nav bd-sidenav">
@@ -197,7 +186,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../licenses/apache_license_2.0.html">Apache license 2.0 (6)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../licenses/bsd_3-clause_%22new%22_or_%22revised%22_license.html">Bsd 3-clause “new” or “revised” license (33)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../licenses/bsd-3-clause.html">Bsd-3-clause (7)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../licenses/cc-by-4.0.html">Cc-by-4.0 (49)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../licenses/cc-by-4.0.html">Cc-by-4.0 (60)</a></li>
 
 
 
@@ -208,14 +197,14 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">By domain</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="doi.org.html">Doi.org (52)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doi.org.html">Doi.org (65)</a></li>
 
 
 
 
 
 <li class="toctree-l1"><a class="reference internal" href="github.com.html">Github.com (142)</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Zenodo.org (52)</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Zenodo.org (65)</a></li>
 
 
 
@@ -237,9 +226,14 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
@@ -369,7 +363,7 @@
 
 
 <button onclick="toggleFullScreen()"
-  class="btn btn-sm btn-fullscreen-button"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
   title="Fullscreen mode"
   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
@@ -383,25 +377,17 @@
 
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
-  </button>
-`);
-</script>
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
 </button>
 </div></div>
@@ -414,7 +400,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Zenodo.org (52)</h1>
+    <h1>Zenodo.org (65)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -424,9 +410,13 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Zenodo.org (52)</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Zenodo.org (65)</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-generated-logos">199 AI-generated logos</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#satellite-images">396 Satellite images</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-4-se-exploring-hyperparameter-usage-and-tuning-in-machine-learning-research-cain-2023-submission">AI-4-SE/Exploring-Hyperparameter-Usage-And-Tuning-In-Machine-Learning-Research: CAIN-2023 Submission</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4psychology-ki-kompetenz-training">AI4Psychology KI-Kompetenz-Training</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4science-training-ufz-leipzig">AI4Science Training @ UFZ Leipzig</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4science-training-ufz-magdeburg">AI4Science Training @ UFZ Magdeburg</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#autonomous-ai-systems-for-data-analysis">Autonomous AI Systems for Data Analysis</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bio-image-data-science-lectures-2025-uni-leipzig-scads-ai">Bio-image Data Science Lectures 2025 @ Uni Leipzig / ScaDS.AI</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-literacy-open-science-and-collaborative-coding-and-ci-cd-slides-for-the-scads-ai-ga-workshop-working-with-data-and-code-like-a-pro">Data literacy, Open Science and Collaborative Coding and CI/CD - Slides for the ScaDS.AI GA-Workshop “Working with data and code like a pro”</a></li>
@@ -435,8 +425,10 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#european-union-artificial-intelligence-act-in-a-nutshell">European Union Artificial Intelligence Act (in a nutshell)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#explainable-machine-learning">Explainable Machine Learning</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-generative-ai-impacts-research-and-teaching">How Generative AI impacts research and teaching</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-generative-artificial-intelligence-impacts-bio-image-data-science">How Generative Artificial Intelligence impacts Bio-Image Data Science</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-llms-impact-bioimage-data-science">How LLMs impact BioImage Data Science</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-large-language-models-impact-bio-image-data-science">How Large Language Models impact Bio-Image Data Science</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-generative-artificial-intelligence-for-science">How to use Generative Artificial Intelligence for Science</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ir-lab-leipzig-jena-summer-term-2023">IR Lab Leipzig Jena Summer Term 2023</a></li>
 </ul>
 </li>
@@ -459,10 +451,15 @@ document.write(`
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#example-access-to-single-business-review-id">example access to single business/review id</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#same-side-stance-classification-adversarial-test-cases">Same Side Stance Classification Adversarial Test Cases</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#same-side-stance-classification-resampled-datasets">Same Side Stance Classification Resampled Datasets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-german-full-page-handwriting-dataset">ScaDS.AI German Full-Page Handwriting Dataset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-german-line-and-word-level-handwriting-dataset">ScaDS.AI German Line- and Word-Level Handwriting Dataset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-11-2025-workshop-vibe-coding-contest">ScaDS.AI Meetup #11 2025: Workshop Vibe Coding Contest</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-4-2025-ai-insights-on-ai-agents-agent-frameworks">ScaDS.AI Meetup #4 2025: AI Insights on AI Agents &amp; Agent-Frameworks</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-4-2025-workshop-ai-agents">ScaDS.AI Meetup #4 2025: Workshop AI Agents</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-8-2025-ai-insights-model-context-protocol-mcp">ScaDS.AI Meetup #8 2025: AI Insights Model Context Protocol (MCP)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-8-2025-workshop-model-context-protocol-mcp">ScaDS.AI Meetup #8 2025: Workshop Model Context Protocol (MCP)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-projektwerkstatt-1-2026-hands-on-computer-vision">ScaDS.AI Meetup Projektwerkstatt #1 2026: Hands-on Computer Vision</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-on-agent-skills-incl-a-workshop-on-agent-skills-with-opencode">ScaDS.AI Meetup on Agent-Skills incl. a Workshop on: “Agent-Skills with Opencode”</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#selected-meta-data-of-accepted-contributions-to-some-ai-ml-conferences-2020-2025">Selected meta data of accepted contributions to some AI/ML conferences 2020-2025</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#small-text-active-learning-for-text-classification-in-python">Small-Text: Active Learning for Text Classification in Python</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#smart-slide-generation-re-using-training-materials-through-the-power-of-llms">Smart Slide Generation: Re-Using Training Materials Through the Power of LLMs</a></li>
@@ -471,8 +468,10 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#touche20-argument-retrieval-for-controversial-questions">Touché20-Argument-Retrieval-for-Controversial-Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#touche21-argument-retrieval-for-controversial-questions">Touché21-Argument-Retrieval-for-Controversial-Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#touche22-image-retrieval-for-arguments">Touché22-Image-Retrieval-for-Arguments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#train-the-trainer-workshop-zum-forschungsdatenmanagement-sachsen">Train-the-Trainer Workshop zum Forschungsdatenmanagement (Sachsen)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#treesway">TreeSway</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-large-language-models-for-bio-image-analysis">Using Large Language Models for Bio-image Analysis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vision-language-models-agentic-systems">Vision Language Models &amp; Agentic Systems</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vision-language-models-for-bio-image-data-science">Vision Language Models for Bio-image Data Science</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#webis-abstractive-snippet-corpus-2020">Webis Abstractive Snippet Corpus 2020</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#webis-generated-native-ads-2024">Webis Generated Native Ads 2024</a></li>
@@ -502,8 +501,35 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="zenodo-org-52">
-<h1><a class="reference external" href="http://Zenodo.org">Zenodo.org</a> (52)<a class="headerlink" href="#zenodo-org-52" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="zenodo-org-65">
+<h1><a class="reference external" href="http://Zenodo.org">Zenodo.org</a> (65)<a class="headerlink" href="#zenodo-org-65" title="Link to this heading">#</a></h1>
+<section id="ai-generated-logos">
+<h2>199 AI-generated logos<a class="headerlink" href="#ai-generated-logos" title="Link to this heading">#</a></h2>
+<p>Haase, Robert</p>
+<p>Published 2026-04-17</p>
+<p>Licensed cc-zero</p>
+<p>199 AI-generated logos of AI-generated company names. Used image generation model: gpt-image-1-mini
+Corresponding image generation code: <a class="github reference external" href="https://github.com/ScaDS/vest/tree/main/examples/logos">ScaDS/vest</a></p>
+<p><a class="reference external" href="https://zenodo.org/records/19633745">https://zenodo.org/records/19633745</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.19633745">https://doi.org/10.5281/zenodo.19633745</a></p>
+</section>
+<hr class="docutils" />
+<section id="satellite-images">
+<h2>396 Satellite images<a class="headerlink" href="#satellite-images" title="Link to this heading">#</a></h2>
+<p>Haase, Robert</p>
+<p>Published 2026-04-17</p>
+<p>Licensed cc-zero</p>
+<p>Collection of 396 satellite images.
+Sources:</p>
+<p>200 synthetic images generated using OpenAI’s gpt-image1-mini model</p>
+<p>100 images from single regions / bioms (1..100*.png)
+100 images from pairs of regions  (101..200*.png)</p>
+<p>196 images (naip_rgb_*.png) from the region around Chicago, from the USGS National Map — NAIP ImageServer (<a class="reference external" href="https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer">https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer</a>)</p>
+<p>Corresponding code: <a class="github reference external" href="https://github.com/ScaDS/vest/tree/main/examples/satellite_images">ScaDS/vest</a></p>
+<p><a class="reference external" href="https://zenodo.org/records/19635484">https://zenodo.org/records/19635484</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.19635484">https://doi.org/10.5281/zenodo.19635484</a></p>
+</section>
+<hr class="docutils" />
 <section id="ai-4-se-exploring-hyperparameter-usage-and-tuning-in-machine-learning-research-cain-2023-submission">
 <h2>AI-4-SE/Exploring-Hyperparameter-Usage-And-Tuning-In-Machine-Learning-Research: CAIN-2023 Submission<a class="headerlink" href="#ai-4-se-exploring-hyperparameter-usage-and-tuning-in-machine-learning-research-cain-2023-submission" title="Link to this heading">#</a></h2>
 <p>Sebastian Simon</p>
@@ -533,6 +559,54 @@ Es umreißt die Themen</p>
 <p>EU AI Act</p>
 <p><a class="reference external" href="https://zenodo.org/records/17203260">https://zenodo.org/records/17203260</a></p>
 <p><a class="reference external" href="https://doi.org/10.5281/zenodo.17203260">https://doi.org/10.5281/zenodo.17203260</a></p>
+</section>
+<hr class="docutils" />
+<section id="ai4science-training-ufz-leipzig">
+<h2>AI4Science Training &#64; UFZ Leipzig<a class="headerlink" href="#ai4science-training-ufz-leipzig" title="Link to this heading">#</a></h2>
+<p>Haase, Robert</p>
+<p>Published 2025-12-11</p>
+<p>Licensed cc-by-4.0</p>
+<p>This slide deck accompanies the AI Competence Training for scientists at UFZ Leipzig: <a class="reference external" href="https://scads.github.io/ki-kompetenz-training-2025/intro.html">https://scads.github.io/ki-kompetenz-training-2025/intro.html</a>
+It outlines the topics:</p>
+<p>Introduction to Artificial Intelligence, AI systems, and language models</p>
+<p>Application areas and limitations of AI in text generation</p>
+<p>Prompt engineering</p>
+<p>Prompting with large context</p>
+<p>Knowledge distillation</p>
+<p>Embeddings and retrieval-augmented generation</p>
+<p>Data analysis</p>
+<p>Data and code generation</p>
+<p>Bias</p>
+<p>Privacy-compliant use</p>
+<p>Copyright</p>
+<p>EU AI Act</p>
+<p><a class="reference external" href="https://zenodo.org/records/17901300">https://zenodo.org/records/17901300</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.17901300">https://doi.org/10.5281/zenodo.17901300</a></p>
+</section>
+<hr class="docutils" />
+<section id="ai4science-training-ufz-magdeburg">
+<h2>AI4Science Training &#64; UFZ Magdeburg<a class="headerlink" href="#ai4science-training-ufz-magdeburg" title="Link to this heading">#</a></h2>
+<p>Höck, Lina Lisa, Haase, Robert</p>
+<p>Published 2026-03-27</p>
+<p>Licensed cc-by-4.0</p>
+<p>This slide deck accompanies the AI4Science for scientists at UFZ Magdeburg: <a class="reference external" href="https://scads.github.io/ai4science-ufz-madgeburg-2026/intro.html">https://scads.github.io/ai4science-ufz-madgeburg-2026/intro.html</a>
+It outlines the topics:</p>
+<p>Introduction to Artificial Intelligence, AI systems, and language models</p>
+<p>Application areas and limitations of AI in text generation</p>
+<p>AI-assisted literature research</p>
+<p>Prompt engineering</p>
+<p>Prompting with large context</p>
+<p>Knowledge distillation</p>
+<p>Text Analysis / Information Retrieval</p>
+<p>Embeddings and retrieval-augmented generation</p>
+<p>Data analysis</p>
+<p>Data and code generation</p>
+<p>Bias</p>
+<p>Privacy-compliant use</p>
+<p>Copyright</p>
+<p>EU AI Act</p>
+<p><a class="reference external" href="https://zenodo.org/records/19246441">https://zenodo.org/records/19246441</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.19246441">https://doi.org/10.5281/zenodo.19246441</a></p>
 </section>
 <hr class="docutils" />
 <section id="autonomous-ai-systems-for-data-analysis">
@@ -610,11 +684,21 @@ Related training materials are available online too: <a class="reference externa
 <section id="how-generative-ai-impacts-research-and-teaching">
 <h2>How Generative AI impacts research and teaching<a class="headerlink" href="#how-generative-ai-impacts-research-and-teaching" title="Link to this heading">#</a></h2>
 <p>Haase, Robert</p>
-<p>Published 2025-10-23</p>
+<p>Published 2026-01-26</p>
 <p>Licensed cc-by-4.0</p>
-<p>In this Lunch Lecture at Leipzig University, we explore how Generative Artificial Intelligence (GenAI) impacts Reseaerch and Teaching. We dive into specialized GenAI-based web applications for scientific [literature] research and for generating teaching materials. There is a soft focus on pitfalls and potential ways to avoid them.</p>
-<p><a class="reference external" href="https://zenodo.org/records/17422917">https://zenodo.org/records/17422917</a></p>
-<p><a class="reference external" href="https://doi.org/10.5281/zenodo.17422917">https://doi.org/10.5281/zenodo.17422917</a></p>
+<p>In this Arqus Artificial Intelligence and Digital Transformation (AI&amp;DT) Living Lab lecture, we will explore how Generative Artificial Intelligence (GenAI) impacts research and teaching. We will dive into specialised GenAI-based web applications for scientific [literature] research and for generating teaching materials. We will also look at pitfalls, potential ways to avoid them and good scientific practice.</p>
+<p><a class="reference external" href="https://zenodo.org/records/18377121">https://zenodo.org/records/18377121</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.18377121">https://doi.org/10.5281/zenodo.18377121</a></p>
+</section>
+<hr class="docutils" />
+<section id="how-generative-artificial-intelligence-impacts-bio-image-data-science">
+<h2>How Generative Artificial Intelligence impacts Bio-Image Data Science<a class="headerlink" href="#how-generative-artificial-intelligence-impacts-bio-image-data-science" title="Link to this heading">#</a></h2>
+<p>Haase, Robert</p>
+<p>Published 2026-02-22</p>
+<p>Licensed cc-by-4.0</p>
+<p>In  this slide deck we dive into generative artificial intelligence in particular used for code generation and see how it impacts Bio-Image Data Science. We learn about benchmarking large language models for data analysis code generation, and how to use them practically in our work.</p>
+<p><a class="reference external" href="https://zenodo.org/records/18735653">https://zenodo.org/records/18735653</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.18735653">https://doi.org/10.5281/zenodo.18735653</a></p>
 </section>
 <hr class="docutils" />
 <section id="how-llms-impact-bioimage-data-science">
@@ -635,6 +719,16 @@ Related training materials are available online too: <a class="reference externa
 <p>In this slide deck we dive into Large Language Models (LLMs) and Vision Language Models (VLMs) for Bio-image Analysis. We test their capabilities for object counting, pointing at objects and drawing bounding boxes around them. We also dive into VLMs deciding for segmentation algorithms and LLMs for code generation. We see bia-bob, git-bob and [alice] in action, which represent three generations of AI-based coding assistants analysing image data increasingly autonomously.</p>
 <p><a class="reference external" href="https://zenodo.org/records/17102027">https://zenodo.org/records/17102027</a></p>
 <p><a class="reference external" href="https://doi.org/10.5281/zenodo.17102027">https://doi.org/10.5281/zenodo.17102027</a></p>
+</section>
+<hr class="docutils" />
+<section id="how-to-use-generative-artificial-intelligence-for-science">
+<h2>How to use Generative Artificial Intelligence for Science<a class="headerlink" href="#how-to-use-generative-artificial-intelligence-for-science" title="Link to this heading">#</a></h2>
+<p>Haase, Robert</p>
+<p>Published 2026-02-27</p>
+<p>Licensed cc-by-4.0</p>
+<p>In this 90-minute workshop, we will dive into the basic principles of generative artificial intelligence systems such as ChatGPT and learn what these systems can do and what not. We go through the most important best-practices, e.g. in prompt-engineering and quality assurance so that we can get the most out of this technology for our daily work in scientific research.</p>
+<p><a class="reference external" href="https://zenodo.org/records/18804366">https://zenodo.org/records/18804366</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.18804366">https://doi.org/10.5281/zenodo.18804366</a></p>
 </section>
 <hr class="docutils" />
 <section id="ir-lab-leipzig-jena-summer-term-2023">
@@ -871,6 +965,108 @@ df_cross_dev = pd.read_json(“cross_dev.jsonl”, lines=True)</p>
 <p><a class="reference external" href="https://doi.org/10.5281/zenodo.5380989">https://doi.org/10.5281/zenodo.5380989</a></p>
 </section>
 <hr class="docutils" />
+<section id="scads-ai-german-full-page-handwriting-dataset">
+<h2><a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a> German Full-Page Handwriting Dataset<a class="headerlink" href="#scads-ai-german-full-page-handwriting-dataset" title="Link to this heading">#</a></h2>
+<p>Nestler, Till, Burghardt, Thomas</p>
+<p>Published 2026-01-17</p>
+<p>Licensed cc-by-4.0</p>
+<p>Description</p>
+<p>This dataset contains 77 complete pages of German handwriting, with each page representing an excerpt from a Wikipedia article. For each handwritten page (in JPG data format), a transcription in plain UTF-8 text is provided (can be used as ground truth).
+ </p>
+<p>Structure</p>
+<ul class="simple">
+<li><p>images/: one jpg file per handwritten page (a total of 77 items)</p></li>
+<li><p>ground_truth/: one text file per handwritten page (a total of 77 items)</p></li>
+<li><p>metadata/scads_topic_list.csv: dataset description</p></li>
+<li><p>metadata/scads_topic_list.xml: TEI-Lite description</p></li>
+<li><p>metadata/Uni_Leipzig_01-export-251205.csv: contains URLs to the corresponding Wikipedia articles</p></li>
+<li><p><a class="reference external" href="http://README.md">README.md</a></p></li>
+<li><p>license.txt
+The usable dataset includes 77 images with German handwritten Wikipedia excerpts and corresponding ground truth text files.
+Version</p></li>
+</ul>
+<ul class="simple">
+<li><p>1.0 (January 17, 2026)
+Authors</p></li>
+<li><p>Thomas Burghardt (0009-0003-7874-9134)</p></li>
+<li><p>Till Nestler (0009-0001-2922-525X)</p></li>
+</ul>
+<p>Licence
+Creative Commons Attribution 4.0 International</p>
+<p>Use cases</p>
+<ul class="simple">
+<li><p>Handwritten Text Recognition (HTR)</p></li>
+<li><p>OCR training</p></li>
+<li><p>Computer vision / handwriting analysis</p></li>
+</ul>
+<p>Acknowledgements
+We acknowledge the financial support by the Federal Ministry of Education and Research of Germany and by Sächsische Staatsministerium für Wissenschaft, Kultur und Tourismus in the programme Center of Excellence for AI-research „Center for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig“, project identification number: <a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a>
+ </p>
+<p><a class="reference external" href="https://zenodo.org/records/18283705">https://zenodo.org/records/18283705</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.18283705">https://doi.org/10.5281/zenodo.18283705</a></p>
+</section>
+<hr class="docutils" />
+<section id="scads-ai-german-line-and-word-level-handwriting-dataset">
+<h2><a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a> German Line- and Word-Level Handwriting Dataset<a class="headerlink" href="#scads-ai-german-line-and-word-level-handwriting-dataset" title="Link to this heading">#</a></h2>
+<p>Burghardt, Thomas, Alzin, Ahmad</p>
+<p>Published 2026-01-19</p>
+<p>Licensed cc-by-4.0</p>
+<p>This dataset contains 775 full-page images, 5.843 line images and 37.406 word images with German handwritings and corresponding line- and word-level ground truth text files. There are no ground truth text files for the full-page images. If you need full-page images with ground truth,
+check out our dataset with the name „ScaDS.AI German full-page Handwriting Dataset“ on Zenodo (includes 77 pages).
+ 
+Structure</p>
+<ul class="simple">
+<li><p>/ground_truth/xml: 775 ground truth xml files</p></li>
+<li><p>/ground_truth/csv/line_annotations.csv: ground truth texts</p></li>
+<li><p>/ground_truth/csv/word_annotations.csv: ground truth texts</p></li>
+<li><p>/images/pages: 775 full-page images with German handwriting</p></li>
+<li><p>/images/lines: 5.843 line images with German handwriting</p></li>
+<li><p>/images/words: 37.406 word images with German handwriting</p></li>
+<li><p>/metadata/Uni_Leipzig_01-export-251205.csv (further descriptions, e.g. corresponding wikipedia urls)
+ 
+Description
+We offer ground truth files both in XML format and in CSV format with annotated words and lines which cover about 90% of the pages (relating on the content in Uni_Leipzig_01-export-251205.csv). Annotating partially unreadable hundred of manuscripts (775) is hard work and takes a lot of time.
+We provide about 43.249 annotated lines and words from excerpts of Wikipedia articles with ground truth text. Handwriting OCR in German is underserved.
+The quality is not perfect. We did our best, but still there are mistakes.
+ 
+Version</p></li>
+</ul>
+<ul class="simple">
+<li><p>1.0 created on January 19, 2026 (10.5281/zenodo.18301532)</p></li>
+</ul>
+<p>Authors</p>
+<ul class="simple">
+<li><p>Thomas Burghardt (0009-0003-7874-9134)</p></li>
+<li><p>Ahmad Alzin (0009-0006-4791-5939)</p></li>
+</ul>
+<p>Licence
+Creative Commons Attribution 4.0 International
+ 
+Use cases</p>
+<ul class="simple">
+<li><p>Handwritten Text Recognition (HTR)</p></li>
+<li><p>OCR training</p></li>
+<li><p>Computer vision / handwriting analysis
+ 
+Acknowledgements
+We acknowledge the financial support by the Federal Ministry of Education and Research of Germany and by Sächsische Staatsministerium für Wissenschaft, Kultur und Tourismus in the programme Center of Excellence for AI-research „Center for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig“, project identification number: <a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a></p></li>
+</ul>
+<p><a class="reference external" href="https://zenodo.org/records/18301532">https://zenodo.org/records/18301532</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.18301532">https://doi.org/10.5281/zenodo.18301532</a></p>
+</section>
+<hr class="docutils" />
+<section id="scads-ai-meetup-11-2025-workshop-vibe-coding-contest">
+<h2><a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a> Meetup #11 2025: Workshop Vibe Coding Contest<a class="headerlink" href="#scads-ai-meetup-11-2025-workshop-vibe-coding-contest" title="Link to this heading">#</a></h2>
+<p>Welz, Oliver</p>
+<p>Published 2025-12-15</p>
+<p>Licensed cc-by-4.0</p>
+<p>Presentation on Vibe Coding followed by a workshop as well as a contest at the Meetup #11 2025 at <a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a>.
+The presentation covers the concept of vibe coding, what it is, where the trend comes from, and how you can try it out for yourself. It also introduces selected software that you can use for this purpose.
+The repository provides insight into the software, how to set it up and use it yourself. Examples are also provided so that you can familiarize yourself with vibe coding in a practical way.</p>
+<p><a class="reference external" href="https://zenodo.org/records/17935652">https://zenodo.org/records/17935652</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.17935652">https://doi.org/10.5281/zenodo.17935652</a></p>
+</section>
+<hr class="docutils" />
 <section id="scads-ai-meetup-4-2025-ai-insights-on-ai-agents-agent-frameworks">
 <h2><a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a> Meetup #4 2025: AI Insights on AI Agents &amp; Agent-Frameworks<a class="headerlink" href="#scads-ai-meetup-4-2025-ai-insights-on-ai-agents-agent-frameworks" title="Link to this heading">#</a></h2>
 <p>Center for Scalable Data Analytics and Artificial Intelligence, Oliver, Welz</p>
@@ -913,6 +1109,28 @@ The presentation covers the definition of MCP, a technical overview and overview
 Learn about MCP, how to add MCP Servers, use them e.g. via low/no-code UI (Langflow) or write your own MCP Servers with the FastMCP Python Package.</p>
 <p><a class="reference external" href="https://zenodo.org/records/17158770">https://zenodo.org/records/17158770</a></p>
 <p><a class="reference external" href="https://doi.org/10.5281/zenodo.17158770">https://doi.org/10.5281/zenodo.17158770</a></p>
+</section>
+<hr class="docutils" />
+<section id="scads-ai-meetup-projektwerkstatt-1-2026-hands-on-computer-vision">
+<h2><a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a> Meetup Projektwerkstatt #1 2026: Hands-on Computer Vision<a class="headerlink" href="#scads-ai-meetup-projektwerkstatt-1-2026-hands-on-computer-vision" title="Link to this heading">#</a></h2>
+<p>Welz, Oliver</p>
+<p>Published 2026-03-10</p>
+<p>Licensed cc-by-4.0</p>
+<p>Brief introduction and presentation on computer vision, origin of the term, history, and state-of-the-art at the beginning of 2026. Information about the prepared workshop (MediaPipe and local/cloud VLM- Qwen3.5:0.8B) including setup (OpenCode, uv, project) and link to the GitHub repository.</p>
+<p><a class="reference external" href="https://zenodo.org/records/18958000">https://zenodo.org/records/18958000</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.18958000">https://doi.org/10.5281/zenodo.18958000</a></p>
+</section>
+<hr class="docutils" />
+<section id="scads-ai-meetup-on-agent-skills-incl-a-workshop-on-agent-skills-with-opencode">
+<h2><a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a> Meetup on Agent-Skills incl. a Workshop on: “Agent-Skills with Opencode”<a class="headerlink" href="#scads-ai-meetup-on-agent-skills-incl-a-workshop-on-agent-skills-with-opencode" title="Link to this heading">#</a></h2>
+<p>Welz, Oliver, Wolf, Gregor</p>
+<p>Published 2026-04-17</p>
+<p>Licensed cc-by-4.0</p>
+<p>Introduction to Agent Skills and workshop materials on the topic “Agent Skills with Opencode” at the <a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a> Meetup in April 2026.
+Learn more about Agent Skills: what they are, how to use them, and how to develop your own SKILLs, as well as their pros and cons, where to obtain “SKILLs,” and what to keep in mind.
+The workshop materials begin with setting up and using Opencode. You will then learn more about SKILLs and have the opportunity to try them out—depending on your prior knowledge, there are /basics, /midlevel and /highlevel tasks you can test.</p>
+<p><a class="reference external" href="https://zenodo.org/records/19629840">https://zenodo.org/records/19629840</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.19629840">https://doi.org/10.5281/zenodo.19629840</a></p>
 </section>
 <hr class="docutils" />
 <section id="selected-meta-data-of-accepted-contributions-to-some-ai-ml-conferences-2020-2025">
@@ -1004,6 +1222,16 @@ We acknowledge funding by the Deutsche Forschungsgemeinschaft (DFG, German Resea
 <p><a class="reference external" href="https://doi.org/10.5281/zenodo.6873575">https://doi.org/10.5281/zenodo.6873575</a></p>
 </section>
 <hr class="docutils" />
+<section id="train-the-trainer-workshop-zum-forschungsdatenmanagement-sachsen">
+<h2>Train-the-Trainer Workshop zum Forschungsdatenmanagement (Sachsen)<a class="headerlink" href="#train-the-trainer-workshop-zum-forschungsdatenmanagement-sachsen" title="Link to this heading">#</a></h2>
+<p>Engelhardt, Claudia, Haase, Robert, Hundt, Carolin, Langermann, Florence, Voigt, Pia</p>
+<p>Published 2025-12-18</p>
+<p>Licensed cc-by-4.0</p>
+<p>Im Rahmen einer Kooperation zwischen der sächsischen FDM-Landesinitiative SaxFDM, dem Datenkompetenzzentrum Come2Data sowie dem Data Science Center <a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a> in Leipzig und NFDI4Bioimage wurde der Train-the-Trainer Workshop für das Forschungsdatenmanagement durchgeführt. Die hier veröffentlichten Folien basieren auf dem Train-the-Trainer Konzept (v05) erarbeitet durch Mitglieder der UAG Schulungen/Fortbildungen der DINI/nestor-AG Forschungsdaten. Die behandelten Themen umfassen sowohl die Aspekte des Forschungsdatenmanagements als auch didaktischen Einheiten zu Lernkonzepten, Workshopgestaltung und Methoden.</p>
+<p><a class="reference external" href="https://zenodo.org/records/17978132">https://zenodo.org/records/17978132</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.17978132">https://doi.org/10.5281/zenodo.17978132</a></p>
+</section>
+<hr class="docutils" />
 <section id="treesway">
 <h2>TreeSway<a class="headerlink" href="#treesway" title="Link to this heading">#</a></h2>
 <p>Umlauft, Josefine</p>
@@ -1023,6 +1251,16 @@ We acknowledge funding by the Deutsche Forschungsgemeinschaft (DFG, German Resea
  </p>
 <p><a class="reference external" href="https://zenodo.org/records/17053832">https://zenodo.org/records/17053832</a></p>
 <p><a class="reference external" href="https://doi.org/10.5281/zenodo.17053832">https://doi.org/10.5281/zenodo.17053832</a></p>
+</section>
+<hr class="docutils" />
+<section id="vision-language-models-agentic-systems">
+<h2>Vision Language Models &amp; Agentic Systems<a class="headerlink" href="#vision-language-models-agentic-systems" title="Link to this heading">#</a></h2>
+<p>Haase, Robert</p>
+<p>Published 2026-01-19</p>
+<p>Licensed cc-by-4.0</p>
+<p>In these slide decks, we introduce Vision Language Models (VLM), a form of Generative Artificial Intelligence that can combine textual information and image data. One the one hand these can classify, interpret and describe images. To retrieve the correct information from VLMs, prompt engineering plays a key-role. On the other hand, image-generation models can produce images from text alone, or by combining images and text. The second slide deck introduces agentic systems, as a form of computer system that acts on behalf of humans. Und the hood, large language models run that can call functions from a pre-defined list of available tools, or generate code. After function and/or code execution, these systems interpret the result and plan next steps. As an example of ongoing standardization efforts in this domain, we learn about the Model Context Protocol. Both, VLMs and agents, bring new challenges to our society which are also part of the materials to start a discussion.</p>
+<p><a class="reference external" href="https://zenodo.org/records/18297737">https://zenodo.org/records/18297737</a></p>
+<p><a class="reference external" href="https://doi.org/10.5281/zenodo.18297737">https://doi.org/10.5281/zenodo.18297737</a></p>
 </section>
 <hr class="docutils" />
 <section id="vision-language-models-for-bio-image-data-science">
@@ -1410,18 +1648,24 @@ publisher = “Association for Computational Linguistics”,</p>
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
     <i class="fa-solid fa-list"></i> Contents
   </div>
-  <nav class="bd-toc-nav page-toc">
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Zenodo.org (52)</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Zenodo.org (65)</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-generated-logos">199 AI-generated logos</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#satellite-images">396 Satellite images</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-4-se-exploring-hyperparameter-usage-and-tuning-in-machine-learning-research-cain-2023-submission">AI-4-SE/Exploring-Hyperparameter-Usage-And-Tuning-In-Machine-Learning-Research: CAIN-2023 Submission</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4psychology-ki-kompetenz-training">AI4Psychology KI-Kompetenz-Training</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4science-training-ufz-leipzig">AI4Science Training @ UFZ Leipzig</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai4science-training-ufz-magdeburg">AI4Science Training @ UFZ Magdeburg</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#autonomous-ai-systems-for-data-analysis">Autonomous AI Systems for Data Analysis</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bio-image-data-science-lectures-2025-uni-leipzig-scads-ai">Bio-image Data Science Lectures 2025 @ Uni Leipzig / ScaDS.AI</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-literacy-open-science-and-collaborative-coding-and-ci-cd-slides-for-the-scads-ai-ga-workshop-working-with-data-and-code-like-a-pro">Data literacy, Open Science and Collaborative Coding and CI/CD - Slides for the ScaDS.AI GA-Workshop “Working with data and code like a pro”</a></li>
@@ -1430,8 +1674,10 @@ publisher = “Association for Computational Linguistics”,</p>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#european-union-artificial-intelligence-act-in-a-nutshell">European Union Artificial Intelligence Act (in a nutshell)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#explainable-machine-learning">Explainable Machine Learning</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-generative-ai-impacts-research-and-teaching">How Generative AI impacts research and teaching</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-generative-artificial-intelligence-impacts-bio-image-data-science">How Generative Artificial Intelligence impacts Bio-Image Data Science</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-llms-impact-bioimage-data-science">How LLMs impact BioImage Data Science</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-large-language-models-impact-bio-image-data-science">How Large Language Models impact Bio-Image Data Science</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-generative-artificial-intelligence-for-science">How to use Generative Artificial Intelligence for Science</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ir-lab-leipzig-jena-summer-term-2023">IR Lab Leipzig Jena Summer Term 2023</a></li>
 </ul>
 </li>
@@ -1454,10 +1700,15 @@ publisher = “Association for Computational Linguistics”,</p>
 <li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#example-access-to-single-business-review-id">example access to single business/review id</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#same-side-stance-classification-adversarial-test-cases">Same Side Stance Classification Adversarial Test Cases</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#same-side-stance-classification-resampled-datasets">Same Side Stance Classification Resampled Datasets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-german-full-page-handwriting-dataset">ScaDS.AI German Full-Page Handwriting Dataset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-german-line-and-word-level-handwriting-dataset">ScaDS.AI German Line- and Word-Level Handwriting Dataset</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-11-2025-workshop-vibe-coding-contest">ScaDS.AI Meetup #11 2025: Workshop Vibe Coding Contest</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-4-2025-ai-insights-on-ai-agents-agent-frameworks">ScaDS.AI Meetup #4 2025: AI Insights on AI Agents &amp; Agent-Frameworks</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-4-2025-workshop-ai-agents">ScaDS.AI Meetup #4 2025: Workshop AI Agents</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-8-2025-ai-insights-model-context-protocol-mcp">ScaDS.AI Meetup #8 2025: AI Insights Model Context Protocol (MCP)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-8-2025-workshop-model-context-protocol-mcp">ScaDS.AI Meetup #8 2025: Workshop Model Context Protocol (MCP)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-projektwerkstatt-1-2026-hands-on-computer-vision">ScaDS.AI Meetup Projektwerkstatt #1 2026: Hands-on Computer Vision</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scads-ai-meetup-on-agent-skills-incl-a-workshop-on-agent-skills-with-opencode">ScaDS.AI Meetup on Agent-Skills incl. a Workshop on: “Agent-Skills with Opencode”</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#selected-meta-data-of-accepted-contributions-to-some-ai-ml-conferences-2020-2025">Selected meta data of accepted contributions to some AI/ML conferences 2020-2025</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#small-text-active-learning-for-text-classification-in-python">Small-Text: Active Learning for Text Classification in Python</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#smart-slide-generation-re-using-training-materials-through-the-power-of-llms">Smart Slide Generation: Re-Using Training Materials Through the Power of LLMs</a></li>
@@ -1466,8 +1717,10 @@ publisher = “Association for Computational Linguistics”,</p>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#touche20-argument-retrieval-for-controversial-questions">Touché20-Argument-Retrieval-for-Controversial-Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#touche21-argument-retrieval-for-controversial-questions">Touché21-Argument-Retrieval-for-Controversial-Questions</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#touche22-image-retrieval-for-arguments">Touché22-Image-Retrieval-for-Arguments</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#train-the-trainer-workshop-zum-forschungsdatenmanagement-sachsen">Train-the-Trainer Workshop zum Forschungsdatenmanagement (Sachsen)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#treesway">TreeSway</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-large-language-models-for-bio-image-analysis">Using Large Language Models for Bio-image Analysis</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vision-language-models-agentic-systems">Vision Language Models &amp; Agentic Systems</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vision-language-models-for-bio-image-data-science">Vision Language Models for Bio-image Data Science</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#webis-abstractive-snippet-corpus-2020">Webis Abstractive Snippet Corpus 2020</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#webis-generated-native-ads-2024">Webis Generated Native Ads 2024</a></li>
@@ -1512,7 +1765,7 @@ By Robert Haase
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on 2026-01-01.
+  Last updated on 2026-05-04.
   <br/>
 </p>
   </div>
@@ -1537,8 +1790,8 @@ Contributions and feedback are welcome.
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
   </footer>
