@@ -1,4 +1,4 @@
-# Cc-by-4.0 (60)
+# Cc-by-4.0 (62)
 ## AI4Psychology KI-Kompetenz-Training
 
 Haase, Robert
@@ -1720,6 +1720,25 @@ Dieses Slide-Deck f&uuml;hrt Generative K&uuml;nstliche Intelligenz z&uuml;gig e
 
 ---
 
+## ai4medicine-2026
+
+Matthias Täschner, mar-chem, mxsunc
+
+Published 2026-01-12
+
+Licensed CC-BY-4.0
+
+
+
+ Resources and materials for a DataScience / AI training school for the medical domain, conducted as part of the Come2Data (https://come2data.de/) project. scads.github.io/ai4medicine-2026/ 
+
+Content type: software
+
+[https://github.com/ScaDS/ai4medicine-2026](https://github.com/ScaDS/ai4medicine-2026)
+
+
+---
+
 ## famous_computer_science_quotes
 
 Robert Haase
@@ -1754,6 +1773,25 @@ Licensed CC-BY-4.0
 Content type: software
 
 [https://github.com/ScaDS/repo-tracking](https://github.com/ScaDS/repo-tracking)
+
+
+---
+
+## time-series-analysis
+
+Matthias Täschner
+
+Published 2026-03-27
+
+Licensed CC-BY-4.0
+
+
+
+A practical introduction to time series analysis and forecasting using Python
+
+Content type: software
+
+[https://github.com/ScaDS/time-series-analysis](https://github.com/ScaDS/time-series-analysis)
 
 
 ---

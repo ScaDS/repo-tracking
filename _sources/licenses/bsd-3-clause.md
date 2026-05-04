@@ -1,4 +1,4 @@
-# Bsd-3-clause (7)
+# Bsd-3-clause (9)
 ## AttributeCiteQuote
 
 Tobias Schreieder
@@ -16,6 +16,27 @@ Tags: attribution, citation, large-language-model, trustworthy-ai, quotation
 Content type: software
 
 [https://github.com/faerber-lab/AttributeCiteQuote](https://github.com/faerber-lab/AttributeCiteQuote)
+
+
+---
+
+## Claim2Source
+
+Tobias Schreieder
+
+Published 2025-06-30
+
+Licensed BSD-3-Clause
+
+
+
+Repository for Claim2Source's Participation at CLEF CheckThat! 2025 Lab Task 4b
+
+Tags: information-retrieval, large-language-model, text-style-transfer
+
+Content type: software
+
+[https://github.com/faerber-lab/Claim2Source](https://github.com/faerber-lab/Claim2Source)
 
 
 ---
@@ -58,6 +79,25 @@ Tags: large-language-models, multi-agent-systems, question-answering, retrieval-
 Content type: software
 
 [https://github.com/faerber-lab/SQuAI](https://github.com/faerber-lab/SQuAI)
+
+
+---
+
+## muvit
+
+Albert Dominguez Mantes, Martin Weigert
+
+Published 2026-02-26
+
+Licensed BSD-3-Clause
+
+
+
+Official implementation of MuViT (CVPR 2026), a ViT-based architecture for multi-scale modelling of gigapixel microscopy images.
+
+Content type: software
+
+[https://github.com/weigertlab/muvit](https://github.com/weigertlab/muvit)
 
 
 ---

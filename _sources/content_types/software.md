@@ -1,4 +1,4 @@
-# Software (19)
+# Software (29)
 ## AttributeCiteQuote
 
 Tobias Schreieder
@@ -35,6 +35,46 @@ This repository contains training resources for Students at Uni Leipzig who want
 Content type: software
 
 [https://github.com/ScaDS/BIDS-lecture-2025](https://github.com/ScaDS/BIDS-lecture-2025)
+
+
+---
+
+## Chatopia
+
+logalyst
+
+Published 2026-02-16
+
+Licensed Apache-2.0
+
+
+
+Real-Time Multi-Agent Simulations with Latency-Aware Distributed Reasoning
+
+Content type: software
+
+[https://github.com/ScaDS/Chatopia](https://github.com/ScaDS/Chatopia)
+
+
+---
+
+## Claim2Source
+
+Tobias Schreieder
+
+Published 2025-06-30
+
+Licensed BSD-3-Clause
+
+
+
+Repository for Claim2Source's Participation at CLEF CheckThat! 2025 Lab Task 4b
+
+Tags: information-retrieval, large-language-model, text-style-transfer
+
+Content type: software
+
+[https://github.com/faerber-lab/Claim2Source](https://github.com/faerber-lab/Claim2Source)
 
 
 ---
@@ -136,6 +176,44 @@ Content type: software
 
 ---
 
+## UnarXive-2024
+
+ines besrour
+
+Published 2025-05-16
+
+Licensed MIT
+
+
+
+This project presents an updated and extended version of the UnarXive dataset, a large-scale full-text scholarly corpus derived from arXiv. We process and structure over 2.3 million papers, preserving rich document content and enriching metadata. Our pipeline enhances section-level grouping while maintaining compatibility with existing formats.
+
+Content type: software
+
+[https://github.com/faerber-lab/UnarXive-2024](https://github.com/faerber-lab/UnarXive-2024)
+
+
+---
+
+## ai4medicine-2026
+
+Matthias Täschner, mar-chem, mxsunc
+
+Published 2026-01-12
+
+Licensed CC-BY-4.0
+
+
+
+ Resources and materials for a DataScience / AI training school for the medical domain, conducted as part of the Come2Data (https://come2data.de/) project. scads.github.io/ai4medicine-2026/ 
+
+Content type: software
+
+[https://github.com/ScaDS/ai4medicine-2026](https://github.com/ScaDS/ai4medicine-2026)
+
+
+---
+
 ## bayesify
 
 Johannes Dorn
@@ -168,6 +246,25 @@ This repository serves as playground for the CICD DevOps workshop at ScaDS.AI GA
 Content type: software
 
 [https://github.com/ScaDS/cicd-ga-scadsai](https://github.com/ScaDS/cicd-ga-scadsai)
+
+
+---
+
+## dddemo
+
+Babak Sepehri Rad, babaksepehrirad, Elias Werner
+
+Published 2026-02-07
+
+Licensed NOASSERTION
+
+
+
+Drift Detection Demonstrator
+
+Content type: software
+
+[https://github.com/ScaDS/dddemo](https://github.com/ScaDS/dddemo)
 
 
 ---
@@ -208,6 +305,25 @@ Content type: software
 
 ---
 
+## jumper_jupyter_performance
+
+OutlyingWest, Elias Werner, MandaloreUltimate
+
+Published 2025-06-19
+
+Licensed NOASSERTION
+
+
+
+coarse grained performance monitoring in Jupyter
+
+Content type: software
+
+[https://github.com/ScaDS/jumper_jupyter_performance](https://github.com/ScaDS/jumper_jupyter_performance)
+
+
+---
+
 ## lightweight-scholarly-qa
 
 Matthias Jobst, Michael Färber, susantiyuni
@@ -240,6 +356,25 @@ This is the repository containing code and data of the miniGPTKB experiments.
 Content type: software
 
 [https://github.com/Knowledge-aware-AI/miniGPTKB](https://github.com/Knowledge-aware-AI/miniGPTKB)
+
+
+---
+
+## muvit
+
+Albert Dominguez Mantes, Martin Weigert
+
+Published 2026-02-26
+
+Licensed BSD-3-Clause
+
+
+
+Official implementation of MuViT (CVPR 2026), a ViT-based architecture for multi-scale modelling of gigapixel microscopy images.
+
+Content type: software
+
+[https://github.com/weigertlab/muvit](https://github.com/weigertlab/muvit)
 
 
 ---
@@ -301,6 +436,25 @@ Content type: software
 
 ---
 
+## pHoptNN
+
+Rajarshi SinhaRoy
+
+Published 2025-11-14
+
+Licensed MIT
+
+
+
+
+
+Content type: software
+
+[https://github.com/kuenzelab/pHoptNN](https://github.com/kuenzelab/pHoptNN)
+
+
+---
+
 ## repo-tracking
 
 Robert Haase, github-actions[bot]
@@ -339,6 +493,25 @@ Content type: software
 
 ---
 
+## time-series-analysis
+
+Matthias Täschner
+
+Published 2026-03-27
+
+Licensed CC-BY-4.0
+
+
+
+A practical introduction to time series analysis and forecasting using Python
+
+Content type: software
+
+[https://github.com/ScaDS/time-series-analysis](https://github.com/ScaDS/time-series-analysis)
+
+
+---
+
 ## trackastra
 
 Benjamin Gallusser, Martin Weigert, Cyril Achard, Anwai Archit, Jean-Yves Tinevez, Jordão Bragantini, Albert Dominguez Mantes, Johannes Seiffarth, Kevin Yamauchi, Richard D. Paul
@@ -354,6 +527,25 @@ Transformer-based cell tracking for live-cell microscopy
 Content type: software
 
 [https://github.com/weigertlab/trackastra](https://github.com/weigertlab/trackastra)
+
+
+---
+
+## vest
+
+Robert Haase, autmoate
+
+Published 2025-12-30
+
+Licensed NOASSERTION
+
+
+
+Browser-based exploration of vision embeddings in 3D space
+
+Content type: software
+
+[https://github.com/ScaDS/vest](https://github.com/ScaDS/vest)
 
 
 ---

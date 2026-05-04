@@ -1,4 +1,4 @@
-# Matthias täschner (8)
+# Matthias täschner (10)
 ## BIDS-training-2024
 
 Robert Haase, Jan Ewald, AnjaNeumann, Matthias Täschner, Laura Žigutytė, Marie-Sophie von Braun, Christian Martin, dusan-prascevic
@@ -94,6 +94,25 @@ Content type: GitHub Repository
 
 ---
 
+## ai4medicine-2026
+
+Matthias Täschner, mar-chem, mxsunc
+
+Published 2026-01-12
+
+Licensed CC-BY-4.0
+
+
+
+ Resources and materials for a DataScience / AI training school for the medical domain, conducted as part of the Come2Data (https://come2data.de/) project. scads.github.io/ai4medicine-2026/ 
+
+Content type: software
+
+[https://github.com/ScaDS/ai4medicine-2026](https://github.com/ScaDS/ai4medicine-2026)
+
+
+---
+
 ## ai4seismology-2025
 
 Robert Haase, Matthias Täschner, Rene Steinmann, Martijn van den Ende, Maria Tsekhmistrenko, Elias Werner, Josefine Umlauft, Jannes Münchmeyer, Marine Denolle
@@ -143,6 +162,25 @@ This repository serves as playground for the CICD DevOps workshop at ScaDS.AI GA
 Content type: software
 
 [https://github.com/ScaDS/cicd-ga-scadsai](https://github.com/ScaDS/cicd-ga-scadsai)
+
+
+---
+
+## time-series-analysis
+
+Matthias Täschner
+
+Published 2026-03-27
+
+Licensed CC-BY-4.0
+
+
+
+A practical introduction to time series analysis and forecasting using Python
+
+Content type: software
+
+[https://github.com/ScaDS/time-series-analysis](https://github.com/ScaDS/time-series-analysis)
 
 
 ---

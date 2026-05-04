@@ -1,4 +1,4 @@
-# Github.com (142)
+# Github.com (152)
 ## AMOC-21
 
 Christopher Akiki, Lukas Gienapp
@@ -147,6 +147,46 @@ CfgNet models the configuration landscape of software projects to enable the ear
 Content type: GitHub Repository
 
 [https://github.com/AI-4-SE/CfgNet](https://github.com/AI-4-SE/CfgNet)
+
+
+---
+
+## Chatopia
+
+logalyst
+
+Published 2026-02-16
+
+Licensed Apache-2.0
+
+
+
+Real-Time Multi-Agent Simulations with Latency-Aware Distributed Reasoning
+
+Content type: software
+
+[https://github.com/ScaDS/Chatopia](https://github.com/ScaDS/Chatopia)
+
+
+---
+
+## Claim2Source
+
+Tobias Schreieder
+
+Published 2025-06-30
+
+Licensed BSD-3-Clause
+
+
+
+Repository for Claim2Source's Participation at CLEF CheckThat! 2025 Lab Task 4b
+
+Tags: information-retrieval, large-language-model, text-style-transfer
+
+Content type: software
+
+[https://github.com/faerber-lab/Claim2Source](https://github.com/faerber-lab/Claim2Source)
 
 
 ---
@@ -616,6 +656,25 @@ Content type: GitHub Repository
 
 ---
 
+## UnarXive-2024
+
+ines besrour
+
+Published 2025-05-16
+
+Licensed MIT
+
+
+
+This project presents an updated and extended version of the UnarXive dataset, a large-scale full-text scholarly corpus derived from arXiv. We process and structure over 2.3 million papers, preserving rich document content and enriching metadata. Our pipeline enhances section-level grouping while maintaining compatibility with existing formats.
+
+Content type: software
+
+[https://github.com/faerber-lab/UnarXive-2024](https://github.com/faerber-lab/UnarXive-2024)
+
+
+---
+
 ## acl19-heuristic-authorship-obfuscation
 
 Janek Bevendorff
@@ -809,6 +868,25 @@ Resources and materials for a DataScience / AI training school for the medical d
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/ai4medicine-2025](https://github.com/ScaDS/ai4medicine-2025)
+
+
+---
+
+## ai4medicine-2026
+
+Matthias Täschner, mar-chem, mxsunc
+
+Published 2026-01-12
+
+Licensed CC-BY-4.0
+
+
+
+ Resources and materials for a DataScience / AI training school for the medical domain, conducted as part of the Come2Data (https://come2data.de/) project. scads.github.io/ai4medicine-2026/ 
+
+Content type: software
+
+[https://github.com/ScaDS/ai4medicine-2026](https://github.com/ScaDS/ai4medicine-2026)
 
 
 ---
@@ -1274,6 +1352,25 @@ Licensed BSD 3-Clause "New" or "Revised" License
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/csv_to_tex](https://github.com/ScaDS/csv_to_tex)
+
+
+---
+
+## dddemo
+
+Babak Sepehri Rad, babaksepehrirad, Elias Werner
+
+Published 2026-02-07
+
+Licensed NOASSERTION
+
+
+
+Drift Detection Demonstrator
+
+Content type: software
+
+[https://github.com/ScaDS/dddemo](https://github.com/ScaDS/dddemo)
 
 
 ---
@@ -1775,6 +1872,25 @@ Content type: GitHub Repository
 
 ---
 
+## jumper_jupyter_performance
+
+OutlyingWest, Elias Werner, MandaloreUltimate
+
+Published 2025-06-19
+
+Licensed NOASSERTION
+
+
+
+coarse grained performance monitoring in Jupyter
+
+Content type: software
+
+[https://github.com/ScaDS/jumper_jupyter_performance](https://github.com/ScaDS/jumper_jupyter_performance)
+
+
+---
+
 ## ki-kompetenz-training-2025
 
 Robert Haase, github-actions[bot], Ronny Gey
@@ -1961,6 +2077,25 @@ Content type: software
 
 ---
 
+## muvit
+
+Albert Dominguez Mantes, Martin Weigert
+
+Published 2026-02-26
+
+Licensed BSD-3-Clause
+
+
+
+Official implementation of MuViT (CVPR 2026), a ViT-based architecture for multi-scale modelling of gigapixel microscopy images.
+
+Content type: software
+
+[https://github.com/weigertlab/muvit](https://github.com/weigertlab/muvit)
+
+
+---
+
 ## napari-spotiflow
 
 Albert Dominguez Mantes, Martin Weigert, Qin Yu
@@ -2050,6 +2185,25 @@ outlook-bob is an LLM-based assistant for answering emails. It uses local LLMs u
 Content type: GitHub Repository
 
 [https://github.com/haesleinhuepf/outlook-bob](https://github.com/haesleinhuepf/outlook-bob)
+
+
+---
+
+## pHoptNN
+
+Rajarshi SinhaRoy
+
+Published 2025-11-14
+
+Licensed MIT
+
+
+
+
+
+Content type: software
+
+[https://github.com/kuenzelab/pHoptNN](https://github.com/kuenzelab/pHoptNN)
 
 
 ---
@@ -2449,6 +2603,25 @@ Content type: GitHub Repository
 
 ---
 
+## time-series-analysis
+
+Matthias Täschner
+
+Published 2026-03-27
+
+Licensed CC-BY-4.0
+
+
+
+A practical introduction to time series analysis and forecasting using Python
+
+Content type: software
+
+[https://github.com/ScaDS/time-series-analysis](https://github.com/ScaDS/time-series-analysis)
+
+
+---
+
 ## tira
 
 Maik Fröbe, Matti Wiegmann, Sheldon, Nikolay Kolyada, Christopher Akiki, theelstner, Kavlahkaff, Bastian Grahm, Martin Potthast, juhehehe, Nicolas Handke, Patrick Stahl, dependabot[bot], Jan Heinrich Merker, Gijs Hendriksen, Shahbaz Syed, Ferdinand Schlatt, Simon Reich, Anthony Miyaguchi, Glopix, Johannes Kiesel
@@ -2576,6 +2749,25 @@ An AI-assistant which gives unprompted feedback about code helping you to write 
 Content type: GitHub Repository
 
 [https://github.com/haesleinhuepf/unprompted](https://github.com/haesleinhuepf/unprompted)
+
+
+---
+
+## vest
+
+Robert Haase, autmoate
+
+Published 2025-12-30
+
+Licensed NOASSERTION
+
+
+
+Browser-based exploration of vision embeddings in 3D space
+
+Content type: software
+
+[https://github.com/ScaDS/vest](https://github.com/ScaDS/vest)
 
 
 ---

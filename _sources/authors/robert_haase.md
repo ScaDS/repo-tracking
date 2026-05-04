@@ -1,4 +1,4 @@
-# Robert haase (56)
+# Robert haase (57)
 ## BIDS-lecture-2024
 
 Robert Haase
@@ -998,6 +998,25 @@ An AI-assistant which gives unprompted feedback about code helping you to write 
 Content type: GitHub Repository
 
 [https://github.com/haesleinhuepf/unprompted](https://github.com/haesleinhuepf/unprompted)
+
+
+---
+
+## vest
+
+Robert Haase, autmoate
+
+Published 2025-12-30
+
+Licensed NOASSERTION
+
+
+
+Browser-based exploration of vision embeddings in 3D space
+
+Content type: software
+
+[https://github.com/ScaDS/vest](https://github.com/ScaDS/vest)
 
 
 ---

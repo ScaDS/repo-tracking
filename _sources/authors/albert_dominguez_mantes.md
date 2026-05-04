@@ -1,4 +1,4 @@
-# Martin weigert (6)
+# Albert dominguez mantes (5)
 ## diffusion_model_tutorial
 
 Martin Weigert, Albert Dominguez Mantes, Anna Foix
@@ -50,25 +50,6 @@ Spotiflow plugin for napari
 Content type: software
 
 [https://github.com/weigertlab/napari-spotiflow](https://github.com/weigertlab/napari-spotiflow)
-
-
----
-
-## napari-trackastra
-
-Benjamin Gallusser, Martin Weigert, ilyasdc
-
-Published 2024-05-27
-
-Licensed BSD-3-Clause
-
-
-
-napari plugin for trackastra
-
-Content type: software
-
-[https://github.com/weigertlab/napari-trackastra](https://github.com/weigertlab/napari-trackastra)
 
 
 ---

@@ -1,4 +1,4 @@
-# Autmoate (7)
+# Autmoate (8)
 ## faster-whisper-stt
 
 autmoate
@@ -128,6 +128,25 @@ This repo contains materials for the ScaDS.AI Meetup Workshop on local LLMs
 Content type: GitHub Repository
 
 [https://github.com/ScaDS/scads-ai-meetup-local-llms](https://github.com/ScaDS/scads-ai-meetup-local-llms)
+
+
+---
+
+## vest
+
+Robert Haase, autmoate
+
+Published 2025-12-30
+
+Licensed NOASSERTION
+
+
+
+Browser-based exploration of vision embeddings in 3D space
+
+Content type: software
+
+[https://github.com/ScaDS/vest](https://github.com/ScaDS/vest)
 
 
 ---
