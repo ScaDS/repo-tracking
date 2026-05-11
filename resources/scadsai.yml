@@ -3723,3 +3723,24 @@ resources:
   url:
   - https://zenodo.org/records/17901300
   - https://doi.org/10.5281/zenodo.17901300
+- authors:
+  - susantiyuni
+  - Abdul Rafay
+  - Michael Färber
+  - David Lamprecht
+  description: '[ISWC''26] SemRepo: A Knowledge Graph for Research Software and Its
+    Scholarly Ecosystem'
+  license: MIT
+  name: SemRepo
+  publication_date: '2025-03-09'
+  submission_date: '2026-05-11T13:38:25.363123'
+  tags:
+  - code-data
+  - knowledge-graph
+  - linked-open-data
+  - software
+  - software-dataset
+  - open-science
+  type: software
+  url:
+  - https://github.com/faerber-lab/SemRepo
