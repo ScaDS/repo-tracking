@@ -3723,3 +3723,38 @@ resources:
   url:
   - https://zenodo.org/records/17901300
   - https://doi.org/10.5281/zenodo.17901300
+- authors:
+  - Rafay, Abdul
+  - Susanti, Yuni
+  - Lamprecht, David
+  - "F\xE4rber, Michael"
+  description: "\nSemRepo&nbsp;is an RDF knowledge graph with over 81 million triples\
+    \ on nearly 200,000 GitHub repositories linked to scientific research. SemRepo\
+    \ captures fine-grained repository-level metadata (e.g.,s contributors, issues,\
+    \ dependencies, programming language) and interlinks this information with external\
+    \ scholarly knowledge graphs: repositories are connected to publications in&nbsp;LPWC,\
+    \ repository authors are linked to their profiles in&nbsp;SemOpenAlex, and research\
+    \ artifacts (e.g., datasets, experiments) are linked via&nbsp;MLSea KG.\nSemRepo\
+    \ provides infrastructure for large-scale analysis of research software within\
+    \ the broader scientific ecosystem. This Zenodo release includes:\n\nRDF data\
+    \ dumps (TTL and N-Triples formats)\nSemRepo ontology (OWL)\nVoID description\
+    \ for dataset statistics, interlinks, and access points\nDCAT metadata description\
+    \ for catalog and distribution metadata\n\nSemRepo&rsquo;s services and documentation\
+    \ are available&nbsp;at:&nbsp;https://semrepo.org&nbsp;and our Github repository.&nbsp;SemRepo\
+    \ is released under the&nbsp;CC0 license to maximize reuse and interoperability;\
+    \ users are nevertheless encouraged to cite the dataset and associated publication.\n\
+    How big is the SemRepo Knowledge Graph?\nSemRepo.org contains*:\n\U0001F5C3\uFE0F\
+    \ Repositories: 197,566\n\U0001F9D1&zwj;\U0001F4BB Contributors: 2,916,508\n\U0001F3F7\
+    \uFE0F Issues: 2,609,510\n\U0001F9E0 Programming Language: 387,284\n\U0001F3E2\
+    \ Organizations: 12,879\n\U0001F9E0 Packages: 95,505\n\U0001F9F5 Research Topics:\
+    \ 272,378\n\U0001F9D1&zwj;\U0001F52C Linked SemOpenAlex Authors: 11,867\n\U0001F517\
+    \ Linked LPWC Repositories: 197,566\n\U0001F517 MLSea Software entities: 148,185....\
+    \ (more)\n*core classes only\n"
+  license: cc-zero
+  name: 'SemRepo: A Knowledge Graph for Research Software and Its Scholarly Ecosystem'
+  num_downloads: 156
+  publication_date: '2026-04-29'
+  submission_date: '2026-05-12T16:14:49.790027'
+  url:
+  - https://zenodo.org/records/20084784
+  - https://doi.org/10.5281/zenodo.20084784
