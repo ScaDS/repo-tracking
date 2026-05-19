@@ -3723,3 +3723,31 @@ resources:
   url:
   - https://zenodo.org/records/17901300
   - https://doi.org/10.5281/zenodo.17901300
+- authors:
+  - Rafay, Abdul
+  - Susanti, Yuni
+  - Lamprecht, David
+  - "F\xE4rber, Michael"
+  description: "\nSemRepo is a large-scale RDF knowledge graph of GitHub repositories\
+    \ linked to scientific research. SemRepo captures fine-grained repository-level\
+    \ metadata (e.g.,s contributors, issues, dependencies, programming language) and\
+    \ interlinks this information with external scholarly knowledge graphs: repositories\
+    \ are connected to publications in&nbsp;LPWC, repository authors are linked to\
+    \ their profiles in&nbsp;SemOpenAlex, and research artifacts (e.g., datasets,\
+    \ experiments) are linked via&nbsp;MLSea KG.\nSemRepo provides infrastructure\
+    \ for large-scale analysis of research software within the broader scientific\
+    \ ecosystem. This Zenodo release includes:\n\nRDF data dumps (TTL and N-Triples\
+    \ formats)\nSemRepo ontology (OWL)\nVoID description for dataset statistics, interlinks,\
+    \ and access points\nDCAT metadata description for catalog and distribution metadata\n\
+    \nSemRepo&rsquo;s documentation are available at:&nbsp;Github repository\U0001F310\
+    &nbsp;Project website: https://semrepo.orgSemRepo is released under the&nbsp;CC0\
+    \ license to maximize reuse and interoperability; users are nevertheless encouraged\
+    \ to cite the dataset and associated publication.\n"
+  license: cc-zero
+  name: 'SemRepo: A Knowledge Graph for Research Software and Its Scholarly Ecosystem'
+  num_downloads: 156
+  publication_date: '2026-04-29'
+  submission_date: '2026-05-19T16:46:57.136930'
+  url:
+  - https://zenodo.org/records/20084784
+  - https://doi.org/10.5281/zenodo.20084784
