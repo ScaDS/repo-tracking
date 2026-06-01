@@ -3723,3 +3723,64 @@ resources:
   url:
   - https://zenodo.org/records/17901300
   - https://doi.org/10.5281/zenodo.17901300
+- authors:
+  - Apurv D. Kulkarni
+  description: ''
+  license: GPL-3.0
+  name: bijuty
+  publication_date: '2026-05-27'
+  submission_date: '2026-06-01T16:31:10.471096'
+  type: software
+  url:
+  - https://github.com/ScaDS/bijuty
+- authors:
+  - logalyst
+  description: Resilience and AI Workshop 2026 @  Informatik Festival - TUD Dresden
+  name: ResAI
+  publication_date: '2026-02-26'
+  submission_date: '2026-06-01T16:31:12.406542'
+  type: software
+  url:
+  - https://github.com/ScaDS/ResAI
+- authors:
+  - yulin1117
+  - Harsh Khandelwal
+  - Tobias Schreieder
+  description: ''
+  license: BSD-3-Clause
+  name: CheckThat2026
+  publication_date: '2026-05-19'
+  submission_date: '2026-06-01T16:31:16.653002'
+  type: software
+  url:
+  - https://github.com/faerber-lab/CheckThat2026
+- authors:
+  - susantiyuni
+  - Abdul Rafay
+  - Michael Färber
+  - David Lamprecht
+  description: '[ISWC''26] SemRepo: A Knowledge Graph for Research Software and Its
+    Scholarly Ecosystem'
+  license: MIT
+  name: SemRepo
+  publication_date: '2025-03-09'
+  submission_date: '2026-06-01T16:31:19.909196'
+  tags:
+  - code-data
+  - knowledge-graph
+  - linked-open-data
+  - software
+  - software-dataset
+  - open-science
+  type: software
+  url:
+  - https://github.com/faerber-lab/SemRepo
+- authors:
+  - Simon Razniewski
+  description: Collection of templates for KAAI
+  name: KAAI-Templates
+  publication_date: '2025-06-20'
+  submission_date: '2026-06-01T16:31:22.701832'
+  type: software
+  url:
+  - https://github.com/Knowledge-aware-AI/KAAI-Templates
