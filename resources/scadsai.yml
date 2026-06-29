@@ -3723,3 +3723,75 @@ resources:
   url:
   - https://zenodo.org/records/17901300
   - https://doi.org/10.5281/zenodo.17901300
+- authors:
+  - Apurv D. Kulkarni
+  description: ''
+  license: GPL-3.0
+  name: bijuty
+  publication_date: '2026-05-27'
+  submission_date: '2026-06-29T14:42:05.738457'
+  type: software
+  url:
+  - https://github.com/ScaDS/bijuty
+- authors:
+  - Matthias Täschner
+  description: Resources and materials for the EOSC CZ Summer School for Data Stewards
+    2026
+  license: CC-BY-4.0
+  name: eosc-ssds-2026
+  publication_date: '2026-04-13'
+  submission_date: '2026-06-29T14:42:07.781092'
+  type: software
+  url:
+  - https://github.com/ScaDS/eosc-ssds-2026
+- authors:
+  - logalyst
+  description: Resilience and AI Workshop 2026 @  Informatik Festival - TUD Dresden
+  name: ResAI
+  publication_date: '2026-02-26'
+  submission_date: '2026-06-29T14:42:09.735353'
+  type: software
+  url:
+  - https://github.com/ScaDS/ResAI
+- authors:
+  - susantiyuni
+  - Abdul Rafay
+  - Michael Färber
+  - David Lamprecht
+  description: '[ISWC''26 under submission] SemRepo: A Knowledge Graph for Research
+    Software and Its Scholarly Ecosystem'
+  license: MIT
+  name: SemRepo
+  publication_date: '2025-03-09'
+  submission_date: '2026-06-29T14:42:14.268886'
+  tags:
+  - code-data
+  - knowledge-graph
+  - linked-open-data
+  - software
+  - software-dataset
+  - open-science
+  type: software
+  url:
+  - https://github.com/faerber-lab/SemRepo
+- authors:
+  - yulin1117
+  - Harsh Khandelwal
+  - Tobias Schreieder
+  description: ''
+  license: BSD-3-Clause
+  name: CheckThat2026
+  publication_date: '2026-05-19'
+  submission_date: '2026-06-29T14:42:17.235175'
+  type: software
+  url:
+  - https://github.com/faerber-lab/CheckThat2026
+- authors:
+  - Simon Razniewski
+  description: Collection of templates for KAAI
+  name: KAAI-Templates
+  publication_date: '2025-06-20'
+  submission_date: '2026-06-29T14:42:20.287016'
+  type: software
+  url:
+  - https://github.com/Knowledge-aware-AI/KAAI-Templates
