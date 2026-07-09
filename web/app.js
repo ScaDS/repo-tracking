@@ -19,9 +19,10 @@ const overviewPanels = Array.from(document.querySelectorAll(".overview-panel"));
 const asArray = (value) => (Array.isArray(value) ? value : value ? [value] : []);
 const joinValues = (value) => asArray(value).join(", ");
 const toUrlList = (value) => asArray(value)
-  .flatMap((entry) => String(entry || "").split(","))
+  .map((entry) => String(entry || "").split(",")[0])
   .map((url) => url.trim())
   .filter(Boolean);
+const primaryUrl = (value) => toUrlList(value)[0] || "";
 
 function makeChip(label, count, onClick, isActive) {
   const button = document.createElement("button");
@@ -97,7 +98,7 @@ function renderResults() {
 
   state.filtered.forEach((resource) => {
     const urls = toUrlList(resource.url);
-    const primaryUrl = urls[0] || "";
+    const resourceUrl = primaryUrl(resource.url);
     const authors = joinValues(resource.authors);
     const tags = joinValues(resource.tags);
     const types = joinValues(resource.type);
@@ -120,8 +121,8 @@ function renderResults() {
     const card = document.createElement("article");
     card.className = "result";
     card.innerHTML = `
-      <h3>${primaryUrl
-        ? `<a href="${primaryUrl}" target="_blank" rel="noopener noreferrer">${resource.name || primaryUrl}</a>`
+      <h3>${resourceUrl
+        ? `<a href="${resourceUrl}" target="_blank" rel="noopener noreferrer">${resource.name || resourceUrl}</a>`
         : `${resource.name || "Untitled resource"}`}</h3>
       ${authors ? `<p><strong>Authors:</strong> ${authors}</p>` : ""}
       ${description ? `<p>${description}</p>` : ""}
@@ -163,8 +164,18 @@ async function init() {
   renderFilters(data);
   renderStats(data);
 
-  renderList("#recent", data.recentAdditions, (row) => `<a href="${row.url}" target="_blank" rel="noopener noreferrer">${row.name || row.url}</a>`);
-  renderList("#downloads", data.topDownloads, (row) => `<a href="${row.url}" target="_blank" rel="noopener noreferrer">${row.name}</a> (+${row.download_difference})`);
+  renderList("#recent", data.recentAdditions, (row) => {
+    const url = primaryUrl(row.url);
+    return url
+      ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${row.name || url}</a>`
+      : `${row.name || "Untitled resource"}`;
+  });
+  renderList("#downloads", data.topDownloads, (row) => {
+    const url = primaryUrl(row.url);
+    return url
+      ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${row.name || url}</a> (+${row.download_difference})`
+      : `${row.name || "Untitled resource"} (+${row.download_difference})`;
+  });
 
   searchInput.addEventListener("input", applyFilters);
   applyFilters();
