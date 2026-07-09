@@ -4175,3 +4175,15 @@ resources:
   url:
   - https://zenodo.org/records/20084784
   - https://doi.org/10.5281/zenodo.20084784
+
+- authors:
+  - Florian Fischer
+  - Aleksi Ikkala
+  - Markus Klar
+  description: SIM2VR - Running Biomechanical User Simulations in Unity
+  name: sim2vr
+  publication_date: '2024-08-06T23:03:49+00:00'
+  submission_date: '2026-07-09T19:28:17.862477'
+  type: GitHub Repository
+  url: https://github.com/fl0fischer/sim2vr
+  
