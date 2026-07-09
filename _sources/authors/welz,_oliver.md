@@ -1,4 +1,24 @@
-# Welz, oliver (5)
+# Welz, oliver (6)
+## AI Robotics – From Perception to Action
+
+Welz, Oliver
+
+Published 2026-06-16
+
+Licensed cc-by-4.0
+
+
+
+An overview of the development of modern AI robotics in recent years, featuring insights into Vision Language Action Models (VLAs), how they work, practical experiences, current open-source stacks such as LeRobot, what can currently be done with them, and the question of where AI robotics might be headed in the coming years.
+The presentation also addresses how to start with VLAs, open source robotics (SO100/101 robot arm) and HuggingFace LeRobot.&nbsp;
+
+[https://zenodo.org/records/20730252](https://zenodo.org/records/20730252)
+
+[https://doi.org/10.5281/zenodo.20730252](https://doi.org/10.5281/zenodo.20730252)
+
+
+---
+
 ## ScaDS.AI Meetup #11 2025: Workshop Vibe Coding Contest
 
 Welz, Oliver

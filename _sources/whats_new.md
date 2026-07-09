@@ -1,4 +1,24 @@
-# Recently added (9)
+# Recently added (10)
+## AI Robotics – From Perception to Action
+
+Welz, Oliver
+
+Published 2026-06-16
+
+Licensed cc-by-4.0
+
+
+
+An overview of the development of modern AI robotics in recent years, featuring insights into Vision Language Action Models (VLAs), how they work, practical experiences, current open-source stacks such as LeRobot, what can currently be done with them, and the question of where AI robotics might be headed in the coming years.
+The presentation also addresses how to start with VLAs, open source robotics (SO100/101 robot arm) and HuggingFace LeRobot.&nbsp;
+
+[https://zenodo.org/records/20730252](https://zenodo.org/records/20730252)
+
+[https://doi.org/10.5281/zenodo.20730252](https://doi.org/10.5281/zenodo.20730252)
+
+
+---
+
 ## AI4Science Training @ UFZ Leipzig
 
 Haase, Robert
@@ -57,162 +77,46 @@ EU AI Act
 
 ---
 
-## How Generative AI impacts research and teaching
+## How Generative Artificial Intelligence impacts Bio-image Data Science
 
 Haase, Robert
 
-Published 2026-01-26
+Published 2026-06-02
 
 Licensed cc-by-4.0
 
 
 
-In this Arqus Artificial Intelligence and Digital Transformation (AI&amp;DT) Living Lab lecture, we&nbsp;will explore how Generative Artificial Intelligence (GenAI) impacts research and teaching. We will dive into specialised GenAI-based web applications for scientific [literature] research and for generating teaching materials. We will also look at pitfalls, potential ways to avoid them and good scientific practice.
+In&nbsp; this presentation we learn&nbsp; about the impact of generative artificial intelligence (AI), and in particular large language models (LLMs), on the field of bio image analysis. We dive deeper into data analysis code-generation and AI systems built around LLMs integrating code generation in our workflows conveniently:
 
-[https://zenodo.org/records/18377121](https://zenodo.org/records/18377121)
+bia-bob
+git-bob
+sand-bob
 
-[https://doi.org/10.5281/zenodo.18377121](https://doi.org/10.5281/zenodo.18377121)
+Finally, we take a look at how these systems can be used on sovereign infrastructure to support privacy in a scientific context.
+
+[https://zenodo.org/records/20512957](https://zenodo.org/records/20512957)
+
+[https://doi.org/10.5281/zenodo.20512957](https://doi.org/10.5281/zenodo.20512957)
 
 
 ---
 
-## How Generative Artificial Intelligence impacts Bio-Image Data Science
+## Navigating in Latent Space and Retrieval-Augmented Generation
 
 Haase, Robert
 
-Published 2026-02-22
+Published 2026-06-24
 
 Licensed cc-by-4.0
 
 
 
-In&nbsp; this slide deck we dive into generative artificial intelligence in particular used for code generation and see how it impacts Bio-Image Data Science. We learn about benchmarking large language models for data analysis code generation, and how to use them practically in our work.
+In this session of the ScaDS.AI Summer School 2026 on Neuro+Symbolic AI, we dive into vector embeddings using language models and vision transformers. We will use interactive tools for spatial exploration and we see how to use these embeddings to enrich prompts with context. Accompanied practical exercises can be found online: https://scads.github.io/rag-2026
 
-[https://zenodo.org/records/18735653](https://zenodo.org/records/18735653)
+[https://zenodo.org/records/20825671](https://zenodo.org/records/20825671)
 
-[https://doi.org/10.5281/zenodo.18735653](https://doi.org/10.5281/zenodo.18735653)
-
-
----
-
-## How to use Generative Artificial Intelligence for Science
-
-Haase, Robert
-
-Published 2026-03-08
-
-Licensed cc-by-4.0
-
-
-
-This presentation introduces how generative AI and large language models can support scientific work, from writing and coding to data analysis and literature research. It explains the functioning and limitations of AI systems, highlights the importance of effective prompt engineering, and compares commercial and data‑secure academic tools. Emphasis is placed on critical evaluation, responsible use, and transparent reporting of AI‑generated content. Practical exercises illustrate how researchers can safely integrate AI into their workflows.
-
-[https://zenodo.org/records/18908461](https://zenodo.org/records/18908461)
-
-[https://doi.org/10.5281/zenodo.18908461](https://doi.org/10.5281/zenodo.18908461)
-
-
----
-
-## ScaDS.AI German Full-Page Handwriting Dataset
-
-Nestler, Till, Burghardt, Thomas
-
-Published 2026-01-17
-
-Licensed cc-by-4.0
-
-
-
-
-Description
-
-This dataset contains 77 complete pages of German handwriting, with each page representing an excerpt from a Wikipedia article. For each handwritten page (in JPG data format), a transcription in plain UTF-8 text is provided (can be used as ground truth).
-&nbsp;
-
-Structure
-- images/: one jpg file per handwritten page (a total of 77 items)
-- ground_truth/: one text file per handwritten page (a total of 77 items)
-- metadata/scads_topic_list.csv: dataset description
-- metadata/scads_topic_list.xml: TEI-Lite description
-- metadata/Uni_Leipzig_01-export-251205.csv:&nbsp;contains URLs to the corresponding Wikipedia articles
-- README.md
-- license.txt
-The usable dataset includes 77 images with German handwritten Wikipedia excerpts and corresponding ground truth text files.
-Version
-* 1.0 (January 17, 2026)
-Authors
-* Thomas Burghardt (0009-0003-7874-9134)
-* Till Nestler (0009-0001-2922-525X)
-
-Licence
-Creative Commons Attribution 4.0 International
-
-Use cases
-- Handwritten Text Recognition (HTR)
-- OCR training
-- Computer vision / handwriting analysis
-
-Acknowledgements
-We acknowledge the financial support by the Federal Ministry of Education and Research of Germany and by S&auml;chsische Staatsministerium f&uuml;r Wissenschaft, Kultur und Tourismus in the programme Center of Excellence for AI-research &bdquo;Center for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig&ldquo;, project identification number: ScaDS.AI
-&nbsp;
-
-[https://zenodo.org/records/18283705](https://zenodo.org/records/18283705)
-
-[https://doi.org/10.5281/zenodo.18283705](https://doi.org/10.5281/zenodo.18283705)
-
-
----
-
-## ScaDS.AI German Line- and Word-Level Handwriting Dataset
-
-Burghardt, Thomas, Alzin, Ahmad
-
-Published 2026-01-19
-
-Licensed cc-by-4.0
-
-
-
-This dataset contains 775 full-page images, 5.843 line images and 37.406 word images with German handwritings and corresponding line- and word-level ground truth text files. There are no ground truth text files for the full-page images. If you need full-page images with ground truth,
-check out our dataset with the name &bdquo;ScaDS.AI German full-page Handwriting Dataset&ldquo; on Zenodo (includes 77 pages).
-&nbsp;
-Structure
-- /ground_truth/xml: 775 ground truth xml files
-- /ground_truth/csv/line_annotations.csv: ground truth texts
-- /ground_truth/csv/word_annotations.csv: ground truth texts
-- /images/pages: 775 full-page images with German handwriting
-- /images/lines: 5.843 line images with German handwriting
-- /images/words: 37.406 word images with German handwriting
-- /metadata/Uni_Leipzig_01-export-251205.csv (further descriptions, e.g. corresponding wikipedia urls)
-&nbsp;
-Description
-We offer ground truth files both in XML format and in CSV format with annotated words and lines which cover about 90% of the pages (relating on the content in Uni_Leipzig_01-export-251205.csv). Annotating partially unreadable hundred of manuscripts (775) is hard work and takes a lot of time.
-We provide about 43.249 annotated lines and words from excerpts of Wikipedia articles with ground truth text. Handwriting OCR in German is underserved.
-The quality is not perfect. We did our best, but still there are mistakes.
-&nbsp;
-Version
-* 1.0 created on January 19, 2026 (10.5281/zenodo.18301532)
-
-Authors
-* Thomas Burghardt (0009-0003-7874-9134)
-* Ahmad Alzin (0009-0006-4791-5939)
-
-Licence
-Creative Commons Attribution 4.0 International
-&nbsp;
-Use cases
-- Handwritten Text Recognition (HTR)
-- OCR training
-- Computer vision / handwriting analysis
-&nbsp;
-Acknowledgements
-We acknowledge the financial support by the Federal Ministry of Education and Research of Germany and by S&auml;chsische Staatsministerium f&uuml;r Wissenschaft, Kultur und Tourismus in the programme Center of Excellence for AI-research &bdquo;Center for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig&ldquo;, project identification number: ScaDS.AI
-
-
-[https://zenodo.org/records/18301532](https://zenodo.org/records/18301532)
-
-[https://doi.org/10.5281/zenodo.18301532](https://doi.org/10.5281/zenodo.18301532)
+[https://doi.org/10.5281/zenodo.20825671](https://doi.org/10.5281/zenodo.20825671)
 
 
 ---
@@ -240,6 +144,35 @@ The repository provides insight into the software, how to set it up and use it y
 
 ---
 
+## SemRepo: A Knowledge Graph for Research Software and Its Scholarly Ecosystem
+
+Rafay, Abdul, Susanti, Yuni, Lamprecht, David, Färber, Michael
+
+Published 2026-04-29
+
+Licensed cc-zero
+
+
+
+
+SemRepo is a large-scale RDF knowledge graph of GitHub repositories linked to scientific research. SemRepo captures fine-grained repository-level metadata (e.g.,s contributors, issues, dependencies, programming language) and interlinks this information with external scholarly knowledge graphs: repositories are connected to publications in&nbsp;LPWC, repository authors are linked to their profiles in&nbsp;SemOpenAlex, and research artifacts (e.g., datasets, experiments) are linked via&nbsp;MLSea KG.
+SemRepo provides infrastructure for large-scale analysis of research software within the broader scientific ecosystem. This Zenodo release includes:
+
+RDF data dumps (TTL and N-Triples formats)
+SemRepo ontology (OWL)
+VoID description for dataset statistics, interlinks, and access points
+DCAT metadata description for catalog and distribution metadata
+
+SemRepo&rsquo;s documentation are available at:&nbsp;Github repository🌐&nbsp;Project website: https://semrepo.orgSemRepo is released under the&nbsp;CC0 license to maximize reuse and interoperability; users are nevertheless encouraged to cite the dataset and associated publication.
+
+
+[https://zenodo.org/records/20084784](https://zenodo.org/records/20084784)
+
+[https://doi.org/10.5281/zenodo.20084784](https://doi.org/10.5281/zenodo.20084784)
+
+
+---
+
 ## Train-the-Trainer Workshop zum Forschungsdatenmanagement (Sachsen)
 
 Engelhardt, Claudia, Haase, Robert, Hundt, Carolin, Langermann, Florence, Voigt, Pia
@@ -259,21 +192,59 @@ Im Rahmen einer Kooperation zwischen der s&auml;chsischen FDM-Landesinitiative S
 
 ---
 
-## Vision Language Models & Agentic Systems
+## Wie Generative Künstliche Intelligenz Arbeit und Studium verändert
 
 Haase, Robert
 
-Published 2026-01-19
+Published 2026-05-31
 
 Licensed cc-by-4.0
 
 
 
-In these slide decks, we introduce Vision Language Models (VLM), a form of Generative Artificial Intelligence that can combine textual information and image data. One the one hand these can classify, interpret and describe images. To retrieve the correct information from VLMs, prompt engineering plays a key-role. On the other hand, image-generation models can produce images from text alone, or by combining images and text. The second slide deck introduces agentic systems, as a form of computer system that acts on behalf of humans. Und the hood, large language models run that can call functions from a pre-defined list of available tools, or generate code. After function and/or code execution, these systems interpret the result and plan next steps. As an example of ongoing standardization efforts in this domain, we learn about the Model Context Protocol. Both, VLMs and agents, bring new challenges to our society which are also part of the materials to start a discussion.
+Moderne KI-getriebene Chat-Apps, wie ChatGPT, Gemini, Claude, und andere ver&auml;ndern scheinbar unvermeidbar die Art wie wir arbeiten. F&uuml;r viele hei&szlig;t das effizienteres Schreiben von Texten oder auch Programmieren. Manche &uuml;bersch&auml;tzen dabei die Qualit&auml;t von generiertem Text, m&uuml;ssen auch mal besch&auml;mt zugeben, KI-generierten Text nicht ordentlich kuratiert zu haben. Mussten wir vor etwa 20 Jahren lernen, wie man richtig &ldquo;googelt&rdquo;, lernen wir heute, wie man richtig &ldquo;promptet&rdquo;. In diesem Vortrag erhalten wir einen Einblick in verschiedene Herausforderungen, die uns die aktuelle KI-Revolution auferlegt und eine Reihe Gelegenheiten, die sich uns damit bieten. Dem praxisnahen Vortrag mit Beispielen, Tips und Tricks f&uuml;r den Umgang mit Generativer KI folgt ein praktischer Teil. Praktische &Uuml;bungsaufgaben zu diesen Folien wurden hier ver&ouml;ffenttlicht: https://scads.github.io/genai-dataweek-2026/
 
-[https://zenodo.org/records/18297737](https://zenodo.org/records/18297737)
+[https://zenodo.org/records/20474586](https://zenodo.org/records/20474586)
 
-[https://doi.org/10.5281/zenodo.18297737](https://doi.org/10.5281/zenodo.18297737)
+[https://doi.org/10.5281/zenodo.20474586](https://doi.org/10.5281/zenodo.20474586)
+
+
+---
+
+## Wie man (k)ein RAG-System baut: Lessons Learned bei der Entwicklung einer intelligenten Suche für Patientenakten
+
+Rockstroh, Sarah, Haase, Robert
+
+Published 2026-05-21
+
+Licensed cc-by-4.0
+
+
+
+In diesem KI-Med Webinar geben wir unsere Erfahrungen weiter, die wir in einem Industrienahem Kollaborationsprojekt zur Intelligenten Suche in elektronischen Patientenakten (iPA) gesammelt haben. Wir f&uuml;hren sehr kurz Grundlagen der K&uuml;nstlichen Intelligenz ein, Sprachmodelle, Embeddings und Retrieval-Augmented Generation. Der Rest des Vortrags konzentriert sich auf das iPA-Projekt von einer praktischen Seite: Wie kann man &Auml;rztinnen und &Auml;rzte gezielt mit KI-Technologie unterst&uuml;tzen die richtigen Informationen zu ihren Patienten schnell und zuverl&auml;ssig zu finden.
+
+[https://zenodo.org/records/20327535](https://zenodo.org/records/20327535)
+
+[https://doi.org/10.5281/zenodo.20327535](https://doi.org/10.5281/zenodo.20327535)
+
+
+---
+
+## Wissenstransfer im Zeitalter von KI-Agenten
+
+Haase, Robert
+
+Published 2026-05-11
+
+Licensed cc-by-4.0
+
+
+
+In diesem Slide-Deck erfahren wir &uuml;ber Trainingsaktivit&auml;ten die das Nationale KI-Kompetenzzentrum&nbsp; Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) durchf&uuml;hrt, und wie uns Trainingsmaterialien, KI-Agenten und anderen KI-Systeme helfen neue Wege des Lernens und des Lehrens zu erkunden und zu beschreiten.
+
+[https://zenodo.org/records/20123309](https://zenodo.org/records/20123309)
+
+[https://doi.org/10.5281/zenodo.20123309](https://doi.org/10.5281/zenodo.20123309)
 
 
 ---

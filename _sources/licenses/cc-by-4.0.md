@@ -1,4 +1,24 @@
-# Cc-by-4.0 (62)
+# Cc-by-4.0 (67)
+## AI Robotics – From Perception to Action
+
+Welz, Oliver
+
+Published 2026-06-16
+
+Licensed cc-by-4.0
+
+
+
+An overview of the development of modern AI robotics in recent years, featuring insights into Vision Language Action Models (VLAs), how they work, practical experiences, current open-source stacks such as LeRobot, what can currently be done with them, and the question of where AI robotics might be headed in the coming years.
+The presentation also addresses how to start with VLAs, open source robotics (SO100/101 robot arm) and HuggingFace LeRobot.&nbsp;
+
+[https://zenodo.org/records/20730252](https://zenodo.org/records/20730252)
+
+[https://doi.org/10.5281/zenodo.20730252](https://doi.org/10.5281/zenodo.20730252)
+
+
+---
+
 ## AI4Psychology KI-Kompetenz-Training
 
 Haase, Robert
@@ -384,6 +404,31 @@ In&nbsp; this slide deck we dive into generative artificial intelligence in part
 
 ---
 
+## How Generative Artificial Intelligence impacts Bio-image Data Science
+
+Haase, Robert
+
+Published 2026-06-02
+
+Licensed cc-by-4.0
+
+
+
+In&nbsp; this presentation we learn&nbsp; about the impact of generative artificial intelligence (AI), and in particular large language models (LLMs), on the field of bio image analysis. We dive deeper into data analysis code-generation and AI systems built around LLMs integrating code generation in our workflows conveniently:
+
+bia-bob
+git-bob
+sand-bob
+
+Finally, we take a look at how these systems can be used on sovereign infrastructure to support privacy in a scientific context.
+
+[https://zenodo.org/records/20512957](https://zenodo.org/records/20512957)
+
+[https://doi.org/10.5281/zenodo.20512957](https://doi.org/10.5281/zenodo.20512957)
+
+
+---
+
 ## How LLMs impact BioImage Data Science
 
 Haase, Robert
@@ -621,6 +666,25 @@ Please cite&nbsp;as:
 [https://zenodo.org/records/11203881](https://zenodo.org/records/11203881)
 
 [https://doi.org/10.5281/zenodo.11203881](https://doi.org/10.5281/zenodo.11203881)
+
+
+---
+
+## Navigating in Latent Space and Retrieval-Augmented Generation
+
+Haase, Robert
+
+Published 2026-06-24
+
+Licensed cc-by-4.0
+
+
+
+In this session of the ScaDS.AI Summer School 2026 on Neuro+Symbolic AI, we dive into vector embeddings using language models and vision transformers. We will use interactive tools for spatial exploration and we see how to use these embeddings to enrich prompts with context. Accompanied practical exercises can be found online: https://scads.github.io/rag-2026
+
+[https://zenodo.org/records/20825671](https://zenodo.org/records/20825671)
+
+[https://doi.org/10.5281/zenodo.20825671](https://doi.org/10.5281/zenodo.20825671)
 
 
 ---
@@ -1705,17 +1769,55 @@ In diesem Foliensatz erkunden wir verschiedene Szenarien in denen Generative K&u
 
 Haase, Robert
 
-Published 2025-06-12
+Published 2026-05-31
 
 Licensed cc-by-4.0
 
 
 
-Dieses Slide-Deck f&uuml;hrt Generative K&uuml;nstliche Intelligenz z&uuml;gig ein, umrei&szlig;t einige Prompt-Engineeering Techniken und f&uuml;hrt fortgeschrittene Techniken wie Wissensdestillation und Retrieval-Augmented-Generation ein. Verschiedene Auswirkungen auf das Lernen und Pr&uuml;fen im Studium, sowie auf Felder wie Softwareentwicklung werden praktisch demonstriert. Zum Schlu&szlig; bekommen Teilnehmende einige &Uuml;bungsaufgaben, die sie selbst&auml;ndig l&ouml;sen k&ouml;nnen.
+Moderne KI-getriebene Chat-Apps, wie ChatGPT, Gemini, Claude, und andere ver&auml;ndern scheinbar unvermeidbar die Art wie wir arbeiten. F&uuml;r viele hei&szlig;t das effizienteres Schreiben von Texten oder auch Programmieren. Manche &uuml;bersch&auml;tzen dabei die Qualit&auml;t von generiertem Text, m&uuml;ssen auch mal besch&auml;mt zugeben, KI-generierten Text nicht ordentlich kuratiert zu haben. Mussten wir vor etwa 20 Jahren lernen, wie man richtig &ldquo;googelt&rdquo;, lernen wir heute, wie man richtig &ldquo;promptet&rdquo;. In diesem Vortrag erhalten wir einen Einblick in verschiedene Herausforderungen, die uns die aktuelle KI-Revolution auferlegt und eine Reihe Gelegenheiten, die sich uns damit bieten. Dem praxisnahen Vortrag mit Beispielen, Tips und Tricks f&uuml;r den Umgang mit Generativer KI folgt ein praktischer Teil. Praktische &Uuml;bungsaufgaben zu diesen Folien wurden hier ver&ouml;ffenttlicht: https://scads.github.io/genai-dataweek-2026/
 
-[https://zenodo.org/records/15646539](https://zenodo.org/records/15646539)
+[https://zenodo.org/records/20474586](https://zenodo.org/records/20474586)
 
-[https://doi.org/10.5281/zenodo.15646539](https://doi.org/10.5281/zenodo.15646539)
+[https://doi.org/10.5281/zenodo.20474586](https://doi.org/10.5281/zenodo.20474586)
+
+
+---
+
+## Wie man (k)ein RAG-System baut: Lessons Learned bei der Entwicklung einer intelligenten Suche für Patientenakten
+
+Rockstroh, Sarah, Haase, Robert
+
+Published 2026-05-21
+
+Licensed cc-by-4.0
+
+
+
+In diesem KI-Med Webinar geben wir unsere Erfahrungen weiter, die wir in einem Industrienahem Kollaborationsprojekt zur Intelligenten Suche in elektronischen Patientenakten (iPA) gesammelt haben. Wir f&uuml;hren sehr kurz Grundlagen der K&uuml;nstlichen Intelligenz ein, Sprachmodelle, Embeddings und Retrieval-Augmented Generation. Der Rest des Vortrags konzentriert sich auf das iPA-Projekt von einer praktischen Seite: Wie kann man &Auml;rztinnen und &Auml;rzte gezielt mit KI-Technologie unterst&uuml;tzen die richtigen Informationen zu ihren Patienten schnell und zuverl&auml;ssig zu finden.
+
+[https://zenodo.org/records/20327535](https://zenodo.org/records/20327535)
+
+[https://doi.org/10.5281/zenodo.20327535](https://doi.org/10.5281/zenodo.20327535)
+
+
+---
+
+## Wissenstransfer im Zeitalter von KI-Agenten
+
+Haase, Robert
+
+Published 2026-05-11
+
+Licensed cc-by-4.0
+
+
+
+In diesem Slide-Deck erfahren wir &uuml;ber Trainingsaktivit&auml;ten die das Nationale KI-Kompetenzzentrum&nbsp; Center for Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) durchf&uuml;hrt, und wie uns Trainingsmaterialien, KI-Agenten und anderen KI-Systeme helfen neue Wege des Lernens und des Lehrens zu erkunden und zu beschreiten.
+
+[https://zenodo.org/records/20123309](https://zenodo.org/records/20123309)
+
+[https://doi.org/10.5281/zenodo.20123309](https://doi.org/10.5281/zenodo.20123309)
 
 
 ---
