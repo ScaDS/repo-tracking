@@ -1,4 +1,4 @@
-# Cc-by-4.0 (67)
+# Cc-by-4.0 (68)
 ## AI Robotics – From Perception to Action
 
 Welz, Oliver
@@ -1837,6 +1837,25 @@ Licensed CC-BY-4.0
 Content type: software
 
 [https://github.com/ScaDS/ai4medicine-2026](https://github.com/ScaDS/ai4medicine-2026)
+
+
+---
+
+## eosc-ssds-2026
+
+Matthias Täschner
+
+Published 2026-04-13
+
+Licensed CC-BY-4.0
+
+
+
+Resources and materials for the EOSC CZ Summer School for Data Stewards 2026
+
+Content type: software
+
+[https://github.com/ScaDS/eosc-ssds-2026](https://github.com/ScaDS/eosc-ssds-2026)
 
 
 ---

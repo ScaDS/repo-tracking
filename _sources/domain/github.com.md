@@ -1,4 +1,4 @@
-# Github.com (152)
+# Github.com (158)
 ## AMOC-21
 
 Christopher Akiki, Lukas Gienapp
@@ -170,6 +170,25 @@ Content type: software
 
 ---
 
+## CheckThat2026
+
+yulin1117, Harsh Khandelwal, Tobias Schreieder
+
+Published 2026-05-19
+
+Licensed BSD-3-Clause
+
+
+
+
+
+Content type: software
+
+[https://github.com/faerber-lab/CheckThat2026](https://github.com/faerber-lab/CheckThat2026)
+
+
+---
+
 ## Claim2Source
 
 Tobias Schreieder
@@ -333,6 +352,23 @@ Repository for the paper "Sparse Pairwise Re-ranking with Pre-trained Transforme
 Content type: GitHub Repository
 
 [https://github.com/webis-de/ICTIR-22](https://github.com/webis-de/ICTIR-22)
+
+
+---
+
+## KAAI-Templates
+
+Simon Razniewski
+
+Published 2025-06-20
+
+
+
+Collection of templates for KAAI
+
+Content type: software
+
+[https://github.com/Knowledge-aware-AI/KAAI-Templates](https://github.com/Knowledge-aware-AI/KAAI-Templates)
 
 
 ---
@@ -597,6 +633,23 @@ Content type: software
 
 ---
 
+## ResAI
+
+logalyst
+
+Published 2026-02-26
+
+
+
+Resilience and AI Workshop 2026 @  Informatik Festival - TUD Dresden
+
+Content type: software
+
+[https://github.com/ScaDS/ResAI](https://github.com/ScaDS/ResAI)
+
+
+---
+
 ## SQuAI
 
 Norman, Jingbo He, ines besrour, Tobias Schreieder
@@ -614,6 +667,27 @@ Tags: large-language-models, multi-agent-systems, question-answering, retrieval-
 Content type: software
 
 [https://github.com/faerber-lab/SQuAI](https://github.com/faerber-lab/SQuAI)
+
+
+---
+
+## SemRepo
+
+susantiyuni, Abdul Rafay, Michael Färber, David Lamprecht
+
+Published 2025-03-09
+
+Licensed MIT
+
+
+
+[ISWC'26 under submission] SemRepo: A Knowledge Graph for Research Software and Its Scholarly Ecosystem
+
+Tags: code-data, knowledge-graph, linked-open-data, software, software-dataset, open-science
+
+Content type: software
+
+[https://github.com/faerber-lab/SemRepo](https://github.com/faerber-lab/SemRepo)
 
 
 ---
@@ -1098,6 +1172,25 @@ Content type: GitHub Repository
 
 ---
 
+## bijuty
+
+Apurv D. Kulkarni
+
+Published 2026-05-27
+
+Licensed GPL-3.0
+
+
+
+
+
+Content type: software
+
+[https://github.com/ScaDS/bijuty](https://github.com/ScaDS/bijuty)
+
+
+---
+
 ## blablado
 
 Robert Haase
@@ -1570,6 +1663,25 @@ EMNLP 2021 - On Classifying whether Two Texts are on the Same Side of an Argumen
 Content type: GitHub Repository
 
 [https://github.com/webis-de/emnlp21-same-stance](https://github.com/webis-de/emnlp21-same-stance)
+
+
+---
+
+## eosc-ssds-2026
+
+Matthias Täschner
+
+Published 2026-04-13
+
+Licensed CC-BY-4.0
+
+
+
+Resources and materials for the EOSC CZ Summer School for Data Stewards 2026
+
+Content type: software
+
+[https://github.com/ScaDS/eosc-ssds-2026](https://github.com/ScaDS/eosc-ssds-2026)
 
 
 ---

@@ -1,4 +1,4 @@
-# Matthias täschner (10)
+# Matthias täschner (11)
 ## BIDS-training-2024
 
 Robert Haase, Jan Ewald, AnjaNeumann, Matthias Täschner, Laura Žigutytė, Marie-Sophie von Braun, Christian Martin, dusan-prascevic
@@ -162,6 +162,25 @@ This repository serves as playground for the CICD DevOps workshop at ScaDS.AI GA
 Content type: software
 
 [https://github.com/ScaDS/cicd-ga-scadsai](https://github.com/ScaDS/cicd-ga-scadsai)
+
+
+---
+
+## eosc-ssds-2026
+
+Matthias Täschner
+
+Published 2026-04-13
+
+Licensed CC-BY-4.0
+
+
+
+Resources and materials for the EOSC CZ Summer School for Data Stewards 2026
+
+Content type: software
+
+[https://github.com/ScaDS/eosc-ssds-2026](https://github.com/ScaDS/eosc-ssds-2026)
 
 
 ---

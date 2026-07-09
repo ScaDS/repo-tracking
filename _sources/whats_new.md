@@ -19,60 +19,21 @@ The presentation also addresses how to start with VLAs, open source robotics (SO
 
 ---
 
-## AI4Science Training @ UFZ Leipzig
+## CheckThat2026
 
-Haase, Robert
+yulin1117, Harsh Khandelwal, Tobias Schreieder
 
-Published 2025-12-11
+Published 2026-05-19
 
-Licensed cc-by-4.0
-
-
-
-This slide deck accompanies the AI Competence Training for scientists at UFZ Leipzig: https://scads.github.io/ki-kompetenz-training-2025/intro.html
-It outlines the topics:
-
-
-Introduction to Artificial Intelligence, AI systems, and language models
-
-
-Application areas and limitations of AI in text generation
-
-
-Prompt engineering
-
-
-Prompting with large context
-
-
-Knowledge distillation
-
-
-Embeddings and retrieval-augmented generation
-
-
-Data analysis
-
-
-Data and code generation
-
-
-Bias
-
-
-Privacy-compliant use
-
-
-Copyright
-
-
-EU AI Act
+Licensed BSD-3-Clause
 
 
 
-[https://zenodo.org/records/17901300](https://zenodo.org/records/17901300)
 
-[https://doi.org/10.5281/zenodo.17901300](https://doi.org/10.5281/zenodo.17901300)
+
+Content type: software
+
+[https://github.com/faerber-lab/CheckThat2026](https://github.com/faerber-lab/CheckThat2026)
 
 
 ---
@@ -102,6 +63,23 @@ Finally, we take a look at how these systems can be used on sovereign infrastruc
 
 ---
 
+## KAAI-Templates
+
+Simon Razniewski
+
+Published 2025-06-20
+
+
+
+Collection of templates for KAAI
+
+Content type: software
+
+[https://github.com/Knowledge-aware-AI/KAAI-Templates](https://github.com/Knowledge-aware-AI/KAAI-Templates)
+
+
+---
+
 ## Navigating in Latent Space and Retrieval-Augmented Generation
 
 Haase, Robert
@@ -121,25 +99,23 @@ In this session of the ScaDS.AI Summer School 2026 on Neuro+Symbolic AI, we dive
 
 ---
 
-## ScaDS.AI Meetup #11 2025: Workshop Vibe Coding Contest
+## SemRepo
 
-Welz, Oliver
+susantiyuni, Abdul Rafay, Michael Färber, David Lamprecht
 
-Published 2025-12-15
+Published 2025-03-09
 
-Licensed cc-by-4.0
-
-
+Licensed MIT
 
 
-Presentation on Vibe Coding followed by a workshop as well as a contest at the Meetup #11 2025 at ScaDS.AI.
-The presentation covers the concept of vibe coding, what it is, where the trend comes from, and how you can try it out for yourself. It also introduces selected software that you can use for this purpose.
-The repository provides insight into the software, how to set it up and use it yourself. Examples are also provided so that you can familiarize yourself with vibe coding in a practical way.
 
+[ISWC'26 under submission] SemRepo: A Knowledge Graph for Research Software and Its Scholarly Ecosystem
 
-[https://zenodo.org/records/17935652](https://zenodo.org/records/17935652)
+Tags: code-data, knowledge-graph, linked-open-data, software, software-dataset, open-science
 
-[https://doi.org/10.5281/zenodo.17935652](https://doi.org/10.5281/zenodo.17935652)
+Content type: software
+
+[https://github.com/faerber-lab/SemRepo](https://github.com/faerber-lab/SemRepo)
 
 
 ---
@@ -169,25 +145,6 @@ SemRepo&rsquo;s documentation are available at:&nbsp;Github repository🌐&nbsp;
 [https://zenodo.org/records/20084784](https://zenodo.org/records/20084784)
 
 [https://doi.org/10.5281/zenodo.20084784](https://doi.org/10.5281/zenodo.20084784)
-
-
----
-
-## Train-the-Trainer Workshop zum Forschungsdatenmanagement (Sachsen)
-
-Engelhardt, Claudia, Haase, Robert, Hundt, Carolin, Langermann, Florence, Voigt, Pia
-
-Published 2025-12-18
-
-Licensed cc-by-4.0
-
-
-
-Im Rahmen einer Kooperation zwischen der s&auml;chsischen FDM-Landesinitiative SaxFDM, dem Datenkompetenzzentrum Come2Data sowie dem Data Science Center ScaDS.AI in Leipzig und NFDI4Bioimage wurde der Train-the-Trainer Workshop f&uuml;r das Forschungsdatenmanagement durchgef&uuml;hrt. Die hier ver&ouml;ffentlichten Folien basieren auf dem Train-the-Trainer Konzept (v05) erarbeitet durch Mitglieder der&nbsp;UAG Schulungen/Fortbildungen der DINI/nestor-AG Forschungsdaten. Die behandelten Themen umfassen sowohl die Aspekte des Forschungsdatenmanagements als auch didaktischen Einheiten zu Lernkonzepten, Workshopgestaltung und Methoden.
-
-[https://zenodo.org/records/17978132](https://zenodo.org/records/17978132)
-
-[https://doi.org/10.5281/zenodo.17978132](https://doi.org/10.5281/zenodo.17978132)
 
 
 ---
