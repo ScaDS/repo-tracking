@@ -2,8 +2,7 @@ resources:
 - authors:
   - Lea Kabjesz
   - Lea Gihlein
-  - Lampert
-  - Mara Harriet
+  - Mara Harriet Lampert
   - Robert Haase
   description: 'This record contains the poster "Smart Slide Generation: Re-Using
     Training Materials Through the Power of LLMs" presented by Lea Kabjesz and Lea
@@ -249,8 +248,7 @@ resources:
 - authors:
   - Lea Kabjesz
   - Lea Gihlein
-  - Lampert
-  - Mara Harriet
+  - Mara Harriet Lampert
   - Luisa Götze
   description: 'This record contains the PDF and PPTX Slides that were used at the
     ScaDS.AI Leipzig/Dresden General-Assembly Workshop "Coding effectively with AI:
@@ -1327,8 +1325,7 @@ resources:
   - Paul Marschner
   - Tim Niederhausen
   - Martin Potthast
-  - Reimer
-  - Jan Heinrich
+  - Jan Heinrich Reimer
   - Harrisen Scells
   - Benno Stein
   - Malte Weber
@@ -1406,8 +1403,7 @@ resources:
   - Maik Fröbe
   - Christopher Akiki
   - Lukas Gienapp
-  - Reimer
-  - Jan Heinrich
+  - Jan Heinrich Reimer
   - Matthias Hagen
   - Martin Potthast
   description: 'The Datasets for the Information Retrieval Course at the University
@@ -3444,8 +3440,7 @@ resources:
   - https://zenodo.org/records/19629840
   - https://doi.org/10.5281/zenodo.19629840
 - authors:
-  - Höck
-  - Lina Lisa
+  - Lina Lisa Höck
   - Robert Haase
   description: 'This slide deck accompanies the AI4Science for scientists at UFZ Magdeburg:
     https://scads.github.io/ai4science-ufz-madgeburg-2026/intro.html
