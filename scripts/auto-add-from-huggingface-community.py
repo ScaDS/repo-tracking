@@ -1,6 +1,8 @@
 import os
 import sys
 from datetime import datetime
+from functools import lru_cache
+from string import ascii_letters, digits
 
 import requests
 import yaml
@@ -227,19 +229,85 @@ def extract_commit_authors(commit):
     if isinstance(authors, list):
         for author in authors:
             if isinstance(author, dict):
-                name = author.get("fullname") or author.get("name") or author.get("user") or author.get("username")
+                name = extract_author_display_name(author)
                 if name:
                     yield name
             elif isinstance(author, str):
-                yield author
+                yield resolve_author_string(author)
 
     author = commit.get("author")
     if isinstance(author, dict):
-        name = author.get("fullname") or author.get("name") or author.get("user") or author.get("username")
+        name = extract_author_display_name(author)
         if name:
             yield name
     elif isinstance(author, str):
-        yield author
+        yield resolve_author_string(author)
+
+
+def extract_author_display_name(author):
+    """
+    Prefer a real name from commit metadata and resolve usernames when needed.
+    """
+    name = author.get("fullname") or author.get("fullName") or author.get("name")
+    if name:
+        return name
+
+    username = author.get("user") or author.get("username")
+    if isinstance(username, dict):
+        name = username.get("fullname") or username.get("fullName") or username.get("name")
+        if name:
+            return name
+        username = username.get("user") or username.get("username") or username.get("name")
+
+    if username:
+        return resolve_huggingface_user_display_name(str(username))
+
+    return None
+
+
+def resolve_author_string(author):
+    """
+    Resolve username-like author strings while preserving already-human names.
+    """
+    author = author.strip()
+    if is_likely_huggingface_username(author):
+        return resolve_huggingface_user_display_name(author)
+    return author
+
+
+def is_likely_huggingface_username(value):
+    """
+    Check whether a string is shaped like a Hugging Face username.
+    """
+    valid_username_characters = set(ascii_letters + digits + "-_")
+    return bool(value) and all(character in valid_username_characters for character in value)
+
+
+@lru_cache(maxsize=512)
+def resolve_huggingface_user_display_name(username):
+    """
+    Return a Hugging Face user's full name when available, otherwise the username.
+    """
+    username = username.strip()
+    if not username:
+        return username
+
+    try:
+        response = requests.get(
+            f"{HUGGINGFACE_API_BASE_URL}/users/{username}",
+            headers=get_headers(),
+            timeout=30,
+        )
+        response.raise_for_status()
+        user = response.json()
+    except requests.RequestException as error:
+        print(f"Could not retrieve Hugging Face user profile for {username}: {error}")
+        return username
+
+    if not isinstance(user, dict):
+        return username
+
+    return user.get("fullname") or user.get("fullName") or user.get("name") or username
 
 
 def collect_description(resource, card_data):
