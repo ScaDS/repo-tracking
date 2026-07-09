@@ -4170,3 +4170,412 @@ resources:
   url:
   - https://zenodo.org/records/20084784
   - https://doi.org/10.5281/zenodo.20084784
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_mistral_normal
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:adapter:mistralai/Mistral-7B-Instruct-v0.3
+  - base_model:mistralai/Mistral-7B-Instruct-v0.3
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_mistral_normal
+  num_downloads: 1
+  submission_date: '2026-07-09T20:14:50.465312'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_mistral_attack
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:adapter:mistralai/Mistral-7B-Instruct-v0.3
+  - base_model:mistralai/Mistral-7B-Instruct-v0.3
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_mistral_attack
+  num_downloads: 1
+  submission_date: '2026-07-09T20:14:50.465366'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_qwen_normal
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:Qwen/Qwen2.5-7B-Instruct
+  - base_model:adapter:Qwen/Qwen2.5-7B-Instruct
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_qwen_normal
+  num_downloads: 1
+  submission_date: '2026-07-09T20:14:50.465383'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_llama_normal
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:adapter:meta-llama/Llama-3.1-8B-Instruct
+  - base_model:meta-llama/Llama-3.1-8B-Instruct
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_llama_normal
+  num_downloads: 5
+  submission_date: '2026-07-09T20:14:50.465396'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_mistral_idk
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:adapter:mistralai/Mistral-7B-Instruct-v0.3
+  - base_model:mistralai/Mistral-7B-Instruct-v0.3
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_mistral_idk
+  num_downloads: 2
+  submission_date: '2026-07-09T20:14:50.465409'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_mistral_attack_idk
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:adapter:mistralai/Mistral-7B-Instruct-v0.3
+  - base_model:mistralai/Mistral-7B-Instruct-v0.3
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_mistral_attack_idk
+  num_downloads: 1
+  submission_date: '2026-07-09T20:14:50.465422'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_qwen_attack
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:Qwen/Qwen2.5-7B-Instruct
+  - base_model:adapter:Qwen/Qwen2.5-7B-Instruct
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_qwen_attack
+  num_downloads: 1
+  submission_date: '2026-07-09T20:14:50.465432'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_qwen_idk
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:Qwen/Qwen2.5-7B-Instruct
+  - base_model:adapter:Qwen/Qwen2.5-7B-Instruct
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_qwen_idk
+  num_downloads: 2
+  submission_date: '2026-07-09T20:14:50.465443'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_qwen_attack_idk
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:Qwen/Qwen2.5-7B-Instruct
+  - base_model:adapter:Qwen/Qwen2.5-7B-Instruct
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_qwen_attack_idk
+  num_downloads: 2
+  submission_date: '2026-07-09T20:14:50.465452'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_llama_attack
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:adapter:meta-llama/Llama-3.1-8B-Instruct
+  - base_model:meta-llama/Llama-3.1-8B-Instruct
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_llama_attack
+  num_downloads: 5
+  submission_date: '2026-07-09T20:14:50.465463'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_llama_idk
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:adapter:meta-llama/Llama-3.1-8B-Instruct
+  - base_model:meta-llama/Llama-3.1-8B-Instruct
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_llama_idk
+  num_downloads: 4
+  submission_date: '2026-07-09T20:14:50.465473'
+- authors:
+  - ScaDSAI
+  description: ''
+  name: final_llama_attack_idk
+  publication_date: '2025-06-22'
+  tags:
+  - Hugging Face
+  - arxiv:1910.09700
+  - base_model:adapter:meta-llama/Llama-3.1-8B-Instruct
+  - base_model:meta-llama/Llama-3.1-8B-Instruct
+  - peft
+  - region:us
+  - safetensors
+  type: Hugging Face Model
+  url: https://huggingface.co/ScaDSAI/final_llama_attack_idk
+  num_downloads: 3
+  submission_date: '2026-07-09T20:14:50.465483'
+- authors:
+  - ScaDSAI
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tAbout this Dataset\n\t\n\nThis Dataset contains\
+    \ data from several Presentation Slides. For each Slide the following information\
+    \ is available:\n\nkey: recordID_pdfNumber_slideNumber\n\nzenodo_record_id : record\
+    \ ID\n\nzenodo_filename: PDF Filename\n\ntext_embedding: Text Embedding (using\
+    \ the mixedbread-ai/mxbai-embed-large-v1 model)\n\nvisual_embedding: Vision Embedding\
+    \ (using the openai/clip-vit-base-patch32 model)\n\nmixed_embedding: Mixed Embedding\
+    \ (text embedding of a generated structured… See the full description on the dataset\
+    \ page: https://huggingface.co/datasets/ScaDSAI/SlideInsight_Cache."
+  name: SlideInsight_Cache
+  publication_date: '2025-03-07'
+  tags:
+  - Hugging Face
+  - format:parquet
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:text
+  - region:us
+  - size_categories:1K<n<10K
+  type: Hugging Face Dataset
+  url: https://huggingface.co/datasets/ScaDSAI/SlideInsight_Cache
+  num_downloads: 14
+  submission_date: '2026-07-09T20:14:50.465497'
+- authors:
+  - ScaDSAI
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tAbout this Dataset\n\t\n\nThis Dataset contains\
+    \ data from several Presentation Slides. For each Slide the following information\
+    \ is available:\n\nkey: recordID_pdfNumber_slideNumber\n\nimage: each presentation\
+    \ slide as an PIL image\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tZenodo Records Information\n\
+    \t\n\nThis repository contains data from Zenodo records.\n\n\t\n\t\t\n\t\n\t\n\
+    \t\tRecords\n\t\n\n\nZenodo Record 10008464Authors: Moore, JoshLicense: cc-by-4.0\n\
+    \nZenodo Record 10008465Authors: Moore, JoshLicense: cc-by-4.0\n\nZenodo Record…\
+    \ See the full description on the dataset page: https://huggingface.co/datasets/ScaDSAI/Slide_Insight_Images."
+  name: Slide_Insight_Images
+  publication_date: '2025-03-18'
+  tags:
+  - Hugging Face
+  - cc-by-4.0
+  - format:parquet
+  - library:dask
+  - library:datasets
+  - library:mlcroissant
+  - library:polars
+  - modality:image
+  - modality:text
+  - region:us
+  - size_categories:1K<n<10K
+  type: Hugging Face Dataset
+  url: https://huggingface.co/datasets/ScaDSAI/Slide_Insight_Images
+  license: cc-by-4.0
+  num_downloads: 32
+  submission_date: '2026-07-09T20:14:50.465510'
+- authors:
+  - ScaDSAI
+  description: "\n\t\n\t\t\n\t\tPARADEHATE\n\t\n\nPaper: LLM in the Loop: Creating\
+    \ the ParaDeHate Dataset for Hate Speech Detoxification\n\n\t\n\t\t\n\t\tDataset\
+    \ Summary\n\t\n\nParaDeHate is a parallel dataset designed for hate speech detoxification,\
+    \ containing 8,276 pairs of toxic (hate speech) and detoxified (non-hateful) text\
+    \ samples. It was created using an LLM-in-the-loop pipeline with GPT-4o-mini,\
+    \ automating the process of rewriting hate speech into non-toxic, semantically\
+    \ equivalent text. The dataset is sourced from four… See the full description\
+    \ on the dataset page: https://huggingface.co/datasets/ScaDSAI/ParaDeHate."
+  name: ParaDeHate
+  publication_date: '2025-05-27'
+  tags:
+  - Hugging Face
+  - arxiv:2506.01484
+  - format:parquet
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:text
+  - region:us
+  - size_categories:1K<n<10K
+  - task_categories:text-generation
+  - text-generation
+  - text2text-generation
+  type: Hugging Face Dataset
+  url: https://huggingface.co/datasets/ScaDSAI/ParaDeHate
+  num_downloads: 17
+  submission_date: '2026-07-09T20:14:50.465524'
+- authors:
+  - ScaDSAI
+  description: "\n\t\n\t\t\n\t\tDataset Overview\n\t\n\nXSB and MS-XSB are benchmarks\
+    \ designed to systematically evaluate exaggerated safety behaviours in large language\
+    \ models (LLMs).\nXSB focuses on single-turn interactions, while MS-XSB evaluates\
+    \ more complex, multi-turn conversational scenarios.\n\n\t\n\t\t\n\t\tData Composition\n\
+    \t\n\nXSB (Single-Turn):  \n\n580 safe prompts across 12 categories that are often\
+    \ misclassified as unsafe.\n\nMS-XSB (Multi-Turn):  \n\n600 prompts embedded within\
+    \ 30 conversational scenarios.  \nIndividual… See the full description on the\
+    \ dataset page: https://huggingface.co/datasets/ScaDSAI/XSB_and_MS-XSB."
+  name: XSB_and_MS-XSB
+  publication_date: '2025-08-23'
+  tags:
+  - Hugging Face
+  - arxiv:2510.08158
+  - mit
+  - region:us
+  type: Hugging Face Dataset
+  url: https://huggingface.co/datasets/ScaDSAI/XSB_and_MS-XSB
+  license: mit
+  num_downloads: 18
+  submission_date: '2026-07-09T20:14:50.465533'
+- authors:
+  - ScaDSAI
+  description: "\n\t\n\t\t\n\t\tTEDRASIM Dataset\n\t\n\n\n\t\n\t\t\n\t\tDataset Summary\n\
+    \t\n\nThis dataset is a multimodal training corpus for fine-tuning vision-language\
+    \ models to generate structured JSON scene-graph descriptions from rendered images.\n\
+    This dataset contains:\n\na synthetic dataset of 10,000 scenes, each rendered\
+    \ from 2 views (20,000 images total),\na small real-world dataset of 120 images.\n\
+    \nEach example consists of:\n\none image showing a object assembly,\na multi-turn\
+    \ chat-style prompt structure,\na target JSON string… See the full description\
+    \ on the dataset page: https://huggingface.co/datasets/ScaDSAI/tedrasim."
+  name: tedrasim
+  publication_date: '2026-03-18'
+  tags:
+  - 3d
+  - Hugging Face
+  - TEDRASIM Dataset
+  - computer-vision
+  - en
+  - image-text-to-text
+  - image-to-text
+  - json
+  - language:en
+  - mit
+  - modality:3d
+  - modality:image
+  - multimodal
+  - region:us
+  - scene-graph
+  - size_categories:10K<n<100K
+  - spatial-reasoning
+  - synthetic
+  - task_categories:image-text-to-text
+  - task_categories:image-to-text
+  type: Hugging Face Dataset
+  url: https://huggingface.co/datasets/ScaDSAI/tedrasim
+  license: mit
+  num_downloads: 401
+  submission_date: '2026-07-09T20:14:50.465549'
+- authors:
+  - ScaDSAI
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tAbout this Dataset\n\t\n\nThis Dataset contains\
+    \ data from several Presentation Slides as part of the NFDI4BIOIMAGE project SlideInsight\
+    \ to gain insights into presentation slides through multimodal AI models.\nFor\
+    \ each Slide the following information is available:\n\nkey: recordID_pdfNumber_slideNumber\n\
+    \nzenodo_record_id: record ID\n\nzenodo_filename: PDF Filename\n\npage_number:\
+    \ PDF Slide Number\n\ntext_embedding: Text Embedding (using the mixedbread-ai/mxbai-embed-large-v1\
+    \ model)… See the full description on the dataset page: https://huggingface.co/datasets/ScaDSAI/SlideInsight_Cache_v2."
+  name: SlideInsight_Cache_v2
+  publication_date: '2026-05-13'
+  tags:
+  - Hugging Face
+  - cc-by-4.0
+  - en
+  - format:parquet
+  - language:en
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:text
+  - region:us
+  - size_categories:1K<n<10K
+  type: Hugging Face Dataset
+  url: https://huggingface.co/datasets/ScaDSAI/SlideInsight_Cache_v2
+  license: cc-by-4.0
+  num_downloads: 47
+  submission_date: '2026-07-09T20:14:50.465563'
+- authors:
+  - ScaDSAI
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tAbout this Dataset\n\t\n\nThis Dataset contains\
+    \ several Presentation Slides as part of the NFDI4BIOIMAGE project SlideInsight\
+    \ to gain insights into presentation slides through multimodal AI models.\nFor\
+    \ each Slide the following information is available:\n\nkey: recordID_pdfNumber_slideNumber\n\
+    image: each presentation slide as an PIL image\n\nThe corresponding embeddings\
+    \ and metadata can be found in this Huggingface Dataset.\n\n\t\n\t\t\n\t\n\t\n\
+    \t\tZenodo Records Information\n\t\n\nThis repository contains… See the full description\
+    \ on the dataset page: https://huggingface.co/datasets/ScaDSAI/Slide_Insight_Images_v2."
+  name: Slide_Insight_Images_v2
+  publication_date: '2026-05-15'
+  tags:
+  - Hugging Face
+  - cc-by-4.0
+  - en
+  - format:parquet
+  - language:en
+  - library:dask
+  - library:datasets
+  - library:mlcroissant
+  - library:polars
+  - modality:image
+  - modality:text
+  - region:us
+  - size_categories:1K<n<10K
+  type: Hugging Face Dataset
+  url: https://huggingface.co/datasets/ScaDSAI/Slide_Insight_Images_v2
+  license: cc-by-4.0
+  num_downloads: 43
+  submission_date: '2026-07-09T20:14:50.465575'
