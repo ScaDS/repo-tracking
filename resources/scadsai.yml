@@ -20,6 +20,9 @@ resources:
   num_downloads: 94
   publication_date: '2025-11-06'
   submission_date: '2025-11-12T10:40:41.173228'
+  tags:
+  - Research Data Management
+  - Training Materials
   url:
   - https://zenodo.org/records/17541532
   - https://doi.org/10.5281/zenodo.17541532
@@ -49,6 +52,8 @@ resources:
   num_downloads: 6
   publication_date: '2025-10-29'
   submission_date: '2025-11-12T10:40:41.894482'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/17478160
   - https://doi.org/10.5281/zenodo.17478160
@@ -64,6 +69,8 @@ resources:
   num_downloads: 157
   publication_date: '2025-10-23'
   submission_date: '2025-11-12T10:40:43.301368'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17422917
   - https://doi.org/10.5281/zenodo.17422917
@@ -84,6 +91,8 @@ resources:
   url:
   - https://zenodo.org/records/17240205
   - https://doi.org/10.5281/zenodo.17240205
+  tags:
+  - Dataset
 - authors:
   - Haase, Robert
   description: 'Dieses Slide-Deck is begleitend zum KI-Kompetenz-Training f&uuml;r
@@ -136,6 +145,8 @@ resources:
   num_downloads: 176
   publication_date: '2025-09-25'
   submission_date: '2025-11-12T10:40:46.558131'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17203260
   - https://doi.org/10.5281/zenodo.17203260
@@ -149,6 +160,8 @@ resources:
   num_downloads: 188
   publication_date: '2025-09-23'
   submission_date: '2025-11-12T10:40:47.899019'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17186869
   - https://doi.org/10.5281/zenodo.17186869
@@ -165,6 +178,8 @@ resources:
   num_downloads: 6
   publication_date: '2025-09-19'
   submission_date: '2025-11-12T10:40:48.776370'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17158770
   - https://doi.org/10.5281/zenodo.17158770
@@ -185,6 +200,8 @@ resources:
   num_downloads: 95
   publication_date: '2025-09-19'
   submission_date: '2025-11-12T10:40:50.121642'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17158643
   - https://doi.org/10.5281/zenodo.17158643
@@ -206,6 +223,8 @@ resources:
   num_downloads: 77
   publication_date: '2025-09-16'
   submission_date: '2025-11-12T10:40:51.399201'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17130780
   - https://doi.org/10.5281/zenodo.17130780
@@ -221,6 +240,8 @@ resources:
   num_downloads: 323
   publication_date: '2025-09-14'
   submission_date: '2025-11-12T10:40:52.067019'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17116758
   - https://doi.org/10.5281/zenodo.17116758
@@ -242,6 +263,8 @@ resources:
   num_downloads: 267
   publication_date: '2025-09-10'
   submission_date: '2025-11-12T10:40:52.744257'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17093197
   - https://doi.org/10.5281/zenodo.17093197
@@ -258,6 +281,8 @@ resources:
   num_downloads: 212
   publication_date: '2025-09-11'
   submission_date: '2025-11-12T10:40:53.369398'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17102027
   - https://doi.org/10.5281/zenodo.17102027
@@ -274,6 +299,8 @@ resources:
   num_downloads: 469
   publication_date: '2025-09-09'
   submission_date: '2025-11-12T10:40:55.907512'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17085991
   - https://doi.org/10.5281/zenodo.17085991
@@ -289,6 +316,8 @@ resources:
   num_downloads: 187
   publication_date: '2025-09-04'
   submission_date: '2025-11-12T10:40:57.127759'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17053832
   - https://doi.org/10.5281/zenodo.17053832
@@ -302,6 +331,8 @@ resources:
   num_downloads: 77
   publication_date: '2025-09-01'
   submission_date: '2025-11-12T10:40:58.455031'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17017890
   - https://doi.org/10.5281/zenodo.17017890
@@ -318,6 +349,8 @@ resources:
   num_downloads: 79
   publication_date: '2025-08-18'
   submission_date: '2025-11-12T10:40:59.330188'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/16894343
   - https://doi.org/10.5281/zenodo.16894343
@@ -331,6 +364,8 @@ resources:
   num_downloads: 7171
   publication_date: '2025-07-10'
   submission_date: '2025-11-12T10:41:01.180333'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/15858127
   - https://doi.org/10.5281/zenodo.15858127
@@ -348,6 +383,8 @@ resources:
   num_downloads: 15
   publication_date: '2025-05-20'
   submission_date: '2025-11-12T10:41:01.695452'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/15805268
   - https://doi.org/10.5281/zenodo.15805268
@@ -368,6 +405,8 @@ resources:
   num_downloads: 108
   publication_date: '2025-05-20'
   submission_date: '2025-11-12T10:41:02.031193'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/15805148
   - https://doi.org/10.5281/zenodo.15805148
@@ -411,6 +450,8 @@ resources:
   num_downloads: 592
   publication_date: '2025-06-25'
   submission_date: '2025-11-12T10:41:02.504498'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/15735577
   - https://doi.org/10.5281/zenodo.15735577
@@ -430,6 +471,8 @@ resources:
   num_downloads: 450
   publication_date: '2025-06-20'
   submission_date: '2025-11-12T10:41:03.084820'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/15706181
   - https://doi.org/10.5281/zenodo.15706181
@@ -444,6 +487,8 @@ resources:
   num_downloads: 414
   publication_date: '2025-06-19'
   submission_date: '2025-11-12T10:41:04.309873'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/15699459
   - https://doi.org/10.5281/zenodo.15699459
@@ -458,6 +503,8 @@ resources:
   num_downloads: 223
   publication_date: '2025-06-13'
   submission_date: '2025-11-12T10:41:09.398190'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/15654889
   - https://doi.org/10.5281/zenodo.15654889
@@ -475,6 +522,8 @@ resources:
   num_downloads: 343
   publication_date: '2025-06-12'
   submission_date: '2025-11-12T10:41:10.410186'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/15646539
   - https://doi.org/10.5281/zenodo.15646539
@@ -538,6 +587,8 @@ resources:
   num_downloads: 1073
   publication_date: '2025-05-26'
   submission_date: '2025-11-12T10:41:11.224780'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/15516022
   - https://doi.org/10.5281/zenodo.15516022
@@ -551,6 +602,8 @@ resources:
   name: generative-ai-notebooks
   publication_date: '2024-07-02T07:28:41+00:00'
   submission_date: '2025-11-12T11:16:51.957807'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/generative-ai-notebooks
   
@@ -587,6 +640,8 @@ resources:
   name: ai4science-ufz-2025
   publication_date: '2025-11-03T07:39:36+00:00'
   submission_date: '2025-11-12T11:17:04.306761'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/ai4science-ufz-2025
   
@@ -624,6 +679,8 @@ resources:
   name: ai-school-iom-2025
   publication_date: '2025-09-02T08:25:19+00:00'
   submission_date: '2025-11-12T11:17:15.982593'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/ai-school-iom-2025
   
@@ -642,6 +699,8 @@ resources:
   name: ai4medicine-2025
   publication_date: '2025-05-13T08:12:43+00:00'
   submission_date: '2025-11-12T11:17:21.953410'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/ai4medicine-2025
   
@@ -652,6 +711,8 @@ resources:
   name: ai4psychology-2025
   publication_date: '2025-09-16T07:15:46+00:00'
   submission_date: '2025-11-12T11:17:24.950548'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/ai4psychology-2025
   
@@ -662,6 +723,8 @@ resources:
   name: llm-bia-2025
   publication_date: '2025-09-01T12:16:14+00:00'
   submission_date: '2025-11-12T11:17:27.746715'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/llm-bia-2025
   
@@ -672,6 +735,8 @@ resources:
   name: embo-lsm-bia-2025
   publication_date: '2025-08-04T13:26:59+00:00'
   submission_date: '2025-11-12T11:17:30.542083'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/embo-lsm-bia-2025
   
@@ -684,6 +749,8 @@ resources:
   name: ki-kompetenz-training-2025
   publication_date: '2025-05-07T09:26:59+00:00'
   submission_date: '2025-11-12T11:17:34.288852'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/ki-kompetenz-training-2025
   
@@ -705,6 +772,8 @@ resources:
   name: LLM_Summer_School_Tutorial_2025
   publication_date: '2025-06-19T12:10:56+00:00'
   submission_date: '2025-11-12T11:17:40.289041'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/LLM_Summer_School_Tutorial_2025
   
@@ -715,6 +784,8 @@ resources:
   name: secai_llm_training
   publication_date: '2025-02-24T08:44:12+00:00'
   submission_date: '2025-11-12T11:17:43.102941'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/secai_llm_training
   
@@ -753,6 +824,8 @@ resources:
   name: ai4seismology-2025
   publication_date: '2025-04-27T13:46:58+00:00'
   submission_date: '2025-11-12T11:17:56.066086'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/ai4seismology-2025
   
@@ -764,6 +837,8 @@ resources:
   name: scads-ai-meetup-local-llms
   publication_date: '2025-03-11T10:00:57+00:00'
   submission_date: '2025-11-12T11:17:58.730220'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/scads-ai-meetup-local-llms
   
@@ -785,6 +860,8 @@ resources:
   name: grad-seminar-ai-pair-programming
   publication_date: '2025-01-31T14:52:02+00:00'
   submission_date: '2025-11-12T11:18:04.533083'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/grad-seminar-ai-pair-programming
   
@@ -797,6 +874,8 @@ resources:
   name: ai_training_ufz_2025
   publication_date: '2024-10-17T11:00:04+00:00'
   submission_date: '2025-11-12T11:18:08.198385'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/ai_training_ufz_2025
   
@@ -817,6 +896,8 @@ resources:
   name: prompt-engineering-basics-2024
   publication_date: '2024-08-17T11:22:48+00:00'
   submission_date: '2025-11-12T11:18:14.161035'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/prompt-engineering-basics-2024
   
@@ -845,6 +926,8 @@ resources:
   name: BIDS-training-2024
   publication_date: '2024-02-19T08:38:35+00:00'
   submission_date: '2025-11-12T11:18:23.170419'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/BIDS-training-2024
   
@@ -857,6 +940,8 @@ resources:
   name: BIDS-lecture-2024
   publication_date: '2024-03-19T12:46:28+00:00'
   submission_date: '2025-11-12T11:18:26.741887'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/BIDS-lecture-2024
   
@@ -878,6 +963,8 @@ resources:
   name: Python-training-2024
   publication_date: '2024-05-23T11:56:39+00:00'
   submission_date: '2025-11-12T11:18:32.902825'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/Python-training-2024
   
@@ -903,6 +990,8 @@ resources:
   name: MovieGraphBenchmark
   publication_date: '2024-03-13T16:08:07+00:00'
   submission_date: '2025-11-12T11:18:40.003854'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/MovieGraphBenchmark
   
@@ -923,6 +1012,8 @@ resources:
   name: napari-tutorial-2023
   publication_date: '2023-11-17T13:16:47+00:00'
   submission_date: '2025-11-12T11:18:46.628428'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/napari-tutorial-2023
   
@@ -934,6 +1025,8 @@ resources:
   name: prompt-engineering-tutorial-2023
   publication_date: '2023-12-15T07:31:16+00:00'
   submission_date: '2025-11-12T11:18:50.115898'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDS/prompt-engineering-tutorial-2023
   
@@ -975,6 +1068,8 @@ resources:
   num_downloads: 12
   publication_date: '2025-11-21'
   submission_date: '2025-11-25T14:15:13.694981'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17669681
   - https://doi.org/10.5281/zenodo.17669681
@@ -1069,6 +1164,8 @@ resources:
   num_downloads: 147
   publication_date: '2025-09-20'
   submission_date: '2025-12-14T09:31:46.509208'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/17163932
   - https://doi.org/10.5281/zenodo.17163932
@@ -1113,6 +1210,8 @@ resources:
   num_downloads: 1314
   publication_date: '2025-05-06'
   submission_date: '2025-12-14T09:31:47.744019'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/15347992
   - https://doi.org/10.5281/zenodo.15347992
@@ -1149,6 +1248,8 @@ resources:
   num_downloads: 2229
   publication_date: '2025-04-23'
   submission_date: '2025-12-14T09:31:48.396051'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/15270283
   - https://doi.org/10.5281/zenodo.15270283
@@ -1169,6 +1270,8 @@ resources:
   num_downloads: 4639
   publication_date: '2024-09-30'
   submission_date: '2025-12-14T09:31:49.003448'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/13860524
   - https://doi.org/10.5281/zenodo.13860524
@@ -1205,6 +1308,8 @@ resources:
   num_downloads: 78
   publication_date: '2024-05-16'
   submission_date: '2025-12-14T09:31:49.547261'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/11203881
   - https://doi.org/10.5281/zenodo.11203881
@@ -1290,6 +1395,8 @@ resources:
   num_downloads: 31157
   publication_date: '2024-02-07'
   submission_date: '2025-12-14T09:31:50.178208'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/10628882
   - https://doi.org/10.5281/zenodo.10628882
@@ -1359,6 +1466,8 @@ resources:
   num_downloads: 13237
   publication_date: '2024-02-07'
   submission_date: '2025-12-14T09:31:50.834151'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/10628640
   - https://doi.org/10.5281/zenodo.10628640
@@ -1378,6 +1487,8 @@ resources:
   num_downloads: 63
   publication_date: '2023-10-24'
   submission_date: '2025-12-14T09:31:51.405230'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/10036479
   - https://doi.org/10.5281/zenodo.10036479
@@ -1412,6 +1523,8 @@ resources:
   num_downloads: 320
   publication_date: '2023-02-02'
   submission_date: '2025-12-14T09:31:51.987512'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/8383863
   - https://doi.org/10.5281/zenodo.8383863
@@ -1465,6 +1578,8 @@ resources:
   num_downloads: 211
   publication_date: '2023-01-10'
   submission_date: '2025-12-14T09:31:53.093772'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/7525482
   - https://doi.org/10.5281/zenodo.7525482
@@ -1484,6 +1599,8 @@ resources:
   num_downloads: 6610
   publication_date: '2022-06-13'
   submission_date: '2025-12-14T09:31:53.695152'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/6873575
   - https://doi.org/10.5281/zenodo.6873575
@@ -1504,6 +1621,8 @@ resources:
   num_downloads: 4985
   publication_date: '2020-09-23'
   submission_date: '2025-12-14T09:31:54.247843'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/6873564
   - https://doi.org/10.5281/zenodo.6873564
@@ -1534,6 +1653,8 @@ resources:
   num_downloads: 51
   publication_date: '2022-04-08'
   submission_date: '2025-12-14T09:31:54.888523'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/6425595
   - https://doi.org/10.5281/zenodo.6425595
@@ -1557,6 +1678,8 @@ resources:
   num_downloads: 0
   publication_date: '2021-12-21'
   submission_date: '2025-12-14T09:31:55.482401'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/5575320
   - https://doi.org/10.5281/zenodo.5575320
@@ -1585,6 +1708,8 @@ resources:
   num_downloads: 420
   publication_date: '2021-10-18'
   submission_date: '2025-12-14T09:31:56.025753'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/5575285
   - https://doi.org/10.5281/zenodo.5575285
@@ -1613,6 +1738,10 @@ resources:
   num_downloads: 34
   publication_date: '2021-09-09'
   submission_date: '2025-12-14T09:31:56.631625'
+  tags:
+  - Dataset
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/5495793
   - https://doi.org/10.5281/zenodo.5495793
@@ -1647,6 +1776,8 @@ resources:
   num_downloads: 120
   publication_date: '2021-09-09'
   submission_date: '2025-12-14T09:31:57.188061'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/5380989
   - https://doi.org/10.5281/zenodo.5380989
@@ -1677,6 +1808,8 @@ resources:
   num_downloads: 63
   publication_date: '2021-09-09'
   submission_date: '2025-12-14T09:31:57.765240'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/5282635
   - https://doi.org/10.5281/zenodo.5282635
@@ -1694,6 +1827,8 @@ resources:
   num_downloads: 107
   publication_date: '2020-10-20'
   submission_date: '2025-12-14T09:31:58.337699'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/4108196
   - https://doi.org/10.5281/zenodo.4108196
@@ -1859,6 +1994,8 @@ resources:
   name: meetup-workshop-mcp
   publication_date: '2025-09-01T13:47:13+00:00'
   submission_date: '2025-12-14T11:47:55.790009'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDSAILLLE/meetup-workshop-mcp
   
@@ -1870,6 +2007,8 @@ resources:
   name: meetup-vibe-coding-contest
   publication_date: '2025-12-08T10:12:16+00:00'
   submission_date: '2025-12-14T11:47:58.785041'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDSAILLLE/meetup-vibe-coding-contest
   
@@ -1879,6 +2018,8 @@ resources:
   name: meetup-agents
   publication_date: '2025-05-06T13:04:42+00:00'
   submission_date: '2025-12-14T11:48:01.262848'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/ScaDSAILLLE/meetup-agents
   
@@ -1990,6 +2131,8 @@ resources:
   name: BioImageAnalysisNotebooks
   publication_date: '2024-01-06T19:51:12+00:00'
   submission_date: '2025-12-14T11:48:39.581247'
+  tags:
+  - Training Materials
   type: GitHub Repository
   url: https://github.com/haesleinhuepf/BioImageAnalysisNotebooks/
   
@@ -2012,7 +2155,9 @@ resources:
   name: training
   publication_date: '2025-10-21T12:22:24+00:00'
   submission_date: '2025-12-14T11:48:48.143752'
-  type: GitHub Repository
+  tags:
+  - Dataset
+  type: GitHub 
   url: https://github.com/nfdi4bioimage/training/
   
 - authors:
@@ -2847,7 +2992,8 @@ resources:
   name: repo-tracking
   publication_date: '2025-11-12'
   submission_date: '2025-12-15T11:13:30.710941'
-  type: software
+  tags:
+  - Dataset
   url:
   - https://github.com/ScaDS/repo-tracking
 - authors:
@@ -2867,7 +3013,8 @@ resources:
   name: BIDS-lecture-2025
   publication_date: '2025-04-09'
   submission_date: '2025-12-15T11:13:33.636414'
-  type: software
+  tags:
+  - Training Materials
   url:
   - https://github.com/ScaDS/BIDS-lecture-2025
 - authors:
@@ -3071,6 +3218,8 @@ resources:
   name: diffusion_model_tutorial
   publication_date: '2025-02-06'
   submission_date: '2025-12-16T13:53:32.807445'
+  tags:
+  - Training Materials
   type: software
   url:
   - https://github.com/weigertlab/diffusion_model_tutorial
@@ -3231,6 +3380,8 @@ resources:
   num_downloads: 5
   publication_date: '2026-04-17'
   submission_date: '2026-04-28T16:08:51.279085'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/19635484
   - https://doi.org/10.5281/zenodo.19635484
@@ -3245,6 +3396,8 @@ resources:
   num_downloads: 9
   publication_date: '2026-04-17'
   submission_date: '2026-04-28T16:08:51.879011'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/19633745
   - https://doi.org/10.5281/zenodo.19633745
@@ -3267,6 +3420,8 @@ resources:
   num_downloads: 6
   publication_date: '2026-04-17'
   submission_date: '2026-04-28T16:08:52.480641'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/19629840
   - https://doi.org/10.5281/zenodo.19629840
@@ -3341,6 +3496,8 @@ resources:
   num_downloads: 149
   publication_date: '2026-03-27'
   submission_date: '2026-04-28T16:08:53.277411'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/19246441
   - https://doi.org/10.5281/zenodo.19246441
@@ -3355,6 +3512,8 @@ resources:
   num_downloads: 22
   publication_date: '2026-03-10'
   submission_date: '2026-04-28T16:08:53.969440'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/18958000
   - https://doi.org/10.5281/zenodo.18958000
@@ -3372,6 +3531,8 @@ resources:
   num_downloads: 85
   publication_date: '2026-03-08'
   submission_date: '2026-04-28T16:08:54.523611'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/18908461
   - https://doi.org/10.5281/zenodo.18908461
@@ -3387,6 +3548,8 @@ resources:
   num_downloads: 68
   publication_date: '2026-02-27'
   submission_date: '2026-04-28T16:08:55.067768'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/18804366
   - https://doi.org/10.5281/zenodo.18804366
@@ -3401,6 +3564,8 @@ resources:
   num_downloads: 64
   publication_date: '2026-02-22'
   submission_date: '2026-04-28T16:08:55.706049'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/18735653
   - https://doi.org/10.5281/zenodo.18735653
@@ -3417,6 +3582,8 @@ resources:
   num_downloads: 490
   publication_date: '2026-01-26'
   submission_date: '2026-04-28T16:08:56.346757'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/18377121
   - https://doi.org/10.5281/zenodo.18377121
@@ -3495,6 +3662,8 @@ resources:
   num_downloads: 31
   publication_date: '2026-01-17'
   submission_date: '2026-04-28T16:08:56.974791'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/18283705
   - https://doi.org/10.5281/zenodo.18283705
@@ -3586,6 +3755,8 @@ resources:
   num_downloads: 24
   publication_date: '2026-01-19'
   submission_date: '2026-04-28T16:08:57.616466'
+  tags:
+  - Dataset
   url:
   - https://zenodo.org/records/18301532
   - https://doi.org/10.5281/zenodo.18301532
@@ -3609,6 +3780,8 @@ resources:
   num_downloads: 413
   publication_date: '2026-01-19'
   submission_date: '2026-04-28T16:08:58.265212'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/18297737
   - https://doi.org/10.5281/zenodo.18297737
@@ -3631,6 +3804,8 @@ resources:
   num_downloads: 1127
   publication_date: '2025-12-18'
   submission_date: '2026-04-28T16:08:59.533260'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17978132
   - https://doi.org/10.5281/zenodo.17978132
@@ -3655,6 +3830,8 @@ resources:
   num_downloads: 6
   publication_date: '2025-12-15'
   submission_date: '2026-04-28T16:09:00.060422'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17935652
   - https://doi.org/10.5281/zenodo.17935652
@@ -3720,6 +3897,8 @@ resources:
   num_downloads: 236
   publication_date: '2025-12-11'
   submission_date: '2026-04-28T16:09:00.698586'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/17901300
   - https://doi.org/10.5281/zenodo.17901300
@@ -3771,6 +3950,8 @@ resources:
   - software
   - software-dataset
   - open-science
+  - Dataset
+  - Knowledge Graph
   type: software
   url:
   - https://github.com/faerber-lab/SemRepo
@@ -3792,6 +3973,8 @@ resources:
   name: KAAI-Templates
   publication_date: '2025-06-20'
   submission_date: '2026-07-06T14:19:21.333068'
+  tags:
+  - Templates
   type: software
   url:
   - https://github.com/Knowledge-aware-AI/KAAI-Templates
@@ -3807,6 +3990,8 @@ resources:
   num_downloads: 64
   publication_date: '2026-06-24'
   submission_date: '2026-07-07T16:21:51.842035'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/20825671
   - https://doi.org/10.5281/zenodo.20825671
@@ -3825,12 +4010,14 @@ resources:
   num_downloads: 6
   publication_date: '2026-06-16'
   submission_date: '2026-07-07T16:21:52.941982'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/20730252
   - https://doi.org/10.5281/zenodo.20730252
 - authors:
   - Haase, Robert
-  description: 'In&nbsp; this presentation we learn&nbsp; about the impact of generative
+  description: 'In this presentation we learn about the impact of generative
     artificial intelligence (AI), and in particular large language models (LLMs),
     on the field of bio image analysis. We dive deeper into data analysis code-generation
     and AI systems built around LLMs integrating code generation in our workflows
@@ -3851,6 +4038,8 @@ resources:
   num_downloads: 316
   publication_date: '2026-06-02'
   submission_date: '2026-07-07T16:21:53.456189'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/20512957
   - https://doi.org/10.5281/zenodo.20512957
@@ -3873,6 +4062,8 @@ resources:
   num_downloads: 289
   publication_date: '2026-05-31'
   submission_date: '2026-07-07T16:21:53.909542'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/20474586
   - https://doi.org/10.5281/zenodo.20474586
@@ -3893,6 +4084,8 @@ resources:
   num_downloads: 113
   publication_date: '2026-05-21'
   submission_date: '2026-07-07T16:21:54.368657'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/20327535
   - https://doi.org/10.5281/zenodo.20327535
@@ -3908,6 +4101,8 @@ resources:
   num_downloads: 47
   publication_date: '2026-05-11'
   submission_date: '2026-07-07T16:21:54.809964'
+  tags:
+  - Training Materials
   url:
   - https://zenodo.org/records/20123309
   - https://doi.org/10.5281/zenodo.20123309
@@ -3936,6 +4131,9 @@ resources:
   num_downloads: 224
   publication_date: '2026-04-29'
   submission_date: '2026-07-07T16:21:55.261527'
+  tags:
+  - Dataset
+  - Knowledge Graph
   url:
   - https://zenodo.org/records/20084784
   - https://doi.org/10.5281/zenodo.20084784
