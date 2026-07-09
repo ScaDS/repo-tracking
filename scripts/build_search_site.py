@@ -113,7 +113,7 @@ def _top_downloads(download_dir: Path):
 
 def build_site():
     repository_root = Path(__file__).resolve().parents[1]
-    resources_path = repository_root / "resources" / "nfdi4bioimage.yml"
+    resources_path = repository_root / "resources" / "scadsai.yml"
     download_dir = repository_root / "download_statistics"
     web_source = repository_root / "web"
     output_dir = repository_root / "dist"
