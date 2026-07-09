@@ -87,14 +87,15 @@ def fetch_huggingface_resources(organization):
     """
     resources = []
     resource_types = [
-        ("models", "Hugging Face Model", ""),
-        ("datasets", "Hugging Face Dataset", "datasets/"),
+        ("models", "Model", ""),
+        ("datasets", "Dataset", "datasets/"),
         ("spaces", "Hugging Face Space", "spaces/"),
     ]
 
     for api_path, resource_type, web_path in resource_types:
         for item in fetch_paginated(f"{HUGGINGFACE_API_BASE_URL}/{api_path}", {"author": organization, "full": "true"}):
             item["resource_type"] = resource_type
+            item["api_path"] = api_path
             item["web_path"] = web_path
             resources.append(item)
 
@@ -175,17 +176,70 @@ def complete_huggingface_data(resource):
 
 def collect_authors(resource, card_data):
     """
-    Prefer explicit card authors and otherwise use the Hugging Face owner.
+    Prefer people who committed to the Hugging Face repository.
     """
+    commit_authors = fetch_commit_authors(resource)
+    if len(commit_authors) > 0:
+        return commit_authors
+
     authors = card_data.get("authors") or card_data.get("author")
     if isinstance(authors, str):
         return [authors]
     if isinstance(authors, list) and len(authors) > 0:
         return authors
 
-    repo_id = resource.get("modelId") or resource.get("id") or ""
-    owner = repo_id.split("/")[0] if "/" in repo_id else resource.get("author")
-    return [owner] if owner else []
+    return []
+
+
+def fetch_commit_authors(resource):
+    """
+    Return unique commit author names or usernames from a Hugging Face repository.
+    """
+    repo_id = resource.get("modelId") or resource.get("id")
+    api_path = resource.get("api_path")
+    if not repo_id or not api_path:
+        return []
+
+    url = f"{HUGGINGFACE_API_BASE_URL}/{api_path}/{repo_id}/commits/main"
+    authors = []
+    seen_authors = set()
+
+    try:
+        commits = fetch_paginated(url, {})
+        for commit in commits:
+            for author in extract_commit_authors(commit):
+                normalized_author = author.strip()
+                author_key = normalized_author.lower()
+                if normalized_author and author_key not in seen_authors:
+                    authors.append(normalized_author)
+                    seen_authors.add(author_key)
+    except requests.RequestException as error:
+        print(f"Could not retrieve Hugging Face commit authors for {repo_id}: {error}")
+
+    return authors
+
+
+def extract_commit_authors(commit):
+    """
+    Extract author names from Hugging Face commit metadata.
+    """
+    authors = commit.get("authors")
+    if isinstance(authors, list):
+        for author in authors:
+            if isinstance(author, dict):
+                name = author.get("fullname") or author.get("name") or author.get("user") or author.get("username")
+                if name:
+                    yield name
+            elif isinstance(author, str):
+                yield author
+
+    author = commit.get("author")
+    if isinstance(author, dict):
+        name = author.get("fullname") or author.get("name") or author.get("user") or author.get("username")
+        if name:
+            yield name
+    elif isinstance(author, str):
+        yield author
 
 
 def collect_description(resource, card_data):
