@@ -288,8 +288,13 @@ def collect_tags(resource, card_data):
         elif isinstance(value, str):
             tags.append(value)
 
-    tags.append("Hugging Face")
-    return sorted({str(tag).replace("license:", "").strip() for tag in tags if str(tag).strip()})
+    # remove tags that start with "license:", "region:us", or "region:eu"
+    tags = [tag for tag in tags if not str(tag).startswith(("license:", "region:", " library:", "format:", "arxiv:"))]
+
+    # remove tags that are only "en" or "english"
+    tags = [tag for tag in tags if str(tag).lower() not in ("en", "english", "Hugging Face", "safetensors")]
+
+    return sorted({str(tag).strip() for tag in tags if str(tag).strip()})
 
 
 def collect_license(resource, card_data):
