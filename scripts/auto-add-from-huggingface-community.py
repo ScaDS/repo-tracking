@@ -294,7 +294,7 @@ def resolve_huggingface_user_display_name(username):
 
     try:
         response = requests.get(
-            f"{HUGGINGFACE_API_BASE_URL}/users/{username}",
+            f"{HUGGINGFACE_API_BASE_URL}/users/{username}/overview",
             headers=get_headers(),
             timeout=30,
         )
