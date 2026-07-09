@@ -495,7 +495,9 @@ def complete_zenodo_data(zenodo_url):
     -------
     entry : dict
         A dictionary containing structured metadata and statistics
-        fetched from the Zenodo record.
+        fetched from the Zenodo record.  The entry also includes a
+        ``conceptrecid`` key when the Zenodo API returns one, which is
+        used by :func:`find_parent_entry` to detect version duplicates.
     """
     zenodo_data = read_zenodo(zenodo_url)
     entry = {}
@@ -526,7 +528,103 @@ def complete_zenodo_data(zenodo_url):
     if 'stats' in zenodo_data.keys():
         entry['num_downloads'] = zenodo_data['stats']['downloads']
 
+    # Store the concept record ID so version duplicates can be detected later
+    conceptrecid = zenodo_data.get('conceptrecid')
+    if conceptrecid is not None:
+        entry['conceptrecid'] = str(conceptrecid)
+
     return entry
+
+
+def find_parent_entry(resources_list, conceptrecid):
+    """
+    Search a list of resource entries for one that belongs to the same Zenodo
+    concept record.
+
+    Different versions of the same Zenodo upload share a common concept record
+    ID (``conceptrecid``).  This function checks whether any existing resource
+    entry already represents a record from that concept, either by matching the
+    stored ``conceptrecid`` field or by detecting the concept ID within an
+    entry's URLs (e.g. ``/records/<conceptrecid>`` or
+    ``zenodo.<conceptrecid>``).
+
+    Parameters
+    ----------
+    resources_list : list of dict
+        The current list of resource entry dictionaries to search.
+    conceptrecid : str or None
+        The Zenodo concept record ID of the new record.
+
+    Returns
+    -------
+    dict or None
+        The first matching existing entry, or ``None`` if no parent is found.
+    """
+    if not conceptrecid:
+        return None
+    conceptrecid_str = str(conceptrecid)
+    for entry in resources_list:
+        # Direct match on stored conceptrecid field
+        if str(entry.get('conceptrecid', '')) == conceptrecid_str:
+            return entry
+        # Check each URL for the concept record ID
+        urls = entry.get('url', [])
+        if isinstance(urls, str):
+            urls = [urls]
+        for url in urls:
+            # '/records/' is the current Zenodo URL scheme; '/record/' (singular)
+            # was used by older Zenodo versions and may still appear in stored data.
+            if (f'/records/{conceptrecid_str}' in url
+                    or f'/record/{conceptrecid_str}' in url
+                    or f'zenodo.{conceptrecid_str}' in url):
+                return entry
+    return None
+
+
+def merge_zenodo_entry(existing_entry, new_data):
+    """
+    Merge new Zenodo version data into an existing resource entry.
+
+    Updates the entry's descriptive metadata fields with values from
+    *new_data* (the newer version is considered authoritative) and merges
+    the URL lists so that URLs for all versions are preserved.
+
+    Parameters
+    ----------
+    existing_entry : dict
+        The existing resource entry to update in-place.
+    new_data : dict
+        Metadata for the new Zenodo version (as returned by
+        :func:`complete_zenodo_data`).
+
+    Returns
+    -------
+    dict
+        The updated entry (same object as *existing_entry*).
+    """
+    # Merge URLs: keep all existing + add any new ones
+    existing_urls = existing_entry.get('url', [])
+    if isinstance(existing_urls, str):
+        existing_urls = [existing_urls]
+    new_urls = new_data.get('url', [])
+    if isinstance(new_urls, str):
+        new_urls = [new_urls]
+    for url in new_urls:
+        if url not in existing_urls:
+            existing_urls.append(url)
+    existing_entry['url'] = existing_urls
+
+    # Update descriptive metadata from the newer version
+    for field in ['name', 'description', 'authors', 'license',
+                  'publication_date', 'num_downloads']:
+        if field in new_data:
+            existing_entry[field] = new_data[field]
+
+    # Store / update the conceptrecid if available
+    if 'conceptrecid' in new_data:
+        existing_entry['conceptrecid'] = new_data['conceptrecid']
+
+    return existing_entry
 
 
 if __name__ == "__main__":

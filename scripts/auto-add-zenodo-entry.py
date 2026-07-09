@@ -6,6 +6,8 @@ import sys
 from _github_utilities import create_branch, get_file_in_repository, get_issue_body, write_file, send_pull_request
 import yaml
 from datetime import datetime
+from generate_link_lists import (complete_zenodo_data, all_content,
+                                  find_parent_entry, merge_zenodo_entry)
 
 def main():
     """
@@ -16,6 +18,10 @@ def main():
     retrieves the issue body, checks if it's a valid Zenodo link, retrieves corresponding
     data, and appends it to a specified YAML file by creating a new branch and submitting
     a pull request.
+
+    When a submitted URL belongs to the same Zenodo concept as an existing entry
+    (i.e. it is a new version of something already tracked), the existing entry
+    is updated in-place rather than creating a duplicate.
 
     Returns
     -------
@@ -35,73 +41,75 @@ def main():
 
     # read "database"
     branch = create_branch(repository)
-    file_content = get_file_in_repository(repository, branch, yml_filename).decoded_content.decode()
-    print("yml file content length:", len(file_content))
+    file_content_str = get_file_in_repository(repository, branch, yml_filename).decoded_content.decode()
+    print("yml file content length:", len(file_content_str))
+
+    # Parse the YAML file so we can update existing entries when needed
+    file_data = yaml.safe_load(file_content_str)
+    if file_data is None:
+        file_data = {'resources': []}
+
+    # Load all resources for cross-file parent detection
+    resources_dir = yml_filename.rsplit('/', 1)[0] + '/'
+    existing_resources = all_content(resources_dir)['resources']
+    all_urls_set = set()
+    for r in existing_resources:
+        urls = r.get('url', [])
+        if isinstance(urls, str):
+            urls = [urls]
+        all_urls_set.update(urls)
+
+    pr_notes = []
 
     for zenodo_url in zenodo_urls:
         # read data from zenodo
-        zenodo_data_dict = complete_zenodo_data(zenodo_url)
-        zenodo_yml = "\n- " + yaml.dump(zenodo_data_dict).replace("\n", "\n  ")
-        
-        # add entry
-        file_content += zenodo_yml
-    
+        new_data = complete_zenodo_data(zenodo_url)
+
+        if isinstance(new_data.get("url"), str):
+            new_data["url"] = [new_data["url"]]
+
+        # Skip if URL is already tracked
+        if any(u in all_urls_set for u in new_data.get("url", [])):
+            msg = f"Already tracked: {zenodo_url}"
+            print(msg)
+            pr_notes.append(f"* Skipped (already tracked): {zenodo_url}")
+            continue
+
+        conceptrecid = new_data.get('conceptrecid')
+
+        # Check whether this is a new version of an already-tracked record
+        parent = find_parent_entry(file_data['resources'], conceptrecid)
+
+        if parent is not None:
+            # Merge new-version metadata into the existing entry
+            merge_zenodo_entry(parent, new_data)
+            msg = f"  -> merged as new version of existing entry '{parent.get('name')}'"
+            print(msg)
+            pr_notes.append(f"* Updated existing entry (new version): [{new_data.get('name', zenodo_url)}]({zenodo_url})")
+        else:
+            # Check all resources (other yml files) to avoid cross-file duplicates
+            parent_other = find_parent_entry(existing_resources, conceptrecid)
+            if parent_other is not None:
+                msg = f"  -> parent found in a different file for {zenodo_url}, skipping duplicate"
+                print(msg)
+                pr_notes.append(f"* Skipped (parent entry found in another file): [{new_data.get('name', zenodo_url)}]({zenodo_url})")
+            else:
+                # Genuinely new entry
+                file_data['resources'].append(new_data)
+                existing_resources.append(new_data)
+                pr_notes.append(f"* Added: [{new_data.get('name', zenodo_url)}]({zenodo_url})")
+
+        for u in new_data.get("url", []):
+            all_urls_set.add(u)
+
     # save back to github
-    write_file(repository, branch, yml_filename, file_content, "Add multiple Zenodo entries")
-    res = send_pull_request(repository, branch, "Add multiple Zenodo entries", f"closes #{issue}")
+    new_file_content = yaml.dump(file_data, allow_unicode=True)
+    write_file(repository, branch, yml_filename, new_file_content, "Add multiple Zenodo entries")
+    pr_body = f"closes #{issue}\n\n" + "\n".join(pr_notes)
+    res = send_pull_request(repository, branch, "Add multiple Zenodo entries", pr_body)
 
     print("Done.", res)
     
-
-def complete_zenodo_data(zenodo_url):
-    """
-    Completes Zenodo data retrieval and structuring for inclusion in a YAML file.
-
-    Parameters
-    ----------
-    zenodo_url : str
-        The URL of the Zenodo record.
-
-    Returns
-    -------
-    entry : dict
-        A dictionary containing structured metadata and statistics
-        fetched from the Zenodo record.
-    """
-    from generate_link_lists import read_zenodo, remove_html_tags
-    zenodo_data = read_zenodo(zenodo_url)
-    entry = {}
-    urls = [zenodo_url]
-
-    if 'doi_url' in zenodo_data.keys():
-        doi_url = zenodo_data['doi_url']
-        
-        # Add DOI URL to the URLs list if it's not already there
-        if doi_url not in urls:
-            urls.append(doi_url)
-    entry['url'] = urls
-        
-    if 'metadata' in zenodo_data.keys():
-        metadata = zenodo_data['metadata']
-        # Update entry with Zenodo metadata and statistics
-        entry['name'] = metadata['title']
-        if 'publication_date' in metadata.keys():
-            entry['publication_date'] = metadata['publication_date']
-        if 'description' in metadata.keys():
-            entry['description'] = remove_html_tags(metadata['description'])
-        if 'creators' in metadata.keys():
-            creators = metadata['creators']
-            entry['authors'] = [c['name'] for c in creators]
-        if 'license' in metadata.keys():
-            entry['license'] = metadata['license']['id']
-    
-    if 'stats'  in zenodo_data.keys():
-        entry['num_downloads'] = zenodo_data['stats']['downloads']
-    
-    entry['submission_date'] = datetime.now().isoformat()
-
-    return entry
-
 
 if __name__ == "__main__":
     main()
