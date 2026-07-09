@@ -55,12 +55,14 @@ def main():
         print("No new Hugging Face resources to add. Exiting.")
         return
 
-    print(new_data)
+    
+    huggingface_yml = yaml.dump(new_data, sort_keys=False, allow_unicode=True)
+    print(huggingface_yml)
+
 
     branch = create_branch(repository)
     print("New branch:", branch)
 
-    huggingface_yml = yaml.dump(new_data, sort_keys=False, allow_unicode=True)
     file_content = get_file_in_repository(repository, branch, yml_filename).decoded_content.decode()
     print("yml file content length:", len(file_content))
 
