@@ -1,9 +1,11 @@
-name: Run Weekly Summary Download Statistics
+name: Add Zenodo Community Records
 
 on:
   schedule:
     - cron: '0 14 * * 2'  # This runs the job every Tuesday at 11 AM
-
+# manual trigger for testing
+  workflow_dispatch:
+  
 jobs:
   run-weekly-summary:
     runs-on: ubuntu-latest
