@@ -4506,3 +4506,14 @@ resources:
   license: cc-by-4.0
   num_downloads: 43
   submission_date: '2026-07-09T22:44:25.146249'
+- authors:
+  - Lea Kabjesz
+  description: 'An AI-enhanced virtual reality framework for interactive bioimage
+    exploration. '
+  license: BSD-3-Clause
+  name: bioimage-VR
+  publication_date: '2026-07-14'
+  submission_date: '2026-07-20T13:00:22.690470'
+  type: software
+  url:
+  - https://github.com/ScaDS/bioimage-VR
