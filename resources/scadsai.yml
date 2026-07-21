@@ -4506,3 +4506,101 @@ resources:
   license: cc-by-4.0
   num_downloads: 43
   submission_date: '2026-07-09T22:44:25.146249'
+- authors:
+  - Lipp, Ilona
+  - Haase, Robert
+  description: 'In this slide deck we introduce AI agents for code generation that
+    use Github or Gitlab issues and pull-requests as basis for interaction with their
+    human operators:
+
+
+    Github Copilot
+
+    OpenHands
+
+    Git-Bob
+
+
+    Related practical exercises can be found online: https://scads.github.io/git-ai-2026'
+  license: cc-by-4.0
+  name: Git + Artificial Intelligence - Coding with Copilot, OpenHands, GitBob
+  num_downloads: 46
+  publication_date: '2026-06-11'
+  submission_date: '2026-07-21T15:29:19.250355'
+  url:
+  - https://zenodo.org/records/20639390
+  - https://doi.org/10.5281/zenodo.20639390
+- authors:
+  - Haase, Robert
+  description: 'In this slide deck we dive into AI-assisted code generation with a
+    focus on bio image data analysis code. We learn how good large language models
+    are for this kind of task. We dive deeply into code quality parameters such as
+    functional correctness, executability and result consistency. We learn how to
+    review generated code critically, in particular by reviewing computation results,
+    e.g. when using these tools:
+
+
+    bia-bob
+
+    git-bob
+
+    sand-bob
+
+
+    Last but not least we argue about sovereign, privacy preserving infrastructure.'
+  license: cc-by-4.0
+  name: How Generative AI impacts [BioImage] Data Science
+  num_downloads: 432
+  publication_date: '2026-06-05'
+  submission_date: '2026-07-21T15:29:19.872906'
+  url:
+  - https://zenodo.org/records/20551619
+  - https://doi.org/10.5281/zenodo.20551619
+- authors:
+  - Haase, Robert
+  description: Generative Artificial Intelligence (GenAI) systems are revolutionizing
+    the way humans interact with computers. Cumbersome tasks such as finding relevant
+    documents for answering specific questions can suddenly be supported by computers
+    to a degree that full automation appear within reach. Systems which achieve this
+    level of autonomy are referred to as AI-agents. AI-agents can&nbsp;answer emails,
+    make appointments, browse all documents an institution ever created, and all that
+    within seconds or minutes. However, when we enable GenAI systems to answer questions
+    on our behalf, this also opens doors for new kinds of cybersecurity attacks. In
+    this webinar, organized by the Leipzig University and&nbsp;funded by the&nbsp;Arqus
+    Innovation Fund&nbsp;(2025 call), we will see AI-agents in action helping with
+    administrative tasks and for scientific question wwriting and reviewing. We will
+    learn about "Prompt Injections" and what attack-angles these systems potentially
+    open and which measures that can be taken to keep AI-agents under control with
+    state-of-the-art technology.
+  license: cc-by-4.0
+  name: AI & Cybersecurity - Opportunities and risks
+  num_downloads: 307
+  publication_date: '2026-04-22'
+  submission_date: '2026-07-21T15:29:26.108227'
+  url:
+  - https://zenodo.org/records/19690207
+  - https://doi.org/10.5281/zenodo.19690207
+- authors:
+  - Haase, Robert
+  description: 'In&nbsp; this slide deck we dive into generative artificial intelligence
+    for bio-image data analysis and discuss limitations and opportunities. We''ll
+    use large language models and vision language models for
+
+
+    Counting objects in images
+
+    Deciding what algorithms to use for processing images
+
+    Writing code for image analysis
+
+
+    Finally, we''ll look into AI agents analysing image data automatically. Related
+    exercises can be found online: https://scads.github.io/llm-data-analysis-2026'
+  license: cc-by-4.0
+  name: How Generative Artificial Intelligence impacts Bio-image Data Science
+  num_downloads: 597
+  publication_date: '2026-03-05'
+  submission_date: '2026-07-21T15:29:31.320135'
+  url:
+  - https://zenodo.org/records/18879906
+  - https://doi.org/10.5281/zenodo.18879906
