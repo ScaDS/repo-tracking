@@ -4604,3 +4604,15 @@ resources:
   url:
   - https://zenodo.org/records/18879906
   - https://doi.org/10.5281/zenodo.18879906
+- authors:
+  - Lea Kabjesz
+  - jahneric
+  description: 'An AI-enhanced virtual reality framework for interactive bioimage
+    exploration. '
+  license: BSD-3-Clause
+  name: bioimage-VR
+  publication_date: '2026-07-14'
+  submission_date: '2026-07-27T13:32:19.906086'
+  type: software
+  url:
+  - https://github.com/ScaDS/bioimage-VR
