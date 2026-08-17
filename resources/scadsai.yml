@@ -4604,3 +4604,28 @@ resources:
   url:
   - https://zenodo.org/records/18879906
   - https://doi.org/10.5281/zenodo.18879906
+- authors:
+  - Lea Kabjesz
+  - jahneric
+  description: 'An AI-enhanced virtual reality framework for interactive bioimage
+    exploration. '
+  license: BSD-3-Clause
+  name: bioimage-VR
+  publication_date: '2026-07-14'
+  submission_date: '2026-08-17T11:16:45.767740'
+  type: software
+  url:
+  - https://github.com/ScaDS/bioimage-VR
+- authors:
+  - Hardik
+  - Mario
+  - dependabot[bot]
+  - Michael Färber
+  description: 'ScaDS.AI klartext '
+  license: Apache-2.0
+  name: klartext
+  publication_date: '2024-10-25'
+  submission_date: '2026-08-17T11:16:50.210488'
+  type: software
+  url:
+  - https://github.com/faerber-lab/klartext
