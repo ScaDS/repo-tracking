@@ -4739,3 +4739,158 @@ resources:
   license: cc-by-sa-3.0
   num_downloads: 18
   submission_date: '2026-08-20T08:03:35.372438'
+- authors:
+  - Yujia Hu
+  - Simon Razniewski
+  - Tuan-Phong Nguyen
+  - Niels Rogge
+  - Shrestha Ghosh
+  description: "This is the GPTKB dataset from the ACL 2025 paper:\n@InProceedings{GPTKB,\n\
+    \  title={Enabling LLM Knowledge Analysis via Extensive Materialization},\n  author={Hu,\
+    \ Yujia and Nguyen, Tuan-Phong and Ghosh, Shrestha and Razniewski, Simon},\n \
+    \ year={2025},\n  booktitle={ACL},\n}\n\nPreprint: https://arxiv.org/pdf/2411.04920\n\
+    Web interface for browsing GPTKB: https://gptkb.org\n"
+  name: GPTKB_v1
+  publication_date: '2025-05-22'
+  tags:
+  - language:en
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:text
+  - size_categories:100M<n<1B
+  - task_categories:text-generation
+  - text-generation
+  type: Dataset
+  url: https://huggingface.co/datasets/Knowledge-aware-AI/GPTKB_v1
+  license: cc-by-4.0
+  num_downloads: 77
+  submission_date: '2026-08-20T08:53:28.183420'
+- authors:
+  - Yujia Hu
+  - Tuan-Phong Nguyen
+  description: "This hosts the GPTKB v1.5 dataset. Visit https://gptkb.org to browse\
+    \ GPTKB and for further information.\nPapers:\n\nGPTKB methodology: https://arxiv.org/pdf/2411.04920\n\
+    GPTKB v1.5: https://arxiv.org/pdf/2507.05740\n\nCitations:\n@InProceedings{GPTKB,\n\
+    \  title={Enabling LLM Knowledge Analysis via Extensive Materialization},\n  author={Hu,\
+    \ Yujia and Nguyen, Tuan-Phong and Ghosh, Shrestha and Razniewski, Simon},\n \
+    \ year={2025},\n  booktitle={ACL},\n}\n\n@article{GPTKB15,\n  title={GPTKB v1.5:\
+    \ A Massive… See the full description on the dataset page: https://huggingface.co/datasets/Knowledge-aware-AI/GPTKB_v1.5."
+  name: GPTKB_v1.5
+  publication_date: '2025-07-09'
+  tags:
+  - language:en
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:text
+  - size_categories:100M<n<1B
+  - task_categories:text-generation
+  - text-generation
+  type: Dataset
+  url: https://huggingface.co/datasets/Knowledge-aware-AI/GPTKB_v1.5
+  license: cc-by-4.0
+  num_downloads: 198
+  submission_date: '2026-08-20T08:53:28.370432'
+- authors:
+  - Spika
+  description: 'These are all images and their prompts generated in the large-scale
+    generation from GPTKB (Visit https://gptkb.org to browse GPTKB and for further
+    information.) via stable-diffusion-3.5-large-turbo for the thesis "Illustrating
+    GenAI knowledge bases with GenAI vision models".
+
+    More data from this thesis can be found at https://github.com/Knowledge-aware-AI/GenAI-KB-illustration.
+
+    '
+  name: 100k-GenAI-Images-GPTKB
+  publication_date: '2025-09-29'
+  tags:
+  - language:en
+  - modality:image
+  - modality:text
+  - size_categories:100K<n<1M
+  type: Dataset
+  url: https://huggingface.co/datasets/Knowledge-aware-AI/100k-GenAI-Images-GPTKB
+  license: cc-by-4.0
+  num_downloads: 8
+  submission_date: '2026-08-20T08:53:28.717530'
+- authors:
+  - Muhammed
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tLLMpedia\n\t\n\nEncyclopedic articles generated\
+    \ entirely from the parametric memory of large\nlanguage models — no retrieval\
+    \ — released as a benchmark for studying LLM\nfactuality, unverifiability, and\
+    \ subject-choice behavior at scale.\nThis dataset accompanies the paper\n\"LLMpedia:\
+    \ A Transparent Framework to Materialize an LLM's Encyclopedic\nKnowledge at Scale\"\
+    \ (Saeed & Razniewski, 2026), arXiv:2603.24080.\n\n\t\n\t\t\n\t\n\t\n\t\tMotivation\n\
+    \t\n\nBenchmarks like MMLU suggest frontier models are near… See the full description\
+    \ on the dataset page: https://huggingface.co/datasets/Knowledge-aware-AI/LLMpedia."
+  name: LLMpedia
+  publication_date: '2026-06-30'
+  tags:
+  - LLMpedia
+  - encyclopedia
+  - factuality
+  - hallucination
+  - knowledge-probing
+  - language:en
+  - library:dask
+  - library:datasets
+  - library:mlcroissant
+  - library:polars
+  - llm-evaluation
+  - modality:tabular
+  - modality:text
+  - parametric-knowledge
+  - size_categories:100K<n<1M
+  - task_categories:text-generation
+  - text-generation
+  type: Dataset
+  url: https://huggingface.co/datasets/Knowledge-aware-AI/LLMpedia
+  license: cc-by-4.0
+  num_downloads: 82
+  submission_date: '2026-08-20T08:53:29.053406'
+- authors:
+  - Tuan-Phong Nguyen
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tGPTKB v2 — simplified RDF export\n\t\n\nInterim\
+    \ release. Browse, query or ask the full knowledge base at\ngptkb.org.\n\n\t\n\
+    \t\t\n\n\n\n\n\t\t\nFile\ngptkb_v2.0_rdf.nt.gz\n\n\nFormat\nN-Triples, gzipped\
+    \ (366 MB; 3.2 GB uncompressed)\n\n\nSize\n33,364,378 lines → 32,794,801 distinct\
+    \ triples once loaded\n\n\nLicense\nCC BY 4.0\n\n\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\
+    \tWhat this is\n\t\n\nThe graph served by the SPARQL endpoint at\ngptkb.org/query.\
+    \ Entities, predicates and\nconcepts are ID-based IRIs:\n<https://gptkb.org/entity/E0>\
+    \    a person… See the full description on the dataset page: https://huggingface.co/datasets/Knowledge-aware-AI/GPTKB_v2."
+  name: GPTKB_v2
+  publication_date: '2026-07-16'
+  tags:
+  - GPTKB v2 (simplified RDF export)
+  - knowledge-graph
+  - language:en
+  - llm-generated
+  - n-triples
+  - rdf
+  - size_categories:10M<n<100M
+  type: Dataset
+  url: https://huggingface.co/datasets/Knowledge-aware-AI/GPTKB_v2
+  license: cc-by-4.0
+  num_downloads: 52
+  submission_date: '2026-08-20T08:53:29.240817'
+- authors:
+  - Simon Razniewski
+  description: 'Images created by black-forest-labs/FLUX.2-dev to illustrate GPTKB
+    2.0 entities. File name = entity ID, e.g., "E0.jpg" illustrates https://gptkb.org/entity/E0/
+    (Vannevar Bush).
+
+    The generating prompts are retained in manifest.jsonl, and consist of the entity
+    label + description.
+
+    '
+  name: GPTKB_v2_images
+  publication_date: '2026-08-19'
+  tags: []
+  type: Dataset
+  url: https://huggingface.co/datasets/Knowledge-aware-AI/GPTKB_v2_images
+  license: cc-by-4.0
+  num_downloads: 0
+  submission_date: '2026-08-20T08:53:29.492704'
