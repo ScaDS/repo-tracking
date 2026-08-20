@@ -31,4 +31,5 @@ jobs:
       run: |
         python scripts/auto-add-from-huggingface-community.py ${{ github.repository }} ScaDSAI
         python scripts/auto-add-from-huggingface-community.py ${{ github.repository }} autoencodix
+        python scripts/auto-add-from-huggingface-community.py ${{ github.repository }} Knowledge-aware-AI
 
