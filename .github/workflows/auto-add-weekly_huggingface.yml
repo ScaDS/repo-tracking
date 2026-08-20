@@ -30,4 +30,5 @@ jobs:
         GITHUB_RUN_ID: "${{ github.run_id }}"
       run: |
         python scripts/auto-add-from-huggingface-community.py ${{ github.repository }} ScaDSAI
+        python scripts/auto-add-from-huggingface-community.py ${{ github.repository }} autoencodix
 
