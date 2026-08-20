@@ -61,7 +61,13 @@ def main():
     yaml_data = all_content('./resources/')
     repos = extract_github_repos(yaml_data)
 
-    stats_list = [get_repo_stats(repo) for repo in repos]
+    stats_list = []
+    for repo in repos:
+        try:
+            stats = get_repo_stats(repo)
+            stats_list.append(stats)
+        except:
+            pass
     df = pd.DataFrame(stats_list)
 
     today = datetime.now().strftime('%Y%m%d')
