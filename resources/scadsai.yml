@@ -4604,3 +4604,138 @@ resources:
   url:
   - https://zenodo.org/records/18879906
   - https://doi.org/10.5281/zenodo.18879906
+- authors:
+  - Kavlahkaff
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tBBOmix: Raw HPO Data\n\t\n\nBBOmix is a large-scale\
+    \ tabular benchmark for hyperparameter optimization (HPO) of\nunsupervised autoencoder\
+    \ (AE) representation learning on real-world biological\nmulti-omics data. This\
+    \ dataset contains the raw, per-run evaluation records\nunderlying the benchmark:\
+    \ 105,000 individual training runs spanning 5 AE\narchitectures, 7 dataset-modality\
+    \ tasks, 1,000 sampled hyperparameter\nconfigurations per architecture, and 3\
+    \ random seeds.\nThis collection is the… See the full description on the dataset\
+    \ page: https://huggingface.co/datasets/autoencodix/BBOmix."
+  name: BBOmix
+  publication_date: '2026-07-07'
+  tags:
+  - autoencoder
+  - automl
+  - benchmark
+  - bioinformatics
+  - hyperparameter-optimization
+  - multi-omics
+  - size_categories:100K<n<1M
+  - tabular-regression
+  - task_categories:tabular-regression
+  type: Dataset
+  url: https://huggingface.co/datasets/autoencodix/BBOmix
+  license: apache-2.0
+  num_downloads: 38
+  submission_date: '2026-08-20T08:03:34.991994'
+- authors:
+  - Alicia D
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tTCGA\n\t\n\nA multi-omics subset of the TCGA\
+    \ PanCancer Atlas (RNA, methylation, mutation, clinical),\nfor use with AUTOENCODIX\
+    \ tutorials.\n\n\t\n\t\t\n\t\n\t\n\t\tBase set (for Vanillix and other Tutorials)\n\
+    \t\n\nCovers 8 cancer types: BRCA, OV, LUAD, UCEC, LUSC, COAD, READ, UCS.\n\n\
+    rna.parquet — 3552 samples × 17448 genes (RNA expression)\nmethylation.parquet\
+    \ — 3875 samples × 9829 genes (per-gene methylation)\nmutation.parquet — 3461\
+    \ samples × 20304 genes (combined mutation/CNA score per gene;\nrestricted… See\
+    \ the full description on the dataset page: https://huggingface.co/datasets/autoencodix/tcga."
+  name: tcga
+  publication_date: '2026-07-21'
+  tags:
+  - TCGA PanCancer Atlas (8-subtype base set + per-architecture extensions)
+  - bulk-rna-seq
+  - cancer
+  - feature-extraction
+  - genomics
+  - methylation
+  - modality:image
+  - multi-omics
+  - mutation
+  - tabular-classification
+  - task_categories:feature-extraction
+  - task_categories:tabular-classification
+  - tcga
+  type: Dataset
+  url: https://huggingface.co/datasets/autoencodix/tcga
+  license: cc0-1.0
+  num_downloads: 44
+  submission_date: '2026-08-20T08:03:35.091690'
+- authors:
+  - Alicia D
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tCensus Lung\n\t\n\nA single-cell RNA-seq dataset\
+    \ of human lung tissue, assembled from the CZ CELLxGENE Census for use with AUTOENCODIX\
+    \ tutorials.\n\n\t\n\t\t\n\t\n\t\n\t\tContents\n\t\n\n\n89,030 cells × 8,189 genes,\
+    \ filtered to the gene set used by the Ontix-Dim24-Gemini3ProPreview pretrained\
+    \ model (a chromosome/GO-ontology-informed autoencoder).\nSingle file: census_lung.h5ad\
+    \ (AnnData format, load with anndata.read_h5ad / scanpy.read_h5ad).\nFull Census\
+    \ cell metadata retained in .obs (disease, cell_type… See the full description\
+    \ on the dataset page: https://huggingface.co/datasets/autoencodix/census-lung."
+  name: census-lung
+  publication_date: '2026-07-21'
+  tags:
+  - Census Lung (single-cell RNA-seq, human lung)
+  - biology
+  - feature-extraction
+  - genomics
+  - lung
+  - scRNA-seq
+  - single-cell
+  - task_categories:feature-extraction
+  type: Dataset
+  url: https://huggingface.co/datasets/autoencodix/census-lung
+  license: cc-by-4.0
+  num_downloads: 67
+  submission_date: '2026-08-20T08:03:35.159991'
+- authors:
+  - Alicia D
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tInfo\n\t\n\nHuman single-cell RNA-seq data\
+    \ from Baron et al. (2016),\n\"A Single-Cell Transcriptomic Map of the Human and\
+    \ Mouse Pancreas\" (GEO accession\nGSE84133), for use with the\nAUTOENCODIX Maskix\
+    \ tutorial.\nThis is the same dataset used by Fang et al. (2024).\n\n\t\n\t\t\n\
+    \t\n\t\n\t\tContents\n\t\n\n\n8569 cells × 20125 genes, human pancreas, 4 donors\
+    \ (human1–human4).\nobs: barcode, assigned_cluster (14 cell types: beta, alpha,\
+    \ ductal, acinar,\ndelta, activated_stellate, gamma, endothelial… See the full\
+    \ description on the dataset page: https://huggingface.co/datasets/autoencodix/pancreas-fang."
+  name: pancreas-fang
+  publication_date: '2026-07-28'
+  tags:
+  - Human Pancreas scRNA-seq (Baron et al. 2016, GSE84133)
+  - biology
+  - feature-extraction
+  - genomics
+  - pancreas
+  - scRNA-seq
+  - single-cell
+  - task_categories:feature-extraction
+  type: Dataset
+  url: https://huggingface.co/datasets/autoencodix/pancreas-fang
+  license: unknown
+  num_downloads: 15
+  submission_date: '2026-08-20T08:03:35.217144'
+- authors:
+  - Alicia D
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tInfo\n\t\n\nBalanced subsample of the classic\
+    \ MNIST handwritten digits dataset (LeCun, Cortes,\nBurges), for use with the\
+    \ AUTOENCODIX\nImagix tutorial.\n\n\t\n\t\t\n\t\n\t\n\t\tContents\n\t\n\n\n2000\
+    \ images, 200 per digit (digits 0-9), 28x28 grayscale PNG, drawn from the\nMNIST\
+    \ training split.\nmnist_images.zip: image files, named mnist_<digit>_<index>.png.\n\
+    mnist_mappings.txt: tab-separated annotation file, columns sample_ids,\nimg_paths,\
+    \ label (digit class, 0-9).\n\n\n\t\n\t\t\n\t\n\t\n\t\tLoading\n\t\n\nfrom huggingface_hub…\
+    \ See the full description on the dataset page: https://huggingface.co/datasets/autoencodix/mnist."
+  name: mnist
+  publication_date: '2026-08-11'
+  tags:
+  - MNIST Handwritten Digits
+  - image
+  - library:datasets
+  - library:mlcroissant
+  - mnist
+  - modality:image
+  - size_categories:1K<n<10K
+  type: Dataset
+  url: https://huggingface.co/datasets/autoencodix/mnist
+  license: cc-by-sa-3.0
+  num_downloads: 18
+  submission_date: '2026-08-20T08:03:35.372438'
