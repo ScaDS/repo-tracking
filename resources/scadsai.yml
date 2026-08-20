@@ -4894,3 +4894,17 @@ resources:
   license: cc-by-4.0
   num_downloads: 0
   submission_date: '2026-08-20T08:53:29.492704'
+
+- authors:
+  - Aleksi Ikkala
+  - Florian Fischer
+  - Hannahselder
+  - Markus Klar
+  description: ''
+  license: GNU General Public License v3.0
+  name: user-in-the-box
+  publication_date: '2024-11-01T16:54:51+00:00'
+  submission_date: '2026-08-20T10:54:38.018693'
+  type: GitHub Repository
+  url: https://github.com/User-in-the-Box/user-in-the-box
+  
