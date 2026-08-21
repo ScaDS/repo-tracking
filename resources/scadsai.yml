@@ -4920,3 +4920,37 @@ resources:
   type: GitHub Repository
   url: https://github.com/User-in-the-Box/user-in-the-box
   
+- authors:
+  - Florian Fischer
+  - Aleksi Ikkala
+  - Markus Klar
+  description: SIM2VR - Running Biomechanical User Simulations in Unity
+  name: sim2vr
+  publication_date: '2024-08-06T23:03:49+00:00'
+  submission_date: '2026-08-20T10:57:48.863400'
+  type: GitHub Repository
+  url: https://github.com/fl0fischer/sim2vr
+  
+- authors:
+  - Adrian Bauske
+  - aflgit
+  description: 'Safe sight prediction models of "You Shall Not Pass: Warning Drivers
+    of Unsafe Overtaking Maneuvers on Country Roads by Predicting Safe Sight Distance"'
+  license: GNU General Public License v3.0
+  name: YouShallNotPass
+  publication_date: '2025-01-24T19:25:05+00:00'
+  submission_date: '2026-08-20T10:57:51.588311'
+  type: GitHub Repository
+  url: https://github.com/abauske/YouShallNotPass
+  
+- authors:
+  - Ankit Bhattarai
+  description: 'Codebase for MyoInteract: A Framework for Fast Prototyping of Biomechanical
+    HCI Tasks using Reinforcement Learning'
+  license: Apache License 2.0
+  name: MyoInteract
+  publication_date: '2026-02-16T14:56:10+00:00'
+  submission_date: '2026-08-20T10:57:53.975648'
+  type: GitHub Repository
+  url: https://github.com/MyoInteract/MyoInteract
+  
