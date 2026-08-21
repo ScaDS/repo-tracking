@@ -4921,6 +4921,27 @@ resources:
   url: https://github.com/User-in-the-Box/user-in-the-box
   
 - authors:
+  - Florens Rohde
+  description: Experiment management and analysis framework for Privacy-Preserving Record
+    Linkage (PPRL)
+  license: Apache License 2.0
+  name: pprl-goodall
+  publication_date: '2025-04-10T12:15:57+00:00'
+  submission_date: '2026-08-20T16:49:30.428615'
+  type: GitHub Repository
+  url: https://github.com/floroh/pprl-goodall
+  
+- authors:
+  - Florens Rohde
+  description: Privacy-Preserving Record Linkage (PPRL) as Spring Boot Services
+  license: Apache License 2.0
+  name: pprl-services
+  publication_date: '2024-11-10T21:14:28+00:00'
+  submission_date: '2026-08-20T16:49:32.879720'
+  type: GitHub Repository
+  url: https://github.com/floroh/pprl-services
+  
+- authors:
   - Florian Fischer
   - Aleksi Ikkala
   - Markus Klar
@@ -4953,4 +4974,5 @@ resources:
   submission_date: '2026-08-20T10:57:53.975648'
   type: GitHub Repository
   url: https://github.com/MyoInteract/MyoInteract
+
   
