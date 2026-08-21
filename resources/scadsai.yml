@@ -4976,3 +4976,46 @@ resources:
   url: https://github.com/MyoInteract/MyoInteract
 
   
+- authors:
+  - Eulzer, Pepe
+  - Richter, Kevin
+  - Probst, Tristan
+  - Hundertmark, Anna
+  - Lawonn, Kai
+  description: 'carotid_bifurcation_database.zip contains 79 cases of left and right-side
+    carotid bifurcations (152 inner wall models). For each case, inner wall (lumen)
+    and plaque models were extracted from computed tomography angiography (CTA) scans.
+    The models were segmented, reconstructed, and a centerline tree was created for
+    each geometry using the&nbsp;CarotidAnalyzer pipeline. The geometries include varying
+    degrees of internal carotid stenosis. Bifurcations with 100% stenosis were omitted,
+    as the vessel is not discernible in the scan.
+  
+    carotid_flow_database.zip contains hemodynamic flow simulations of the above models.
+    Fluid data (velocity, pressure) and surface data (wall shear stress) are given in
+    seperate files for each case. For each field, a systolic and diastolic time step
+    are provided.
+  
+    Further information regarding the extraction pipeline and flow simulations can be
+    obtained from the following publications:P. Eulzer,&nbsp;&nbsp;F. von Deylen,&nbsp;&nbsp;W.-C.
+    Hsu,&nbsp;&nbsp;R. Wickenh&ouml;fer,&nbsp;&nbsp;C. M. Klingner,&nbsp; and K. Lawonn
+    (2023), A Fully Integrated Pipeline for Visual Carotid Morphology Analysis. Computer
+    Graphics Forum, 42(3): 25-37.&nbsp;https://doi.org/10.1111/cgf.14808
+  
+    Kevin Richter, Tristan Probst, Anna Hundertmark, Pepe Eulzer, and Kai Lawonn (2024),
+    Longitudinal wall shear stress evaluation using centerline projection approach in
+    the numerical simulations of the patient-based carotid artery. Computer Methods
+    in Biomechanics and Biomedical Engineering, 27(3): 347-364. https://doi.org/10.1080/10255842.2023.2185478
+  
+    P. Eulzer, K. Richter, A. Hundertmark, R. Wickenh&ouml;fer, C. M. Klingner, and
+    K. Lawonn (2024), Instantaneous Visual Analysis of Blood Flow in Stenoses Using
+    Morphological Similarity. Computer Graphics Forum 43(3): in print. https://doi.org/10.1111/cgf.15081'
+  license: cc-by-4.0
+  name: A Dataset of Reconstructed Carotid Bifurcation Lumen and Plaque Models with
+    Centerline Tree and Simulated Hemodynamics
+  num_downloads: 1335
+  publication_date: '2024-02-23'
+  submission_date: '2026-08-21T06:56:56.808305'
+  url:
+  - https://zenodo.org/records/10695923
+  - https://doi.org/10.5281/zenodo.10695923
+  
