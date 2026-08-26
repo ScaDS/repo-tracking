@@ -5018,7 +5018,8 @@ resources:
   url:
   - https://zenodo.org/records/10695923
   - https://doi.org/10.5281/zenodo.10695923
-  - authors:
+
+- authors:
   - Haase, Robert
   description: This slide deck contains a short presentation about responsible use
     of LLMs for code generation in data analysis, and how self-consistency in multi-agent
@@ -5032,3 +5033,13 @@ resources:
   url:
   - https://zenodo.org/records/21977243
   - https://doi.org/10.5281/zenodo.21977243
+  
+- authors:
+  - Marco Jaeger
+  description: ''
+  name: drift
+  publication_date: '2026-08-03T11:19:37+00:00'
+  submission_date: '2026-08-26T06:51:44.152359'
+  type: GitHub Repository
+  url: https://github.com/marco-jaeger/drift
+  
