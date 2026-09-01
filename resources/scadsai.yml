@@ -5043,3 +5043,365 @@ resources:
   type: GitHub Repository
   url: https://github.com/marco-jaeger/drift
   
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_sarm_rabc_put_mug_pro6000_vis_not_freezed
+  publication_date: '2026-03-29'
+  tags: []
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_sarm_rabc_put_mug_pro6000_vis_not_freezed
+  license: mit
+  num_downloads: 0
+  submission_date: '2026-09-01T18:05:31.647924'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_task_by_task_1_put_mug
+  publication_date: '2026-04-30'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_task_by_task_1_put_mug
+  license: apache-2.0
+  num_downloads: 2
+  submission_date: '2026-09-01T18:05:31.814872'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_task_by_task_2_lower_spout
+  publication_date: '2026-05-01'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_2_lower_spout_repaired
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_task_by_task_2_lower_spout
+  license: apache-2.0
+  num_downloads: 1
+  submission_date: '2026-09-01T18:05:32.121508'
+- authors:
+  - autmoate99
+  description: ''
+  name: xvla-coffee-task-by-task-1-put-mug
+  publication_date: '2026-05-01'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - lerobot
+  - robotics
+  - xvla
+  type: Model
+  url: https://huggingface.co/autmoate/xvla-coffee-task-by-task-1-put-mug
+  license: apache-2.0
+  num_downloads: 13
+  submission_date: '2026-09-01T18:05:32.305591'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_task_by_task_1_and_2_merged
+  publication_date: '2026-05-01'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_and_2_merged
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_task_by_task_1_and_2_merged
+  license: apache-2.0
+  num_downloads: 5
+  submission_date: '2026-09-01T18:05:32.460422'
+- authors:
+  - autmoate99
+  description: ''
+  name: sarm_coffee_task_1_put_mug
+  publication_date: '2026-05-02'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - lerobot
+  - robotics
+  - sarm
+  type: Model
+  url: https://huggingface.co/autmoate/sarm_coffee_task_1_put_mug
+  license: apache-2.0
+  num_downloads: 9
+  submission_date: '2026-09-01T18:05:32.622744'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_sarm_task_by_task_1_put_mug
+  publication_date: '2026-05-03'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_sarm_task_by_task_1_put_mug
+  license: apache-2.0
+  num_downloads: 5
+  submission_date: '2026-09-01T18:05:32.801482'
+- authors:
+  - autmoate99
+  description: ''
+  name: sarm_coffee_task_1_and_2
+  publication_date: '2026-05-03'
+  tags: []
+  type: Model
+  url: https://huggingface.co/autmoate/sarm_coffee_task_1_and_2
+  license: mit
+  num_downloads: 0
+  submission_date: '2026-09-01T18:05:33.129363'
+- authors:
+  - autmoate99
+  description: ''
+  name: sarm_coffee_task_2_lower_spout
+  publication_date: '2026-05-03'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_2_lower_spout_0_to_29_episodes
+  - lerobot
+  - robotics
+  - sarm
+  type: Model
+  url: https://huggingface.co/autmoate/sarm_coffee_task_2_lower_spout
+  license: apache-2.0
+  num_downloads: 5
+  submission_date: '2026-09-01T18:05:33.303514'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_sarm_task_by_task_2_lower_spout
+  publication_date: '2026-05-03'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_2_lower_spout_0_to_29_episodes
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_sarm_task_by_task_2_lower_spout
+  license: apache-2.0
+  num_downloads: 7
+  submission_date: '2026-09-01T18:05:33.488483'
+- authors:
+  - autmoate99
+  description: ''
+  name: eo1-put-mug
+  publication_date: '2026-05-28'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - eo1
+  - lerobot
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/eo1-put-mug
+  license: apache-2.0
+  num_downloads: 5
+  submission_date: '2026-09-01T18:05:33.640212'
+- authors:
+  - autmoate99
+  description: ''
+  name: molmoact2_put_mug_large
+  publication_date: '2026-05-29'
+  tags: []
+  type: Model
+  url: https://huggingface.co/autmoate/molmoact2_put_mug_large
+  license: mit
+  num_downloads: 0
+  submission_date: '2026-09-01T18:05:33.812536'
+- authors:
+  - autmoate99
+  description: ''
+  name: molmoact2_put_mug_large_both_bs16_20k
+  publication_date: '2026-05-29'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug_large
+  - lerobot
+  - molmoact2
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/molmoact2_put_mug_large_both_bs16_20k
+  license: apache-2.0
+  num_downloads: 9
+  submission_date: '2026-09-01T18:05:34.184908'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_task_by_task_1_put_mug_large
+  publication_date: '2026-05-31'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug_large
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_task_by_task_1_put_mug_large
+  license: apache-2.0
+  num_downloads: 6
+  submission_date: '2026-09-01T18:05:34.338977'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_1_put_mug
+  publication_date: '2026-04-30'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_put_mug
+  license: mit
+  num_downloads: 60
+  submission_date: '2026-09-01T18:05:34.569514'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_2_lower_spout
+  publication_date: '2026-05-01'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_2_lower_spout
+  license: mit
+  num_downloads: 7
+  submission_date: '2026-09-01T18:05:34.771197'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_2_lower_spout_repaired
+  publication_date: '2026-05-01'
+  tags:
+  - modality:video
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_2_lower_spout_repaired
+  license: mit
+  num_downloads: 31
+  submission_date: '2026-09-01T18:05:34.917441'
+- authors:
+  - autmoate99
+  description: "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\
+    \n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\"\
+    : \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 135,\n\
+    \    \"total_frames\": 63704,\n    \"total_tasks\": 2,\n    \"chunks_size\": 1000,\n\
+    \    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n \
+    \   \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:135\"\n    },\n  \
+    \  \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\"\
+    ,\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_and_2_merged."
+  name: coffee_task_by_task_1_and_2_merged
+  publication_date: '2026-05-01'
+  tags:
+  - LeRobot
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:tabular
+  - modality:timeseries
+  - modality:video
+  - robotics
+  - size_categories:10K<n<100K
+  - task_categories:robotics
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_and_2_merged
+  license: apache-2.0
+  num_downloads: 46
+  submission_date: '2026-09-01T18:05:35.071675'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_2_lower_spout_0_to_29_episodes
+  publication_date: '2026-05-01'
+  tags:
+  - library:dask
+  - library:datasets
+  - library:mlcroissant
+  - library:polars
+  - modality:tabular
+  - modality:timeseries
+  - modality:video
+  - size_categories:10K<n<100K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_2_lower_spout_0_to_29_episodes
+  license: mit
+  num_downloads: 23
+  submission_date: '2026-09-01T18:05:35.230415'
+- authors:
+  - autmoate99
+  description: "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\
+    \n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\"\
+    : \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 135,\n\
+    \    \"total_frames\": 63704,\n    \"total_tasks\": 2,\n    \"chunks_size\": 1000,\n\
+    \    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n \
+    \   \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:135\"\n    },\n  \
+    \  \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\"\
+    ,\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_and_2_merged_sarm."
+  name: coffee_task_by_task_1_and_2_merged_sarm
+  publication_date: '2026-05-03'
+  tags:
+  - LeRobot
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:tabular
+  - modality:timeseries
+  - modality:video
+  - robotics
+  - size_categories:10K<n<100K
+  - task_categories:robotics
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_and_2_merged_sarm
+  license: apache-2.0
+  num_downloads: 30
+  submission_date: '2026-09-01T18:05:35.377261'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_1_put_mug_large
+  publication_date: '2026-05-29'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_put_mug_large
+  license: mit
+  num_downloads: 83
+  submission_date: '2026-09-01T18:05:35.512742'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_1_put_mug_large_210ep
+  publication_date: '2026-06-12'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_put_mug_large_210ep
+  license: mit
+  num_downloads: 15
+  submission_date: '2026-09-01T18:05:35.660065'
+- authors:
+  - autmoate99
+  description: ''
+  name: put_mug_make_coffee_large_260ep
+  publication_date: '2026-06-12'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/put_mug_make_coffee_large_260ep
+  license: mit
+  num_downloads: 91
+  submission_date: '2026-09-01T18:05:35.814954'
