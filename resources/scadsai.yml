@@ -5929,3 +5929,12 @@ resources:
   type: GitHub Repository
   url: https://github.com/haesleinhuepf/letter-ai
   
+- authors:
+  - Robert Haase
+  description: ''
+  name: svg2pptx
+  publication_date: '2026-06-10T12:30:10+00:00'
+  submission_date: '2026-09-02T18:15:47.669383'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/svg2pptx
+  
