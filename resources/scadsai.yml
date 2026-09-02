@@ -5106,3 +5106,43 @@ resources:
   - https://zenodo.org/records/15024152
   - https://doi.org/10.5281/zenodo.15024152
   
+- authors:
+  - Miriam Louise Carnot
+  description: ''
+  license: Creative Commons Attribution Share Alike 4.0 International
+  name: MapAnything
+  publication_date: '2025-07-18T07:55:08+00:00'
+  submission_date: '2026-09-02T08:32:06.669488'
+  type: GitHub Repository
+  url: https://github.com/miriamcarnot/MapAnything
+  
+- authors:
+  - Miriam Louise Carnot
+  description: ''
+  license: MIT License
+  name: generative-car-anonymization
+  publication_date: '2025-06-28T09:47:04+00:00'
+  submission_date: '2026-09-02T08:32:09.468478'
+  type: GitHub Repository
+  url: https://github.com/miriamcarnot/generative-car-anonymization
+  
+- authors:
+  - Miriam Louise Carnot
+  description: ''
+  license: Other
+  name: 3d-clearance-control
+  publication_date: '2025-04-09T10:28:14+00:00'
+  submission_date: '2026-09-02T08:32:12.155063'
+  type: GitHub Repository
+  url: https://github.com/miriamcarnot/3d-clearance-control
+  
+- authors:
+  - Miriam Louise Carnot
+  description: ''
+  license: MIT License
+  name: clear_height_pandaset
+  publication_date: '2024-02-21T10:57:58+00:00'
+  submission_date: '2026-09-02T08:32:14.873391'
+  type: GitHub Repository
+  url: https://github.com/miriamcarnot/clear_height_pandaset
+  
