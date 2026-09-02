@@ -5929,3 +5929,2845 @@ resources:
   type: GitHub Repository
   url: https://github.com/haesleinhuepf/letter-ai
   
+- authors:
+  - Daniel Obraczka
+  - Erhard Rahm
+  description: This upload contains pre-calculated Knowledge Graph Embeddings produced
+    by our study &quot;An Evaluation of Hubness Reduction Methods for Entity Alignment
+    with Knowledge Graph Embeddings&quot;
+  license: cc-by-4.0
+  name: Kiez Benchmarking Knowledge Graph Embeddings
+  num_downloads: 1180
+  publication_date: '2022-03-14'
+  submission_date: '2026-09-02T18:16:08.675500'
+  url:
+  - https://zenodo.org/records/6258620
+  - https://doi.org/10.5281/zenodo.6258620
+  
+- authors:
+  - Rudolph, Sebastian
+  description: 'This dataset contains supplementary information regarding the paper
+  
+    Pseudo-Closed Family Verification is NP-Complete (Or: How Claude Helped Tackle Bernhard&rsquo;s
+    Problem)
+  
+    by Sebastian Rudolph, published at CONCEPTS''26.'
+  license: cc-by-4.0
+  name: Exchange with Claude Opus 4.6 towards proving NP-completeness of the Pseudo-Closed
+    Family problem (PCF)
+  num_downloads: 94
+  publication_date: '2026-05-20'
+  submission_date: '2026-09-02T18:16:09.131058'
+  url:
+  - https://zenodo.org/records/20307509
+  - https://doi.org/10.5281/zenodo.20307509
+  
+- authors:
+  - Julian Striegl
+  description: 'Dimensional ALBERT-based model for dimensional text-based emotion recognition
+    fintuned on a pooled dataset containing over 75000 samples.
+  
+    This work was created by Jordan Wenzel Richter under the supervision of Julian Striegl
+    as part of the Junior Research Group: &quot;AI-based Coaching of Students/AI-based
+    CBT&quot; of the Center for Scalable Data Analytics and Artificial Intelligence
+    (ScaDS.AI) Dresden/Leipzig.'
+  license: cc-by-4.0
+  name: 'JulianStriegl/dimensional-er-cbt: Initial Release'
+  num_downloads: 35
+  publication_date: '2024-04-30'
+  submission_date: '2026-09-02T18:16:09.519819'
+  url:
+  - https://zenodo.org/records/11091285
+  - https://doi.org/10.5281/zenodo.11091285
+  
+- authors:
+  - Hummel, Sandra
+  - Donner, Mana-Teresa
+  - Gitanjali Wadhwa
+  - Abbas, Syed Hur
+  license: cc-by-4.0
+  name: Situating AI in Personalized Education
+  num_downloads: 36
+  publication_date: '2024-11-12'
+  submission_date: '2026-09-02T18:16:09.938981'
+  url:
+  - https://zenodo.org/records/14869630
+  - https://doi.org/10.5281/zenodo.14869630
+  
+- authors:
+  - Haase, Robert
+  description: At the Center for Scalable Data Analytics and Artificial Intelligence
+    (ScaDS.AI) Dresden / Leipzig, we are currently developing a comprehensive training
+    program to optimally guide science, industry, and society in general on the path
+    into the AI age. For this purpose, we are developing and collecting training materials
+    on topics such as the use of chat apps and language models, prompt engineering,
+    high-performance computing, machine learning, data analysis, Python programming,
+    and data visualization. Furthermore, in the project NFDI4BioImage, we collect and
+    curate training materials on research data management and microscopy image analysis
+    for life scientists. The mass of training materials (e.g., thousands of PowerPoint
+    slides and hundreds of Jupyter notebooks) becomes both a challenge and an opportunity
+    for AI scientists. We are working on an AI system that generates personalized training
+    materials, tailored to specific needs and extracted from large collections of materials.
+  license: cc-by-4.0
+  name: Trainings @ ScaDS.AI & NFDI4BioImage
+  num_downloads: 185
+  publication_date: '2025-02-11'
+  submission_date: '2026-09-02T18:16:10.351525'
+  url:
+  - https://zenodo.org/records/14848838
+  - https://doi.org/10.5281/zenodo.14848838
+  
+- authors:
+  - Engelhardt, Claudia
+  - Haase, Robert
+  - Hundt, Carolin
+  - Langermann, Florence
+  - Voigt, Pia
+  description: Im Rahmen einer Kooperation zwischen der s&auml;chsischen FDM-Landesinitiative
+    SaxFDM, dem Datenkompetenzzentrum Come2Data sowie dem Data Science Center ScaDS.AI
+    in Leipzig und NFDI4Bioimage wurde der Train-the-Trainer Workshop f&uuml;r das Forschungsdatenmanagement
+    nun schon zweiten Mal durchgef&uuml;hrt. Die hier ver&ouml;ffentlichten Folien basieren
+    auf dem Train-the-Trainer Konzept (v05) erarbeitet durch Mitglieder der&nbsp;UAG
+    Schulungen/Fortbildungen&nbsp;der&nbsp;DINI/nestor-AG Forschungsdaten und unserem
+    letzten Training. Die behandelten Themen umfassen sowohl die Aspekte des Forschungsdatenmanagements
+    als auch didaktischen Einheiten zu Lernkonzepten, Workshopgestaltung und Methoden.
+  license: cc-by-4.0
+  name: Train-the-Trainer Workshop zum Forschungsdatenmanagement (Sachsen)
+  num_downloads: 2766
+  publication_date: '2026-06-01'
+  submission_date: '2026-09-02T18:16:11.232773'
+  url:
+  - https://zenodo.org/records/20494937
+  - https://doi.org/10.5281/zenodo.20494937
+  
+- authors:
+  - "F\xE4rber, Michael"
+  - Batool, Syeda Khushbakht
+  - Jatowt, Adam
+  description: "Hugging Face has become a central platform for sharing NLP models. However,\
+    \ inconsistent and incomplete metadata makes it difficult to find suitable models.\
+    \ In this project, we introduce HF-NLP10K, a structured dataset of over 10,000 NLP\
+    \ models, including many LLMs, enriched with 33 metadata fields, combining Hugging\
+    \ Face API data with LLM-based parsing of free-text model cards.\nHere we provide:\n\
+    \n\U0001F4E6 The HF-NLP10K dataset (CMA-PROJ_Dataset.csv.gz)\n\U0001F4DC Scripts\
+    \ for dataset creation\n\nPrimary contact:\nMichael F&auml;rber (TU Dresden and\
+    \ ScaDS.AI, Germany) &ndash; michael.faerber@tu-dresden.de"
+  license: cc-by-4.0
+  name: 'HF-NLP10K: A Dataset and Metadata Analysis of 10,000+ Hugging Face NLP Models'
+  num_downloads: 2529
+  publication_date: '2025-06-17'
+  submission_date: '2026-09-02T18:16:11.706997'
+  url:
+  - https://zenodo.org/records/15682522
+  - https://doi.org/10.5281/zenodo.15682522
+  
+- authors:
+  - Konstantin Dietrich
+  - Pascal Kerschke
+  description: 'The files &quot;XD_benchmark_data.zip&quot; contain&nbsp;the performance
+    results for the respective dimensions&nbsp;of the algorithms&nbsp;Estimation of
+    Multivariate Normal Algorithm (EMNA), Differential Evolution (DE), Constrained Optimization
+    BY Linear Approximation (Cobyla) and Particle Swarm Optimization (PSO) run on the
+    SBOX-COST benchmarking suite. The data is stored in IOHprofiler format.
+  
+  
+    &quot;data_collection_SBOX_ng.py&quot; contains the code used to collect the data.
+  
+  
+    The remaining two zip files contain plots generated by IOHanalyzer&nbsp;for all
+    used dimensionalities {2, 3, 5, 10, 20, 40}.'
+  license: cc-by-4.0
+  name: Nevergrad algorithm performance on SBOX-COST suite
+  num_downloads: 212
+  publication_date: '2023-04-13'
+  submission_date: '2026-09-02T18:16:12.142582'
+  url:
+  - https://zenodo.org/records/7824603
+  - https://doi.org/10.5281/zenodo.7824603
+  
+- authors:
+  - Razniewski, Simon
+  - Ghosh, Shrestha
+  - Giordano, Luca
+  - Hu, Yujia
+  - Kowalzik, Josua
+  - Nguyen, Tuan-Phong
+  description: 'Large Language Models (LLMs) are impactful yet opaque artifacts. At
+    their core, they are subsymbolic constructs defined by billions of numeric weights
+    that interact in a largely inscrutable manner.&nbsp;Current analysis paradigms are
+    either black-box benchmarks that test model performance on pre-defined tasks, or
+    mechanistic interpretability approaches that trace back outputs to specific weights.Both
+    analysis methods are limited by the experimenter''s hypothesis space - one must
+    know what to look for to find it. In this perspective, we argue for a third, radically
+    different analysis paradigm: Epistemic Twins. We propose constructing large-scale
+    symbolic approximations of LLMs in human-readable formats. This enables the comprehensive
+    materialization of factual knowledge (or beliefs) inherent in the model without
+    predefining hypotheses, facilitating large-scale analysis and auditing towards better
+    understanding and explainability.'
+  license: cc-by-4.0
+  name: 'Epistemic Twins: Enabling a Symbolic Science of Language Model Knowledge'
+  num_downloads: 186
+  publication_date: '2026-04-30'
+  submission_date: '2026-09-02T18:16:12.570998'
+  url:
+  - https://zenodo.org/records/19910437
+  - https://doi.org/10.5281/zenodo.19910437
+  
+- authors:
+  - Gienapp, Lukas
+  - Deckers, Niklas
+  - Scells, Harrisen
+  - Potthast, Martin
+  description: 'TREC-Format run files of all trained models as supplementary material
+    for the paper "Learning Effective Representations for Retrieval using Self-Distillation
+    with Adaptive Relevance Margins".
+  
+    File naming follows the schema:&nbsp;{model}-{loss variant}-{in-batch usage}-{dataset}.txt.gz'
+  license: cc-by-4.0
+  name: Supplementary run files for the paper "Learning Effective Representations for
+    Retrieval using Self-Distillation with Adaptive Relevance Margins"
+  num_downloads: 4861
+  publication_date: '2024-05-15'
+  submission_date: '2026-09-02T18:16:13.088288'
+  url:
+  - https://zenodo.org/records/11197962
+  - https://doi.org/10.5281/zenodo.11197962
+  
+- authors:
+  - Obraczka, Daniel
+  - Rahm, Erhard
+  description: This upload contains the source code and experiment artifacts for our
+    paper "Comparing Symbolic and Embedding-Based Approaches for Relational Blocking"
+  license: cc-by-4.0
+  name: Comparing Symbolic and Embedding-Based Approaches for Relational Blocking (Artifacts)
+  num_downloads: 114
+  publication_date: '2024-07-12'
+  submission_date: '2026-09-02T18:16:13.898647'
+  url:
+  - https://zenodo.org/records/12774407
+  - https://doi.org/10.5281/zenodo.12774407
+  
+- authors:
+  - Francesco Martinuzzi
+  description: 'CellularAutomata v0.0.6
+  
+    Diff since v0.0.5
+  
+    Breaking changes
+  
+  
+    Support is now from Julia1.10+ (lts version)
+  
+  
+    Merged pull requests:
+  
+  
+    tests formatting (#24) (@MartinuzziFrancesco)
+  
+    Added JET testing (#25) (@MartinuzziFrancesco)
+  
+    '
+  license: mit-license
+  name: 'MartinuzziFrancesco/CellularAutomata.jl: v0.0.6'
+  num_downloads: 86
+  publication_date: '2025-02-23'
+  submission_date: '2026-09-02T18:16:14.376329'
+  url:
+  - https://zenodo.org/records/14914707
+  - https://doi.org/10.5281/zenodo.14914707
+  
+- authors:
+  - Haase, Robert
+  description: 'Large Language Models are changing the way we interact with computers,
+    especially how we write code. In this tutorial, we will generate bio-image analysis
+    code using two LLM-based code generators, bia-bob and git-bob.
+  
+    https://github.com/haesleinhuepf/bia-bob
+  
+    https://github.com/haesleinhuepf/git-bob
+  
+    &nbsp;'
+  license: cc-by-4.0
+  name: Bio-image Analysis Code Generation
+  num_downloads: 1080
+  publication_date: '2024-10-28'
+  submission_date: '2026-09-02T18:16:14.829197'
+  url:
+  - https://zenodo.org/records/14001044
+  - https://doi.org/10.5281/zenodo.14001044
+  
+- authors:
+  - Haase, Robert
+  description: Large Language Models (LLMs) change the way we interact with computers,
+    in science, engineering and daily life. This slide deck gives an introduction into
+    LLMs, the underlying Transformer architecture, prompt engineering, function calling
+    and agents. It is a 50:50 mixture of theory and practical tips and tricks.
+  license: cc-by-4.0
+  name: 'Large Language Models: An Introduction'
+  num_downloads: 769
+  publication_date: '2025-02-02'
+  submission_date: '2026-09-02T18:16:15.297198'
+  url:
+  - https://zenodo.org/records/14789155
+  - https://doi.org/10.5281/zenodo.14789155
+  
+- authors:
+  - Haase, Robert
+  description: Large Language Models (LLMs) change the way how we use computers. This
+    also has impact on the bio-image analysis community. We can generate code that analyzes
+    biomedical image data if we ask the right prompts. This talk outlines introduces
+    basic principles, explains prompt engineering and how to apply it to bio-image analysis.
+    We also compare how different LLM vendors perform on code generation tasks and which
+    challenges are ahead for the bio-image analysis community.
+  license: cc-by-4.0
+  name: Bio-image Analysis with the Help of Large Language Models
+  num_downloads: 1120
+  publication_date: '2024-03-13'
+  submission_date: '2026-09-02T18:16:15.785868'
+  url:
+  - https://zenodo.org/records/10815329
+  - https://doi.org/10.5281/zenodo.10815329
+  
+- authors:
+  - Haase, Robert
+  description: In this presentation I introduce bia-bob, an AI-based code generator
+    that integrates into Jupyter Lab and allows for easy generation of Bio-Image Analysis
+    Python code. It highlights how to get started with using large language models and
+    prompt engineering to get high-quality bio-image analysis code.
+  license: cc-by-4.0
+  name: Bio-image Analysis Code Generation using bia-bob
+  num_downloads: 1207
+  publication_date: '2024-10-09'
+  submission_date: '2026-09-02T18:16:16.238694'
+  url:
+  - https://zenodo.org/records/13908108
+  - https://doi.org/10.5281/zenodo.13908108
+  
+- authors:
+  - Haase, Robert
+  description: 'This is a dataset of PNG images of [Bio-Image Data Science teaching
+    slides](https://zenodo.org/records/12623730). The png_umap.yml file contains a list
+    of all images and a dimensionality reduced embedding (Uniform Manifold Approximation
+    Projection, UMAP) made using OpenAI''s text-embedding-ada-002 model.
+  
+    A notebook for visualizing this data is published here: https://github.com/haesleinhuepf/stackview/blob/main/docs/sliceplot.ipynb'
+  license: cc-by-4.0
+  name: Stackview sliceplot example data
+  num_downloads: 48
+  publication_date: '2024-11-03'
+  submission_date: '2026-09-02T18:16:16.670161'
+  url:
+  - https://zenodo.org/records/14030307
+  - https://doi.org/10.5281/zenodo.14030307
+  
+- authors:
+  - Haase, Robert
+  description: This short talk given at the Networking Event "AI at Leipzig University"
+    introduces the basic principles behind Prompt Engineering and gives examples in
+    the context of text and image generation using ChatGPT and DALL-E.
+  license: cc-by-4.0
+  name: Prompt Engineering
+  num_downloads: 916
+  publication_date: '2024-05-22'
+  submission_date: '2026-09-02T18:16:17.100195'
+  url:
+  - https://zenodo.org/records/11241837
+  - https://doi.org/10.5281/zenodo.11241837
+  
+- authors:
+  - Haase, Robert
+  description: Large Language Models (LLMs) change the way we do Bio-image Analysis.
+    In this slides I outline how we came from GPU-accelerated bio-image analysis using
+    CLIJ and clesperanto, and used code-generators to produce reporducible Bio-image
+    Analysis workflows, e.g. as Jupyter Notebooks. LLMs such as ChatGPT now addsanother
+    way for creating these workflows much more convienently. We see tools in action
+    such as the Bio-image Analysis GPT, BiA-Bob and blablado which aim to accelerate
+    the adoption of LLMs in the Bio-image Analysis Community for facilitate reporducible
+    workflow creation.
+  license: cc-by-4.0
+  name: Bio-image Analysis using Large Language Models
+  num_downloads: 1315
+  publication_date: '2024-03-06'
+  submission_date: '2026-09-02T18:16:17.521209'
+  url:
+  - https://zenodo.org/records/10784549
+  - https://doi.org/10.5281/zenodo.10784549
+  
+- authors:
+  - Haase, Robert
+  description: Large Language Models (LLMs) change the way we interact with computers
+    and data. This obviously has impact on all scientific research fields, including
+    scientific analysis of biological microscopy imaging data. In this slide deck I
+    introduce approaches for using LLMs for quantitative bio-image analysis including
+    vision language models, retrieval augmented generation, model fine-tuning and other
+    prompt engineering techniques.
+  license: cc-by-4.0
+  name: Large Language Models for Quantiative Bio-image Analysis
+  num_downloads: 784
+  publication_date: '2024-06-24'
+  submission_date: '2026-09-02T18:16:17.933942'
+  url:
+  - https://zenodo.org/records/12518075
+  - https://doi.org/10.5281/zenodo.12518075
+  
+- authors:
+  - Haase, Robert
+  description: Artificial intelligence (AI) and large language models (LLMs) are changing
+    the way we use computers in science. This slide deck introduces ways for using AI
+    and LLMs for making training materials and for exchanging knowledge about how to
+    use AI in joint discussions between humans and LLM-based AI-systems.
+  license: cc-by-4.0
+  name: Training Computational Skills in the Age of AI
+  num_downloads: 884
+  publication_date: '2024-11-06'
+  submission_date: '2026-09-02T18:16:18.409936'
+  url:
+  - https://zenodo.org/records/14043615
+  - https://doi.org/10.5281/zenodo.14043615
+  
+- authors:
+  - Haase, Robert
+  description: In this SaxFDM Digital Kitchen, I introduced current challenges and potential
+    solutions for openly sharing training materials, softly focusing on bio-image analysis.
+    In this field a lot of training materials circulate in private channels, but openly
+    shared, reusable materials, according to the FAIR-principles, are still rare. Using
+    the CC-BY license and uploading materials to publicly acessible repositories are
+    proposed to fill this gap.
+  license: cc-by-4.0
+  name: Cultivating Open Training
+  num_downloads: 604
+  publication_date: '2024-03-14'
+  submission_date: '2026-09-02T18:16:18.870878'
+  url:
+  - https://zenodo.org/records/10816895
+  - https://doi.org/10.5281/zenodo.10816895
+  
+- authors:
+  - Haase, Robert
+  description: 'This slide deck introduces Large Language Models to an audience of life-scientists.
+    We first dive into terminology: Different kinds of Language Models and what they
+    can be used for. The remaining slides are optional slides to allow us to dive deeper
+    into topics such as tools for using LLMs in Science, Quality Assurance, Techniques
+    such as Retrieval Augmented Generation and Prompt Engineering.'
+  license: cc-by-4.0
+  name: 'Large Language Models: An Introduction for Life Scientists'
+  num_downloads: 679
+  publication_date: '2024-12-12'
+  submission_date: '2026-09-02T18:16:19.348605'
+  url:
+  - https://zenodo.org/records/14418209
+  - https://doi.org/10.5281/zenodo.14418209
+  
+- authors:
+  - Haase, Robert
+  description: These are the PPTx training resources for Students at Uni Leipzig who
+    want to dive into bio-image data science with Python. The material will develop
+    here and in the corresponding&nbsp;github repository&nbsp;between April and July
+    2024.
+  license: cc-by-4.0
+  name: Bio-image Data Science Lectures @ Uni Leipzig / ScaDS.AI
+  num_downloads: 14125
+  publication_date: '2024-07-02'
+  submission_date: '2026-09-02T18:16:19.900938'
+  url:
+  - https://zenodo.org/records/12623730
+  - https://doi.org/10.5281/zenodo.12623730
+  
+- authors:
+  - Haase, Robert
+  description: 'Large Language Models (LLMs) such as ChatGPT are changing the way we
+    interact with computers, including how we analye microscopy imaging data. In this
+    talk I introduce basic concepts of asking LLMs to write code and how to modify the
+    questions to get the best out of it. For trying out these prompt engineering basics
+    there are additional online resources available: https://scads.github.io/prompt-engineering-basics-2024/intro.html'
+  license: cc-by-4.0
+  name: ChatGPT for Image Analysis
+  num_downloads: 1604
+  publication_date: '2024-08-25'
+  submission_date: '2026-09-02T18:16:20.310361'
+  url:
+  - https://zenodo.org/records/13371196
+  - https://doi.org/10.5281/zenodo.13371196
+  
+- authors:
+  - Haase, Robert
+  description: Generative Artificial Intelligence - and in particular large language
+    models - are changing the way we use computers. In this talk Dr. Haase explains
+    the underlying principles and gives examples how large language models such as OpenAI's
+    chatGPT can be used to do Bio-image Analysis. We will see how prompts to language
+    models are designed to make the language model produce high-quality Python code
+    to analyse microscopy images and tabular data. The seminar will come with practical
+    exercises attendees can do right after the talk and follow-up discussions will be
+    possible using the Image Science Forum https://image.sc .
+  license: cc-by-4.0
+  name: Prompt Engineering for Quantitative Bio-image Analysis
+  num_downloads: 1130
+  publication_date: '2024-03-20'
+  submission_date: '2026-09-02T18:16:20.759878'
+  url:
+  - https://zenodo.org/records/10841765
+  - https://doi.org/10.5281/zenodo.10841765
+  
+- authors:
+  - Haase, Robert
+  description: Large Language Models (LLMs) are changing the way how humans interact
+    with computers. This has impact on all scientific fields by enabling new ways to
+    achieve for example data analysis goals. In this talk we will go through an introduction
+    to LLMs with respect to applications in the life sciences, focusing on bio-image
+    analysis. We will see how to generate text and images using LLMs and how LLMs can
+    extract information from reproducibly images through code-generation. We will go
+    through selected prompt engineering techniques enabling scientists to tune the output
+    of LLMs towards their scientific goal and how to do quality assurance in this context.
+  license: cc-by-4.0
+  name: 'Large Language Models: An Introduction for Life Scientists'
+  num_downloads: 1419
+  publication_date: '2024-08-27'
+  submission_date: '2026-09-02T18:16:21.213561'
+  url:
+  - https://zenodo.org/records/13379394
+  - https://doi.org/10.5281/zenodo.13379394
+  
+- authors:
+  - Haase, Robert
+  description: Large Language Models (LLMs) change the way we interact with computers
+    and data. This obviously has impact on all scientific research fields, including
+    scientific analysis of biological microscopy imaging data. In this slide deck I
+    introduce approaches for using LLMs for quantitative bio-image analysis including
+    vision language models, retrieval augmented generation, model fine-tuning and other
+    prompt engineering techniques.
+  license: cc-by-4.0
+  name: Large Language Models for Bio-image Analysis
+  num_downloads: 611
+  publication_date: '2024-06-27'
+  submission_date: '2026-09-02T18:16:21.617259'
+  url:
+  - https://zenodo.org/records/12571082
+  - https://doi.org/10.5281/zenodo.12571082
+  
+- authors:
+  - Haase, Robert
+  description: This slide deck introduces the version control tool git, related terminology
+    and the Github Desktop app for managing files in Git[hub] repositories. We furthermore
+    dive into:* Working with repositories* Collaborative with others* Github-Zenodo
+    integration* Github pages* Artificial Intelligence answering Github Issues
+  license: cc-by-4.0
+  name: Collaborative Working and Version Control with git[hub]
+  num_downloads: 1703
+  publication_date: '2025-01-10'
+  submission_date: '2026-09-02T18:16:22.066861'
+  url:
+  - https://zenodo.org/records/14626054
+  - https://doi.org/10.5281/zenodo.14626054
+  
+- authors:
+  - Haase, Robert
+  description: In dieser Data Management Session wird der Lebenszyklus von Daten n&auml;her
+    beleuchtet. Wie entstehen Daten, was passiert mit ihnen, wenn sie verarbeitet werden?
+    Wem geh&ouml;ren die Daten und wer ist daf&uuml;r verantwortlich, sie zu ver&ouml;ffentlichen,
+    zu archivieren und gegebenenfalls wiederzuverwenden? Wir werden einen Datenmanagementplan
+    in Gruppenarbeit entwerfen, ggf. mit Hilfe von ChatGPT.
+  license: cc-by-4.0
+  name: Datenmanagement
+  num_downloads: 680
+  publication_date: '2024-04-14'
+  submission_date: '2026-09-02T18:16:22.508812'
+  url:
+  - https://zenodo.org/records/10970869
+  - https://doi.org/10.5281/zenodo.10970869
+  
+- authors:
+  - Haase, Robert
+  description: In these two slide-decks we explore applications of large language models.
+    In the first slide deck we dive into prompt engineering, function calling and how
+    to build agentic workflows. In the second slide-deck we explore multi-modal large
+    language models focusing on vision language models and image generation models.&nbsp;
+  license: cc-by-4.0
+  name: Prompt Engineering, Agentic Workflows and Multi-modal Large Language Models
+  num_downloads: 1478
+  publication_date: '2025-01-20'
+  submission_date: '2026-09-02T18:16:23.011597'
+  url:
+  - https://zenodo.org/records/14789187
+  - https://doi.org/10.5281/zenodo.14789187
+  
+- authors:
+  - Haase, Robert
+  description: When training people in topics such as programming, bio-image analysis
+    or data science, it makes sense to define a training strategy with a wider perspective
+    than just trainees needs. This slide deck gives insights into aspects to consider
+    when defining a training strategy. It considers funder's interests, financial aspects,
+    metrics / goals, steps towards sustainability and opportunities for outreach and
+    for founding future collaborations.
+  license: cc-by-4.0
+  name: Developing a Training Strategy
+  num_downloads: 493
+  publication_date: '2024-11-08'
+  submission_date: '2026-09-02T18:16:23.728501'
+  url:
+  - https://zenodo.org/records/14053758
+  - https://doi.org/10.5281/zenodo.14053758
+  
+- authors:
+  - Haase, Robert
+  description: Wir tauchen ein in die Welt der Open Science und definieren Begriffe
+    wie Open Source, Open Access und die FAIR-Prinzipien (Findable, Accessible, Interoperable
+    and Reuasable). Wir diskutieren, wie diese Methoden der [wissenschaftlichen] Kommunikation
+    und des Datenmanagements die Welt ver&auml;ndern und wie wir sie praktisch in unsere
+    Arbeit integrieren k&ouml;nnen. Dabei spielen Aspekte wie Copyright und Lizenzierung
+    eine wichtige Rolle.
+  license: cc-by-4.0
+  name: Open Science, Sharing & Licensing
+  num_downloads: 764
+  publication_date: '2024-04-18'
+  submission_date: '2026-09-02T18:16:24.162803'
+  url:
+  - https://zenodo.org/records/10990107
+  - https://doi.org/10.5281/zenodo.10990107
+  
+- authors:
+  - Haase, Robert
+  description: 'Large Language Models (LLMs) change the way how we do science, especially
+    how we write scientific data analysis code. This talk starts with an introduction
+    into the topic and into benchmarking LLMs for bio-image analysis code generation.
+    I also explain two projects giving access to LLMs in a user-friendly manner: bia-bob
+    and git-bob. Such tools facilitate the use of LLMs in scientific data analysis and
+    code generation. I furthermore outline why competing with commercial LLM service
+    providers in developing better models and systems is challenging and how we can
+    profit from the developments these service providers achieve.'
+  license: cc-by-4.0
+  name: Large Language Models for Bio-image Analysis
+  num_downloads: 300
+  publication_date: '2024-09-26'
+  submission_date: '2026-09-02T18:16:24.586318'
+  url:
+  - https://zenodo.org/records/13845286
+  - https://doi.org/10.5281/zenodo.13845286
+  
+- authors:
+  - Haase, Robert
+  description: 'In this slide deck we learn about the basics of Explainable Artificial
+    Intelligence with a soft focus on Computer Vision. We take a deeper dive in one
+    method: Gradient Class Activation Maps.
+  
+    Releated exercise materials are available online: https://haesleinhuepf.github.io/xai/'
+  license: cc-by-4.0
+  name: Explainable AI for Computer Vision
+  num_downloads: 659
+  publication_date: '2025-03-09'
+  submission_date: '2026-09-02T18:16:25.025650'
+  url:
+  - https://zenodo.org/records/14996127
+  - https://doi.org/10.5281/zenodo.14996127
+  
+- authors:
+  - Haase, Robert
+  description: In this talk, I introduce what version control using git means, what
+    it is good for and how it can ease collaboration and reuse of materials. I also
+    showcase Zenodo as a platform for archiving data. Last but not least I highlight
+    how open-access licenses can make sure we get the most out of our work by sharing
+    materials reusably with others reducing workload, e.g. in preparing training materials.
+  license: cc-by-4.0
+  name: Research Software Management using git and zenodo
+  num_downloads: 1442
+  publication_date: '2024-05-27'
+  submission_date: '2026-09-02T18:16:25.479945'
+  url:
+  - https://zenodo.org/records/11344132
+  - https://doi.org/10.5281/zenodo.11344132
+  
+- authors:
+  - Haase, Robert
+  description: '
+  
+    Large Language Models (LLMs) change the way we interact with computers, in science,
+    engineering and daily life. This slide deck gives an introduction into LLMs, the
+    underlying Transformer architecture, prompt engineering, function calling and agents.
+    It is a 50:50 mixture of theory and practical tips and tricks.
+  
+    '
+  license: cc-by-4.0
+  name: 'Large Language Models: An Introduction'
+  num_downloads: 455
+  publication_date: '2025-02-03'
+  submission_date: '2026-09-02T18:16:25.891589'
+  url:
+  - https://zenodo.org/records/14796429
+  - https://doi.org/10.5281/zenodo.14796429
+  
+- authors:
+  - Berger, Mike
+  - Korb-King, Franziska
+  - "G\xF6tze, Luisa"
+  description: Folien einer Pr&auml;sentation, in der die Wichtigkeit von Datenkompetenz
+    nicht nur in der Wissenschaft (im "Gro&szlig;en"), sondern auch im Alltag von Nicht-Forschenden
+    (im "Kleinen") aufgezeigt wird. Anhand von Forschungsskandalen in der Wissenschaft
+    einerseits und Datenchaos im Alltag andererseits wird gezeigt, was f&uuml;r Probleme
+    durch mangelnde Datenkompetenz bedingt oder sogar beg&uuml;nstigt werden; diesen
+    "FATALen" F&auml;llen werden die Wichtigkeit von Prinzipien wie FAIR gegen&uuml;bergestellt,
+    und wie diese wiederum Datenskandalen bzw. Datenchaos zumindest vorbeugen.&nbsp;Die
+    Folien sind relativ minimalistisch gestaltet und werden erg&auml;nzt durch ein Skript,
+    das auch Dialoge zur unterhaltsamen Veranschaulichung enth&auml;lt.Folien und Skript
+    sind an ein vorrangig nicht-wissenschaftliches Publikum gerichtet und k&ouml;nnen
+    je nach Bedarf an Zielgruppe und Kontext angepasst werden.Das Material wurde im
+    Rahmen der Langen Nacht der Wissenschaft 2025 am ScaDS.AI in Leipzig erstellt und
+    ist Output des Datenkompetenzzentrums Come2Data, ein vom BMFTR gef&ouml;rdertes
+    Verbundprojekt der TU Dresden, SLUB Dresden, Uni Leipzig und TU Chemnitz.
+  license: cc-by-nc-4.0
+  name: "FAIR oder FATAL: Datenkompetenz in Alltag & Wissenschaft \u2013 von smarter\
+    \ Organisation bis zu Forschungsskandalen"
+  num_downloads: 48
+  publication_date: '2025-10-10'
+  submission_date: '2026-09-02T18:16:26.346860'
+  url:
+  - https://zenodo.org/records/17313038
+  - https://doi.org/10.5281/zenodo.17313038
+  
+- authors:
+  - Haase, Robert
+  description: This slide deck and the accompanied Jupyter Book contains notebooks demonstrating
+    OpenAI's API for using chatGPT. We will use it to answer questions, translate text,
+    write code, analyze data and generate images.&nbsp;See also:https://scads.github.io/prompt-engineering-tutorial-2023
+  license: cc-by-4.0
+  name: Prompt Engineering Tutorial
+  num_downloads: 213
+  publication_date: '2023-12-11'
+  submission_date: '2026-09-02T18:16:26.784585'
+  url:
+  - https://zenodo.org/records/10354700
+  - https://doi.org/10.5281/zenodo.10354700
+  
+- authors:
+  - Haase, Robert
+  description: 'Large Language Models are changing the way how we use computers - and
+    how we do [image] data analysis. In this talk we see the various directions LLMs
+    develop these days: code generation, image generation, image vision, and we also
+    get a glimpse on how image manipulation models can challenge science as a whole.
+    In more detail we look in bio-image analysis bob, an LLM-based assistant who can
+    fulfill image analysis / coding tasks.'
+  license: cc-by-4.0
+  name: Large Language Models for Bio-image Analysis
+  num_downloads: 588
+  publication_date: '2024-06-14'
+  submission_date: '2026-09-02T18:16:27.198326'
+  url:
+  - https://zenodo.org/records/11650302
+  - https://doi.org/10.5281/zenodo.11650302
+  
+- authors:
+  - Haase, Robert
+  description: In these slides introduce current challenges and potential solutions
+    for openly sharing training materials, softly focusing on bio-image analysis. In
+    this field a lot of training materials circulate in private channels, but openly
+    shared, reusable materials, according to the FAIR-principles, are still rare. Using
+    the CC-BY license and publicly acessible repositories are proposed to fill this
+    gap.
+  license: cc-by-4.0
+  name: Cultivating Open Training
+  num_downloads: 718
+  publication_date: '2024-02-14'
+  submission_date: '2026-09-02T18:16:27.609371'
+  url:
+  - https://zenodo.org/records/10658484
+  - https://doi.org/10.5281/zenodo.10658484
+  
+- authors:
+  - Haase, Robert
+  description: '
+  
+    These slides introduce current challenges and potential solutions for openly sharing
+    training materials, focusing on bio-image analysis. In this field a lot of training
+    materials circulate in private channels, but openly shared, reusable materials,
+    according to the FAIR-principles, are still rare. Using the CC-BY license and publicly
+    acessible repositories are proposed to fill this gap.
+  
+    '
+  license: cc-by-4.0
+  name: Cultivating Open Training to advance Bio-image Analysis
+  num_downloads: 612
+  publication_date: '2024-04-25'
+  submission_date: '2026-09-02T18:16:28.035838'
+  url:
+  - https://zenodo.org/records/11066250
+  - https://doi.org/10.5281/zenodo.11066250
+  
+- authors:
+  - Haase, Robert
+  description: 'Gemeinsames Arbeiten im Internet stellt uns vor neue Herausforderungen:
+    Wer hat eine Datei wann hochgeladen? Wer hat zum Inhalt beigetragen? Wie kann man
+    Inhalte zusammenf&uuml;hren, wenn mehrere Mitarbeiter gleichzeitig &Auml;nderungen
+    gemacht haben? Das Versionskontrollwerkzeug git stellt eine umfassende L&ouml;sung
+    fuer solche Fragen bereit. Die Onlineplatform github.com stellt eine git-getriebene
+    Platform zur Verfuegung und erlaubt effektiv zusammen zu arbeiten. In diesem Workshop
+    lernen wir:
+  
+  
+    Einf&uuml;hrung in FAIR-Prinzipien im Softwarekontext
+  
+    Arbeiten mit git: Pull-requests
+  
+    Aufl&ouml;sen von Merge-Konflikten
+  
+    Automatisiertes Archivieren von Inhalten nach Zenodo.org
+  
+    Eigene Webseiten auf github.io publizieren
+  
+    '
+  license: cc-by-4.0
+  name: Kollaboratives Arbeiten und Versionskontrolle mit Git
+  num_downloads: 871
+  publication_date: '2024-04-15'
+  submission_date: '2026-09-02T18:16:28.581270'
+  url:
+  - https://zenodo.org/records/10972692
+  - https://doi.org/10.5281/zenodo.10972692
+  
+- authors:
+  - Haase, Robert
+  description: This talk will present the initiatives of the NFDI4BioImage consortium
+    aimed at the long-term preservation of life science data. We will discuss our efforts
+    to establish metadata standards, which are crucial for ensuring data reusability
+    and integrity. The development of sustainable infrastructure is another key focus,
+    enabling seamless data integration and analysis in the cloud. We will take a look
+    at how we manage training materials and communicate with our community. Through
+    these actions, NFDI4BioImage seeks to enable FAIR bioimage data management for German
+    researchers, across disciplines and embedded in the international framework.
+  license: cc-by-4.0
+  name: Towards Preservation of Life Science Data with NFDI4BIOIMAGE
+  num_downloads: 701
+  publication_date: '2024-09-03'
+  submission_date: '2026-09-02T18:16:28.992594'
+  url:
+  - https://zenodo.org/records/13640979
+  - https://doi.org/10.5281/zenodo.13640979
+  
+- authors:
+  - Kircheis, Wolfgang
+  - Schmidt, Marion
+  - Simons, Arno
+  - Stein, Benno
+  - Potthast, Martin
+  description: "History sections of science and technology articles on Wikipedia extracted\
+    \ from the Wikimedia dump from 1 January 2022. Articles retrieved using Wikipedia&#39;s\
+    \ category network. History sections extracted using a combination of section-heading-based\
+    \ heuristics and classifiers trained on articles with designated history sections.\n\
+    \nIf you use this corpus, please cite the following paper:\n\nWolfgang Kircheis,\
+    \ Marion Schmidt, Arno Simons, Benno Stein, and Martin Potthast. Mining the History\
+    \ Sections of Wikipedia Articles on Science and Technology. In 23rd ACM/IEEE Joint\
+    \ Conference on Digital Libraries (JCDL 2023), June 2023. [code] [corpus-viewer]\n\
+    \n@InProceedings{kircheis:2023,\n  author    = {Wolfgang Kircheis and Marion Schmidt\
+    \ and Arno Simons and Benno Stein and Martin Potthast},\n  booktitle = {23rd {ACM/IEEE}\
+    \ Joint Conference on Digital Libraries (JCDL 2023)},\n  codeurl   = {https://github.com/webis-de/JCDL-23},\n\
+    \  keywords  = {nlp, natural language processing},\n  month     = jun,\n  title\
+    \     = {{Mining the History Sections of Wikipedia Articles on Science and Technology}},\n\
+    \  year      = 2023\n}"
+  license: cc-by-4.0
+  name: Webis Wikipedia Innovation History 2023
+  num_downloads: 188
+  publication_date: '2023-06-16'
+  submission_date: '2026-09-02T18:16:29.408882'
+  url:
+  - https://zenodo.org/records/7845809
+  - https://doi.org/10.5281/zenodo.7845809
+  
+- submission_date: '2026-09-02T18:16:29.761536'
+  url:
+  - https://zenodo.org/records/10911264,
+  
+- authors:
+  - Haase, Robert
+  description: 'This slide deck is a practial, applied tour through large language models.
+    It covers the topics
+  
+  
+    How to use different llm services / endpoints
+  
+    Generating code and data
+  
+    Vision language models
+  
+    Retrieval augmented generation
+  
+    Function calling and agent
+  
+  
+    The exercise materials and notebooks are available online as well:
+  
+    https://scads.github.io/LLM_Summer_School_Tutorial_2025/&nbsp;'
+  license: cc-by-4.0
+  name: ScaDS.AI Summer School LLM Tutorial for Computer Scientists
+  num_downloads: 886
+  publication_date: '2025-06-26'
+  submission_date: '2026-09-02T18:16:30.172217'
+  url:
+  - https://zenodo.org/records/15743127
+  - https://doi.org/10.5281/zenodo.15743127
+  
+- authors:
+  - "Fr\xF6be, Maik"
+  - Wiegmann, Matti
+  - Kolyada, Nikolay
+  - Grahm, Bastian
+  - Elstner, Theresa
+  - Loebe, Frank
+  - Hagen, Matthias
+  - Stein, Benno
+  - Potthast, Martin
+  description: "This package contains TIRA, a platform for replicability and comparison\
+    \ of information retrieval experiments.\n\n&nbsp;\n\nPaper Abstract\n\nA major obstacle\
+    \ to the long-term impact of most shared tasks is their lack of reproducibility.\
+    \ Often only the test collections and the papers of the organizers and participants\
+    \ are published. Third parties who want to independently evaluate the state of the\
+    \ art for a task on other data must re-implement the participants&rsquo; software.\
+    \ The tools developed to collect software from participants in shared tasks only\
+    \ partially verify its reliability at the time of&nbsp; submission, much less long-term,\
+    \ and do not enable third parties to reuse it later. We have overhauled the TIRA\
+    \ Integrated Research Architecture to address all of these issues. The new version\
+    \ simplifies task setup for organizers and software submission for participants,\
+    \ scales from a local computer to the cloud, supports on-demand resource allocation\
+    \ up to parallel CPU and GPU processing, and enables export for local reproduction\
+    \ with just a few lines of code. This is achieved by implementing the TIRA protocol\
+    \ with an industry-standard continuous integration and deployment (CI/CD) pipeline\
+    \ using Git, Docker, and Kubernetes.\n\n&nbsp;\n\nLinks\n\nLink to paper on Springer:\
+    \ Continuous Integration for Reproducible Shared Tasks with TIRA.io\n\nLink to paper\
+    \ on Webis: Continuous Integration for Reproducible Shared Tasks with TIRA.io\n\n\
+    &nbsp;\n\nCitation\n\nIf you use TIRA in your own research, please be sure to cite\
+    \ our paper\n\n@InProceedings{froebe:2023b,\n  address =                  {Berlin\
+    \ Heidelberg New York},\n  author =                   {Maik Fr{\\\"o}be and Matti\
+    \ Wiegmann and Nikolay Kolyada and Bastian Grahm and Theresa Elstner and Frank Loebe\
+    \ and Matthias Hagen and Benno Stein and Martin Potthast},\n  booktitle =      \
+    \          {Advances in Information Retrieval. 45th European Conference on {IR}\
+    \ Research ({ECIR} 2023)},\n  month =                    apr,\n  publisher =   \
+    \             {Springer},\n  series =                   {Lecture Notes in Computer\
+    \ Science},\n  site =                     {Dublin, Irland},\n  title =         \
+    \           {{Continuous Integration for Reproducible Shared Tasks with TIRA.io}},\n\
+    \  doi =                      {https://doi.org/10.1007/978-3-031-28241-6_20},\n\
+    \  year =                     2023\n}\n"
+  license: mit-license
+  name: TIRA Integrated Research Architecture
+  num_downloads: 200
+  publication_date: '2026-02-25'
+  submission_date: '2026-09-02T18:16:30.589855'
+  url:
+  - https://zenodo.org/records/18777227
+  - https://doi.org/10.5281/zenodo.18777227
+  
+- authors:
+  - Herre, Heinrich
+  - Heller, Barbara
+  - Burek, Patryk
+  - Hoehndorf, Robert
+  - Loebe, Frank
+  - Michalek, Hannes
+  description: The General Formal Ontology is a top-level ontology for conceptual modeling.
+    It includes elaborations of categories like objects, processes, time and space,
+    properties, relations, roles, functions, facts, and situations.
+  license: cc-by-4.0
+  name: General Formal Ontology (GFO)
+  num_downloads: 67
+  publication_date: '2024-11-18'
+  submission_date: '2026-09-02T18:16:30.989947'
+  url:
+  - https://zenodo.org/records/14179974
+  - https://doi.org/10.5281/zenodo.14179974
+  
+- authors:
+  - Uciteli, Alexandr
+  - Beger, Christoph
+  - Loebe, Frank
+  - Matthies, Franz
+  - Herre, Heinrich
+  - "H\xF6ffner, Konrad"
+  - Burek, Patryk
+  - "Sch\xE4fermeier, Ralph"
+  description: 'GFO-light contains simplifications compared to the full version of GFO
+    and is designed as
+  
+    a framework for the efficient development and foundation of domain/application ontologies.'
+  license: cc-by-4.0
+  name: General Formal Ontology (light version)
+  num_downloads: 92
+  publication_date: '2025-04-10'
+  submission_date: '2026-09-02T18:16:31.408990'
+  url:
+  - https://zenodo.org/records/15189850
+  - https://doi.org/10.5281/zenodo.15189850
+  
+- authors:
+  - Gey, Ronny
+  - Haase, Robert
+  description: 'Generative Artificial Intelligence is becoming part of everone''s daily
+    work. The technology is modifying how we work in science. In this slide deck we
+    introduce best-practices, common tools and ethical considerations, facilitating
+    scientists can make the best out of the new technology. These slides are accompanied
+    by materials here: https://scads.github.io/ai_training_ufz_2025/'
+  license: cc-by-4.0
+  name: Artificial Intelligence in Everydays Research Routine
+  num_downloads: 945
+  publication_date: '2025-01-16'
+  submission_date: '2026-09-02T18:16:31.853183'
+  url:
+  - https://zenodo.org/records/14671792
+  - https://doi.org/10.5281/zenodo.14671792
+  
+- authors:
+  - Selder, Hannah
+  - Beylier, Charlotte
+  - Scherf, Nico
+  - Fleig, Arthur
+  description: '
+  
+    This dataset contains simulator folders compatible with the User-in-the-Box framework
+    for simulating human-computer-interaction. It includes final training checkpoints
+    of reinforcement learning agents trained with distinct luminance values for task-relevant
+    objects, distractors and background across two interaction tasks, pointing and tracking,
+    with 3 variants each:&nbsp;without distractors, with moving and static distractors.
+  
+    The RL agents were trained within the User-in-the-Box simulation environment. These
+    checkpoints enable researchers to reproduce experiments, analyze learned policies,
+    and investigate the influence of reward function design on agent behavior.
+  
+    To evaluate a checkpoint, copy the simulator folder (starting with mobl_arms_index)
+    into the simulators directory and run the following command:
+  
+  
+    python uitb/test/evaluator.py simulators/mobl_arms_index_pointing --record --logging
+  
+  
+    Note: The evaluation script evaluator.py and the simulators folder is part of the
+    User-in-the-Box repository, which must be cloned beforehand.
+  
+    For detailed information on implementation and experimental procedures, please refer
+    to the associated publication.
+  
+  
+    '
+  license: cc-by-4.0
+  name: 'Supporting dataset for Visual Bias in Simulated Users: The Impact of Luminance
+    and Contrast on Reinforcement Learning-based Interaction'
+  num_downloads: 57
+  publication_date: '2026-03-05'
+  submission_date: '2026-09-02T18:16:32.357143'
+  url:
+  - https://zenodo.org/records/18346733
+  - https://doi.org/10.5281/zenodo.18346733
+  
+- authors:
+  - Bevendorff, Janek
+  - Wiegmann, Matti
+  - Potthast, Martin
+  - Stein, Benno
+  description: 'Appeared in: Open Search Symposium 2023, 4-6 October 2023, CERN, Geneva,
+    Switzerland.'
+  license: cc-by-4.0
+  name: 'Product Spam on YouTube: A Case Study'
+  num_downloads: 188
+  publication_date: '2023-10-04'
+  submission_date: '2026-09-02T18:16:32.799324'
+  url:
+  - https://zenodo.org/records/10498306
+  - https://doi.org/10.5281/zenodo.10498306
+  
+- authors:
+  - Harrisen Scells
+  - Ferdinand Schlatt
+  - Martin Potthast
+  description: Run files for &quot;Smooth Operators for Effective Systematic Review
+    Queries&quot;
+  license: cc-by-4.0
+  name: Webis-SmoothOperators-23
+  num_downloads: 61
+  publication_date: '2023-04-27'
+  submission_date: '2026-09-02T18:16:33.258508'
+  url:
+  - https://zenodo.org/records/7870122
+  - https://doi.org/10.5281/zenodo.7870122
+  
+- authors:
+  - Gohsen, Marcel
+  - Hagen, Matthias
+  - Potthast, Martin
+  - Stein, Benno
+  description: 'Webis Wikipedia-IPC
+  
+  
+    When an image is reused on the Web, an original caption is often assigned. We hypothesize
+    that different captions for the same image naturally form a set of mutual paraphrases.
+    To demonstrate the suitability of this idea, we analyzed captions in the English
+    Wikipedia, where editors frequently relabel the same image for different articles.
+    As a result, the Wikipedia-IPC (Image caption Paraphrase Corpus) dataset was created
+    which include caption pairs of the same image which represent paraphrases. It contains
+    30,237 gold, 229,877 silver, and 656,560 bronze quality paraphrase pairs.'
+  license: cc-by-4.0
+  name: Webis Wikipedia-IPC
+  num_downloads: 95
+  publication_date: '2023-02-08'
+  submission_date: '2026-09-02T18:16:33.694295'
+  url:
+  - https://zenodo.org/records/7621320
+  - https://doi.org/10.5281/zenodo.7621320
+  
+- authors:
+  - Bevendorff, Janek
+  - Stein, Benno
+  - Hagen, Matthias
+  - Potthast, Martin
+  description: "This package contains ChatNoir Resiliparse, a collection of robust and\
+    \ fast processing tools for parsing and analyzing web archive data.\n\n&nbsp;\n\n\
+    Paper Abstract Elastic ChatNoir\n\nElastic ChatNoir is an Elasticsearch-based search\
+    \ engine offering a freely accessible search interface for the two ClueWeb corpora\
+    \ and the Common Crawl, together about 3&nbsp;billion web pages. Running across\
+    \ 130&nbsp;nodes, Elastic ChatNoir features subsecond response times comparable\
+    \ to commercial search engines. Unlike most commercial search engines, it also offers\
+    \ a powerful API that is available free of charge to IR&nbsp;researchers. Elastic\
+    \ ChatNoir&rsquo;s main purpose is to serve as a baseline for reproducible IR&nbsp;experiments\
+    \ and user studies for the coming years, empowering research at a scale not attainable\
+    \ to many labs beforehand, and to provide a platform for experimenting with new\
+    \ approaches to web search.\n\n&nbsp;\n\nPaper Abstract FastWARC\n\nWeb search and\
+    \ other large-scale web data analytics rely on processing archives of web pages\
+    \ stored in a standardized and efficient format. Since its introduction in 2008,\
+    \ the IIPC&#39;s Web ARCive (WARC) format has become the standard format for this\
+    \ purpose. As a list of individually compressed records of HTTP requests and responses,\
+    \ it allows for constant-time random access to all kinds of web data via off-the-shelf\
+    \ open source parsers in many programming languages, such as WARCIO, the de-facto\
+    \ standard for Python. When processing web archives at the terabyte or petabyte\
+    \ scale, however, even small inefficiencies in these tools add up quickly, resulting\
+    \ in hours, days, or even weeks of wasted compute time. Reviewing the basic components\
+    \ of WARCIO and analyzing its bottlenecks, we proceed to build FastWARC, a new high-performance\
+    \ WARC processing library for Python, written in C++/Cython, which yields performance\
+    \ improvements by factors of 1.6-8x.\n\n&nbsp;\n\nLinks\n\nLink to papers on Springer\
+    \ and ArXiv:\n\n\n\tElastic ChatNoir: Search Engine for the ClueWeb and the Common\
+    \ Crawl, \n\tFastWARC: Optimizing Large-Scale Web Archive Analytics\n\n\nLink to\
+    \ papers on Webis:\n\n\n\tElastic ChatNoir: Search Engine for the ClueWeb and the\
+    \ Common Crawl,\n\tFastWARC: Optimizing Large-Scale Web Archive Analytics\n\n\n\
+    &nbsp;\n\nCitation\n\nIf you use ChatNoir or any of its tools (like Resiliparse)\
+    \ for a publication, please be sure to cite our paper:\n\n@InProceedings{bevendorff:2018,\n\
+    \  address =             {Berlin Heidelberg New York},\n  author =             \
+    \ {Janek Bevendorff and Benno Stein and Matthias Hagen and Martin Potthast},\n \
+    \ booktitle =           {Advances in Information Retrieval. 40th European Conference\
+    \ on IR Research (ECIR 2018)},\n  editor =              {Leif Azzopardi and Allan\
+    \ Hanbury and Gabriella Pasi and Benjamin Piwowarski},\n  month =              \
+    \ mar,\n  publisher =           {Springer},\n  series =              {Lecture Notes\
+    \ in Computer Science},\n  site =                {Grenoble, France},\n  title =\
+    \               {{Elastic ChatNoir: Search Engine for the ClueWeb and the Common\
+    \ Crawl}},\n  year =                2018\n}\n\n&nbsp;\n\nIf you use FastWARC, you\
+    \ can also cite this paper:\n\n@InProceedings{bevendorff:2021,\n  author =     \
+    \           {Janek Bevendorff and Martin Potthast and Benno Stein},\n  booktitle\
+    \ =             {3rd International Symposium on Open Search Technology (OSSYM 2021)},\n\
+    \  editor =                {Andreas Wagner and Christian Guetl and Michael Granitzer\
+    \ and Stefan Voigt},\n  month =                 oct,\n  publisher =            \
+    \ {International Open Search Symposium},\n  site =                  {CERN, Geneva,\
+    \ Switzerland},\n  title =                 {{FastWARC: Optimizing Large-Scale Web\
+    \ Archive Analytics}},\n  year =                  2021\n}\n\n&nbsp;"
+  license: apache2.0
+  name: ChatNoir Resiliparse
+  num_downloads: 118
+  publication_date: '2024-09-10'
+  submission_date: '2026-09-02T18:16:34.321582'
+  url:
+  - https://zenodo.org/records/13739396
+  - https://doi.org/10.5281/zenodo.13739396
+  
+- authors:
+  - Engelhardt, Claudia
+  - Voigt, Pia
+  description: "Come2Data is one of eleven national Data Competence Centres currently\
+    \ in development. It aims to foster the proliferation of data competencies and skills\
+    \ primarily in academia, but also in public administration, industry and the interested\
+    \ public. It follows an interdisciplinary, regional approach by bringing together\
+    \ existing data-related teaching, training and support services of the project partners\
+    \ (TU Chemnitz, TU Dresden, Leipzig University and Saxon State Library &ndash; Dresden\
+    \ State and University Library) as well as expertise and activities on research\
+    \ data management (e.g. in SaxFDM), the National Research Infrastructure (NFDI)\
+    \ and high-performance computing and analysis methods for data-intensive, interdisciplinary\
+    \ research applications, such as artificial intelligence and data modelling (e.g.\
+    \ in ScADS.AI). \nInformation on offerings and resources will be aggregated and\
+    \ made accessible via a virtual platform serving as a central entry point. Existing\
+    \ teaching offers and materials will be didactically overhauled, tailored to different\
+    \ target groups and arranged in learning paths on a modular basis. Findings and\
+    \ solutions developed as part of pilot projects from various disciplines will be\
+    \ integrated. In addition, Come2Data will explore possibilities for the integration\
+    \ of data-related content into curricula and teaching as well as certification and\
+    \ implement them on a trial basis."
+  license: cc-by-4.0
+  name: Come2Data - National Data Competence Center with a Saxon Focus
+  num_downloads: 113
+  publication_date: '2025-04-17'
+  submission_date: '2026-09-02T18:16:34.794343'
+  url:
+  - https://zenodo.org/records/15235609
+  - https://doi.org/10.5281/zenodo.15235609
+  
+- authors:
+  - Selder, Hannah
+  - Fischer, Florian
+  - Kristensson, Per Ola
+  - Fleig, Arthur
+  description: 'This dataset contains simulator folders compatible with the User-in-the-Box
+    framework for simulating human-computer-interaction. It includes final training
+    checkpoints of reinforcement learning agents trained with distinct reward functions
+    across four interaction tasks:&nbsp;pointing, tracking, choice reaction, and remote
+    control.
+  
+    The RL agents were trained within the User-in-the-Box simulation environment, using
+    MuJoCo (version&nbsp;3.3.0 required). These checkpoints enable researchers to reproduce
+    experiments, analyze learned policies, and investigate the influence of reward function
+    design on agent behavior.
+  
+    To evaluate a checkpoint, run the following command:
+  
+  
+    python uitb/test/evaluator.py simulators/mobl_arms_index_pointing --record --logging
+  
+  
+    Note: The evaluation script evaluator.py is part of the&nbsp;User-in-the-Box repository,
+    which must be cloned beforehand.
+  
+    For detailed information on implementation and experimental procedures, please refer
+    to the associated publication.
+  
+    '
+  license: cc-by-4.0
+  name: 'Supporting dataset for Demystifying Reward Design in Reinforcement Learning
+    for Upper Extremity Interaction: Practical Guidelines for Biomechanical Simulations
+    in HCI'
+  num_downloads: 57
+  publication_date: '2025-07-09'
+  submission_date: '2026-09-02T18:16:35.243065'
+  url:
+  - https://zenodo.org/records/15845404
+  - https://doi.org/10.5281/zenodo.15845404
+  
+- authors:
+  - Taeschner, Matthias
+  description: Vortrag im Rahmen der KI-Netzwerk Veranstaltung an der Universit&auml;t
+    Leipzig zur allgemeinen Funktionsweise von Generativer KI (Text und Bild), deren
+    Trainingsprozesse sowie Problemen bei der Nutzung bzgl. problematischer Inhalte.
+  license: cc-by-4.0
+  name: "Generative KI im \xDCberblick \u2013 Funktionsweise, Training, Problematik"
+  num_downloads: 172
+  publication_date: '2025-04-09'
+  submission_date: '2026-09-02T18:16:35.652902'
+  url:
+  - https://zenodo.org/records/15181334
+  - https://doi.org/10.5281/zenodo.15181334
+  
+- authors:
+  - Lenhardt, Julien
+  - Quaas, Johannes
+  - Sejdinovic, Dino
+  description: 'Method code and data relating to the manuscript:
+  
+    Marine cloud base height retrieval from MODIS cloud properties using machine learning
+  
+    Lenhardt, J. (1), Quaas, J. (1, 2), Sejdinovic, D. (3)
+  
+    1 Leipzig Institute for Meteorology, Leipzig University, Leipzig, Germany2 ScaDS.AI
+    - Center for Scalable Data Analytics and Artificial Intelligence, Leipzig University,
+    Humboldtstra&szlig;e 25, 04105 Leipzig, Germany3 School of Computer and Mathematical
+    Sciences &amp; Australian Institute for Machine Learning, University of Adelaide,
+    Adelaide, Australia
+  
+    Lenhardt, J., Quaas, J., and Sejdinovic, D.: Marine cloud base height retrieval
+    from MODIS cloud properties using machine learning, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2024-327,
+    2024.
+  
+    Data files available from /data/global_2016/
+  
+  
+    Global aggregated cloud base predictions (mean, standard deviation, count, time,
+    ..) in netCDF file at global_counts_predictions_ae_ocean_2016.nc
+  
+    Table of cloud base predictions (along with latitude, longitude, time, corresponding
+    MODIS swath file, ...) in csv file at&nbsp;df_preds_global_ae_ocean_2016.csv
+  
+  
+    Method files available from /method/
+  
+  
+    Method class and functions available at /utils/utils.py
+  
+    Model PyTorch architecture (in particular autoencoder) available at&nbsp;/models/models.py
+  
+    Models'' weights available from /models/models_save/
+  
+    Example notebook using method''s class and functions available at cloud_base_height_prediction_example.ipynb
+  
+  
+    &nbsp;
+  
+    Archive structure:
+  
+  
+    Notebook with method example cloud_base_height_prediction_example.ipynb
+  
+    Folder data with global predictions for the year 2016, test set predictions, example
+    data and data needed for the manuscript''s plots
+  
+    Folder method with models files, corresponding PyTorch class, subfolder utils with
+    code files for running the method
+  
+    Folder plots with saved figures for the manuscript and corresponding notebook plots_Cloud_base_height_method.ipynb
+  
+    File requirements.txt for Conda environment specifications
+  
+    '
+  license: cc-by-4.0
+  name: 'Method code and data for the article: "Marine cloud base height retrieval from
+    MODIS cloud properties using machine learning"'
+  num_downloads: 98
+  publication_date: '2024-01-22'
+  submission_date: '2026-09-02T18:16:36.390444'
+  url:
+  - https://zenodo.org/records/13332940
+  - https://doi.org/10.5281/zenodo.13332940
+  
+- authors:
+  - Tanja Katharina Kaiser
+  - Tristan Potten
+  - Heiko Hamann
+  description: Plots&nbsp;to the paper &quot;Evolution of Collective Decision-Making
+    Mechanisms for Collective Perception&quot;&nbsp;
+  license: cc-by-4.0
+  name: Evolution of Collective Decision-Making Mechanisms for Collective Perception
+    (plots)
+  num_downloads: 1357
+  publication_date: '2023-01-13'
+  submission_date: '2026-09-02T18:16:37.011484'
+  url:
+  - https://zenodo.org/records/7763134
+  - https://doi.org/10.5281/zenodo.7763134
+  
+- authors:
+  - Zelch, Ines
+  - Hagen, Matthias
+  - Potthast, Martin
+  description: 'Appeared in: Open Search Symposium 2023, 4-6 October 2023, CERN, Geneva,
+    Switzerland.'
+  license: cc-by-4.0
+  name: 'Commercialized Generative AI: A Critical Study of the Feasibility and Ethics
+    of Generating Native Advertising Using Large Language Models in Conversational Web
+    Search'
+  num_downloads: 88
+  publication_date: '2023-10-04'
+  submission_date: '2026-09-02T18:16:37.413520'
+  url:
+  - https://zenodo.org/records/10626481
+  - https://doi.org/10.5281/zenodo.10626481
+  
+- authors:
+  - Dietrich, Konstantin
+  - Seiler, Moritz Vinzent
+  - Mersmann, Olaf
+  - Trautmann, Heike
+  - Kerschke, Pascal
+  description: 'Code and Data for reproducibility of the work in the ECJ submission
+    "Generation of Continuous Optimization Benchmark Problems Guided by Deep Exploratory
+    Landscape Analysis".To be able to run the code you can proceed as follows (replace
+    mamba by conda if you do not have it installed):
+  
+    # Create the env
+  
+    mamba create -n deepela-genfun -c conda-forge python=3.11.5 pip -y
+  
+  
+    # Activate it
+  
+    mamba activate deepela-genfun
+  
+  
+    # Install requirements
+  
+    pip install -r requirements.txt
+  
+    If you want to use a virtual env instead first make sure you have Python/3.11.5
+    installed.
+  
+    # Make sure this prints "Python 3.11.5"
+  
+    python -V
+  
+  
+    # Create the env
+  
+    python -m venv ~/.venvs/deepela-genfun
+  
+  
+    # Activate it
+  
+    source ~/.venvs/deepela-genfun/bin/activate
+  
+  
+    # Install requirements
+  
+    pip install -r requirements.txt
+  
+    Finally, install the Deep ELA package alongside pflacco as described here: https://github.com/mvseiler/deep_ela.Regarding
+    the data, it was necessary to split the zip file into larger chunks to allow for
+    an upload to the repository.After downloading you can put the chunks back together
+    by executing:
+  
+    cat data.zip.part-* &gt; data.zip
+  
+    Afterwards it can be&nbsp; unzipped like any other zip file.'
+  license: cc-by-4.0
+  name: 'Code and Data for the ECJ submission: Generation of Continuous Optimization
+    Benchmark Problems Guided by Deep Exploratory Landscape Analysis'
+  num_downloads: 720
+  publication_date: '2025-09-01'
+  submission_date: '2026-09-02T18:16:38.473819'
+  url:
+  - https://zenodo.org/records/17020077
+  - https://doi.org/10.5281/zenodo.17020077
+  
+- authors:
+  - "Sch\xE4permeier, Lennart"
+  - Kerschke, Pascal
+  description: 'This repository contains the code to reproduce the experimental results
+    of the paper "BONO-Bench: A Comprehensive Test Suite for Bi-objective Numerical
+    Optimization with Traceable Pareto Sets" under review at the TELO Special Issue
+    on Benchmarking in Multi-Criteria Optimization.
+  
+    Due to the amount and structure of the files, some are provided as ZIP files and
+    need to be unpacked. The visdata folder with intermediate data used to create the
+    visualizations in visfiles is not provided, but can be recreated using 04-create-visdata.ipynb.
+  
+    The bonobench package is additionally published at https://github.com/schaepermeier/bonobench
+    and will continue development there.
+  
+    For further instructions, please refer to the README.md file.'
+  name: 'Supplementary Material for "BONO-Bench: A Comprehensive Test Suite for Bi-objective
+    Numerical Optimization with Traceable Pareto Sets"'
+  num_downloads: 1229
+  publication_date: '2026-01-28'
+  submission_date: '2026-09-02T18:16:38.955437'
+  url:
+  - https://zenodo.org/records/18403177
+  - https://doi.org/10.5281/zenodo.18403177
+  
+- authors:
+  - "Fr\xF6be, Maik"
+  - Elstner, Theresa
+  - Scells, Harrisen
+  - Stein, Benno
+  - Potthast, Martin
+  description: 'Appeared in: Open Search Symposium 2023, 4-6 October 2023, CERN, Geneva,
+    Switzerland.'
+  license: cc-by-4.0
+  name: 'Prototyping Open Web Search Applications with TIRA: A Case Study in Research-oriented
+    Teaching'
+  num_downloads: 70
+  publication_date: '2023-10-04'
+  submission_date: '2026-09-02T18:16:39.399143'
+  url:
+  - https://zenodo.org/records/10557539
+  - https://doi.org/10.5281/zenodo.10557539
+  
+- authors:
+  - Lenhardt, Julien
+  - Quaas, Johannes
+  - Sejdinovic, Dino
+  - Klocke, Daniel
+  description: 'Method code and data relating to the manuscript:
+  
+    CloudViT: exploring cloud type classification with vision transformers in global
+    satellite data.
+  
+    Lenhardt, J. (1), Quaas, J. (1, 2), Sejdinovic, D. (3), Klocke, D. (4)
+  
+    1 Leipzig Institute for Meteorology, Leipzig University, Leipzig, Germany
+  
+    2 ScaDS.AI - Center for Scalable Data Analytics and Artificial Intelligence, Leipzig
+    University, Humboldtstra&szlig;e 25, 04105 Leipzig, Germany
+  
+    3 School of Computer and Mathematical Sciences &amp; Australian Institute for Machine
+    Learning, University of Adelaide, Adelaide, Australia
+  
+    4 Max Planck Institute for Meteorology (MPI-M), Hamburg, Germany
+  
+    &nbsp;
+  
+    Lenhardt, J., Quaas, J., Sejdinovic, D., and Klocke, D.: CloudViT: exploring cloud
+    type classification with vision transformers in global satellite data, EGUSphere
+    [ACP-preprint], https://doi.org/10.5194/egusphere-2024-2724, 2024.
+  
+    Data files available from /data/global_2016/
+  
+  
+    Global aggregated monthly cloud type predictions (count, time, ..) in netCDF files
+    at xr_global_month_{month}_2016.nc
+  
+    Table of cloud type predictions (along with latitude, longitude, time, corresponding
+    MODIS swath file, ...) in csv files at df_global_month_{month}_2016.csv
+  
+  
+    Data files available from /data/climate_model/
+  
+  
+    Global aggregated cloud type predictions (count, time, ..) in netCDF file at xr_Apollo17_predictions.nc
+  
+  
+    Method files available from /method/
+  
+  
+    Method class and functions available at /utils/utils.py
+  
+    Model PyTorch architecture available at /models/models.py
+  
+    Models'' weights available from /models/models_save/
+  
+    Example notebook using method''s class and functions available at CloudViT_prediction_example.ipynb
+  
+  
+    &nbsp;
+  
+    Archive structure:
+  
+  
+    Notebook with method example CloudViT_prediction_example.ipynb
+  
+    Folder data with global predictions for the year 2016, test set predictions, climate
+    model predictions, example data and data needed for the manuscript''s plots
+  
+    Folder method with models files, corresponding PyTorch class, subfolder utils with
+    code files for running the method
+  
+    Folder plots with saved figures for the manuscript and corresponding notebook plots_CloudViT.ipynb
+  
+    File requirements.txt for Conda environment specifications
+  
+    '
+  license: cc-by-4.0
+  name: 'CloudViT - Method code and data for the article "CloudViT: exploring cloud
+    type classification with vision transformers in global satellite data."'
+  num_downloads: 40
+  publication_date: '2026-03-20'
+  submission_date: '2026-09-02T18:16:39.892156'
+  url:
+  - https://zenodo.org/records/19134494
+  - https://doi.org/10.5281/zenodo.19134494
+  
+- authors:
+  - Heineking, Sebastian
+  - Zelch, Ines
+  - Pertsch, Wilhelm
+  - Deubel, Christian
+  - Hagen, Matthias
+  - Potthast, Martin
+  description: 'Dataset Summary
+  
+    This dataset was created to train ad blocking systems on the task of identifying
+    advertisements in the responses of large language models (LLMs) and search engines
+    that use retrieval-augmented generation (RAG). It is the successor of the Webis
+    Generated Native Ads 2024 dataset.
+  
+    &nbsp;
+  
+    Citation
+  
+    @misc{heineking:2025,&nbsp; author = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; {Sebastian Heineking and Ines Zelch and Wilhelm Pertsch and Christian
+    Deubel and Matthias Hagen and Martin Potthast},&nbsp; title = &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{{Webis Generated Native Ads 2025}},&nbsp;
+    doi = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{10.5281/zenodo.16941607},&nbsp;
+    year = &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2025}'
+  license: cc-by-4.0
+  name: Webis Generated Native Ads 2025
+  num_downloads: 6294
+  publication_date: '2026-04-24'
+  submission_date: '2026-09-02T18:16:40.636999'
+  url:
+  - https://zenodo.org/records/19736790
+  - https://doi.org/10.5281/zenodo.19736790
+  
+- authors:
+  - "Stefan M\xFChlbauer"
+  - Florian Sattler
+  - Christian Kaltenecker
+  - Johannes Dorn
+  - Sven Apel
+  - Norbert Siegmund
+  description: 'This repository provides supplementary material to the ICSE 2023 paper
+    &quot;Analyzing the Impact of Workloads on Modeling the Performance of Configurable
+    Software Systems&quot;. We provide the following material:
+  
+  
+    - The experimental setup, including the performance and measurement scripts.
+  
+  
+    - (Aggregated) measurement data and configurations used in our analysis as well
+    as the raw code coverage measurements.
+  
+  
+    - An interactive dashboard to reproduce and reenact our analyses/findings, re-create
+    all visualizations used in the original paper and those omitted due to space limitations.
+  
+  
+    The repository is structured as follows:
+  
+  
+    - accepted_paper.pdf: Camera-ready version of the original paper for reference.
+  
+  
+    - coverages_raw.tar.gz: Raw coverage reports as compressed CSV files (uncrompressed:
+    ~60 GB)
+  
+  
+    - artifacts_excluding_raw_coverage.zip: aggregated measurement data, interactive
+    dashboard, and experimental setup
+  
+  
+    - README.md: A detailed documentation of all the material provided.'
+  license: cc-by-4.0
+  name: Analyzing the Impact of Workloads on Modeling the Performance of Configurable
+    Software Systems (Supplementary Material)
+  num_downloads: 2490
+  publication_date: '2023-01-15'
+  submission_date: '2026-09-02T18:16:41.140350'
+  url:
+  - https://zenodo.org/records/7658046
+  - https://doi.org/10.5281/zenodo.7658046
+  
+- authors:
+  - Zeleke, Atinkut Alamirrew
+  - Dierkes, Jens
+  - Haase, Robert
+  - Lindstaedt, Birte
+  - Kuntz, Alessandra
+  - "Gonz\xE1lez Ribao, Vanessa"
+  - Sax, Ulrich
+  - Schaare, Lina
+  description: 'Teamwork as the Key to Excellence in Biomedical Data Management Training
+  
+    This is the presentation given at CoRDI 2025.
+  
+    The related abstract paper can be found in the&nbsp;CoRDI25 Zenodo Community under&nbsp;https://doi.org/10.5281/zenodo.16736168
+  
+    This is a collaboration of the NFDI biomedical consortia NFDI4Health, GHGA and NFDI4BIOIMAGE,
+    and it is open for others to join.'
+  license: cc-by-4.0
+  name: 'Converging Forces: A Collaborative Vision for Training in Biomedical Data Management'
+  num_downloads: 139
+  publication_date: '2025-09-10'
+  submission_date: '2026-09-02T18:16:41.588996'
+  url:
+  - https://zenodo.org/records/17091458
+  - https://doi.org/10.5281/zenodo.17091458
+  
+- authors:
+  - Wider, Jonathan
+  - Zscheischler, Jakob
+  description: Weather generators allow anticipating unseen weather and help prepare
+    for possible weather-related hazards by providing long continuous time series representative
+    of a given climate. Accurately representing dependencies between variables and locations
+    within weather generators is challenging yet important -- ignoring them can result
+    in biased risk estimates. Daily analog weather generators trivially capture spatial
+    and multivariate dependencies within each single time step. These generators resample
+    a historical dataset while ensuring that successive sampled days have consistent
+    large-scale atmospheric fields, thereby also ensuring temporally consistent local
+    weather to some extent. Nevertheless, analog weather generators so far underestimate
+    temporal correlations and are limited by the length of the available dataset they
+    sample from, usually observations or reanalysis data. We propose unseen-awg, an
+    analog weather generator based on data from weather forecasts initialized with historical
+    conditions (reforecasts) and apply it to Europe in a case study. Combined with a
+    novel tuning strategy and block sampling, this large, high-resolution dataset representative
+    of present-day climate allows unseen-awg to simulate weather for the full annual
+    cycle, improve on the temporal continuity of the generated time series, and generate
+    unseen extremes at a daily timescale. We demonstrate that unseen-awg captures both
+    the distributional properties of the individual variables and the dependence between
+    summer temperature and precipitation at the grid-cell scale. We further highlight
+    its ability to simulate droughts and heatwaves of unprecedented spatial extent.
+    Combined with climate impact models, unseen-awg holds great potential for assessing
+    weather-related risks across sectors such as water, agriculture, and forestry, domains
+    that require simulating multiple variables and spatial dependencies across a large
+    number of locations.
+  license: mit-license
+  name: 'unseen-awg: Spatio-temporal weather generation using analogs and unseen data'
+  num_downloads: 7
+  publication_date: '2026-04-22'
+  submission_date: '2026-09-02T18:16:42.120090'
+  url:
+  - https://zenodo.org/records/19698709
+  - https://doi.org/10.5281/zenodo.19698709
+  
+- authors:
+  - Wider, Jonathan
+  - Zscheischler, Jakob
+  description: Weather generators allow anticipating unseen weather and help prepare
+    for possible weather-related hazards by providing long continuous time series representative
+    of a given climate. Accurately representing dependencies between variables and locations
+    within weather generators is challenging yet important -- ignoring them can result
+    in biased risk estimates. Daily analog weather generators trivially capture spatial
+    and multivariate dependencies within each single time step. These generators resample
+    a historical dataset while ensuring that successive sampled days have consistent
+    large-scale atmospheric fields, thereby also ensuring temporally consistent local
+    weather to some extent. Nevertheless, analog weather generators so far underestimate
+    temporal correlations and are limited by the length of the available dataset they
+    sample from, usually observations or reanalysis data. We propose unseen-awg, an
+    analog weather generator based on data from weather forecasts initialized with historical
+    conditions (reforecasts) and apply it to Europe in a case study. Combined with a
+    novel tuning strategy and block sampling, this large, high-resolution dataset representative
+    of present-day climate allows unseen-awg to simulate weather for the full annual
+    cycle, improve on the temporal continuity of the generated time series, and generate
+    unseen extremes at a daily timescale. We demonstrate that unseen-awg captures both
+    the distributional properties of the individual variables and the dependence between
+    summer temperature and precipitation at the grid-cell scale. We further highlight
+    its ability to simulate droughts and heatwaves of unprecedented spatial extent.
+    Combined with climate impact models, unseen-awg holds great potential for assessing
+    weather-related risks across sectors such as water, agriculture, and forestry, domains
+    that require simulating multiple variables and spatial dependencies across a large
+    number of locations.
+  license: mit-license
+  name: 'Evaluation code for ''unseen-awg: Spatio-temporal weather generation using
+    analogs and unseen data'''
+  num_downloads: 7
+  publication_date: '2026-04-22'
+  submission_date: '2026-09-02T18:16:42.561758'
+  url:
+  - https://zenodo.org/records/19698739
+  - https://doi.org/10.5281/zenodo.19698739
+  
+- authors:
+  - Vogginger, Bernhard
+  - Rostami, Amirhossein
+  - Jain, Vaibhav
+  - Arfa, Sirine
+  - Hantsch, Andreas
+  - Kappel, David
+  - "Sch\xE4fer, Michael"
+  - Faltings, Ulrike
+  - Gonzalez, Hector A.
+  - Liu, Chen
+  - Mayr, Christian
+  description: 'As humans advance toward a higher level of artificial intelligence,
+    it is always at the cost of escalating computational resource consumption, which
+    requires developing novel solutions to meet the exponential growth of AI computing
+    demand. Neuromorphic hardware takes inspiration from how the brain processes information
+    and promises energy-efficient computing of AI workloads. Despite its potential,
+    neuromorphic hardware has not found its way into commercial AI data centers. In
+    this article, we try to analyze the underlying reasons for this and derive requirements
+    and guidelines to promote neuromorphic systems for efficient and sustainable cloud
+    computing: We first review currently available neuromorphic hardware systems and
+    collect examples where neuromorphic solutions excel conventional AI processing on
+    CPUs and GPUs. Next, we identify applications, models and algorithms which are commonly
+    deployed in AI data centers as further directions for neuromorphic algorithms research.
+    Last, we derive requirements and best practices for the hardware and software integration
+    of neuromorphic systems into data centers. With this article, we hope to increase
+    awareness of the challenges of integrating neuromorphic hardware into data centers
+    and to guide the community to enable sustainable and energy-efficient AI at scale.&nbsp;'
+  license: cc-by-4.0
+  name: Neuromorphic hardware for sustainable AI data centers
+  num_downloads: 170
+  publication_date: '2024-04-24'
+  submission_date: '2026-09-02T18:16:43.023474'
+  url:
+  - https://zenodo.org/records/11401962
+  - https://doi.org/10.5281/zenodo.11401962
+  
+- authors:
+  - Daniel, Klotz
+  - Peter, Miersch
+  - Thiago V. M., do Nascimento
+  - Fabrizio, Fenicia
+  - Martin, Gauch
+  - Jakob, Zscheischler
+  description: 'EARLS is an openly available pan-European runoff&ndash;reconstruction
+    dataset.
+  
+    As of now it is structured in the following way:&nbsp;
+  
+  
+  
+    The `coordinates.csv` file contains basin outlet information with 5 columns: basin
+    id (idx), type, estimated latitude (lat) and longitude (lon) of the outlet, and
+    the distance to the nearest gauging station.
+  
+    The `license.md`&nbsp;file contains information about the licensing.
+  
+    The `shapefile` folder includes a shapefile with all basin boundaries (see: HydroBASINS).
+  
+    The `reconstructions`&nbsp;folder contains CSV files. Each file is named after the
+    basin id and has at least two columns: date and simulation. The simulations are
+    given in mm. Additional columns can be used to provide more information. For the
+    current EARLS we added two additional columns that provide the remaining parameters
+    for the uncertainty estimation.
+  
+    The `model-card` folder contains 2 files: `model-card.html`, and `earls-crest.png`.
+    The html document includes the png as logo and renders a model card. A&nbsp;model
+    card is a short summary of the model genesis, designed to increase transparency
+    by communicating information about trained models to broad audiences. We include
+    all three files in the dataset so that future extensions can adapt them with maximal
+    ease. We will also host the markdown files on the main home so that the permanent
+    identifier within the model card can be used to access the data from there.
+  
+    Additional data/folders are optional, but can be used to provide background information.
+    For instance, the EARLS contains a `earls-yearly-maximum-streamflow-values-europe.csv`
+    file and and `inputs` folder. The former contains the data that we used for Figure
+    A5 in the manuscript; the latter comprises the basin-aggregated dynamic and static
+    inputs:&nbsp;
+  
+  
+    For the dynamic inputs (derived from E-OBS) we use precipitation in mm per day,
+    daily minimum/maximum/average temperature in &deg;C.
+  
+    For the static inputs (derived form HydroATLAS) we use basin area in square kilometers,
+    average elevation in meter, average slopes in degrees, average stream gradient in
+    decimeter per kilometer, average long-term air temperature in degrees Celsius, minimum
+    long-term air temperature in &deg;C, maximum long-term air temperature in &deg;C,
+    a global aridity index, a global climate moisture index, average fraction of sand
+    in %, average fraction of clay in %, average fraction of silt in %, and average
+    organic carbon content in tons per hectar.
+  
+  
+  
+  
+    Changelog
+  
+    v0.5
+  
+  
+    Updates coordinates.csv and the EARLS-technical-data-description.pdf. Made both
+    available outside the dataset. Added EARLS-technical-data-description.pdf as the
+    basis markdown file for generating the technical description pdf.&nbsp;
+  
+    Copied coordinates to the outside.&nbsp;
+  
+  
+    v0.4
+  
+  
+    Added a csv file (i.e., `earls-yearly-maximum-streamflow-values-europe.csv`), which
+    provides the EARLS data that we used for Figure A5 in the manuscript.&nbsp;
+  
+  
+    v0.3
+  
+  
+    Introduced a changelog. yay.&nbsp;
+  
+    Little corrections (spelling mistakes etc.) and nicer formatting in the technical
+    data description.&nbsp;
+  
+    Corrected streamflow and variance normalization from hours to daily (affected versions:
+    v0.0 and v.0.2; thanks to Corinna Frank).
+  
+    Corrected technical description of the area from m2 to km2 (thanks to Corrina Frank).
+  
+    Introduced an example data-file with a single basin (thanks to Juliane Mai).
+  
+  
+    '
+  license: cc-by-nc-4.0
+  name: 'EARLS: European aggregated reconstruction for large-sample studies'
+  num_downloads: 753
+  publication_date: '2026-03-23'
+  submission_date: '2026-09-02T18:16:43.564305'
+  url:
+  - https://zenodo.org/records/19188344
+  - https://doi.org/10.5281/zenodo.19188344
+  
+- authors:
+  - Beyer, Frauke
+  - Unger, Michaela
+  - Gey, Ronny
+  - Massei, Riccardo
+  - Wetzker, Cornelia
+  - Nicolay, Elena
+  - Lampert, Mara Harriet
+  description: 'The material supports the panel discussion about open data sharing with
+    stories and info from the panelists.
+  
+    &nbsp;
+  
+    C.W. and R.M. are funded by the Deutsche Forschungsgemeinschaft (DFG, German Research
+    Foundation) under the National Research Data Infrastructure &ndash;NFDI46/1 &ndash;
+    501864659'
+  license: cc-by-4.0
+  name: 'The Power of Sharing: Open Data in Bio-image Analysis'
+  num_downloads: 336
+  publication_date: '2025-10-24'
+  submission_date: '2026-09-02T18:16:44.015887'
+  url:
+  - https://zenodo.org/records/17429285
+  - https://doi.org/10.5281/zenodo.17429285
+  
+- authors:
+  - Negri, Francesco
+  - Vogginger, Bernhard
+  - Guarino, Francesco
+  - Korzhakova, Alona
+  - "Sivori, Gast\xF3n"
+  - "B\xE9na, Gabriel"
+  - Bencheikh, Wadjih
+  - Yasar Alici, Mehmet
+  - Feiler, Florian
+  - Dietrich, Robin
+  - Abbassi, Haroun
+  - Kuhlmann, Johannes
+  - Rothganger, Fred
+  - Patel, Mayur
+  - Girevvagol, Akash Irappa
+  - Akl, Mahmoud
+  - Mayr, Christian
+  - Gonzalez, Hector A.
+  description: 'py-spinnaker2 provides a light-weight Python interface for running experiments
+    on the SpiNNaker2 neuromorphic chip.
+  
+    For release notes, see: https://gitlab.com/spinnaker2/py-spinnaker2/-/releases/v0.8.0'
+  license: apache2.0
+  name: py-spinnaker2
+  num_downloads: 146
+  publication_date: '2026-08-03'
+  submission_date: '2026-09-02T18:16:44.436806'
+  url:
+  - https://zenodo.org/records/21776585
+  - https://doi.org/10.5281/zenodo.21776585
+  
+- authors:
+  - Salomon, Florian
+  - Seidemann, Suse
+  - Hoffmann, Karl B.
+  - Kurth, Thomas
+  - Sbalzarini, Ivo F.
+  - Haase, Robert
+  - Ader, Marius
+  description: 'We are excited for the first release of QuaPOS! Image quantification
+    methods which were used for the analysis of photoreceptor outer segments for light
+    and transmission electron microscopy images.
+  
+    The first release contains jupyter notebooks, matlab codes, and more which were
+    used for the analysis of the corresponding image datasets. You can read more about
+    the application in the github repository or in the paper (Automated quantification
+    of photoreceptor outer segments in developing and degenerating retinas on microscopy
+    images across scales) soon to be published (hopefully).'
+  license: cc-by-4.0
+  name: 'FloskelSalomon/QuaPOS: Automated quantification of photoreceptor outer segments
+    in developing and degenerating retinas on microscopy images across scales'
+  num_downloads: 25
+  publication_date: '2024-03-07'
+  submission_date: '2026-09-02T18:16:44.839645'
+  url:
+  - https://zenodo.org/records/10794252
+  - https://doi.org/10.5281/zenodo.10794252
+  
+- authors:
+  - Beining, Max
+  - Engelberger, Felipe
+  - Parra, Rodrigo Gonzalo
+  - Schoeder, Clara
+  - "Ram\xEDrez, C\xE9sar"
+  - Meiler, Jens
+  description: 'Introduction
+  
+    This Zenodo entry contains all the generated and analysed data for the Paper "FrustraMPNN:
+    An ultra-fast deep learning tool for proteome-scale analysis of deep mutational
+    single residue local energetic frustration profiles in proteins" (DOI preprint:&nbsp;https://doi.org/10.64898/2026.01.22.701012).
+    In addition to the data needed to reproduce the results from the paper, this entry
+    also contains full single-residue frustration data for approximately 4,300 E. coli
+    protein structures and approximately 3,400 selected proteins from the human proteome.&nbsp;Both
+    validation sets contain roughly 25 Mio datapoints for single-residue frustration
+    indices, and frustration indices are calculated using the wrapped version of FrustratometeR
+    (see frustrapy) and FrustraMPNN.
+  
+    Contents
+  
+    The text files afvalid_human_model_ids.txt and aftest_ecoli_model_ids.txt contains
+    all ids for the tested alphafold structures used in this study for different purposes
+    (see the paper for more details). The PDBs were not altered in any way and can be
+    downloaded from the AlphaFold database.
+  
+    The following table lists all zip files added to this Zenodo entry with a short
+    description about their content.
+  
+  
+  
+  
+    File name (zip)
+  
+    Description
+  
+  
+  
+    full_training_runs_and_weights
+  
+  
+    Contains all training logs and weights produced in this study, split by the dataset
+    used for training (FireProt, MegaScale). The weights and logs are named by the different
+    settings used with the following naming scheme, and possible values:
+  
+    [DATASET]_[DATAPOINTS]_[ADD_LT]_[ADD_ESM]_[SPLIT]_epoch=[XX]_val_frustration_spearman=[VAL].ckpt
+  
+  
+    DATASET: fireprot, megascale
+  
+    DATAPOINTS: default, all_muts, equal
+  
+  
+    balancing strategy during training (see paper for details)
+  
+  
+  
+    ADD_LT: la-true, la-false
+  
+  
+    Light attention added during training (bool)
+  
+  
+  
+    ADD_ESM: esm-True, esm-False
+  
+  
+    ESM embeddings added during training (bool)
+  
+  
+  
+    SPLIT: 1 - 5
+  
+  
+    Split number for 5-fold cross-validation
+  
+  
+  
+    XX: 1-100
+  
+  
+    epoch number for early stopping
+  
+  
+  
+    VAL: 0.00 - 1.00
+  
+  
+    Spearman correlation for the validation set, only the best model for each run is
+    saved
+  
+  
+  
+  
+  
+  
+  
+    training_data
+  
+  
+    Contains all the data used to train the neural networks, including the raw ddG CSVs
+    from the ThermoMPNN paper and processed Fireprot and MegaScale datasets (including
+    PDBs). Both folders "fireprot" and "megascale" contain:
+  
+  
+    training, validation, and test splits for different datapoint variants (default
+    set, saturated set, equally balanced set)
+  
+    CSVs for the default (called "full_data"), all possible single-point mutations (called
+    "all_mutations"), and the equally balanced sets (called "all_mutations_[...]_equal_category")
+  
+    single-residue frustration data (pkl files, additional zip folder) for all PDBs,
+    which are used in the respective datasets
+  
+    jupyter notebooks for data processing steps
+  
+  
+  
+  
+  
+    afvalidation
+  
+  
+    Contains around 3,400 entries for the external Alphafold validation set used in
+    the paper, randomly selected from the human genome; 50-1,000 amino acids long. The
+    zip file contains
+  
+  
+    Complete calculated single-residue frustration data for all proteins (pkls_single-res_21cpu)
+    using FrustratometeR (details see paper) in original pkl format and csv files
+  
+  
+    pkl files --&gt; frustrapy (frustrapy) needs to be installed to correctly parse
+    data
+  
+  
+  
+    Complete prediction of single-residue frustration values using the best weights
+    from the FireProt and MegaScale training runs
+  
+  
+    csv files, for every position and every mutation, the single-residue frustration
+    value is reported
+  
+  
+  
+    Important: 29 pkl files are damaged due to parsing errors during the calculation,
+    but the errors could not be resolved. Therefore, it is recommended to use the csv
+    files of the FrustratometeR calculations.
+  
+  
+  
+  
+  
+    timing_tests
+  
+  
+    Contains the measured inference time using FrustraMPNN and calculation time using
+    1/10/21 CPUs for the same calculation to measure the speedup factor for the Human
+    Alphafold validation set. Also contains a combined dataframe (ecoli_proteome_timing_approx.csv)
+    for all E. coli proteins examined with approximated times based on a linear fit
+    from the human protein calculations.
+  
+  
+    [10,21,50]cpu_timing.csv: Measured time for (successful) calculated single-residue
+    frustration values using FrustraMPNN (inference column) and X-CPUs for frustrapy
+    (frustration column).
+  
+    timing-frustration-binned_ALL.csv: combined dataframe for the csv above with additional
+    times for 1CPU (column label) calculations
+  
+    ecoli_proteome_timing_approx.csv: Approximated times for around 4,300 (proteome-like)
+    E. coli proteins based on a linear fit from the measured times from timing-frustration-binned_ALL.csv
+  
+  
+  
+  
+  
+    enzyms_example
+  
+  
+    Contains input and output data for the three selected enzymes shown in the paper
+    as example cases (PDB ids: 1CBG, 1NLU, and 4BLM). Each output folder contains:
+  
+  
+    cleaned pdb structure
+  
+    raw single residue frustration data (pkl files) for all positions and all mutations
+    of the processed structure
+  
+    inference results as csv
+  
+    combined results (predicted and calculated single-residue frustration data combined)
+  
+  
+  
+  
+  
+    location_secstruct
+  
+  
+    R^2 and Spearman correlation values for the analysis of location (surface, core,
+    boundary) and secondary structure (helix, sheet, loops) regarding the prediction
+    of frustration categories.
+  
+  
+  
+  
+    per_aa_error
+  
+  
+    RMSE, Spearman correlation, Accuracy, and F1-score for all possible individual mutations.
+    Global metrics are reported, along with values for the three frustration categories
+    (neutral, minimal, and highly frustrated) based on the external AlphaFold validation
+    benchmark set from the human proteome.
+  
+  
+  
+  
+    ecoli_test_set
+  
+    The same structure as the folder for afvalidation, but with an extra folder "example_scatter"
+    as the underlying data for Figure S4 in the corresponding paper to this zenodo entry.
+    Also contains around 4,300 predicted and calculated single-residue frustration datapoints.
+  
+  
+  
+    '
+  license: cc-by-4.0
+  name: 'FrustraMPNN: Full training runs/weights + Complete single-residue frustration
+    data (predicted/calculated) for E. coli/Human AF validation datasets'
+  num_downloads: 99
+  publication_date: '2025-12-18'
+  submission_date: '2026-09-02T18:16:45.276557'
+  url:
+  - https://zenodo.org/records/17978321
+  - https://doi.org/10.5281/zenodo.17978321
+  
+- authors:
+  - Philipp, Michelle
+  - Moth, Christopher W.
+  - Ristc, Nikola
+  - Tiemann, Johanna K.S.
+  - Seufert, Florian
+  - Panfilova, Aleksandra
+  - Meiler, Jens
+  - Hildebrand, Peter Werner
+  - Stein, Amelie
+  - Wiegreffe, Daniel
+  - "Staritzbichler, Ren\xE9"
+  description: 'Initial Release of Mutation Explorer
+  
+    The server lets users mutate proteins in various ways and study mutation effects
+    in 3D. You can evolve a protein over many mutation rounds within the viewer under
+    consideration of the mutational effect on the structure. The only required inputs
+    are a structural model and at least one mutation of interest or a target sequence/alignment.
+    Alternatively, the user can upload human SNPs in the VCF format and obtains a visualization
+    of the (de-)stabilizing effect of those mutations on the protein structure.&nbsp;
+  
+    The Zip Archive contains all parts of Mutation Explorer except the binaries of Rosetta.
+    Please obtain your own licence of Rosetta from https://www.rosettacommons.org/software
+    and adjust the app.cfg file to your local Rosetta path.
+  
+    &nbsp;
+  
+    Github: https://github.com/starbeachlab/MutationExplorerServer'
+  license: cc-by-4.0
+  name: Mutation Explorer
+  num_downloads: 62
+  publication_date: '2024-04-05'
+  submission_date: '2026-09-02T18:16:45.660608'
+  url:
+  - https://zenodo.org/records/10931895
+  - https://doi.org/10.5281/zenodo.10931895
+  
+- authors:
+  - Steinbeck, Christoph
+  - Jung, Nicole
+  - Bach, Felix
+  - Neumann, Steffen
+  - Herres-Pawlis, Sonja
+  - Liermann, Johannes
+  - Koepler, Oliver
+  - Bannwarth, Christoph
+  - Bender, Theo
+  - Bocklitz, Thomas
+  - Boehm, Franziska
+  - Bonatto Minella, Christian
+  - Biedermann, Frank
+  - Brack, Werner
+  - Cunha, Ricardo
+  - Czodrowski, Paul
+  - Eberl, Franziska
+  - Engel, Thomas
+  - Engstfeld, Albert
+  - Fischer, Tillmann G.
+  - Friedrich, Pascal
+  - Glorious, Frank
+  - Golub, Benjamin
+  - Grathwol, Christoph
+  - Haag, Rainer
+  - Hunold, Johannes
+  - Jacob, Christoph
+  - Johannsen, Jochen
+  - Jollife, John
+  - Kast, Stefan
+  - Kettner, Carsten
+  - Kuhn, Stefan
+  - Lanza, Giacomo
+  - Lisec, Jan
+  - Manolikakes, Georg
+  - Mata, Ricardo
+  - Meiler, Jens
+  - "M\xFCller, Matthias"
+  - "M\xFCller-Pfefferkorn, Ralph"
+  - Ortmeyer, Jochen
+  - Patterson, Wendy
+  - "Pleiss, J\xFCrgen"
+  - Riedel, Annalisa
+  - Riedel, Jens
+  - Schatzschneider, Ulrich
+  - Schuster, Leonie
+  - Seeberger, Peter
+  - Seibert, Johann-Nikolaus
+  - Stadler, Peter
+  - "Str\xF6mert, Philip"
+  - "Str\xF6tgen, Robert"
+  - "Th\xE9ato, Patrick"
+  - Tielker, Nicolas
+  - Tremouilhac, Pierre
+  - Weinig, Hans-Georg
+  - Wenzel, Wolfgang
+  - Zeitler, Kirsten
+  description: The first funding period of NFDI4Chem established a robust foundation
+    for research data management (RDM) in chemistry by promoting FAIR data principles
+    and creating a cohesive infrastructure to capture well-annotated data early in the
+    lab through electronic lab notebooks (ELNs) and making this data available in public
+    repositories. Key achievements include standardised data formats and metadata, a
+    federated repository environment, and improved data visibility and accessibility.
+    Training programs and outreach have significantly increased awareness and adoption
+    of best RDM practices. In the second funding period, the consortium aims to advance
+    these achievements by consolidating this infrastructure, developing a model for
+    its sustainable maintenance and operation, and fostering cultural change for its
+    widespread adoption. Goals include ensuring seamless data workflows from laboratories
+    to open repositories, enhancing interoperability, and supporting innovative research
+    through AI-ready data. The work plan is organised into six task areas (TAs). TA1
+    (Management) provides leadership and supports all other TAs in achieving their objectives.
+    TA2 (Smart Lab) aims to develop a fully digital research environment, including
+    an ELN as a modular platform. This environment will support data collection, management,
+    storage, analysis, and sharing. Integrating devices and external resources will
+    enable seamless data transfer to repositories. TA3 (Repositories) will consolidate
+    the repository ecosystem. The goal is to integrate repositories into a federated
+    system for better accessibility and interoperability, ensuring long-term data availability
+    and sustainability. TA4 (Metadata, Data Standards, and Publication Standards) focuses
+    on developing and promoting new data and metadata standards in an international
+    community process. This includes applying ontologies to create a semantic foundation
+    for linking research data, making it machine-readable and enabling knowledge graphs.
+    TA5 (Community and Training) is dedicated to fostering a cultural shift towards
+    digital chemistry through continuous engagement, collecting requirements, and providing
+    extensive training and support through workshops and open education resources. It
+    will promote FAIR-compliant machine learning applications, embedding RDM into academic
+    curricula to ensure future scientists are well-versed in these practices. TA6 (Synergies
+    and Cross-Cutting Topics) aims to enhance collaboration across NFDI consortia and
+    beyond. This includes developing ontologies, terminology services, the search service,
+    and other cross-cutting solutions, integrating these developments into existing
+    infrastructure, enabling interdisciplinary data harmonisation and fostering machine
+    learning applications.
+  license: cc-by-4.0
+  name: "Proposal NFDI4Chem 2025-2030 In the National Research Data Infrastructure (NFDI)\
+    \ \u2014 Our Vision: All Chemists Publish FAIR Data"
+  num_downloads: 30
+  publication_date: '2025-11-26'
+  submission_date: '2026-09-02T18:16:46.210859'
+  url:
+  - https://zenodo.org/records/17747150
+  - https://doi.org/10.3897/rio.11.e177037
+  
+- authors:
+  - Clemens Fritzsch
+  description: "The dataset contains the raw measurements of the time necessary to reconfigure\
+    \ Lattice iCE40 FPGAs.\n\nThe main goal is to see the effect of two approaches of\
+    \ implementing the reconfiguration process in software for Evolvable Hardware. One\
+    \ approach is to use existing open-source software externally, the other is to integrate\
+    \ the functionality in the software for Evolvable Hardware.\n\nThe conditions for\
+    \ the reconfiguration measurements were altered in four dimensions:\n\n\n\tThe FPGA\
+    \ board\n\t\n\t\tiCEstick\n\t\t\n\t\t\tLattice iCE40 HX1K FPGA\n\t\t\tSample bitstream\
+    \ created by Bitstream Evolution Software\n\t\t\tNo direct reconfiguration possible\n\
+    \t\t\n\t\t\n\t\tiCE40 breakout board (ICE40HX8K-B-EVN)\n\t\t\n\t\t\tLattice iCE40\
+    \ HX8K FPGA\n\t\t\tSample bitstream created by CoBEA\n\t\t\n\t\t\n\t\n\t\n\tWrite\
+    \ Target\n\t\n\t\tFlash\n\t\t\n\t\t\tBitstream first written to an external EEPROM,\
+    \ then pulled by the FPGA from the EEPROM\n\t\t\n\t\t\n\t\tDirect\n\t\t\n\t\t\t\
+    Bitstream written directly to the FPGA\n\t\t\n\t\t\n\t\n\t\n\tReconfiguration approach\n\
+    \t\n\t\tIcestorm\n\t\t\n\t\t\tUse external tools from Project Icestorm\n\t\t\n\t\
+    \t\n\t\tCoBEA\n\t\t\n\t\t\tUse integrated function of CoBEA reconfiguration module\n\
+    \t\t\n\t\t\n\t\n\t\n\tBitstream size\n\t\n\t\tFull\n\t\t\n\t\t\tNo size reduction\n\
+    \t\t\n\t\t\n\t\tCompact\n\t\t\n\t\t\tSize reduced as much as allowed by write approach\n\
+    \t\t\t\n\t\t\t\tIcestorm: skip BRAM\n\t\t\t\tCoBEA: skip BRAM, skip comment, full\
+    \ compaction (level 4)\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\n\t\n\n\n&nbsp;\n\nThis upload\
+    \ contains three groups of files:\n\n\n\t2 bitstreams\n\t\n\t\tOne for each used\
+    \ FPGA board\n\t\n\t\n\t12 measurements\n\t\n\t\tComma-separated values\n\t\tFile\
+    \ name contains the contiditions of the measurement\n\t\tOnly 12 out of 16 possible\
+    \ combinations of conditions as &quot;iCEstick&quot; cannot be combined with &quot;Direct&quot;\n\
+    \t\n\t\n\t1 aggregated statistic\n\t\n\t\tComma-separated values\n\t\tMinimum, mean,\
+    \ maximum, mean-minimum, maximum-mean for every measurement\n\t\n\t\n"
+  license: cc-by-4.0
+  name: Reconfiguration Time Measurements for Evolving Hardware
+  num_downloads: 529
+  publication_date: '2022-04-06'
+  submission_date: '2026-09-02T18:16:46.621277'
+  url:
+  - https://zenodo.org/records/6413619
+  - https://doi.org/10.5281/zenodo.6413619
+  
+- authors:
+  - Fritzsch, Clemens
+  description: 'This software measures the reconfiguration speed of Lattice iCE40 FPGAs.
+    It implements two approaches for the reconfiguration process. One approach is to
+    use existing open-source software externally, the other is to integrate the functionality
+    in the software itself.
+  
+  
+    The integrated modul (ice_board) is taken from the CoBEA framework.'
+  name: iCE40 Reconfiguration Speed Meter
+  num_downloads: 47
+  publication_date: '2022-04-06'
+  submission_date: '2026-09-02T18:16:47.028618'
+  url:
+  - https://zenodo.org/records/6418292
+  - https://doi.org/10.5281/zenodo.6418292
+  
+- authors:
+  - Fritzsch, Clemens
+  description: "The HDF5 file contains data from an experiment concerning bitstream\
+    \ size reduction for Lattice iCE40 FPGAs.\n\nFive projects were synthesized with\
+    \ two different toolchains and afterwards compacted and compressed. Two compaction\
+    \ levels were applied to each of the ten original bistreams, resulting in a total\
+    \ of 30 bitstreams. The ten original bitstreams were also compressed with two different\
+    \ compression tools, resulting in 20 compressed versions.\n\nThe reconfiguration\
+    \ time for each of the 30 bitstreams was measured 10.000 times.\n\nToolchains:\n\
+    \n\n\tLattice iCEcube2\n\tOpen-source toolchain (Yosys, nextpnr, Project IceStorm)\n\
+    \n\nProjects:\n\n\n\tblinky: A simple example design that is included in the open-source\
+    \ toolchain.\n\tehw: An evolved design.\n\tattosoc: A minimal RISC-V system on a\
+    \ chip, that is used for tests in the open-source toolchain.\n\tupdater: A design\
+    \ that receives a new configuration, decrypts it (AES) and writes it to flash.\n\
+    \tpicosoc: RISC-V system on a chip\n\n\nCompaction levels:\n\n\n\toriginal: Uncompacted\
+    \ bitstream\n\tbuiltin: Compacted with two methods also available in iCEcube2\n\t\
+    compact: Compacted with all five methods\n\n\nCompression tools:\n\n\n\ticecompr:\
+    \ Included in Project IceStorm\n\tgzip: Version 1.9, compression level --best\n\n\
+    \n&nbsp;\n\nFile structure:\n\nThe data is organzied hierarchical. It is first split\
+    \ between bitstreams, measurements and compressed versions.&nbsp; Bitstreams and\
+    \ measurements then are divided by toolchain, then by project and finally by compaction\
+    \ level. The compressed versions are divided by toolchain, then by project and finally\
+    \ by compression tool."
+  license: cc-by-4.0
+  name: iCE40 Bitstream Size Reduction - Bitstreams and Reconfiguration Time Measurements
+  num_downloads: 37
+  publication_date: '2022-06-27'
+  submission_date: '2026-09-02T18:16:47.456954'
+  url:
+  - https://zenodo.org/records/6735069
+  - https://doi.org/10.5281/zenodo.6735069
+  
+- authors:
+  - Fritzsch, Clemens
+  description: "The HDF5 file contains data from an experiment concerning bitstream\
+    \ compaction for Lattice iCE40 FPGAs.\n\nFour projects were synthesized with two\
+    \ different toolchains and afterwards compacted in two different levels, resulting\
+    \ in 24 bitstreams. The creation of each bitstream was repeated 100 times to guard\
+    \ against variations caused by errors in the toolchains or by the compaction. No\
+    \ such errors occured and the configuration is the same for every repetition.\n\n\
+    The reconfiguration time for each of the 24 bitstreams was measured 10.000 times.\n\
+    \nToolchains:\n\n\n\tLattice iCEcube2\n\tOpen Source Toolchain (Yosys, nextpnr,\
+    \ Project Icestorm)\n\n\nProjects:\n\n\n\tempty: Completely empty project, that\
+    \ uses no FPGA resources.\n\tb12: A project from the ITC&rsquo;99 benchmark suite.\n\
+    \taes: A simple AES-128 encryption module.\n\tpicosoc: RISC-V system on a chip\n\
+    \n\nCompaction levels:\n\n\n\toriginal: uncompacted bitstream\n\tbuiltin: compacted\
+    \ with two methods also available in iCEcube2\n\tcompact: compacted with all five\
+    \ methods\n\n\nFile structure:\n\nThe data is organzied hierarchical. It is first\
+    \ split between bitstreams and measurements, then by toolchain, then by project\
+    \ and finally by compaction level."
+  license: cc-by-4.0
+  name: Bitstream Compaction iCE40 - Bitstreams and Reconfiguration Time Measurements
+  num_downloads: 37
+  publication_date: '2022-01-18'
+  submission_date: '2026-09-02T18:16:47.856338'
+  url:
+  - https://zenodo.org/records/5874456
+  - https://doi.org/10.5281/zenodo.5874456
+  
+- authors:
+  - Fritzsch, Clemens
+  description: "Data created by an experiment that evolved a tone discriminator on an\
+    \ iCE40 FPGA. The experiment was originally conducted by Adrian Thompson on an Xilinx\
+    \ XC6200 FPGA in 1997. This is the reproduction on a modern FPGA.\n\n&nbsp;\n\n\
+    The tone discriminator is a circuit on the FPGA that creates a 3.3 V output signal\
+    \ if presented with a 10 kHz square wave input and a 0 V output signal for a 1 kHz\
+    \ input signal. The circuit was evolved with a Genetic Algorithm and evaluated in\
+    \ three ways:\n\n\n\tClamping: Iterative process to evaluate which cells in the\
+    \ circuit contribute dynamically to the output. A random cell is chosen a and its\
+    \ output set to a random constant value. Afterwards the fitness of the circuit is\
+    \ measured. If it decreases by less than 1 %, the cell is kept clamped, else reset\
+    \ to its original state.\n\tTemperature dependence: The FPGA with the circuit was\
+    \ cooled or heated to different temperatures and presented with different input\
+    \ frequencies. The output was averaged over 5 s.\n\tLocation dependence: The circuit\
+    \ was moved to a different location o the FPGA. The Genetic Algorithm was then continued\
+    \ for additional 200 generations.\n\n\n&nbsp;\n\nThis upload contains four groups\
+    \ of files:\n\n\n\texperiment.h5\n\t\n\t\tAll measurements and chromosomes from\
+    \ the original run of the Genetic Algorithm\n\t\n\t\n\tclamping.h5\n\t\n\t\tAll\
+    \ measurements of the clamping process\n\t\n\t\n\ttemperature-XX.h5\n\t\n\t\tAll\
+    \ measurements for a different temperature\n\t\tXX is the temperature in degree\
+    \ Celsius\n\t\n\t\n\tnew_location-X.h5\n\t\n\t\tAll measurements and chromosomes\
+    \ for the continued Genetic Algorithm at a new location on the FPGA\n\t\tX is the\
+    \ running number for hundred generations in the file, e.g. 2 contains generations\
+    \ 101 to 200\n\t\n\t\n\n\n&nbsp;\n\n&nbsp;\n\nErrata:\n\n\n\tThe timestamps for\
+    \ the temperature measurements are missing in all files but experiment.h5.\n\n\n\
+    &nbsp;"
+  license: cc-by-4.0
+  name: Tone Discriminator Evolved on iCE40 FPGA
+  num_downloads: 598
+  publication_date: '2022-05-26'
+  submission_date: '2026-09-02T18:16:48.732454'
+  url:
+  - https://zenodo.org/records/6574546
+  - https://doi.org/10.5281/zenodo.6574546
+  
+- authors:
+  - Freiberger, Vincent
+  - Fleig, Arthur
+  - Buchmann, Erik
+  description: Large Language Models (LLMs) are increasingly being used for automated
+    evaluations and explaining them. However, concerns about explanation quality, consistency,
+    and hallucinations remain open research challenges, particularly in high-stakes
+    contexts like privacy and security where user trust and decision-making are at stake.
+    In this paper, we investigate these issues in the context of PRISMe, an interactive
+    privacy policy assessment tool that leverages LLMs to evaluate and explain website
+    privacy policies. Based on a prior user study with 22 participants, we identify
+    key concerns regarding LLM judgment transparency, consistency, and faithfulness,
+    as well as variations in user preferences for explanation detail and engagement.
+    We discuss potential strategies to mitigate these concerns, including structured
+    evaluation criteria, uncertainty estimation, and retrieval-augmented generation
+    (RAG). We identify a need for adaptive explanation strategies tailored to different
+    user profiles for LLM-as-a-judge. Our goal is to showcase the application area of
+    usable privacy and security to be promising for Human-Centered Explainable AI (HCXAI)
+    to make an impact.
+  license: cc-by-4.0
+  name: 'Explainable AI in Usable Privacy and Security: Challenges and Opportunities'
+  num_downloads: 33
+  publication_date: '2025-04-26'
+  submission_date: '2026-09-02T18:16:49.342446'
+  url:
+  - https://zenodo.org/records/15170451
+  - https://doi.org/10.5281/zenodo.15170451
+  
+- authors:
+  - Bauske, Adrian
+  - Fleig, Arthur
+  description: 'Driving data from the user study of the CHI ''25 paper "You Shall Not
+    Pass: Warning Drivers of Unsafe Overtaking Maneuvers on Country Roads by Predicting
+    Safe Sight Distance" (DOI: 10.1145/3706598.3713768) on the VR driving simulator.
+    1240 minutes of driving (1363 minutes simulation time including breaks) and 576
+    completed overtaking maneuvers.
+  
+    File naming convention:&nbsp;Participant#.[1-3]_Condition#.csvConditions:
+  
+  
+    Mod1: Condition 1 ("No Assistant") - Baseline
+  
+    Mod2: Condition 2 ("Monitoring")
+  
+    Mod3: Condition 3 ("Scheduling")
+  
+  
+    Example: 2.1_Mod2.csv, 2.2_Mod3.csv, 2.3_Mod1.csv - Participant 2 started (1) with
+    condition 2 ("Monitoring"), then continued (2) with condition 3 ("Scheduling"),
+    and finally (3) tried condition 1 ("No Assistant").&nbsp;
+  
+    Contents of the .csv-files
+  
+  
+    Time:
+  
+  
+    Absolute time [DateTime]
+  
+    simulation time without breaks [t]
+  
+  
+  
+    Driver''s car:
+  
+  
+    3D position&nbsp;[position.x, .y, .z]
+  
+    3D rotation&nbsp;[rotation.x, .y, .z]
+  
+    mass [mass]
+  
+    drag&nbsp;[drag]
+  
+    angular drag&nbsp;[angularDrag]
+  
+    3D velocity vector&nbsp;[velocity.x, .y, .z]
+  
+    3D angular velocity vectors&nbsp;[angularVelocity.x, .y, .z]
+  
+  
+  
+    Driver input:
+  
+  
+    steering angle [inputHorizontal]
+  
+    acceleration pedal input [inputVertical (positive values)]
+  
+    break pedal input [inputVertical (negative values)]
+  
+  
+  
+    Of up to 4 vehicles in front of or overtaken by the driver:
+  
+  
+    3D position [OenLogger#.pos]
+  
+    distance to driver''s car [OenLogger#.dist]
+  
+    vehicle length [OenLogger#.length]
+  
+    speed [OenLogger#.speed]
+  
+    planned direction at the next intersection [OenLogger#.turn]
+  
+    unique ID [OenLogger#.id]
+  
+    next car in front index [OenHandler.currentIndex]
+  
+  
+  
+    Next oncoming vehicle:
+  
+  
+    3D position [OpposingTracker.opposingPos]
+  
+    distance to driver''s car [OpposingTracker.opposingDist]
+  
+    speed [OpposingTracker.opposingSpeed]
+  
+    length [OpposingTracker.opposingLength]
+  
+  
+  
+    Overtaking warning assistant values:
+  
+  
+    $L_1$ [overtakingAnalyzer.L1]
+  
+    $L_{oen}$ [overtakingAnalyzer.Loen]
+  
+    $L_{oing}$ [overtakingAnalyzer.Loing]
+  
+    $L_2$ [overtakingAnalyzer.L2]
+  
+    $L_{tot}$ [overtakingAnalyzer.Lges]
+  
+    $L_e$ [overtakingAnalyzer.Le]
+  
+    $L_3$ [overtakingAnalyzer.L3]
+  
+    $G$ [overtakingAnalyzer.G]
+  
+    $v^{max}_{opp}$ [overtakingAnalyzer.vmaxopp]
+  
+    warning (yes/no/no car to take) [overtakingAnalyzer.Status]
+  
+    warning reason [overtakingAnalyzer.WarnExplanation]
+  
+    $v_{oen}$ [overtakingAnalyzer.voen]
+  
+    minimum required $L_e$ [overtakingAnalyzer.Lemin]
+  
+    maximum $L_{tot}$ possible [overtakingAnalyzer.Leges]
+  
+    $L$ to point of no return [overtakingAnalyzer.LtoCrit]
+  
+  
+  
+    For each acceleration model [const., ldm.d0.1., dyn.d0.1. ....]:
+  
+  
+    $d_{rest}$&nbsp;[.... .dist]
+  
+    predicted total overtaking duration&nbsp;[.... .tfinish]
+  
+    predicted time and distance until point-of-no-return is reached&nbsp;[.... .teq]
+    [.... .startupDist]
+  
+    $v_{oing,end}$&nbsp;[.... .voingend]
+  
+    $d_{opp}$&nbsp;[.... .dopp]
+  
+    $L_{sm}$&nbsp;[.... .Lsm]
+  
+    $d_{s,min}$&nbsp;[.... .dsmin]
+  
+    distance to next overtaking opportunity&nbsp;[.... .DistToNextOvertaking]
+  
+    boolean indicating whether we are currently on the road where the next overtaking
+    section could be&nbsp;[.... .amOnFirstSectionRoad]
+  
+  
+  
+    Road related:
+  
+  
+    number of lanes per direction on the current road [overtakingAnalyzer.laneCount]
+  
+    distance of the front left wheel to the center line of the road [leftFrontWheel.distToCenter]
+  
+    distance traveled along the current road [leftFrontWheel.RoadPrg]
+  
+    total length of the current road [leftFrontWheel.RoadLength]
+  
+  
+  
+    Visibility:&nbsp;
+  
+  
+    Currently available sight distance [Sight.availSight]
+  
+  
+  
+    Collisions:
+  
+  
+    Number of collisions [CollisionLogger.collisionCounter]
+  
+    Number of severe collisions (Unity impulse &gt; 100) [CollisionLogger.tooStrongCounter]
+  
+    3D position of the collided object [CollisionLogger.collidedObjectPos]
+  
+    3D Unity impulse of the collision [CollisionLogger.impulse]
+  
+    Collision type (vehicle, terrain, unknown) [CollisionLogger.type]
+  
+  
+  
+    Study related:
+  
+  
+    Number of resets to set the car back on the road&nbsp;[ResetCar.count]
+  
+    Current section index&nbsp;[Section.current]
+  
+    Whether game is paused currently&nbsp;[Section.paused]
+  
+    Participant Name never filled&nbsp;[StudyParams.ParticipantName]
+  
+    Modality WarnOnly=Monitoring, DistanceOnly=Scheduling&nbsp;[StudyParams.Modality]
+  
+    Participant number&nbsp;[StudyParams.ParticipantNumber]
+  
+  
+  
+    Manual button presses:
+  
+  
+    Number of re-centerings of the VR headset [ResetView.count]
+  
+    Number of manual resets to set the car back on the road [ResetCar.byButton]
+  
+    Number of severe collisions as deemed by the experimentor [CollisionLogger.manualCounter]
+  
+    Number of manual markings of events deemed special by the experimentor [OvertakingCounter.val]
+  
+  
+  
+    '
+  license: cc-by-4.0
+  name: 'TOWARDS: The Overtaking Warning Assistant Recorded Data Set'
+  num_downloads: 12
+  publication_date: '2025-02-05'
+  submission_date: '2026-09-02T18:16:49.803778'
+  url:
+  - https://zenodo.org/records/14757143
+  - https://doi.org/10.5281/zenodo.14757143
+  
+- authors:
+  - Klar, Markus
+  - Fischer, Florian
+  - Fleig, Arthur
+  - Bachinski, Miroslav
+  - "M\xFCller, J\xF6rg"
+  description: 'This dataset contains the MPC simulation data of the paper &quot;Simulating
+    Interaction Movements via Model Predictive Control&quot;.
+  
+  
+    To get an idea of how this data can be used, you might want to take a look at the
+    Python package sim-mpc.'
+  license: cc-by-4.0
+  name: SIM-MPC Dataset
+  num_downloads: 109
+  publication_date: '2022-11-07'
+  submission_date: '2026-09-02T18:16:50.285596'
+  url:
+  - https://zenodo.org/records/7304381
+  - https://doi.org/10.5281/zenodo.7304381
+  
+- authors:
+  - Fischer, Florian
+  - Bachinski, Miroslav
+  - Klar, Markus
+  - Fleig, Arthur
+  - "M\xFCller, J\xF6rg"
+  description: "This dataset contains evaluation data of the paper &quot;Reinforcement\
+    \ Learning Control of a Biomechanical Model of the Upper Extremity&quot;.\n\nMotivation\n\
+    \nWe address the question whether the assumptions of signal-dependent and constant\
+    \ motor noise in a full skeletal model of the human upper body, together with the\
+    \ objective of movement time minimization, can predict reaching movements.\n\nFor\
+    \ evaluation of the learned policy, two tasks are defined in the paper: a Fitts&#39;\
+    \ Law type task and an elliptic via-point task.\n\nGeneral description of the dataset\n\
+    \n\n\tFitts&#39; Law Type Task\n\n\t\n\t\tThis dataset incorporates detailed information\
+    \ of all 6500 synthesized movements generated in the Fitts&#39; Law type task (following\
+    \ the ISO 9241-9 standard).\n\t\t\n\t\tFor each of the 10 task conditions differing\
+    \ in distance between targets (&quot;dist&lt;xxx&gt;&quot; in filename)\n\t\tand\
+    \ ID (&#39;ID&lt;xxx&gt;&#39; in filename), there are two .csv-files:\n\t\t- one\
+    \ with detailed trajectory information on a sample-to-sample basis (&quot;ISO_SAMPLES&quot;\
+    \ in filename), and\n\t\t- one with aggregated movement information on an episode\
+    \ basis (&quot;ISO_METRICS&quot; in filename).\n\t\t\n\t\t\n\t\tIn addition, for\
+    \ each task condition and each of the 13 movement directions in the Fitts&#39; Law\
+    \ type task,\n\t\twe include 6 figures: Position, Velocity, and Acceleration Profiles,\
+    \ as well as 3D movement path, Phasespace, and Hooke plots.\n\t\tApart from the\
+    \ 3D plots, all figures use centroid projections of the respective trajectory onto\
+    \ the vector between initial and target position.\n\t\tThe first integer in the\
+    \ file name denotes the movement direction number, starting with &quot;0&quot; for\
+    \ movements between the targets 1 and 2, &quot;1&quot; for movements between the\
+    \ targets 2 and 3 etc.\n\t\tThe file &quot;6_distance0.35_ID2_policy2100000_phasespace.png&quot;,\
+    \ e.g., shows velocity plotted againt position for all 50 movements between the\
+    \ targets 7 and 8 in the task condition with ID 2 and 35cm diameter of the target\
+    \ circle (see Fig 2 in Paper).\n\t\t\n\t\n\t\n\t\n\tElliptic Task\n\n\t\n\t\t\n\t\
+    \tThis dataset also contains two CSV-files with data of the trajectory generated\
+    \ by the final policy in the elliptic task:\n\t\t- one with detailed trajectory\
+    \ information on a sample-to-sample basis (&quot;ELLIPSE_SAMPLES&quot; in filename),\
+    \ and\n\t\t- one with aggregated movement information on an episode basis, where\
+    \ a new episode starts\n\t\twhenever the target on the ellipse given to the policy\
+    \ switches (&quot;ELLIPSE_METRICS&quot; in filename).\n\t\t\n\t\n\t\n\n\nDescription\
+    \ of the .csv-files\n\n\n\tSAMPLES Files\n\n\t\n\t\t&quot;time&quot;: time after\
+    \ reaching the initial target (target 1 in Fig 2) for the first time (in seconds)\n\
+    \t\t&quot;elv_angle_pos&quot; - &quot;flexion_pos&quot;: angle of respective independent\
+    \ DOF (in radians) *\n\t\t&quot;elv_angle_vel&quot; - &quot;flexion_vel&quot;: angular\
+    \ velocity of respective independent DOF (in radians/s) *\n\t\t&quot;end-effector_xpos_x&quot;\
+    \ - &quot;end-effector_xpos_z&quot;: 3D position of end-effector in global coordinates\
+    \ (in meters) *\n\t\t&quot;target_xpos_x&quot; - &quot;target_xpos_z&quot;: 3D position\
+    \ of target sphere in global coordinates (in meters) *\n\t\t&quot;end-effector_xvelp_x&quot;\
+    \ - &quot;end-effector_xvelp_z&quot;: positional velocities of end-effector (in\
+    \ meters/s) *\n\t\t&quot;target_xvelp_x&quot; - &quot;target_xvelp_z&quot;: positional\
+    \ velocities of target sphere (in meters/s) *\n\t\t&quot;accsensor_end-effector_x&quot;\
+    \ - &quot;accsensor_end-effector_z&quot;: positional acceleration of end-effector\
+    \ (in meters/s^2) *\n\t\t&quot;E_elv_angle&quot; - &quot;E_flexion&quot;: activation\
+    \ of respective independent DOF *\n\t\t&quot;E_elv_angle_derivative&quot; - &quot;E_flexion_derivative&quot;:\
+    \ derivative of activation of respective independent DOF *\n\t\t&quot;difference_vec_x&quot;\
+    \ - &quot;difference_vec_z&quot;: vector between the end-effector attached to the\
+    \ index finger and the target, pointing towards the target (in meters) *\n\t\t&quot;centroid_vel_projection&quot;:\
+    \ projection of end-effector velocity towards target (in meters/s) *\n\t\t&quot;target_width&quot;:\
+    \ radius (!) of the target sphere (in meters) *\n\t\t&quot;A_elv_angle&quot; - &quot;A_flexion&quot;:\
+    \ action vector\n\t\t&quot;thorax_tx_frc&quot; - &quot;wrist_hand_r3_frc&quot;:\
+    \ net external force at respective DOF (including dependent and fixed DOFs such\
+    \ as &quot;thorax_tx&quot; (thorax translation))\n\t\t&quot;reward&quot;: reward\
+    \ obtained in this step\n\t\t&quot;step_type&quot;: 0=initial step of episode, 1=intermediate\
+    \ step of episode, 2=terminal step of episode\n\t\t&quot;target_switch&quot;: whether\
+    \ the target switched in this step\n\t\t&quot;discount&quot;: internal value of\
+    \ tf-agents (does not correspond to the discount factor gamma, which is additionally\
+    \ applied!)\n\t\t&quot;thorax_tx_pos&quot; - &quot;wrist_hand_r3_pos&quot;: angle\
+    \ of respective dependent DOF (in radians)\n\t\t&quot;thorax_tx_vel&quot; - &quot;wrist_hand_r3_vel&quot;:\
+    \ angular velocity of respective dependent DOF (in radians)\n\t\n\t\n\tMETRICS Files\n\
+    \t\n\t\tIndex: episode ID\n\t\t&quot;Init_X&quot; - &quot;Init_Z&quot;: initial\
+    \ position in global coordinates (in meters)\n\t\t&quot;Init_X&quot; - &quot;Init_Z&quot;:\
+    \ target position in global coordinates (in meters)\n\t\t&quot;Init_Distance&quot;:\
+    \ distance between last target (i.e., desired initial position) and current target\
+    \ (in meters)\n\t\t&quot;Target_Width_Diameter&quot;: target width diameter (in\
+    \ meters)\n\t\t&quot;Movement_ID&quot;: Index of Difficulty of current movement\
+    \ (using the Shannon Formulation) (in bits)\n\t\t&quot;target_accuracy&quot;: 1\
+    \ - (&lt;remaining distance to target center at the end of the episode&gt;/&lt;target\
+    \ radius&gt;) if end-effector is inside target, 0 else\n\t\t&quot;movement_time&quot;:\
+    \ duration of the episode (in seconds)\n\t\t&quot;episode_successful&quot;: whether\
+    \ episode terminated successfully within the permitted 1.5 seconds\n\t\t&quot;dist2target&quot;:\
+    \ remaining distance to target center at the end of the episode (in meters)\n\t\n\
+    \t\n\n\n-------------------------------------\n* included in state space"
+  license: cc-by-4.0
+  name: Reinforcement Learning Control of a Biomechanical Model of the Upper Extremity
+  num_downloads: 1312
+  publication_date: '2020-11-11'
+  submission_date: '2026-09-02T18:16:50.735663'
+  url:
+  - https://zenodo.org/records/4268230
+  - https://doi.org/10.5281/zenodo.4268230
+  
+- authors:
+  - Klar, Markus
+  - Fischer, Florian
+  - Fleig, Arthur
+  - Bachinski, Miroslav
+  - "M\xFCller, J\xF6rg"
+  description: 'This dataset contains the user study data of the paper &quot;Simulating
+    Interaction Movements via Model Predictive Control&quot;.
+  
+  
+    Python packages using this data include user-in-the-box, sim-mpc, and cfat.
+  
+  
+    Note: The ISO_VR_Pointing_Dataset.zip contains all relevant files. The ISO_VR_Pointing_IK_Raw.zip
+    contains a subset of this dataset with all files required by cfat.
+  
+  
+    &nbsp;'
+  license: cc-by-4.0
+  name: ISO-VR-Pointing Dataset
+  num_downloads: 126
+  publication_date: '2022-11-07'
+  submission_date: '2026-09-02T18:16:51.152011'
+  url:
+  - https://zenodo.org/records/7300062
+  - https://doi.org/10.5281/zenodo.7300062
+  
