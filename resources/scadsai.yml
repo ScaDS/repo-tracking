@@ -5813,7 +5813,7 @@ resources:
   url:
   - https://zenodo.org/records/14999918
   - https://doi.org/10.5281/zenodo.14999918
-  - authors:
+- authors:
   - Robert Haase
   description: ''
   name: gemma-2b-it-bia-proof-of-concept2
