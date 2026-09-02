@@ -5043,6 +5043,41 @@ resources:
   type: GitHub Repository
   url: https://github.com/marco-jaeger/drift
   
+- authors:
+  - jahneric
+  - Lea Kabjesz
+  description: 'An AI-enhanced virtual reality framework for interactive bioimage
+    exploration. '
+  license: BSD-3-Clause
+  name: bioimage-VR
+  publication_date: '2026-07-14'
+  submission_date: '2026-08-31T17:46:18.716284'
+  type: software
+  url:
+  - https://github.com/ScaDS/bioimage-VR
+- authors:
+  - Hardik
+  - Mario
+  - dependabot[bot]
+  - Michael Färber
+  description: 'ScaDS.AI klartext '
+  license: Apache-2.0
+  name: klartext
+  publication_date: '2024-10-25'
+  submission_date: '2026-08-31T17:46:23.584554'
+  type: software
+  url:
+  - https://github.com/faerber-lab/klartext
+- authors:
+  - Ziwen Liu
+  description: Unsupervised Learning of Cell Instances with Generative Routing Pyramids
+  license: BSD-3-Clause
+  name: routing-pyramids
+  publication_date: '2026-08-11'
+  submission_date: '2026-08-31T17:46:27.241281'
+  type: software
+  url:
+  - https://github.com/weigertlab/routing-pyramids
 
 - authors:
   - Zitt, Johanna
