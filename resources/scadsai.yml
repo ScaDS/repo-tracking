@@ -5101,5 +5101,8 @@ resources:
   publication_date: '2025-03-11T09:41:40+00:00'
   submission_date: '2026-09-02T08:25:17.731843'
   type: GitHub Repository
-  url: https://github.com/JohannaZitt/CryoDASDenoising
+  url: 
+  - https://github.com/JohannaZitt/CryoDASDenoising
+  - https://zenodo.org/records/15024152
+  - https://doi.org/10.5281/zenodo.15024152
   
