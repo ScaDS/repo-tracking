@@ -5813,4 +5813,109 @@ resources:
   url:
   - https://zenodo.org/records/14999918
   - https://doi.org/10.5281/zenodo.14999918
-  
+- authors:
+  - Robert Haase
+  description: ''
+  name: gemma-2b-it-bia-proof-of-concept2
+  publication_date: '2024-07-29'
+  tags:
+  - conversational
+  - dataset:haesleinhuepf/bio-image-analysis-qa
+  - endpoints_compatible
+  - gemma
+  - text-generation
+  - text-generation-inference
+  - transformers
+  type: Model
+  url: https://huggingface.co/haesleinhuepf/gemma-2b-it-bia-proof-of-concept2
+  license: gemma
+  num_downloads: 7
+  submission_date: '2026-09-02T15:01:52.104926'
+- authors:
+  - Robert Haase
+  description: ''
+  name: Llama-3.1-Minitron-4B-Depth-BIA-proof-of-concept
+  publication_date: '2024-08-24'
+  tags:
+  - conversational
+  - endpoints_compatible
+  - llama
+  - text-generation
+  - text-generation-inference
+  - transformers
+  type: Model
+  url: https://huggingface.co/haesleinhuepf/Llama-3.1-Minitron-4B-Depth-BIA-proof-of-concept
+  num_downloads: 9
+  submission_date: '2026-09-02T15:01:52.338935'
+- authors:
+  - Robert Haase
+  description: "\n\t\n\t\t\n\t\tDataset Card for bio-image-analysis-qa\n\t\n\nThis\
+    \ dataset contains questions and answers for analysing biological microscopy imaging\
+    \ data using python.\n\n\t\n\t\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\t\
+    Dataset Description\n\t\n\nQuestions and answers provided in this repository are\
+    \ centered around the topic, how to process imaging data using Python. \n\nCurated\
+    \ by: Robert Haase\nLicense: CC-BY 4.0\n\n\n\t\n\t\t\n\t\tDataset Sources and\
+    \ Processing\n\t\n\nThis dataset was derived from the Bio-image Analysis Notebooks\
+    \ which… See the full description on the dataset page: https://huggingface.co/datasets/haesleinhuepf/bio-image-analysis-qa."
+  name: bio-image-analysis-qa
+  publication_date: '2024-07-29'
+  tags:
+  - Python
+  - bio-image-analysis
+  - biology
+  - code
+  - language:en
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - microscopy
+  - modality:text
+  - size_categories:n<1K
+  - task_categories:text-generation
+  - text-generation
+  type: Dataset
+  url: https://huggingface.co/datasets/haesleinhuepf/bio-image-analysis-qa
+  license: cc-by-4.0
+  num_downloads: 8
+  submission_date: '2026-09-02T15:01:52.618943'
+- authors:
+  - Robert Haase
+  description: "This repository contains data which is re-assambled from Deutscher\
+    \ Wetterdienst (DWD) Open Data portal. \nSource: https://opendata.dwd.de/, licensed\
+    \ CC-BY 4.0\nRead more: https://www.dwd.de/EN/service/legal_notice/legal_notice_node.html\n"
+  name: dwd_temperature_july2026
+  publication_date: '2026-07-04'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:tabular
+  - modality:text
+  - size_categories:10M<n<100M
+  type: Dataset
+  url: https://huggingface.co/datasets/haesleinhuepf/dwd_temperature_july2026
+  license: cc-by-4.0
+  num_downloads: 17
+  submission_date: '2026-09-02T15:01:52.762865'
+- authors:
+  - Robert Haase
+  description: "This repository contains data which is re-assambled from Deutscher\
+    \ Wetterdienst (DWD) Open Data portal. \nSource: https://opendata.dwd.de/, licensed\
+    \ CC-BY 4.0\nRead more: https://www.dwd.de/EN/service/legal_notice/legal_notice_node.html\n"
+  name: dwd_precipitation_july2026
+  publication_date: '2026-07-04'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:tabular
+  - modality:text
+  - size_categories:10M<n<100M
+  type: Dataset
+  url: https://huggingface.co/datasets/haesleinhuepf/dwd_precipitation_july2026
+  license: cc-by-4.0
+  num_downloads: 35
+  submission_date: '2026-09-02T15:01:52.947077'
