@@ -6768,11 +6768,7 @@ resources:
   url:
   - https://zenodo.org/records/7845809
   - https://doi.org/10.5281/zenodo.7845809
-  
-- submission_date: '2026-09-02T18:16:29.761536'
-  url:
-  - https://zenodo.org/records/10911264,
-  
+    
 - authors:
   - Haase, Robert
   description: 'This slide deck is a practial, applied tour through large language models.
