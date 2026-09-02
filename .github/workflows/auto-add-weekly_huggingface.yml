@@ -34,3 +34,4 @@ jobs:
         python scripts/auto-add-from-huggingface-community.py ${{ github.repository }} Knowledge-aware-AI
         python scripts/auto-add-from-huggingface-community.py ${{ github.repository }} autmoate
         python scripts/auto-add-from-huggingface-community.py ${{ github.repository }} miriamcarnot
+        python scripts/auto-add-from-huggingface-community.py ${{ github.repository }} haesleinhuepf
