@@ -5919,39 +5919,3 @@ resources:
   license: cc-by-4.0
   num_downloads: 35
   submission_date: '2026-09-02T15:01:52.947077'
-- authors:
-  - Robert Haase
-  - Pete
-  description: ''
-  name: bia
-  publication_date: '2024-08-24'
-  tags:
-  - gradio
-  type: Hugging Face Space
-  url: https://huggingface.co/spaces/haesleinhuepf/bia
-  license: gemma
-  submission_date: '2026-09-02T15:01:53.602185'
-- authors:
-  - Robert Haase
-  - Clémentine Fourrier
-  description: ''
-  name: bia-board
-  publication_date: '2024-09-03'
-  tags:
-  - gradio
-  type: Hugging Face Space
-  url: https://huggingface.co/spaces/haesleinhuepf/bia-board
-  license: apache-2.0
-  submission_date: '2026-09-02T15:01:53.993774'
-- authors:
-  - Robert Haase
-  - Nate Raw
-  description: ''
-  name: nb
-  publication_date: '2024-10-23'
-  tags:
-  - docker
-  - jupyterlab
-  type: Hugging Face Space
-  url: https://huggingface.co/spaces/haesleinhuepf/nb
-  submission_date: '2026-09-02T15:01:54.336512'
