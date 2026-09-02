@@ -5105,4 +5105,36 @@ resources:
   - https://github.com/JohannaZitt/CryoDASDenoising
   - https://zenodo.org/records/15024152
   - https://doi.org/10.5281/zenodo.15024152
-  
+  - authors:
+  - Miriam Louise Carnot
+  description: "\n\t\n\t\t\n\t\tGTSIGN-220: A Crowd-Sourced, StVO-Aligned Dataset\
+    \ of German Traffic Signs\n\t\n\n\nGTSIGN-220 (German Traffic SIGNs) is a comprehensive\
+    \ dataset containing 75,541 images of traffic signs in Germany. \nIt is specifically\
+    \ designed as a benchmark for fine-grained recognition, strictly aligned with\
+    \ the German Road Traffic Regulations (StVO).\nThe dataset is a derivative work\
+    \ of street-level imagery sourced from Mapillary. \nThe individual image files\
+    \ of the signs are named so that the numbers… See the full description on the\
+    \ dataset page: https://huggingface.co/datasets/miriamcarnot/GTSIGN-220."
+  name: GTSIGN-220
+  publication_date: '2026-01-16'
+  tags:
+  - German Traffic SIGNs
+  - autonomous-driving
+  - computer-vision
+  - de
+  - german-traffic-signs
+  - image-classification
+  - language:de
+  - language:en
+  - object-detection
+  - size_categories:10K<n<100K
+  - smart-city
+  - stvo
+  - task_categories:image-classification
+  - task_categories:object-detection
+  - traffic-sign-recognition
+  type: Dataset
+  url: https://huggingface.co/datasets/miriamcarnot/GTSIGN-220
+  license: cc-by-sa-4.0
+  num_downloads: 117
+  submission_date: '2026-09-02T08:31:34.830332'
