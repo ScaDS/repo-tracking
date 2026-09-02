@@ -5732,4 +5732,26 @@ resources:
   url:
   - https://zenodo.org/records/19480237
   - https://doi.org/10.5281/zenodo.19480237
+- authors:
+  - LUK4S-B
+  - HannanehF
+  - jakeck1
+  description: IsUMap is a tool for manifold learning, dimension reduction and data
+    visualization
+  license: Other
+  name: IsUMap
+  publication_date: '2024-06-09T10:12:25+00:00'
+  submission_date: '2026-09-02T08:47:48.566765'
+  type: GitHub Repository
+  url: https://github.com/LUK4S-B/IsUMap
+  
+- authors:
+  - BeylierMPG
+  description: First version of the curvature project
+  license: MIT License
+  name: curvature
+  publication_date: '2025-10-23T15:40:26+00:00'
+  submission_date: '2026-09-02T08:47:51.534198'
+  type: GitHub Repository
+  url: https://github.com/Discrete-Curvature/curvature
   
