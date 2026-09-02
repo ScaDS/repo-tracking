@@ -5579,6 +5579,160 @@ resources:
   
 
 - authors:
+  - Nitzsche, Jannes
+  - Burghardt, Thomas
+  description: 'Overview
+  
+    This dataset supports the evaluation of structured information extraction approaches
+    from industrial labels. It was designed to enable systematic comparison between
+    classical OCR-based processing pipelines and Vision-Language Model (VLM) approaches.
+  
+    The dataset consists of three variants that progressively increase in visual complexity
+    while sharing a consistent semantic structure and annotation schema. This gradual
+    transition from controlled synthetic data to realistic captures allows targeted
+    evaluation of how different visual conditions affect extraction performance.
+  
+    &nbsp;
+  
+    Dataset Variants
+  
+    1. Synthetic
+  
+    Synthetically generated industrial label images providing idealized, artifact-free
+    renderings. Labels were created using an automated generation script and reflect
+    typical industrial logistics labeling scenarios with variable textual fields and
+    layout structures.
+  
+    Key properties:
+  
+  
+    Full control over content and ground truth
+  
+    Wide layout variability: square, portrait, and landscape formats, varying canvas
+    sizes
+  
+    Randomized typography, font sizes, alignments, and border styles
+  
+    Structured header regions (sender/recipient) and tabular middle sections
+  
+    Machine-readable elements: barcodes (with human-readable text) and QR codes
+  
+    Semantic field variability (e.g., "Quantity", "QTY", "Count", "Count number" all
+    refer to the same field)
+  
+    Content generated using the Faker library for realistic logistics data (addresses,
+    IDs, weights, etc.)
+  
+  
+    Each image has a corresponding JSON annotation file.
+  
+    2. Augmented
+  
+    The complete synthetic dataset with document-specific augmentation techniques applied,
+    simulating degradations encountered in practical settings. Textual content is identical
+    to the synthetic base, only visual appearance changes. The augmentations were generated
+    with the Augraphy tool.
+  
+    Augmentation types:
+  
+  
+    Double Exposure &mdash; simulates double exposure artifacts
+  
+    Letterpress and Dirty Drum &mdash; simulates letterpress printing and dirty drum
+    roller artifacts
+  
+    Lighting Gradient and Shadowcast&nbsp;&mdash; simulates uneven lighting, gradients,
+    and cast shadows
+  
+  
+  
+    Note: Augmented images share annotations with their synthetic counterparts. No separate
+    JSON files are included in the augmented subfolders; annotations from synthetic
+    subset apply directly.
+  
+  
+    3. Real
+  
+    Physically captured images created by printing a subset of synthetic labels and
+    photographing them with an iPhone 11 Pro Max camera. This variant introduces realistic
+    effects that are difficult to replicate digitally, including variations in lighting,
+    perspective distortion, reflections, and camera-induced artifacts.
+  
+    Unlike the augmented variant, the photographed labels were independently generated
+    with new content, extending the dataset beyond visual variations of existing samples.
+  
+    Each image has a corresponding JSON annotation file.
+  
+    &nbsp;
+  
+    Annotation Format
+  
+    Every image is annotated in a unified JSON format. Each annotation file contains:
+  
+  
+    label_id &mdash; unique identifier for the label instance
+  
+    image_file &mdash; filename of the corresponding image
+  
+    objects &mdash; list of annotated elements, each with:
+  
+  
+    type &mdash; element type (e.g., "text", "barcode", "qrcode")
+  
+    value &mdash; semantic content (literal text or decoded symbol sequence)
+  
+    bbox &mdash; bounding box as [x_min, y_min, x_max, y_max] in pixel coordinates
+  
+  
+  
+    metadata &mdash; image dimensions, generation flag, and creation timestamp
+  
+  
+    &nbsp;
+  
+    License
+  
+    Creative Commons Attribution 4.0 International
+  
+    &nbsp;
+  
+    Use Cases
+  
+  
+    Detect and extract text fields, barcodes, and QR codes from structured industrial
+    documents
+  
+    Analyze and parse diverse label layouts including headers, tabular sections, and
+    mixed content regions
+  
+    Evaluate model robustness under visual degradation such as noise, blur and lighting
+    variations
+  
+  
+    &nbsp;
+  
+    Acknowledgements
+  
+    This dataset was created during a master''s thesis at the University of Leipzig,
+    conducted within the ScaDS.AI Center for Scalable Data Analytics and Artificial
+    Intelligence.
+  
+    The work was carried out in collaboration with Deutsche Telekom MMS as part of the
+    IPCEI-CIS (Important Project of Common European Interest on Next Generation Cloud
+    Infrastructure and Services) project.
+  
+    The synthetic label generation script was originally developed by Rafael Gagarin
+    within the IPCEI-CIS project team. For this dataset, the script was adapted to additionally
+    save precise ground-truth annotations alongside the generated images.'
+  license: cc-by-4.0
+  name: Industrial Label Dataset for Structured Information Extraction
+  num_downloads: 57
+  publication_date: '2026-04-09'
+  submission_date: '2026-09-02T08:46:37.922885'
+  url:
+  - https://zenodo.org/records/19480237
+  - https://doi.org/10.5281/zenodo.19480237
+- authors:
   - LUK4S-B
   - HannanehF
   - jakeck1
