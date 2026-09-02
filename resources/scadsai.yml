@@ -5763,8 +5763,7 @@ resources:
   description: The dataset displays the vessel diameters of 14 basal cerebral arteries near the circle of Willis assessed by angiography in over 1000 patients from a single center. The dataset has been generated in SPSS.
   license: CC-BY-4.0
   name: 1000 angiographic cerebral vessel diameters
-  April 15, 2025 
-  publication_date: '2025-06-25'
+  publication_date: '2025-04-15'
   submission_date: '2026-09-02T09:00:58.185648'
   url:
   - https://zenodo.org/records/15222357
