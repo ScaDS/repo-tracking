@@ -370,9 +370,9 @@ resources:
   - https://zenodo.org/records/15858127
   - https://doi.org/10.5281/zenodo.15858127
 - authors:
-  - Schott Philipp
-  - Wolf Gregor
-  - Welz Oliver
+  - Philipp Schott
+  - Gregor Wolf
+  - Oliver Welz
   description: 'Workshop materials on the topic of AI-Agents at Meetup #4 2025 on
     ScaDS.AI.
 
@@ -390,7 +390,7 @@ resources:
   - https://doi.org/10.5281/zenodo.15805268
 - authors:
   - Center for Scalable Data Analytics and Artificial Intelligence
-  - Welz Oliver
+  - Oliver Welz
   description: '
 
     Presentation on the AI insights regarding AI-Agents and Agent-Frameworks at the
