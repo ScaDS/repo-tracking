@@ -5105,7 +5105,7 @@ resources:
   - https://github.com/JohannaZitt/CryoDASDenoising
   - https://zenodo.org/records/15024152
   - https://doi.org/10.5281/zenodo.15024152
-  - authors:
+- authors:
   - autmoate99
   description: ''
   name: pi05_sarm_rabc_put_mug_pro6000_vis_not_freezed
