@@ -24,3 +24,5 @@ scripts/newsletters/*.pdf
 
 Untitled*
 notebooks/generate_link_lists.py
+more_authors.txt
+author_synonyms.txt
