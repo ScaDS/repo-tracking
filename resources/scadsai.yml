@@ -5769,3 +5769,48 @@ resources:
   - https://zenodo.org/records/15222357
   - https://doi.org/10.5281/zenodo.15222357
   
+- authors:
+  - Zitt, Johanna
+  description: 'These datasets provide the necessary data to reproduce the results presented
+    in the paper&nbsp;&ldquo;Self-Supervised Coherence-Based Denoising of Cryoseismological
+    Distributed Acoustic Sensing Data.&rdquo; The corresponding code is available on
+    GitHub, and the paper can be accessed via Authorea.
+  
+    The data set "02_accumulation_denoisedDAS" contains the denoised data of the model
+    J-invariant-cryo-acc.The data sets , "11_vanende_earth_denoisedDAS_image", "12_vanende_finetuned_cryo_denoisedDAS_image",
+    "13_afk_denoisedDAS_image", "14_conventional_denoisedDAS_image", and "15_DASDL_denoisedDAS_image"
+    contain the some denoised data files for the models "J-invariant-earth", "J-invariant-earth-cryo",
+    ""AFK", "Conventional", and "DASDL" , needed for reproducing Figure 5, S7, and S8.
+  
+    Abstract:
+  
+    A major challenge in cryoseismology is that signals of interest are often buried
+    within the high noise level emitted by a variety of environmental processes. Particular
+    Distributed Acoustic Sensing (DAS) data often suffers from low signal-to-noise ratios
+    (SNR) potentially resulting in a multitude of undetected events of interest, which
+    further remain unanalyzed. To record seismicity, we deployed a DAS system on Rh&ocirc;ne
+    Glacier, Switzerland, using a 9 km long fiber-optic cable that covered the entire
+    glacier, from its accumulation to its ablation zone. The highly active and dynamic
+    cryospheric environment, in combination with poor coupling, resulted in DAS data
+    characterized by a low SNR. Our objective is to develop and evaluate a method to
+    effectively denoise this cryoseismological DAS dataset, while comparing our approach
+    to state-of-the-art filtering and denoising methods. We propose the J-invariant-cryo
+    denoiser, specifically trained on cryoseismological data and capable of separating
+    incoherent environmental noise from temporally and spatially coherent signals of
+    interest, based on a self-supervised J-invariant U-Net autoencoder. The method enhances
+    inter-channel coherence, improves waveform similarity with co-located seismometers,
+    and increases SNR. The comparison of different methods shows that our approach obtains
+    the highest gain in SNR and highest similarity with co-located seismometers, while
+    suffering from denoising artifacts in rare cases. The proposed denoiser has the
+    potential to enhance the detection capabilities of events of interest in cryoseismological
+    DAS data, hence to improve the understanding of processes within Alpine glaciers.&nbsp;'
+  license: cc-by-4.0
+  name: Denoised data for the manuscript "Self-Supervised Coherence-Based Denoising
+    of Cryoseismological Distributed Acoustic Sensing Data"
+  num_downloads: 141
+  publication_date: '2025-03-10'
+  submission_date: '2026-09-02T13:44:16.427155'
+  url:
+  - https://zenodo.org/records/14999918
+  - https://doi.org/10.5281/zenodo.14999918
+  
