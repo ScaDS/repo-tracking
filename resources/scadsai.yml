@@ -5096,7 +5096,7 @@ resources:
   - JohannaZitt
   description: Code accompanying the paper Self-Supervised Coherence-Based Denoising
     of Cryoseismological Distributed Acoustic Sensing Data.
-  license: Other
+  license: CC-BY-4.0
   name: CryoDASDenoising
   publication_date: '2025-03-11T09:41:40+00:00'
   submission_date: '2026-09-02T08:25:17.731843'
