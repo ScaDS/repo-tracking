@@ -8771,3 +8771,13 @@ resources:
   - https://zenodo.org/records/7300062
   - https://doi.org/10.5281/zenodo.7300062
   
+- authors:
+  - Robert Haase
+  description: ''
+  license: BSD 3-Clause "New" or "Revised" License
+  name: pdf2gif
+  publication_date: '2025-06-20T13:34:52+00:00'
+  submission_date: '2026-09-02T18:23:03.235447'
+  type: GitHub Repository
+  url: https://github.com/haesleinhuepf/pdf2gif
+  
