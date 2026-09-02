@@ -5078,3 +5078,502 @@ resources:
   type: software
   url:
   - https://github.com/weigertlab/routing-pyramids
+
+- authors:
+  - Zitt, Johanna
+  description: 'The dataset "raw_DAS" contains cryoseismological distributed acoustic
+    sensing (DAS) data recorded in July 2020 on Rh&ocirc;ne Glacier, Switzerland.
+  
+    The dataset "training_data" contains raw and preprocessed seismometer recordings
+    used as training data, also recorded in July 2020 on Rh&ocirc;ne Glacier, Switzerland.
+  
+    These datasets provide the necessary data to reproduce the results presented in
+    the paper &ldquo;Self-Supervised Coherence-Based Denoising of Cryoseismological
+    Distributed Acoustic Sensing Data.&rdquo; The corresponding code is available on
+    GitHub, and the paper can be accessed via Authorea.
+  
+    &nbsp;
+  
+    Abstract
+  
+    A major challenge in cryoseismology is that signals of interest are often buried
+    within the high noise level emitted by a variety of environmental processes. Particular
+    Distributed Acoustic Sensing (DAS) data often suffers from low signal-to-noise ratios
+    (SNR) potentially resulting in a multitude of undetected events of interest, which
+    further remain unanalyzed. To record seismicity, we deployed a DAS system on Rh&ocirc;ne
+    Glacier, Switzerland, using a 9 km long fiber-optic cable that covered the entire
+    glacier, from its accumulation to its ablation zone. The highly active and dynamic
+    cryospheric environment, in combination with poor coupling, resulted in DAS data
+    characterized by a low SNR. Our objective is to develop and evaluate a method to
+    effectively denoise this cryoseismological DAS dataset, while comparing our approach
+    to state-of-the-art filtering and denoising methods. We propose the J-invariant-cryo
+    denoiser, specifically trained on cryoseismological data and capable of separating
+    incoherent environmental noise from temporally and spatially coherent signals of
+    interest, based on a self-supervised J-invariant U-Net autoencoder. The method enhances
+    inter-channel coherence, improves waveform similarity with co-located seismometers,
+    and increases SNR. The comparison of different methods shows that our approach obtains
+    the highest gain in SNR and highest similarity with co-located seismometers, while
+    suffering from denoising artifacts in rare cases. The proposed denoiser has the
+    potential to enhance the detection capabilities of events of interest in cryoseismological
+    DAS data, hence to improve the understanding of processes within Alpine glaciers.&nbsp;'
+  license: cc-by-4.0
+  name: Dataset for the manuscript "Self-Supervised Coherence-Based Denoising of Cryoseismological
+    Distributed Acoustic Sensing Data"
+  num_downloads: 73
+  publication_date: '2025-03-10'
+  submission_date: '2026-09-02T08:20:37.743636'
+  url:
+  - https://zenodo.org/records/14998653
+  - https://doi.org/10.5281/zenodo.14998653
+  
+  
+- authors:
+  - JohannaZitt
+  description: Code accompanying the paper Self-Supervised Coherence-Based Denoising
+    of Cryoseismological Distributed Acoustic Sensing Data.
+  license: CC-BY-4.0
+  name: CryoDASDenoising
+  publication_date: '2025-03-11T09:41:40+00:00'
+  submission_date: '2026-09-02T08:25:17.731843'
+  type: GitHub Repository
+  url: 
+  - https://github.com/JohannaZitt/CryoDASDenoising
+  - https://zenodo.org/records/15024152
+  - https://doi.org/10.5281/zenodo.15024152
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_sarm_rabc_put_mug_pro6000_vis_not_freezed
+  publication_date: '2026-03-29'
+  tags: []
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_sarm_rabc_put_mug_pro6000_vis_not_freezed
+  license: mit
+  num_downloads: 0
+  submission_date: '2026-09-02T08:31:24.237014'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_task_by_task_1_put_mug
+  publication_date: '2026-04-30'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_task_by_task_1_put_mug
+  license: apache-2.0
+  num_downloads: 2
+  submission_date: '2026-09-02T08:31:24.374058'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_task_by_task_2_lower_spout
+  publication_date: '2026-05-01'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_2_lower_spout_repaired
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_task_by_task_2_lower_spout
+  license: apache-2.0
+  num_downloads: 1
+  submission_date: '2026-09-02T08:31:24.480065'
+- authors:
+  - autmoate99
+  description: ''
+  name: xvla-coffee-task-by-task-1-put-mug
+  publication_date: '2026-05-01'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - lerobot
+  - robotics
+  - xvla
+  type: Model
+  url: https://huggingface.co/autmoate/xvla-coffee-task-by-task-1-put-mug
+  license: apache-2.0
+  num_downloads: 13
+  submission_date: '2026-09-02T08:31:24.594112'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_task_by_task_1_and_2_merged
+  publication_date: '2026-05-01'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_and_2_merged
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_task_by_task_1_and_2_merged
+  license: apache-2.0
+  num_downloads: 5
+  submission_date: '2026-09-02T08:31:24.677962'
+- authors:
+  - autmoate99
+  description: ''
+  name: sarm_coffee_task_1_put_mug
+  publication_date: '2026-05-02'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - lerobot
+  - robotics
+  - sarm
+  type: Model
+  url: https://huggingface.co/autmoate/sarm_coffee_task_1_put_mug
+  license: apache-2.0
+  num_downloads: 9
+  submission_date: '2026-09-02T08:31:24.792131'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_sarm_task_by_task_1_put_mug
+  publication_date: '2026-05-03'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_sarm_task_by_task_1_put_mug
+  license: apache-2.0
+  num_downloads: 5
+  submission_date: '2026-09-02T08:31:24.908936'
+- authors:
+  - autmoate99
+  description: ''
+  name: sarm_coffee_task_1_and_2
+  publication_date: '2026-05-03'
+  tags: []
+  type: Model
+  url: https://huggingface.co/autmoate/sarm_coffee_task_1_and_2
+  license: mit
+  num_downloads: 0
+  submission_date: '2026-09-02T08:31:25.016175'
+- authors:
+  - autmoate99
+  description: ''
+  name: sarm_coffee_task_2_lower_spout
+  publication_date: '2026-05-03'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_2_lower_spout_0_to_29_episodes
+  - lerobot
+  - robotics
+  - sarm
+  type: Model
+  url: https://huggingface.co/autmoate/sarm_coffee_task_2_lower_spout
+  license: apache-2.0
+  num_downloads: 5
+  submission_date: '2026-09-02T08:31:25.138743'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_sarm_task_by_task_2_lower_spout
+  publication_date: '2026-05-03'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_2_lower_spout_0_to_29_episodes
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_sarm_task_by_task_2_lower_spout
+  license: apache-2.0
+  num_downloads: 7
+  submission_date: '2026-09-02T08:31:25.249920'
+- authors:
+  - autmoate99
+  description: ''
+  name: eo1-put-mug
+  publication_date: '2026-05-28'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug
+  - eo1
+  - lerobot
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/eo1-put-mug
+  license: apache-2.0
+  num_downloads: 5
+  submission_date: '2026-09-02T08:31:25.349361'
+- authors:
+  - autmoate99
+  description: ''
+  name: molmoact2_put_mug_large
+  publication_date: '2026-05-29'
+  tags: []
+  type: Model
+  url: https://huggingface.co/autmoate/molmoact2_put_mug_large
+  license: mit
+  num_downloads: 0
+  submission_date: '2026-09-02T08:31:25.454288'
+- authors:
+  - autmoate99
+  description: ''
+  name: molmoact2_put_mug_large_both_bs16_20k
+  publication_date: '2026-05-29'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug_large
+  - lerobot
+  - molmoact2
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/molmoact2_put_mug_large_both_bs16_20k
+  license: apache-2.0
+  num_downloads: 9
+  submission_date: '2026-09-02T08:31:25.565861'
+- authors:
+  - autmoate99
+  description: ''
+  name: pi05_task_by_task_1_put_mug_large
+  publication_date: '2026-05-31'
+  tags:
+  - dataset:autmoate/coffee_task_by_task_1_put_mug_large
+  - lerobot
+  - pi05
+  - robotics
+  type: Model
+  url: https://huggingface.co/autmoate/pi05_task_by_task_1_put_mug_large
+  license: apache-2.0
+  num_downloads: 6
+  submission_date: '2026-09-02T08:31:25.674300'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_1_put_mug
+  publication_date: '2026-04-30'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_put_mug
+  license: mit
+  num_downloads: 60
+  submission_date: '2026-09-02T08:31:25.801648'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_2_lower_spout
+  publication_date: '2026-05-01'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_2_lower_spout
+  license: mit
+  num_downloads: 7
+  submission_date: '2026-09-02T08:31:25.962435'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_2_lower_spout_repaired
+  publication_date: '2026-05-01'
+  tags:
+  - modality:video
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_2_lower_spout_repaired
+  license: mit
+  num_downloads: 31
+  submission_date: '2026-09-02T08:31:26.234156'
+- authors:
+  - autmoate99
+  description: "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\
+    \n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\"\
+    : \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 135,\n\
+    \    \"total_frames\": 63704,\n    \"total_tasks\": 2,\n    \"chunks_size\": 1000,\n\
+    \    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n \
+    \   \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:135\"\n    },\n  \
+    \  \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\"\
+    ,\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_and_2_merged."
+  name: coffee_task_by_task_1_and_2_merged
+  publication_date: '2026-05-01'
+  tags:
+  - LeRobot
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:tabular
+  - modality:timeseries
+  - modality:video
+  - robotics
+  - size_categories:10K<n<100K
+  - task_categories:robotics
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_and_2_merged
+  license: apache-2.0
+  num_downloads: 46
+  submission_date: '2026-09-02T08:31:26.358055'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_2_lower_spout_0_to_29_episodes
+  publication_date: '2026-05-01'
+  tags:
+  - library:dask
+  - library:datasets
+  - library:mlcroissant
+  - library:polars
+  - modality:tabular
+  - modality:timeseries
+  - modality:video
+  - size_categories:10K<n<100K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_2_lower_spout_0_to_29_episodes
+  license: mit
+  num_downloads: 23
+  submission_date: '2026-09-02T08:31:26.482277'
+- authors:
+  - autmoate99
+  description: "This dataset was created using LeRobot.\n\n\n\n\n\n\n\n\t\n\t\t\n\t\
+    \n\t\n\t\tDataset Structure\n\t\n\nmeta/info.json:\n{\n    \"codebase_version\"\
+    : \"v3.0\",\n    \"robot_type\": \"so_follower\",\n    \"total_episodes\": 135,\n\
+    \    \"total_frames\": 63704,\n    \"total_tasks\": 2,\n    \"chunks_size\": 1000,\n\
+    \    \"data_files_size_in_mb\": 100,\n    \"video_files_size_in_mb\": 200,\n \
+    \   \"fps\": 30,\n    \"splits\": {\n        \"train\": \"0:135\"\n    },\n  \
+    \  \"data_path\": \"data/chunk-{chunk_index:03d}/file-{file_index:03d}.parquet\"\
+    ,\n    \"video_path\":… See the full description on the dataset page: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_and_2_merged_sarm."
+  name: coffee_task_by_task_1_and_2_merged_sarm
+  publication_date: '2026-05-03'
+  tags:
+  - LeRobot
+  - library:datasets
+  - library:mlcroissant
+  - library:pandas
+  - library:polars
+  - modality:tabular
+  - modality:timeseries
+  - modality:video
+  - robotics
+  - size_categories:10K<n<100K
+  - task_categories:robotics
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_and_2_merged_sarm
+  license: apache-2.0
+  num_downloads: 30
+  submission_date: '2026-09-02T08:31:26.599335'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_1_put_mug_large
+  publication_date: '2026-05-29'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_put_mug_large
+  license: mit
+  num_downloads: 83
+  submission_date: '2026-09-02T08:31:26.703490'
+- authors:
+  - autmoate99
+  description: ''
+  name: coffee_task_by_task_1_put_mug_large_210ep
+  publication_date: '2026-06-12'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/coffee_task_by_task_1_put_mug_large_210ep
+  license: mit
+  num_downloads: 15
+  submission_date: '2026-09-02T08:31:26.855739'
+- authors:
+  - autmoate99
+  description: ''
+  name: put_mug_make_coffee_large_260ep
+  publication_date: '2026-06-12'
+  tags:
+  - library:datasets
+  - library:mlcroissant
+  - modality:video
+  - size_categories:n<1K
+  type: Dataset
+  url: https://huggingface.co/datasets/autmoate/put_mug_make_coffee_large_260ep
+  license: mit
+  num_downloads: 91
+  submission_date: '2026-09-02T08:31:27.091539'
+
+- authors:
+  - Miriam Louise Carnot
+  description: "\n\t\n\t\t\n\t\tGTSIGN-220: A Crowd-Sourced, StVO-Aligned Dataset\
+    \ of German Traffic Signs\n\t\n\n\nGTSIGN-220 (German Traffic SIGNs) is a comprehensive\
+    \ dataset containing 75,541 images of traffic signs in Germany. \nIt is specifically\
+    \ designed as a benchmark for fine-grained recognition, strictly aligned with\
+    \ the German Road Traffic Regulations (StVO).\nThe dataset is a derivative work\
+    \ of street-level imagery sourced from Mapillary. \nThe individual image files\
+    \ of the signs are named so that the numbers… See the full description on the\
+    \ dataset page: https://huggingface.co/datasets/miriamcarnot/GTSIGN-220."
+  name: GTSIGN-220
+  publication_date: '2026-01-16'
+  tags:
+  - German Traffic SIGNs
+  - autonomous-driving
+  - computer-vision
+  - de
+  - german-traffic-signs
+  - image-classification
+  - language:de
+  - language:en
+  - object-detection
+  - size_categories:10K<n<100K
+  - smart-city
+  - stvo
+  - task_categories:image-classification
+  - task_categories:object-detection
+  - traffic-sign-recognition
+  type: Dataset
+  url: https://huggingface.co/datasets/miriamcarnot/GTSIGN-220
+  license: cc-by-sa-4.0
+  num_downloads: 117
+  submission_date: '2026-09-02T08:31:34.830332'
+  
+- authors:
+  - Miriam Louise Carnot
+  description: ''
+  license: Creative Commons Attribution Share Alike 4.0 International
+  name: MapAnything
+  publication_date: '2025-07-18T07:55:08+00:00'
+  submission_date: '2026-09-02T08:32:06.669488'
+  type: GitHub Repository
+  url: https://github.com/miriamcarnot/MapAnything
+  
+- authors:
+  - Miriam Louise Carnot
+  description: ''
+  license: MIT License
+  name: generative-car-anonymization
+  publication_date: '2025-06-28T09:47:04+00:00'
+  submission_date: '2026-09-02T08:32:09.468478'
+  type: GitHub Repository
+  url: https://github.com/miriamcarnot/generative-car-anonymization
+  
+- authors:
+  - Miriam Louise Carnot
+  description: ''
+  license: Other
+  name: 3d-clearance-control
+  publication_date: '2025-04-09T10:28:14+00:00'
+  submission_date: '2026-09-02T08:32:12.155063'
+  type: GitHub Repository
+  url: https://github.com/miriamcarnot/3d-clearance-control
+  
+- authors:
+  - Miriam Louise Carnot
+  description: ''
+  license: MIT License
+  name: clear_height_pandaset
+  publication_date: '2024-02-21T10:57:58+00:00'
+  submission_date: '2026-09-02T08:32:14.873391'
+  type: GitHub Repository
+  url: https://github.com/miriamcarnot/clear_height_pandaset
+  
