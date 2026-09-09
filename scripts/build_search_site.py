@@ -38,11 +38,13 @@ def _load_resources(path: Path):
     return data.get("resources", [])
 
 
-def _counter(resources, field):
+def _counter(resources, field, casesensitive=True):
     counter = Counter()
     for resource in resources:
         for item in _as_list(resource.get(field)):
             text = _normalize_text(item)
+            if not casesensitive:
+                text = text.lower()
             if text:
                 counter[text] += 1
     return counter
@@ -131,8 +133,8 @@ def build_site():
     resources = _load_resources(resources_path)
 
     tags = _counter(resources, "tags")
-    licenses = _counter(resources, "license")
-    types = _counter(resources, "type")
+    licenses = _counter(resources, "license", casesensitive=False)
+    types = _counter(resources, "type", casesensitive=False)
 
     serializable_resources = []
     for resource in resources:
