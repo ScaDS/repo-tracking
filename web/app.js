@@ -24,6 +24,28 @@ const toUrlList = (value) => asArray(value)
   .filter(Boolean);
 const primaryUrl = (value) => toUrlList(value)[0] || "";
 
+function updateShareUrl() {
+  const params = new URLSearchParams();
+  const query = searchInput.value.trim();
+
+  if (query) params.set("q", query);
+  if (state.activeTag) params.set("tag", state.activeTag);
+  if (state.activeLicense) params.set("license", state.activeLicense);
+  if (state.activeType) params.set("type", state.activeType);
+
+  const queryString = params.toString();
+  const nextUrl = `${window.location.pathname}${queryString ? `?${queryString}` : ""}${window.location.hash}`;
+  window.history.replaceState({}, "", nextUrl);
+}
+
+function restoreShareState() {
+  const params = new URLSearchParams(window.location.search);
+  searchInput.value = params.get("q") || "";
+  state.activeTag = params.get("tag") || null;
+  state.activeLicense = params.get("license") || null;
+  state.activeType = params.get("type") || null;
+}
+
 function makeChip(label, count, onClick, isActive) {
   const button = document.createElement("button");
   button.className = `chip ${isActive ? "active" : ""}`.trim();
@@ -51,6 +73,7 @@ function renderChips(data, container, kind) {
         if (kind === "type") {
           state.activeType = state.activeType === value ? null : value;
         }
+        updateShareUrl();
         applyFilters();
         renderFilters(window.trainingData);
       }, isActive));
@@ -161,6 +184,7 @@ async function init() {
   state.resources = data.resources;
   state.filtered = data.resources;
 
+  restoreShareState();
   renderFilters(data);
   renderStats(data);
 
@@ -177,7 +201,10 @@ async function init() {
       : `${row.name || "Untitled resource"} (+${row.download_difference})`;
   });
 
-  searchInput.addEventListener("input", applyFilters);
+  searchInput.addEventListener("input", () => {
+    updateShareUrl();
+    applyFilters();
+  });
   applyFilters();
 }
 
