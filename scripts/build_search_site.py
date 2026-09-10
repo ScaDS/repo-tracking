@@ -38,11 +38,13 @@ def _load_resources(path: Path):
     return data.get("resources", [])
 
 
-def _counter(resources, field):
+def _counter(resources, field, casesensitive=True):
     counter = Counter()
     for resource in resources:
         for item in _as_list(resource.get(field)):
             text = _normalize_text(item)
+            if not casesensitive:
+                text = text.lower()
             if text:
                 counter[text] += 1
     return counter
@@ -70,7 +72,16 @@ def _json_safe(value):
     return str(value)
 
 
-def _top_downloads(download_dir: Path):
+def _build_num_files_map(resources):
+    num_files_by_url = {}
+    for resource in resources:
+        num_files = resource.get("num_files") or 1
+        for url in _as_list(resource.get("url")):
+            num_files_by_url[url] = num_files
+    return num_files_by_url
+
+
+def _top_downloads(download_dir: Path, num_files_by_url: dict):
     snapshots = sorted(download_dir.glob("*.csv"))
     if len(snapshots) < 2:
         return []
@@ -89,7 +100,8 @@ def _top_downloads(download_dir: Path):
                     downloads = int(float(row.get("downloads", 0)))
                 except (TypeError, ValueError):
                     downloads = 0
-                rows[url] = {"name": row.get("name", ""), "downloads": downloads}
+                num_files = num_files_by_url.get(url, 1)
+                rows[url] = {"name": row.get("name", ""), "downloads": downloads / num_files}
         return rows
 
     latest_rows = read_rows(latest)
@@ -121,8 +133,8 @@ def build_site():
     resources = _load_resources(resources_path)
 
     tags = _counter(resources, "tags")
-    licenses = _counter(resources, "license")
-    types = _counter(resources, "type")
+    licenses = _counter(resources, "license", casesensitive=False)
+    types = _counter(resources, "type", casesensitive=False)
 
     serializable_resources = []
     for resource in resources:
@@ -137,7 +149,7 @@ def build_site():
         "mostCommonLicenses": [{"value": key, "count": value} for key, value in licenses.most_common(1000)],
         "mostCommonTypes": [{"value": key, "count": value} for key, value in types.most_common(1000)],
         "recentAdditions": serializable_resources[-RECENT_ADDITIONS_COUNT:][::-1],
-        "topDownloads": _top_downloads(download_dir),
+        "topDownloads": _top_downloads(download_dir, _build_num_files_map(resources)),
     }
 
     if output_dir.exists():

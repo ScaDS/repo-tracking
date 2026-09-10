@@ -8874,6 +8874,502 @@ resources:
   submission_date: '2026-09-02T18:23:03.235447'
   type: GitHub Repository
   url: https://github.com/haesleinhuepf/pdf2gif
+- authors:
+  - Patrick Ebel
+  description: 'Computational User Models – From Fitts’ Law to Simulated Users that
+    Learn via Experience
+
+
+    Dr. Patrick Ebel leads the Junior Research Group CIAO [*] and works at the intersection
+    of machine learning, human–computer interaction, and mobility. In this lecture,
+    he will explore computational models that simulate human interaction behavior.
+    These models can help evaluate user interfaces, predict how people will use them,
+    and reveal how design decisions affect user performance. After motivating why
+    simulating human behavior is increasingly valuable for modern interface design,
+    Patrick will trace the development of compuatational user model from early methods
+    in HCI to novel approaches like computational rationality and biomechanical modeling,
+    highlighting how these methods open new possibilities for research and design.
+
+
+    Check out the group’s work on Github:
+
+    https://ciao-group.github.io/
+
+
+    [*] https://scads.ai/research/applied-ai-and-big-data/engineering-and-business/projects/computational-interaction-and-mobility-ciao/'
+  license: Unknown
+  name: 'Lecture: #35 Computational User Models - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 12/4/2025
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=PfSKH00_gFw
+- authors:
+  - Apurv Deepak Kulkarni
+  description: 'Demystifying Data Stream Processing
+
+
+    In today''s digital world, data is being generated at an unprecedented rate, often
+    in the form of continuous streams. These data streams are ubiquitous, arising
+    from various sources such as social media, sensor networks and more. But what
+    happens to this data once it''s generated? This lecture explores the concept of
+    these data streams and discusses the different aspects of their processing, including
+    current techniques and their challenges. Additionally, self-adaptive mechanisms
+    are introduced that enable systems to automatically adjust to changing data conditions,
+    improving efficiency, scalability, and accuracy. These mechanisms play a crucial
+    role in unlocking the full potential of data stream processing in modern applications.'
+  license: Unknown
+  name: 'Lecture: #34 Demystifying Data Stream Processing - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 11/20/2025
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=6YpIu_FAkXA
+- authors:
+  - Parvaneh Joharinad
+  description: 'Geometry-aware Representation
+
+
+    Much of the data we work with has an underlying shape and often leaves on curved
+    spaces rather than flat Euclidean ones, that traditional machine learning methods
+    often ignore.
+
+    I will show how ideas from geometry, specifically curvature profiles, can help
+    us design representations that respect this structure.'
+  license: Unknown
+  name: 'Lecture: #33 Geometry-aware Representation - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 10/2/2025
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=QH9zKheL-4s
+- authors:
+  - Victor Jüttner
+  description: 'Cybersecurity in the Smart Home
+
+
+    In this lecture, we explore why a usable interface to the home network is essential
+    in smart homes, especially as smart devices become more widespread. To help users
+    stay informed about ongoing threats, we propose using LLMs to generate actionable
+    security notifications that empower users to take cybersecurity into their own
+    hands. These notifications are based on expert systems like intrusion detection
+    systems and are tailored to users with varying levels of technical knowledge.
+    I demonstrate how we generate these messages, motivate the need for such a system
+    in the smart home context, and present our ongoing research on ethical considerations,
+    findings from a user study on message length and complexity, and an evaluation
+    framework to assess notification quality.'
+  license: Unknown
+  name: 'Lecture: #32 Cybersecurity in the Smart Home - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 6/5/2025
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=b3uUHOvApB0
+- authors:
+  - Waldemar Hahn
+  description: 'Generation of Synthetic Tabular Data in the Medical Domain
+
+
+    Access to medical data is critical for advancing healthcare, yet legal and privacy
+    constraints make real-world datasets difficult to share. Synthetic tabular data
+    offers a promising alternative by mimicking real distributions without exposing
+    patient identities. In this talk, we provide a high-level overview of how generative
+    models, such as Variational Autoencoders (VAEs) and Generative Adversarial Networks
+    (GANs), originally developed for image generation, are adapted to the structure
+    and challenges of tabular data. We then explore how the resulting synthetic data
+    can be evaluated in terms of resemblance, utility, and privacy. Finally, we outline
+    what a realistic pipeline for publishing medical synthetic tabular data might
+    look like in practice.'
+  license: Unknown
+  name: 'Lecture: #31 Generation of Synthetic Tabular Data in the Medical Domain -
+    ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 4/3/2025
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=1sXid2tKJ_Y
+- authors:
+  - Aaron Klein
+  description: "Compressing Large Language Models \n\nLarge Language Models (LLMs)\
+    \ mark a new era in Artificial Intelligence. However, their large size poses significant\
+    \ challenges for inference in real-world applications due to substantial GPU memory\
+    \ requirements and high inference latency.\n\nIn this talk, we discuss techniques\
+    \ to compress pre-trained LLMs, reducing their resource consumption during inference\
+    \ while maintaining their performance. More specifically, we approach the problem\
+    \ from a multi-objective Neural Architecture Search (NAS) perspective to jointly\
+    \ optimize performance and efficiency.\n\nBy considering the LLM as a super-network\
+    \ consisting of a large but finite number of sub-networks, we can identify a set\
+    \ of Pareto-optimal sub-networks that balance parameter count and validation performance.\
+    \ We empirically demonstrate that using NAS techniques for fine-tuning enhances\
+    \ the prunability of pre-trained LLMs and explore how this impacts real-world\
+    \ applications."
+  license: Unknown
+  name: 'Lecture: #30 Compressing Large Language Models - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 3/6/2025
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=f0JizSFMGZY
+- authors:
+  - Claudia Loitsch
+  - Julian Striegl
+  description: "In unserer Podcast-Reihe stellen wir Ihnen die verschiedenen Nachwuchsforschungsgruppen\
+    \ am ScaDS.AI Dresden/Leipzig vor.\n\nDieses Mal lernen Sie Needs-Oriented AI-Coaching\
+    \ for Students (NAIC) kennen, repräsentiert durch die Gruppenleiterin Dr.-Ing.\
+    \ Claudia Loitsch und Teammitglied Julian Striegl.\n\nHier erfahren Sie mehr über\
+    \ die Gruppe: https://scads.ai/about-us/junior-research-groups/ai-based-coaching-for-students/\n\
+    \nEine englische Übersetzung des Podcasts finden Sie in unserem Blog: https://scads.ai/naic-ai-as-a-study-coach/\n\
+    \n---\n\nIn our podcast series, we'll introduce you to the the different Junior\
+    \ Research Groups at ScaDS.AI Dresden/Leipzig. \n\nThis time, meet Needs-Oriented\
+    \ AI-Coaching for Students (NAIC) - presented by group leader Dr.-Ing. Claudia\
+    \ Loitsch and team member Julian Striegl.\n\nLearn more about the group here:\
+    \ https://scads.ai/about-us/junior-research-groups/ai-based-coaching-for-students/\n\
+    \nFind an english translation of the podcast on our blog: https://scads.ai/naic-ai-as-a-study-coach/"
+  license: Unknown
+  name: 'KI als Studiencoach: Junior Research Group NAIC bringt Chatbots in den Hörsaal
+    - ScaDS.AI'
+  num_downloads: 0
+  publication_date: 11/8/2024
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=Rqsqn7EZcjo
+- authors:
+  - Sandra Hummel
+  - Mara-Teresa Donner
+  - Gitanjali Wadhwa
+  - Syed Hur Abbas
+  description: 'Situating AI in Personalized Education
+
+
+    Artificial intelligence opens up unprecedented possibilities and perspectives
+    in the field of education. The Junior Research Group Situating AI-based Mentoring
+    is developing an AI-driven learning assistant that provides individualized, goal-oriented
+    support, taking into account the diverse needs and life contexts of students.
+    In this presentation, the AI avatar SAM guides the audience through the group’s
+    findings and approaches, demonstrating how AI can serve as a personalized mentor
+    to shape learning processes with flexibility and context sensitivity.
+
+
+
+    The presentation begins with an overview of key research questions and introduces
+    the technologies employed: Natural Language Processing (NLP) enables content analysis
+    and customization, while Machine Learning (ML), Retrieval-Augmented Generation
+    (RAG), Neural Networks (NN), and Deep Neural Networks (DNN) provide data-driven
+    adaptations and dynamic interactions. Federated Learning is used to process data
+    in a decentralized and secure manner, ensuring the privacy of learners while allowing
+    for continuous system improvement. Practical examples illustrate how these technologies
+    foster adaptive mentoring and personalized learning paths, supporting skill development,
+    social learning, and student motivation.'
+  license: Unknown
+  name: 'Lecture: #29 Situating AI in Personalized Education - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 11/7/2024
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=UKa_3n8dQ2k
+- authors:
+  - Josefine Umlauft
+  description: 'Mapping Glacier Sliding with Machine Learning
+
+
+    Glacial ice rapidly responds to changing climatic conditions, making its processes
+    strongly intermittent in time and heterogeneous in space. In particular, the physical
+    processes controlling glacial basal motion are poorly understood and remain challenging
+    to observe directly.
+
+    This lecture presents a detailed study of targeted processes within the highly
+    dynamic cryospheric environment. Using a unique seismic dataset from Glacier d’Argentière
+    (French Alps), a physics-informed feature space, and a gradient boosting decision
+    tree model, glacial sliding can be predicted with high spatio-temporal accuracy.
+    We posit that features of the seismic noise provide direct access to the dominant
+    parameters that drive displacement on the highly variable and unsteady surface
+    of the glacier, making this a new approach to studying glacial basal sliding and
+    uncovering its full complexity.'
+  license: Unknown
+  name: 'Lecture: #28 Mapping Glacier Sliding with Machine Learning - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 9/12/2024
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=UjhLfMljGPM
+- authors:
+  - Tais M. N. Carvalho
+  description: 'Beyond the surface: leveraging NLP to map global natural hazard impacts
+
+
+    Understanding how natural hazards such as floods, droughts, and storms evolve
+    into disasters requires comprehensive and accurate impact data. Recent advancements
+    in natural language processing (NLP) and large language models (LLMs) offer promising
+    tools to address the limitations of traditional data collection methods.
+
+
+    This lecture introduces a novel approach to creating a global dataset of natural
+    hazard impacts by analyzing the full text of peer-reviewed articles. By leveraging
+    the capabilities of LLMs and Retrieval-Augmented Generation, I will demonstrate
+    how we can extract and structure both quantitative and qualitative data across
+    various impact classes from unstructured text.'
+  license: Unknown
+  name: 'Lecture #27: Beyond the surface: using NLP to map natural hazard impacts
+    - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 7/4/2024
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=oeH57siRwcU
+- authors:
+  - Jan Ewald
+  - Nico Scherf
+  description: 'Variational Autoencoder – How Asterix Pushes Data from High- to Low
+    Dimensional Representation
+
+
+    In the era of high-dimensional data in biomedical research  research and other
+    application areas, representation learning and dimension reduction by deep learning
+    networks have become a popular choice and vivid field of research. Variational
+    Autoencoders (VAE) are probabilistic deep learning networks and their derivatives
+    are promising solutions for explainable representation learning or cross-modal
+    data integration. In our lecture we will touch the basics, show the application
+    to molecular data in biomedical research and our latest framework development
+    for the application of VAE to any data and research.'
+  license: Unknown
+  name: 'Lecture: #26 Variational Autoencoder - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 6/20/2024
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=QKAuzT7VMzc
+- authors:
+  - Sahar Vahdati
+  description: 'In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Dr.
+    Sahar Vahdati talks about Precision and Recall: Integrating Knowledge Graphs and
+    Language Models.
+
+
+    Let us explore the synergistic integration of knowledge graphs and language models.
+    Knowledge graphs excel in providing precise, structured data, while language models
+    offer expansive recall capabilities through natural language understanding. Let
+    us look into how blending these technologies enhances AI applications, ensuring
+    both accuracy and comprehensiveness in data handling and decision-making.'
+  license: Unknown
+  name: 'Lecture: #25 Integrating Knowledge Graphs and Language Models - ScaDS.AI
+    Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 6/6/2024
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=AOxHVvmdosQ
+- authors:
+  - Robert Haase
+  description: 'In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Dr.
+    Robert Haase talks about Large Language Models for Bio-image Analysis.
+
+
+    Generative Artificial Intelligence – and Large Language Models (LLMs) in particular
+    – are changing the way we use computers for data analysis. LLMs can take a look
+    at images, describe them, propose strategies for quantitative bio-image analysis,
+    and generate code for processing the image data reproducibly. In this lecture
+    we will learn about underlying basic principles and real-world use-cases from
+    the microscopy-/bio-image data analysis context. We will see how LLMs such as
+    OpenAI’s ChatGPT, Google’s Gemini and Open Source alternatives can be used to
+    do Bio-image Analysis.
+
+
+
+    Download the slides (including notebooks and code snippets):
+
+    https://zenodo.org/records/10822115'
+  license: Unknown
+  name: 'Lecture: #24 Large Language Models for Bio-image Analysis - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 4/9/2024
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=9dtVlVwk2eg
+- authors:
+  - Filippo De Bortoli
+  description: "In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Filippo\
+    \ De Bortoli talks about How to Design Logic-Based Decision Assistants – Performance\
+    \ vs. Expressiveness. \n\nDescription Logics are languages that can be used to\
+    \ organize knowledge and information about a topic of interest in a structured\
+    \ way, so that it can be understood and processed by automated reasoning systems.\
+    \ We can extend a Description Logic with different kinds of constructors, each\
+    \ contributing to the expressiveness of the language and the computational complexity\
+    \ of reasoning with it. If we were interested in structuring quantitative knowledge\
+    \ about healthcare and biological systems, we might want to state rules such as\
+    \ „the probability that a subject suffers from disease X given that they exhibit\
+    \ at least a symptom of type Y is between 30 and 50%“ or add numerical attributes.\n\
+    \nIn his research, Filippo De Bortoli investigates the expressive power of Description\
+    \ Logics extended with quantitative constructors using model theory, which is\
+    \ a branch of mathematical logic that studies the interactions between theories\
+    \ stated in a formal language and structures that satisfy these theories. In this\
+    \ lecture, he is going to provide a high-level overview of the mathematical tools\
+    \ that are used to distinguish Description Logics from one another and to characterize\
+    \ their expressive power.\n\n\nReferences:\n\nBaader, F., Horrocks, I., Lutz,\
+    \ C., & Sattler, U. (2017). An Introduction to Description Logic. Cambridge: Cambridge\
+    \ University Press. https://doi.org/10.1017/9781139025355\n\nFranz Baader and\
+    \ Filippo De Bortoli: On the Abstract Expressive Power of Description Logics with\
+    \ Concrete Domains. In Ana Ozaki and Oliver Kutz, editors, Proceedings of the\
+    \ 36th International Workshop on Description Logics (DL'23). To appear\n\nFranz\
+    \ Baader and Filippo De Bortoli: Description Logics That Count, and What They\
+    \ Can and Cannot Count. In Laura Kovacs, Konstantin Korovin, and Giles Reger,\
+    \ editors, ANDREI-60. Automated New-era Deductive Reasoning Event in Iberia, volume\
+    \ 68 of EPiC Series in Computing, pages 1–25. \nEasyChair, 2020. https://doi.org/10.29007/ltzn\n\
+    \nFranz Baader and Filippo De Bortoli: On the Expressive Power of Description\
+    \ Logics with Cardinality Constraints on Finite and Infinite Sets. In Andreas\
+    \ Herzig and Andrei Popescu, editors, Proc. of the 12th International Symposium\
+    \ on Frontiers of Combining Systems (FroCoS 2019), volume 11715 of Lecture Notes\
+    \ in Computer Science, pages 203–219. Springer, 2019. https://doi.org/10.1007/978-3-030-29007-8_12\n\
+    \n# Credits\nIcons are created by juicy_fish - Flaticon: https://www.flaticon.com/authors/juicy-fish"
+  license: Unknown
+  name: 'Lecture: #23 How to Design Logic-Based Decision Assistants - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 9/14/2023
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=EfSEQiE7i_8
+- authors:
+  - Franziska Kahlert
+  description: "In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Franziska\
+    \ Kahlert talks about Immersive Analysis of Trajectories Utilizing the Unreal\
+    \ Engine. \n\nIn her lecture, Franziska Kahlert highlights the potential of using\
+    \ game engines to create scientific visualizations. Specifically, she focuses\
+    \ on the goals and challenges of creating immersive visualizations using virtual\
+    \ reality technology, using the example of trajectory analysis. Kahlert argues\
+    \ that virtual reality environments offer unique opportunities for scientists\
+    \ to explore and analyze complex data sets in new ways, but also pose significant\
+    \ technical and design challenges.\n\nTo address these challenges, Kahlert suggests\
+    \ that scientists consider using the Unreal game engine, which is freely available\
+    \ and offers a range of tools and features for prototyping and developing immersive\
+    \ visualizations. By leveraging the power of game engines, scientists can create\
+    \ more engaging and interactive visualizations that allow them to better understand\
+    \ and communicate complex scientific concepts. Overall, Kahlert’s lecture highlights\
+    \ the importance of exploring new technologies and tools for scientific visualization,\
+    \ and offers practical advice for scientists looking to incorporate immersive\
+    \ visualizations into their research.\n\n\nReferences\n\nImmersive Scientific\
+    \ Visualization:\n- K. Marriott, F. Schreiber, T. Dwyer, K. Klein, N. H. Riche,\
+    \ T. Itoh, W. Stuerzlinger, and B. H. Thomas, eds. Immersive Analytics. Information\
+    \ Systems and Applications, Incl. Internet/Web, and HCI, Lect.Notes ComputerState-of-the-Art\
+    \ Surveys. Springer International Publishing, 2018\n-  J. J. LaViola, E. Kruijff,\
+    \ R. P. McMahan, D. Bowman, and I. P. Poupyrev. 3D User Interfaces: Theory and\
+    \ Practice, 2nd Edition. Addison-Wesley Professional. Part of the Usability series.,\
+    \ second ed., Mar. 2017\n- C. V. Siang, F. B. Mohamed, F. M. Salleh, M. I. Bin\
+    \ Mat Isham, A. H. Basori, and A. B. Selamat. An Overview of Immersive Data Visualisation\
+    \ Methods Using Type by Task Taxonomy. In 2021 IEEE International Conference on\
+    \ Computing (ICOCO), pp. 347–352, Nov. 2021. doi: 10. 1109/ICOCO53166.2021.9673569\n\
+    \nTrajectory Analysis:\n- G. Andrienko, N. Andrienko, P. Bak, D. Keim, S. Kisilevich,\
+    \ and S. Wrobel. A conceptual framework and taxonomy of techniques for analyzing\
+    \ movement. Journal of Visual Languages & Computing, 22(3):213–232, June 2011.\
+    \ doi: 10.1016/j.jvlc.2011.02.003\n- G. Andrienko, N. Andrienko, P. Bak, D. Keim,\
+    \ and S. Wrobel. Visual Analytics of Movement. Springer, Berlin, Heidelberg, 2013.\
+    \ doi: 10.1007/978-3-642-37583-5\n- J. He, H. Chen, Y. Chen, X. Tang, and Y. Zou.\
+    \ Diverse Visualization Techniques and Methods of Moving-Object-Trajectory Data:\
+    \ A Review. ISPRS International Journal of Geo-Information, 8(2):63, Feb. 2019.\
+    \ doi: 10.3390/ijgi8020063\n- Y. Zheng. Trajectory Data Mining: An Overview. ACM\
+    \ Transactions on Intelligent Systems and Technology, 6(3):1–41, May 2015. doi:\
+    \ 10.1145/2743025\n- C. Parent, S. Spaccapietra, C. Renso, G. Andrienko, N. Andrienko,\
+    \ V. Bogorny, M. L. Damiani, A. Gkoulalas-Divanis, J. Macedo, N. Pelekis, Y. Theodoridis,\
+    \ and Z. Yan. Semantic trajectories modeling and analysis. ACM Computing Surveys,\
+    \ 45(4):42:1–42:32, Aug. 2013. doi: 10.1145/2501654.2501656\n- S. Dodge, R. Weibel,\
+    \ and A.-K. Lautenschütz. Taking a systematic look at movement: Developing a taxonomy\
+    \ of movement patterns. 5, Apr. 2008.\n- U. Demšar, J. A. Long, F. Benitez-Paez,\
+    \ V. Brum Bastos, S. Marion, G. Martin, S. Sekuli ́c, K. Smolak, B. Zein, and\
+    \ K. Siła-Nowicka. Establishing the integrated science of movement: Bringing together\
+    \ concepts and methods from animal and human movement analysis. International\
+    \ Journal of Geographical Information Science, 35(7):1273–1308, July 2021. doi:\
+    \ 10.1080/13658816.2021.1880589\n\nUnreal Engine for scientific visualization:\n\
+    - Unreal Engine: https://www.unrealengine.com/en-US\n- Unreal Chimera: https://stim.ee.uh.edu/resources/software/unreal-microscopy/\n\
+    - Data Visualization in Digital Twins with Unreal Engine: https://www.youtube.com/watch?v=TqUpTJhmxUc\n\
+    - K.-I. Friese, M. Herrlich, and F.-E. Wolter. Using Game Engines for Visualization\
+    \ in Scientific Applications. In P. Ciancarini, R. Nakatsu, M. Rauterberg, and\
+    \ M. Roccetti, eds., New Frontiers for Entertainment Computing, IFIP International\
+    \ Federation for Information Processing, pp. 11–22. Springer US, 2008\n- M. S.\
+    \ Greenwood and M. B. R. Smith. Method for Visualizing Radiation Data using Unreal\
+    \ Engine. 2020\n- C. Marsden and F. Shankar. Using Unreal Engine to Visualize\
+    \ a Cosmological Volume. (arXiv:2010.02942), Oct. 2020. doi: 10.48550/arXiv. 2010.02942"
+  license: Unknown
+  name: 'Lecture: #22 Immersive Analysis of Trajectories Utilizing Unreal Engine -
+    ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 6/1/2023
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=OFzNaaHdn4U
+- authors:
+  - Asif Ali Khan
+  description: "In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Asif\
+    \ Ali Khan talks about the Compilation of Emerging Near-Memory and In-Memory Computing\
+    \ Architectures. \n\nThe rise of data-intensive applications exposed the limitations\
+    \ of conventional processor-centric von-Neumann architectures. Therefore, recent\
+    \ innovations in computer architecture advocate compute-in-memory (CIM) and compute-near-memory\
+    \ (CNM) paradigms where specific computational tasks are performed within and\
+    \ near the memory devices, achieving orders-of-magnitude improvements in performance\
+    \ and energy consumption.\n\nDespite significant technological breakthroughs in\
+    \ the last few years, the programmability of these systems is still a serious\
+    \ challenge. To enable their widespread adoption, it is critical to have automatic\
+    \ compilation flows instead of relying on manual mapping of specific kernels and\
+    \ applications to these architectures. This (short) talk provides an overview\
+    \ of the CIM and CNM systems, motivates the need to abstract over their device-specific\
+    \ programming models, particularly for heterogeneous CIM/CNM systems, and presents\
+    \ CINM (Cinnamon), an end-to-end compilation infrastructure for CIM and CNM systems\
+    \ that leverages device-agnostic and device-aware hierarchal abstractions to progressively\
+    \ lower an input program and perform different code transformations at different\
+    \ abstraction levels."
+  license: Unknown
+  name: 'Lecture: #21 Compilation of Emerging Near-Memory and In-Memory Computing
+    Architectures - ScaDS.AI'
+  num_downloads: 0
+  publication_date: 4/13/2023
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=9gkqBhVg6ss
 
 - authors:
   - Simon Razniewski
@@ -8893,3 +9389,590 @@ resources:
   license: cc-by-4.0
   num_downloads: 702
   submission_date: '2026-09-08T18:14:11.939113'
+
+- authors:
+  - Christina Gillmann
+  description: 'In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Christina
+    Gillmann talks about Uncertainty-Aware Visual Analytics in Life Sciences.
+
+    Visual Analytics is a well-known concept to transform data into hypothesis and
+    visualization to create new insight. Unfortunately, this process is affected by
+    a variety of uncertainty events, especially when considering datasets in life
+    sciences. In this lecture, the concept of uncertainty-aware visual analytics are
+    presented. Further, sources of uncertainty as well as the construction of uncertainty-aware
+    visual analytics approaches are discussed. At last, examples from life sciences
+    are presented.'
+  license: Unknown
+  name: 'Lecture: #20 Uncertainty-Aware Visual Analytics in Life Sciences - ScaDS.AI
+    Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 3/2/2023
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=gm4W7awTgrE
+- authors:
+  - Adnan Haidar
+  description: "In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Adnan\
+    \ Haidar talks about Touch Events Recognition on Touch Events Recognition on Smart\
+    \ Robotic Skin Sensor Using Deep Learning. \n\nWith increased human-robot interactions\
+    \ (HRI), a safe and reliable collision detection framework has become an essential\
+    \ component for dynamic and unstructured environments. ‚Sense of Touch‘ in robots\
+    \ can play a fundamental role in enhancing the perceptual, cognitive, and operative\
+    \ capabilities of robots, specifically when they physically interact with objects\
+    \ and humans in the industrial environment. Many solutions for designing, engineering,\
+    \ and manufacturing tactile sensors have been presented, because the availability\
+    \ of appropriate sensing technologies is the first and necessary step, but effective\
+    \ use of the sense of touch in robots also depends on understanding the mechanisms\
+    \ of tactile perception through which the robot builds an appropriate world model.\
+    \ In this context, this lecture presents novel touch sensor technology for sensitive\
+    \ skin and research challenges to optimize novel touch sensors to classify force\
+    \ and location detection efficiently with a deep learning approach."
+  license: Unknown
+  name: 'Lecture: #19 Touch Events Recognition on Smart Robotic Skin Sensor Using
+    Deep Learning - ScaDS.AI'
+  num_downloads: 0
+  publication_date: 2/2/2023
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=M2Nv_BQyaoQ
+- authors:
+  - Jannik Irmai
+  description: "In this talk, ScaDS.AI Dresden/Leipzig scientific researcher Jannik\
+    \ Irmai talks about Graph Multi-Cuts and Image Analysis. \n\nWe learn how graph\
+    \ theory and combinatorial optimization can be used to solve problems from the\
+    \ field of image analysis. We consider the challenging task of segmenting a three\
+    \ dimensional volume image of an electron microscopy scan of a mouse neocortex.\
+    \ The state of the art method for solving this segmentation problem consists of\
+    \ a convolutional neural network and a post-processing step, which involves solving\
+    \ the graph multi-cut problem. We will see how segmenting an image can be understood\
+    \ as a problem of cutting a graph into multiple components. The optimal multi-cut\
+    \ can be found by means of integer linear programming. This method, however, does\
+    \ not scale to large instances. To address this problem, we present a second algorithm\
+    \ that finds a good but not necessarily optimal solution efficiently. Finally,\
+    \ we will see that the multi-cut problem and algorithms have further applications\
+    \ beyond image segmentation.\n\nReferences:\n\n[1] Kasthuri et al. Saturated Reconstruction\
+    \ of a Volume of Neocortex. Cell. 2015 Jul 30;162(3):648-61. doi: 10.1016/j.cell.2015.06.054.\
+    \ PMID:26232230.\n\n[2] https://github.com/google/neuroglancer\n\n[3] Ahmed Abbas,\
+    \ Paul Swoboda; Proceedings of the IEEE/CVF Conference on Computer Vision and\
+    \ Pattern Recognition (CVPR), 2022, pp. 8193-8202\n\n[4] K. Lee, R. Lu, K. Luther\
+    \ and H. S. Seung, \"Learning and Segmenting Dense Voxel Embeddings for 3D Neuron\
+    \ Reconstruction,\" in IEEE Transactions on Medical Imaging,  vol. 40, no. 12,\
+    \ pp. 3801-3811, Dec. 2021, doi: 10.1109/TMI.2021.3097826.\n\n[5] https://github.com/markschoene/MeLeCoLe\
+    \ \n\n[6] S. Wolf et al., \"The Mutex Watershed and its Objective: Efficient,\
+    \ Parameter-Free Graph Partitioning,\" in IEEE Transactions on Pattern Analysis\
+    \ and Machine Intelligence, vol. 43, no. 10, pp. 3724-3738, 1 Oct. 2021, doi:\
+    \ 10.1109/TPAMI.2020.2980827.\n\n[7] Siyu Tang, Mykhaylo Andriluka, Bjoern Andres,\
+    \ Bernt Schiele; Proceedings of the IEEE Conference on Computer Vision and Pattern\
+    \ Recognition (CVPR), 2017, pp. 3539-3548\n\n[8] Andres, Bjoern, et al. \"3D segmentation\
+    \ of SBFSEM images of neuropil by a graphical model over supervoxel boundaries.\"\
+    \ Medical image analysis\n16.4 (2012): 796-805.\n\n[9] Keuper, Margret, et al.\
+    \ \"Efficient decomposition of image and mesh graphs by lifted multicuts.\" Proceedings\
+    \ of the IEEE International Conference on Computer Vision. 2015."
+  license: Unknown
+  name: 'Lecture: #18 Graph Multi-Cuts and Image Analysis - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 1/5/2023
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=5NnglMuzc_E
+- authors:
+  - Martin Grimmer
+  - Jörn Hoffmann
+  description: "In this lecture, ScaDS.AI Dresden/Leipzig scientific researchers Martin\
+    \ Grimmer and Jörn Hoffmann talk about Security Research: Intrusion Detection.\
+    \ \n\nMartin Grimmer and Jörn Hoffmann give you a brief introduction to the field\
+    \ of intrusion detection. They introduce you to the basics of host-based intrusion\
+    \ detection systems (HIDS), show you some algorithms and talk about our Leipzig\
+    \ intrusion detection data set."
+  license: Unknown
+  name: 'Lecture: #17 Security Research: Intrusion Detection - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 12/9/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=WwnBvYuo1eg
+- authors:
+  - Andrei Politov
+  description: "In this talk, ScaDS.AI Dresden/Leipzig scientific researcher Andrei\
+    \ Politov talks about Parallel and Distributed Deep Learning. \n\nDeep Learning\
+    \ technologies are a fast-growing area of Machine Learning. These technologies\
+    \ have been used in many promising industry projects and scientific research,\
+    \ which has allowed machine learning to develop widely in recent years. Effectiveness\
+    \ and utilization of the power of modern computers are one of the core challenges\
+    \ that Deep Learning faces. However, Deep Learning models have inherent parallelism.\
+    \ Exploiting and applying this parallelism to hardware is one of the most exciting\
+    \ and important research directions that researchers of these models face. In\
+    \ the lecture a variety of topics in the context of parallelism and distribution\
+    \ in Deep Learning are discussed."
+  license: Unknown
+  name: 'Lecture: #16 Parallel and Distributed Deep Learning - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 11/3/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=gD3-xSv5RCI
+- authors:
+  - Philippe Krajsic
+  description: "In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Philippe\
+    \ Krajsic talks about Artificial Intelligence in Process Mining. \n\nProcess mining\
+    \ is an emerging discipline providing comprehensive sets of tools to provide fact-based\
+    \ insights and to support business process improvements. This new discipline builds\
+    \ on process model-driven approaches and data-centric analysis methods. Through\
+    \ AI-based technologies, the analytical accuracy of process mining activities\
+    \ can be increased, enabling us to better understand complex process structures\
+    \ and gain better insight into end-to-end processes."
+  license: Unknown
+  name: 'Lecture: #15 Artificial Intelligence in Process Mining - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 10/6/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=zl3DGMNBn9c
+- authors:
+  - Elias Werner
+  description: In this lecture, Elias Werner introduces computational challenges of
+    big data. In particular Veracity, that characterizes the change and uncertainty
+    in the data. The detection of concept drift is one approach of addressing veracity.
+    Therefore, he explains concept drift based on an illustrative example, highlights
+    the state-of-the-art in this research field and gives an outlook on future work.
+  license: Unknown
+  name: 'Lecture: #14 Big Data Context Awareness by Drift Detection - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 9/6/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=srz_GPIv3C0
+- authors:
+  - Thomas Villmann
+  description: 'In this lecture, Prof. Dr. Thomas Villmann talks about Interpretable
+    and Robust Classification Learning by Learning Vector Quanteizers.
+
+
+    After the overwhelming success of deep networks the need for smart classification
+    models is increasingly providing an alternative in cases with hardware constraints.
+    Further, interpretability is frequently demanded and leads to a better acceptance
+    of machine learning tools. Additionally, guarantees for robustness should provide
+    classification certainty and model confidence.
+
+
+    He reflects current developments of the learning vector quantization model, which
+    was originally introduced by T. Kohonen in the 80s of the last century but mathematically
+    justified and significantly extended during the last years. Surprisingly, these
+    classifier models are highly flexible and adjustable for various classification
+    tasks while providing interpretability, robustness as well as being smart models
+    with low computational requirements. Prof. Dr. Thomas Villmann presents the most
+    important developments and theoretical results, which ensure the required robustness,
+    certainty and flexibility while keeping the interpretability. Selected application
+    cases illustrate the abilities of the models.'
+  license: Unknown
+  name: 'Lecture: #13 Interpretable & Robust Classification Learning by Learning Vector
+    Quanteizers- ScaDS.AI'
+  num_downloads: 0
+  publication_date: 8/11/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=5BrK1rWzsN4
+- authors:
+  - Norman Koch
+  description: 'No-code Browser-based AI Toolkit
+
+
+    asanAI is still under development, however feel free to give it a try: https://asanai.scads.ai'
+  license: Unknown
+  name: 'asanAI: Introduction - E04'
+  num_downloads: 0
+  publication_date: 7/8/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=0anMzOtkaGE
+- authors:
+  - Norman Koch
+  description: 'No-code Browser-based AI Toolkit
+
+
+    asanAI is still under development, however feel free to give it a try: https://asanai.scads.ai'
+  license: Unknown
+  name: 'asanAI: Introduction - E03'
+  num_downloads: 0
+  publication_date: 7/8/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=HMPm5XiuUp8
+- authors:
+  - Norman Koch
+  description: 'No-code Browser-based AI Toolkit
+
+
+    asanAI is still under development, however feel free to give it a try: https://asanai.scads.ai'
+  license: Unknown
+  name: 'asanAI: Introduction - E02'
+  num_downloads: 0
+  publication_date: 7/8/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=6-06HMzz_bA
+- authors:
+  - Norman Koch
+  description: 'No-code Browser-based AI Toolkit
+
+
+    asanAI is still under development, however feel free to give it a try: https://asanai.scads.ai'
+  license: Unknown
+  name: 'asanAI: Introduction - E01'
+  num_downloads: 0
+  publication_date: 7/8/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=i19wPH5Ai4o
+- authors:
+  - Verena Maleska
+  - Marzan Tasnim Oyshi
+  description: "In this lecture, ScaDS.AI Dresden/Leipzig scientific researchers Verena\
+    \ Maleska and Marzan Tasnim Oyshi talk about FloodVis – Visualization of Climate\
+    \ Ensemble Flood Projections in Virtual Reality. \n\nFloodVis provides the means\
+    \ to visualize potential future flood risks in Virtual Reality (VR). Displaying\
+    \ the results in a VR supports the user in understanding the complexity of the\
+    \ dynamics of the flood risk system and provides a sense of presence. In FloodVis,\
+    \ the user goes into a virtual environment to interact with the data and explore\
+    \ the temporal evolution of different flood events under the influence of climate\
+    \ change."
+  license: Unknown
+  name: 'Lecture: #12 FloodVis: Visualization of Flood Projections in VR - ScaDS.AI
+    Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 7/7/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=8pAw9URX9go
+- authors:
+  - Maja Schneider
+  - Anika Hannemann
+  description: "In this lecture, ScaDS.AI Dresden/Leipzig scientific researchers Maja\
+    \ Schneider and Anika Hannemann talk about Privacy Preserving Data Processing.\
+    \ \n\nIn the first part of the lecture, our researchers talk about Privacy-Preserving\
+    \ Data Publishing (PPDP) and illustrate this topic on the example of mobility\
+    \ data by showing its potential but also highlighting the involved privacy risk\
+    \ when such data is being published. Privacy preserving machine learning  (PPML)\
+    \ on the example of decentralised clinical data is the second focus topic of this\
+    \ lecture. PPML is a subdiscipline of Machine Learning that deals with modelling\
+    \ on sensitive data while preserving their privacy. Privacy and a framework for\
+    \ the evaluation of privacy guarantees are defined and, furthermore, an ensemble\
+    \ learning method for modelling on distributed data sets is introduced."
+  license: Unknown
+  name: 'Lecture: #11 Privacy Preserving Data Processing - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 6/10/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=HTkEdudt_8M
+- authors:
+  - Unknown
+  description: "Voice assistants, cloud services, and smart applications: the future\
+    \ technologies of Artificial Intelligence are playing an increasingly important\
+    \ role in many areas of society, especially research. In our interdisciplinary\
+    \ online lecture series, current and topical issues are examined from different\
+    \ perspectives. The lecture series has started with the topic “Ethics and Moral\
+    \ Code in Artificial Intelligence”, discussing transparency, privacy, and data\
+    \ protection in AI systems. Further lectures by researchers from the Competence\
+    \ Center will follow every first Thursday of the month and will deal with different\
+    \ aspects of Data Science, Big Data, Data Analytics, Machine Learning, Modeling\
+    \ Human-Environment Relationships and more. The digital events will take place\
+    \ as part of the newly emerging ScaDS.AI Living Lab, with locations in Dresden\
+    \ and Leipzig. The aim of the Living Lab is to use demonstrators and interactive\
+    \ demonstrations to show how Big Data analytics, machine learning algorithms,\
+    \ and AI systems are used in our everyday lives. Together, we invite our visitors\
+    \ to engage with Data Science and AI alongside us. The interdisciplinary lecture\
+    \ series, which can be attended free of charge and without registration, offers\
+    \ an initial discussion platform for this purpose.\n\nFind out more about ScaDS.AI\
+    \ Dresden/Leipzig:\nwww.scads.ai\nwww.twitter.com/Sca_DS \n\nGet to know our Living\
+    \ Lab:\nwww.scads.ai/living-lab-en\nwww.scads.ai/living-lab-en/online-lecture-series/"
+  license: Unknown
+  name: Living Lab Lecture Series
+  num_downloads: 0
+  publication_date: 5/18/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=KI3kjGnTPZc
+- authors:
+  - Hermann Diebel-Fischer
+  description: 'In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Dr.
+    Hermann Diebel-Fischer outlines the relationship of Ethics and Artificial Intelligence.
+    His talk is designed in regard to two fundamental issues: (1) the intricate translation
+    processes that take place when we need to make the world computable, i.e. render
+    it into data, and (2) the structure of ethics itself.
+
+
+    Our understanding of the world is already shaped by technology and therefore,
+    it makes sense to us, to understand ethics technologically. However, this understanding
+    of ethics might not capture how ethics actually works, as it is irrational and
+    unquantifiable, yet still important parts are likely to be left out (cf. (1)).
+    Hermann Diebel-Fischer describes ethics as a human endeavour that cannot be considered
+    without referring to its underlying and changing technological structure which
+    at the same time has an impact on technological progress.'
+  license: Unknown
+  name: 'Lecture: #10 Ethics and AI: A Complicated Relationship? - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 5/4/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=NrQSOzelbx0
+- authors:
+  - Klaudia-Doris Thellmann
+  - Bernhard Stadler
+  description: "In this lecture, Klaudia-Doris Thellmann and Bernhard Stadler teach\
+    \ you about Language Models for Code Generation. \n\nEfforts to automatically\
+    \ generate source code from natural language instructions to overcome the human-machine\
+    \ language barrier have existed since the early days of computer science. As a\
+    \ result, numerous approaches have emerged over the last decades, ranging from\
+    \ statistical methods with focus on rule induction or probabilistic grammars to\
+    \ artificial neural networks. In the last few years, large-scale pre-trained neural\
+    \ language models have shown impressive performance on a variety of natural language\
+    \ processing tasks and have also become the basis for a growing number of programming-related\
+    \ tasks such as code completion or synthesizing code from natural language descriptions.\n\
+    \nKlaudia-Doris Thellmann and Bernhard Stadler give an overview of state-of-the-art\
+    \ language models for program synthesis. Furthermore, they present basic characteristics\
+    \ of these models and discuss several of their limitations. A critical weakness\
+    \ of these language models is systematic reasoning, which is crucial for understanding\
+    \ the programming task at hand and generating program code. One possible direction\
+    \ of research that could help alleviate these limitations is the inclusion of\
+    \ structural knowledge – an attempt they make in this regard and briefly introduce."
+  license: Unknown
+  name: 'Lecture: #9 Language Models for Code Generation - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 4/7/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=mto9XS1Bf1c
+- authors:
+  - Benjamin Uhrich
+  description: "In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Benjamin\
+    \ Uhrich explains to the audience how to use physics-informed machine learning\
+    \ to optimize 3D printing processes. \n\nThe lecture focuses on the development\
+    \ of physics-informed neural networks for intelligent real-time modeling and simulation\
+    \ of temperature processes in additive manufacturing. The resulting digital twin\
+    \ can be used to efficiently predict component quality deficiencies and optimize\
+    \ 3D printing processes. In particular, cost and working time can be reduced.\n\
+    \nFind the paper here: https://link.springer.com/chapter/10.1007/978-3-031-33890-8_18"
+  license: Unknown
+  name: 'Lecture: #8 Using Physics-Informed Machine Learning to Optimize 3D Printing
+    Processes - ScaDS.AI'
+  num_downloads: 0
+  publication_date: 3/3/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=aN4wnSdbJO8
+- authors:
+  - Jan Frenzel
+  description: 'In this lecture, Jan Frenzel introduces the audience to the area of
+    performance evaluation and performance investigation of these frameworks. Furthermore,
+    Jan Frenzel presents the benefits of using an established performance analysis
+    tool, Vampir, as an alternative to the dashboards of Apache Spark and Apache Flink.
+
+
+    In the last years, the amount of data that needs to processed has increased tremendously.
+    Java-based frameworks, such as Apache Hadoop, Apache Spark and Apache Flink have
+    been developed to simplify the work with distributed data by hiding much of the
+    complexity related to distributed data processing, such as splitting data or moving
+    data in the compute cluster, behind functional building blocks. However, because
+    of this hidden complexity, performance analysis of applications written with these
+    frameworks is particularly challenging. The performance could be limited by the
+    application, the framework itself or the framework’s configuration. Different
+    approaches could be used to investigate these potential causes of low performance.'
+  license: Unknown
+  name: 'Lecture: #7 Big Data Performance Analysis - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 2/3/2022
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=NvYxG9UKFHU
+- authors:
+  - Florens Rohde
+  description: "In this lecture, Florens Rohde introduces the audience to state-of-the-art\
+    \ methods, challenges and his research topics in Privacy-Preserving Record Linkage.\
+    \ \n\nA crucial task in data integration is record linkage or entity resolution\
+    \ that aims at linking records that refer to the same  real-world entity, such\
+    \ as persons. For example, in multi-site medical  research data from several sources\
+    \ (e. g., hospitals) has to be matched to analyze correlations between medical\
+    \ data of the same patient in multiple data sources.\nTypically, there is a lack\
+    \ of global identifiers, therefore the linkage can only be achieved by comparing\
+    \ available quasi-identifiers, such as name, address or date of birth. However,\
+    \ in many cases, data owners are only willing or allowed to provide their data\
+    \ for such data integration if there is sufficient protection of sensitive information\
+    \ to ensure the privacy of persons. Privacy-preserving Record Linkage addresses\
+    \ this problem by providing techniques to match records without revealing plaintext\
+    \ data to each other or to third parties."
+  license: Unknown
+  name: 'Lecture: #6 Privacy-preserving Record Linkage - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 12/2/2021
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=oellMk4A8w4
+- authors:
+  - Sunna Torge
+  - Lena Jurkschat
+  - Lalith Manjunath
+  description: 'In this lecture, ScaDS.AI Dresden/Leipzig scientific researchers Dr.
+    Sunna Torge, Lena Jurkschat and Lalith Manjunath talk about Natural Language Processing
+    (NLP) with a focus on domain-specific text analysis.
+
+
+    After an introduction to language modelling and text analysis using machine learning
+    (ML) methods, the analysis of two different text data sets is explained. In the
+    lecture, Dr. Sunna Torge, Lena Jurkschat and Lalith Manjunath show how clustering
+    and domain specific entity recognition works.'
+  license: Unknown
+  name: 'Lecture: #5 Natural Language Processing - Domain-Specific Text Analysis -
+    ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 11/11/2021
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=XrtJqlwfqQ4
+- authors:
+  - nan
+  description: nan
+  license: Unknown
+  name: Opening of ScaDS.AI Living Lab in Leipzig
+  num_downloads: 0
+  publication_date: 10/28/2021
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=QlswsVaD_eE
+- authors:
+  - Markus Ulbricht
+  description: In this lecture, Dr. Markus Ulbricht discusses Abstract Argumentation
+    Frameworks.
+  license: Unknown
+  name: 'Lecture: #4 Abstract Argumentation Frameworks - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 10/28/2021
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=N5uBBy2UMTw
+- authors:
+  - Peter Winkler
+  - Norman Koch
+  description: 'In this lecture, Dr. Peter Winkler and Norman Koch talk about Hyperparameter
+    Optimization.
+
+
+    Finding hyperparameters for neural networks is a time-consuming and tedious task.
+    With our service OmniOpt, we offer a simple way of finding good hyperparameter
+    sets for neural networks and simulations, which only needs minimal changes to
+    your program itself. The optimization runs can be set up via an intuitive web
+    interface and runs smoothly on the HPC Cluster Taurus of TUD Dresden University
+    of Technology. Moreover, automatical evaluation and graphical representation of
+    the results is included.'
+  license: Unknown
+  name: 'Lecture: #3 OmniOpt: A Tool for Hyper-Parameter Optimization on HPC - ScaDS.AI
+    Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 9/9/2021
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=iyuP_7c65Zg
+- authors:
+  - Christopher Rost
+  - Kevin Gomez
+  description: In this lecture, ScaDS.AI Dresden/Leipzig scientific researchers Christopher
+    Rost and Kevin Gomez talk about Temporal Graph Analysis.
+  license: Unknown
+  name: 'Lecture: #2 Temporal Graph Analysis - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 8/13/2021
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=cFO13fu5xDo
+- authors:
+  - Rita Jordan
+  - Niklas Lange
+  - Franz Lehr
+  description: In this lecture, Rita Jordan, Niklas Lange, and Franz Lehr explain
+    how transparency, privacy, and data protection in AI systems work. Furthermore,
+    they imagine how the future of this research field could look like.
+  license: Unknown
+  name: 'Lecture: #1 Ethics and Moral Code in AI - ScaDS.AI Dresden/Leipzig'
+  num_downloads: 0
+  publication_date: 7/26/2021
+  submission_date: '2026-09-09'
+  tags:
+  - Living Lab Lecture
+  - Video
+  url:
+  - https://www.youtube.com/watch?v=wxQAuBHW194
