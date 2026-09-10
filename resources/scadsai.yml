@@ -9370,11 +9370,30 @@ resources:
   - Video
   url:
   - https://www.youtube.com/watch?v=9gkqBhVg6ss
+
+- authors:
+  - Simon Razniewski
+  description: 'Images created to illustrate GPTKB 2.0 entities, using the black-forest-labs/FLUX.2-dev
+    VLM. File name = entity ID, e.g., "E0.jpg" illustrates https://gptkb.org/entity/E0/
+    (Vannevar Bush).
+
+    The generating prompts are retained in manifest.jsonl, and consist of the entity
+    label + description.
+
+    '
+  name: GPTKB_2.0_images
+  publication_date: '2026-08-19'
+  tags: []
+  type: Dataset
+  url: https://huggingface.co/datasets/Knowledge-aware-AI/GPTKB_2.0_images
+  license: cc-by-4.0
+  num_downloads: 702
+  submission_date: '2026-09-08T18:14:11.939113'
+
 - authors:
   - Christina Gillmann
   description: 'In this lecture, ScaDS.AI Dresden/Leipzig scientific researcher Christina
     Gillmann talks about Uncertainty-Aware Visual Analytics in Life Sciences.
-
 
     Visual Analytics is a well-known concept to transform data into hypothesis and
     visualization to create new insight. Unfortunately, this process is affected by
@@ -9689,7 +9708,7 @@ resources:
   url:
   - https://www.youtube.com/watch?v=HTkEdudt_8M
 - authors:
-  - nan
+  - Unknown
   description: "Voice assistants, cloud services, and smart applications: the future\
     \ technologies of Artificial Intelligence are playing an increasingly important\
     \ role in many areas of society, especially research. In our interdisciplinary\
@@ -9850,7 +9869,8 @@ resources:
   url:
   - https://www.youtube.com/watch?v=oellMk4A8w4
 - authors:
-  - Sunna Torge, Lena Jurkschat
+  - Sunna Torge
+  - Lena Jurkschat
   - Lalith Manjunath
   description: 'In this lecture, ScaDS.AI Dresden/Leipzig scientific researchers Dr.
     Sunna Torge, Lena Jurkschat and Lalith Manjunath talk about Natural Language Processing
@@ -9940,7 +9960,9 @@ resources:
   url:
   - https://www.youtube.com/watch?v=cFO13fu5xDo
 - authors:
-  - nan
+  - Rita Jordan
+  - Niklas Lange
+  - Franz Lehr
   description: In this lecture, Rita Jordan, Niklas Lange, and Franz Lehr explain
     how transparency, privacy, and data protection in AI systems work. Furthermore,
     they imagine how the future of this research field could look like.
@@ -9953,4 +9975,4 @@ resources:
   - Living Lab Lecture
   - Video
   url:
-  - Rita Jordan, Niklas Lange, and Franz Lehr
+  - https://www.youtube.com/watch?v=wxQAuBHW194
