@@ -9975,4 +9975,307 @@ resources:
   - Living Lab Lecture
   - Video
   url:
-  - https://www.youtube.com/watch?v=wxQAuBHW194
+  - https://www.youtube.com/watch?v=wxQAuBHW194- authors:
+  - David Montero Loaiza
+  - Cesar Aybar
+  - Marco Wolsza
+  description: On-Demand Earth System Data Cubes (ESDCs) in Python
+  license: MIT
+  name: cubo
+  publication_date: '2023-02-12'
+  submission_date: '2026-09-14T16:42:36.309339'
+  tags:
+  - data
+  - data-cube
+  - datacube
+  - eo
+  - geographic-information-systems
+  - gis
+  - landsat
+  - modis
+  - python
+  - remote-sensing
+  - sentinel-2
+  - dask
+  - geospatial
+  - stac
+  - xarray
+  - earth-engine
+  - google-earth-engine
+  type: software
+  url:
+  - https://github.com/ESDS-Leipzig/cubo
+- authors:
+  - oleschwen
+  - JieFu Zhu
+  - gfidlab-ci-user
+  - Debora J
+  - Kilian Gildemeister
+  - dependabot[bot]
+  - Eike Petersen
+  description: MediSwarm is an open-source project for advancing medical deep learning
+    using swarm intelligence and NVFlare. Developed by the Odelia consortium, it ensures
+    data privacy through federated learning, enabling collaborative, decentralized
+    model training across institutions for improved medical research and applications.
+  license: MIT
+  name: MediSwarm
+  publication_date: '2024-05-27'
+  submission_date: '2026-09-14T16:42:43.939606'
+  type: software
+  url:
+  - https://github.com/KatherLab/MediSwarm
+- authors:
+  - Fabian Wolf
+  description: Web-based tool to deidentify documents using LLMs
+  license: AGPL-3.0
+  name: deidentifier
+  publication_date: '2026-07-22'
+  submission_date: '2026-09-14T16:42:45.797709'
+  type: software
+  url:
+  - https://github.com/KatherLab/deidentifier
+- authors:
+  - Fabian Wolf
+  description: A web interface for the LLMAIx framework. Information Extraction.
+  license: AGPL-3.0
+  name: llmaixweb
+  publication_date: '2025-05-13'
+  submission_date: '2026-09-14T16:42:47.573981'
+  type: software
+  url:
+  - https://github.com/KatherLab/llmaixweb
+- authors:
+  - Juan Pablo Ricapito
+  - Marko van Treeck
+  - Minh Duc Nguyen
+  - Omar El Nahhas
+  - Fabian Wolf
+  - cornzz
+  - Georg Wölflein
+  - Aaron
+  - tsorz
+  - Gürcan Mustafa Özden
+  description: Solid Tumor Associative Modeling in Pathology
+  license: MIT
+  name: STAMP
+  publication_date: '2023-09-22'
+  submission_date: '2026-09-14T16:42:53.464699'
+  tags:
+  - bioimage-analysis
+  - bioinformatics
+  - deep-learning
+  - digital-pathology
+  - heatmaps-visualization-tool
+  - histopathology
+  - pathology
+  - pathology-informatics
+  - research
+  - tcga-data
+  - weakly-supervised-learning
+  - whole-slide-imaging
+  - agents
+  - mcp
+  - mcp-server
+  - survival-analysis
+  type: software
+  url:
+  - https://github.com/KatherLab/STAMP
+- authors:
+  - Laura Žigutytė
+  - Tim Lenz
+  - Jakob Nikolas Kather
+  description: MOrphing histoPAthology DIffusion models for explainability of AI pipelines
+    in medical image analysis.
+  license: NOASSERTION
+  name: mopadi
+  publication_date: '2024-02-20'
+  submission_date: '2026-09-14T16:42:56.131367'
+  type: software
+  url:
+  - https://github.com/KatherLab/mopadi
+- authors:
+  - Fabian Wolf
+  description: ''
+  license: MIT
+  name: wsi-viewer
+  publication_date: '2025-09-30'
+  submission_date: '2026-09-14T16:42:58.033101'
+  type: software
+  url:
+  - https://github.com/KatherLab/wsi-viewer
+- authors:
+  - Laura Žigutytė
+  - Jakob Nikolas Kather
+  description: ''
+  name: IDHBrainDiffUI
+  publication_date: '2026-07-07'
+  submission_date: '2026-09-14T16:43:00.296789'
+  type: software
+  url:
+  - https://github.com/KatherLab/IDHBrainDiffUI
+- authors:
+  - Vidhya
+  description: SLIDE-level vision-language model with a FLAMINGO architecture for
+    pathology report generation.
+  name: SlideFlame
+  publication_date: '2026-04-27'
+  submission_date: '2026-09-14T16:43:02.097456'
+  type: software
+  url:
+  - https://github.com/KatherLab/SlideFlame
+- authors:
+  - peter25n
+  description: Efficient Approach for Guided Local Examination in Digital Pathology
+  license: GPL-3.0
+  name: EAGLE
+  publication_date: '2025-01-21'
+  submission_date: '2026-09-14T16:43:03.905563'
+  type: software
+  url:
+  - https://github.com/KatherLab/EAGLE
+- authors:
+  - JieFu Zhu
+  - Kevin Pfeiffer
+  - gfidlab-ci-user
+  - np520
+  description: Experimental repo for Odelia project based on HPE platform. This repo
+    contains multiple models for histopathology and radiology training.
+  license: MIT
+  name: swarm-learning-hpe
+  publication_date: '2023-01-20'
+  submission_date: '2026-09-14T16:43:07.148889'
+  tags:
+  - blockchain
+  - deep-learning
+  - distributed-systems
+  type: software
+  url:
+  - https://github.com/KatherLab/swarm-learning-hpe
+- authors:
+  - Minh Duc Nguyen
+  description: ''
+  name: STAMP-Workbench
+  publication_date: '2026-03-31'
+  submission_date: '2026-09-14T16:43:08.975459'
+  type: software
+  url:
+  - https://github.com/KatherLab/STAMP-Workbench
+- authors:
+  - gfidlab-ci-user
+  - JieFu Zhu
+  description: ''
+  license: MIT
+  name: Latent-Diffusion-3D-Medical-Synthesis
+  publication_date: '2026-02-19'
+  submission_date: '2026-09-14T16:43:11.162082'
+  type: software
+  url:
+  - https://github.com/KatherLab/Latent-Diffusion-3D-Medical-Synthesis
+- authors:
+  - Jakob Nikolas Kather
+  description: ''
+  name: tumorboard-dashboard
+  publication_date: '2026-01-08'
+  submission_date: '2026-09-14T16:43:13.031095'
+  type: software
+  url:
+  - https://github.com/KatherLab/tumorboard-dashboard
+- authors:
+  - Vidhya
+  description: 'HIBRID: Histology and ct-DNA based Risk-stratification with Deep Learning'
+  license: MIT
+  name: HIBRID
+  publication_date: '2025-01-14'
+  submission_date: '2026-09-14T16:43:14.851609'
+  type: software
+  url:
+  - https://github.com/KatherLab/HIBRID
+- authors:
+  - Tim Lenz
+  - Fabian Wolf
+  description: ''
+  license: GPL-3.0
+  name: host_vllm
+  publication_date: '2026-01-29'
+  submission_date: '2026-09-14T16:43:17.081610'
+  type: software
+  url:
+  - https://github.com/KatherLab/host_vllm
+- authors:
+  - Tim Lenz
+  description: generate images with z-image turbo
+  license: GPL-3.0
+  name: z-image-generation
+  publication_date: '2026-01-22'
+  submission_date: '2026-09-14T16:43:19.005354'
+  type: software
+  url:
+  - https://github.com/KatherLab/z-image-generation
+- authors:
+  - Jakob Nikolas Kather
+  description: ''
+  license: MIT
+  name: tabpfnbenchmark
+  publication_date: '2026-01-06'
+  submission_date: '2026-09-14T16:43:20.839363'
+  type: software
+  url:
+  - https://github.com/KatherLab/tabpfnbenchmark
+- authors:
+  - Junhao Liang
+  description: ''
+  license: NOASSERTION
+  name: PathPrism
+  publication_date: '2025-09-11'
+  submission_date: '2026-09-14T16:43:22.685739'
+  type: software
+  url:
+  - https://github.com/KatherLab/PathPrism
+- authors:
+  - Fabian Wolf
+  - dependabot[bot]
+  description: Python library for document preprocessing and information extraction
+  license: MIT
+  name: llmaixlib
+  publication_date: '2025-05-07'
+  submission_date: '2026-09-14T16:43:24.913410'
+  type: software
+  url:
+  - https://github.com/KatherLab/llmaixlib
+- authors:
+  - Tim Lenz
+  - Fabian Wolf
+  description: COntrastive Biomarker Representation Alignment (COBRA) [CVPR25]
+  license: GPL-3.0
+  name: COBRA
+  publication_date: '2024-12-13'
+  submission_date: '2026-09-14T16:43:27.138375'
+  type: software
+  url:
+  - https://github.com/KatherLab/COBRA
+- authors:
+  - Tim Lenz
+  description: ''
+  license: GPL-3.0
+  name: CLEAR
+  publication_date: '2025-02-27'
+  submission_date: '2026-09-14T16:43:28.952236'
+  type: software
+  url:
+  - https://github.com/KatherLab/CLEAR
+- authors:
+  - Niclas Rosteck
+  description: Metis is a conversational agent aiming to provide students support
+    in many aspects of their studies. It is designed to be modular and support many
+    different types of bots with different underlying architectures. Metis aims to
+    assist the user based on the learner's personal preferences.
+  license: MIT
+  name: metis
+  publication_date: '2026-01-14'
+  submission_date: '2026-09-14T16:43:31.542836'
+  tags:
+  - chatbot
+  - conversational-agents
+  type: software
+  url:
+  - https://github.com/KI-FEM/metis
