@@ -9975,4 +9975,66 @@ resources:
   - Living Lab Lecture
   - Video
   url:
-  - https://www.youtube.com/watch?v=wxQAuBHW194
+  - https://www.youtube.com/watch?v=wxQAuBHW194- authors:
+  - autmoate99
+  description: ''
+  name: cactus-needle2-calendar-write-dt
+  publication_date: '2026-09-11'
+  tags:
+  - base_model:Cactus-Compute/needle2
+  - base_model:finetune:Cactus-Compute/needle2
+  - cactus-needle
+  - calendar
+  - de
+  - edge
+  - german
+  - needle
+  - on-device
+  - tool-calling
+  type: Model
+  url: https://huggingface.co/autmoate/cactus-needle2-calendar-write-dt
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-09-15T18:39:24.330299'
+- authors:
+  - autmoate99
+  description: ''
+  name: cactus-needle2-calendar-read-dt
+  publication_date: '2026-09-11'
+  tags:
+  - base_model:Cactus-Compute/needle2
+  - base_model:finetune:Cactus-Compute/needle2
+  - cactus-needle
+  - calendar
+  - de
+  - edge
+  - german
+  - needle
+  - on-device
+  - tool-calling
+  type: Model
+  url: https://huggingface.co/autmoate/cactus-needle2-calendar-read-dt
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-09-15T18:39:24.492900'
+- authors:
+  - autmoate99
+  description: ''
+  name: cactus-needle2-reminder-dt
+  publication_date: '2026-09-11'
+  tags:
+  - base_model:Cactus-Compute/needle2
+  - base_model:finetune:Cactus-Compute/needle2
+  - cactus-needle
+  - calendar
+  - de
+  - edge
+  - german
+  - needle
+  - on-device
+  - tool-calling
+  type: Model
+  url: https://huggingface.co/autmoate/cactus-needle2-reminder-dt
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-09-15T18:39:24.646268'
