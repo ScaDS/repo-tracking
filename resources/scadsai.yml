@@ -9975,4 +9975,32 @@ resources:
   - Living Lab Lecture
   - Video
   url:
-  - https://www.youtube.com/watch?v=wxQAuBHW194
+  - https://www.youtube.com/watch?v=wxQAuBHW194- authors:
+  - Taeschner, Matthias
+  - Haase, Robert
+  description: 'In diesem Slide-Deck lernen wir die souver&auml;ne KI-Infrastruktur
+    der Universit&auml;t Leipzig KIARA kennen. Dar&uuml;ber hinaus definieren wir
+    einige g&auml;ngie Begriffe und Vorgehensweisen im KI-Kontext, zum Beispiel Cut-Off
+    Dates, Kontextl&auml;nge und Wissensbasen. Diese Folien sind verkn&uuml;pft mit
+    den praktischen &Uuml;bungsmaterialien: https://scads.github.io/kiara-training-2026'
+  license: cc-by-4.0
+  name: KIARA Training
+  num_downloads: 9
+  publication_date: '2026-09-15'
+  submission_date: '2026-09-22T17:51:09.162523'
+  url:
+  - https://zenodo.org/records/22765275
+  - https://doi.org/10.5281/zenodo.22765275
+- authors:
+  - Haase, Robert
+  description: In diesem Slide-Deck lernen wir wie KI-Agentensysteme funktionieren,
+    die Dokumente durchsuchen und analysieren k&ouml;nnen. Wir streifen die Begriffe
+    Prompt-Engineering, Vector-Embeddings und Retrieval-Augmented Generation.
+  license: cc-by-4.0
+  name: KI-Agenten zur Dokumentenanalyse
+  num_downloads: 15
+  publication_date: '2026-08-27'
+  submission_date: '2026-09-22T17:51:09.702855'
+  url:
+  - https://zenodo.org/records/22707847
+  - https://doi.org/10.5281/zenodo.22707847
