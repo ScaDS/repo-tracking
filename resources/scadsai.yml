@@ -9976,3 +9976,13 @@ resources:
   - Video
   url:
   - https://www.youtube.com/watch?v=wxQAuBHW194
+- authors:
+  - dengzhipeng2019-wq
+  description: ''
+  license: GNU General Public License v3.0
+  name: LiKiSeg
+  publication_date: '2026-08-03T17:20:00+00:00'
+  submission_date: '2026-09-22T10:22:33.278386'
+  type: GitHub Repository
+  url: https://github.com/HoehmeLab/LiKiSeg
+  
