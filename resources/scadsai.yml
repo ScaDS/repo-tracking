@@ -9976,3 +9976,29 @@ resources:
   - Video
   url:
   - https://www.youtube.com/watch?v=wxQAuBHW194
+- authors:
+  - Deng, Zhipeng
+  - Friebel, Adrian
+  - Siddiqui, Qasim
+  - Hobloss, Zaynab
+  - Myllys, Maiju
+  - Hengstler, Jan G
+  - Ghallab, Ahmed
+  - Hoehme, Stefan
+  description: This record contains pretrained nnU-Net v2 models for LiKiSeg, a QuPath-integrated
+    toolkit for semantic segmentation of murine liver and kidney whole-slide images.
+    The collection includes models for tissue regions, renal glomeruli, fibrosis, immune-cell-enriched
+    regions, ductal structures, and marker-defined liver regions, with standard and
+    light variants available for selected tasks. Each model is provided as an individual
+    ZIP archive and can be installed in the LiKiSeg model directory for direct use in
+    QuPath. These models are intended for research use only.
+  license: cc-by-4.0
+  name: LiKiSeg pretrained models for liver and kidney whole slide images segmentation
+    (v1.1.0)
+  num_downloads: 9
+  publication_date: '2026-07-31'
+  submission_date: '2026-09-22T10:23:02.740871'
+  url:
+  - https://zenodo.org/records/20875313
+  - https://doi.org/10.5281/zenodo.20875313
+  
