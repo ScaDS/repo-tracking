@@ -9975,4 +9975,53 @@ resources:
   - Living Lab Lecture
   - Video
   url:
-  - https://www.youtube.com/watch?v=wxQAuBHW194
+  - https://www.youtube.com/watch?v=wxQAuBHW194- authors:
+  - Welz, Oliver
+  - Haase, Robert
+  description: 'In this slide deck we dive into applications and best-practices of
+    large language models for natural language processing for the purpose of information
+    retrieval and text translation. The target audience are scientists in linguistics
+    and translatology who want to work more deeply with artificial intelligence. These
+    slides are relate to the hands-on exercise materials published here: http://scads.github.io/ai4translatology-2026&nbsp;
+
+    The English slides were presented during the training session. The German slides
+    were auto-translated using Microsoft Copilot and translate-pptx an open source
+    alternative using sovereign IT infrastructure at the Compute Center ZIH at TU
+    Dresden.'
+  license: cc-by-4.0
+  name: AI 4 Translatology - A short deep dive in large language models
+  num_downloads: 21
+  publication_date: '2026-10-14'
+  submission_date: '2026-10-20T18:13:03.458374'
+  url:
+  - https://zenodo.org/records/23366153
+  - https://doi.org/10.5281/zenodo.23366153
+- authors:
+  - Taeschner, Matthias
+  - Haase, Robert
+  description: 'In diesem Slide-Deck lernen wir die souver&auml;ne KI-Infrastruktur
+    der Universit&auml;t Leipzig KIARA kennen. Dar&uuml;ber hinaus definieren wir
+    einige g&auml;ngie Begriffe und Vorgehensweisen im KI-Kontext, zum Beispiel Cut-Off
+    Dates, Kontextl&auml;nge und Wissensbasen. Diese Folien sind verkn&uuml;pft mit
+    den praktischen &Uuml;bungsmaterialien: https://scads.github.io/kiara-training-2026'
+  license: cc-by-4.0
+  name: KIARA Training
+  num_downloads: 29
+  publication_date: '2026-09-15'
+  submission_date: '2026-10-20T18:13:04.011003'
+  url:
+  - https://zenodo.org/records/22765275
+  - https://doi.org/10.5281/zenodo.22765275
+- authors:
+  - Haase, Robert
+  description: In diesem Slide-Deck lernen wir wie KI-Agentensysteme funktionieren,
+    die Dokumente durchsuchen und analysieren k&ouml;nnen. Wir streifen die Begriffe
+    Prompt-Engineering, Vector-Embeddings und Retrieval-Augmented Generation.
+  license: cc-by-4.0
+  name: KI-Agenten zur Dokumentenanalyse
+  num_downloads: 31
+  publication_date: '2026-08-27'
+  submission_date: '2026-10-20T18:13:04.591641'
+  url:
+  - https://zenodo.org/records/22707847
+  - https://doi.org/10.5281/zenodo.22707847
