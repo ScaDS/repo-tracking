@@ -9975,4 +9975,337 @@ resources:
   - Living Lab Lecture
   - Video
   url:
-  - https://www.youtube.com/watch?v=wxQAuBHW194
+  - https://www.youtube.com/watch?v=wxQAuBHW194- authors:
+  - Jan Eforest
+  description: ''
+  name: Ontix-Dim16-ClaudeOpus5
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - explainable-ai
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Ontix-Dim16-ClaudeOpus5
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:57.289261'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Ontix-Dim16-GPT5-6
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - explainable-ai
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Ontix-Dim16-GPT5-6
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:57.665432'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Ontix-Dim16-KimiK3
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - explainable-ai
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Ontix-Dim16-KimiK3
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:57.858842'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Ontix-Dim32-ClaudeOpus5
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - explainable-ai
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Ontix-Dim32-ClaudeOpus5
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:58.078054'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Ontix-Dim32-GPT5-6
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - explainable-ai
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Ontix-Dim32-GPT5-6
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:58.249576'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Ontix-Dim32-KimiK3
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - explainable-ai
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Ontix-Dim32-KimiK3
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:58.508001'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Ontix-Dim48-ClaudeOpus5
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - explainable-ai
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Ontix-Dim48-ClaudeOpus5
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:58.728142'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Ontix-Dim48-GPT5-6
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - explainable-ai
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Ontix-Dim48-GPT5-6
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:58.942484'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Ontix-Dim48-KimiK3
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - explainable-ai
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Ontix-Dim48-KimiK3
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:59.205703'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Varix-Dim16-Varix
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Varix-Dim16-Varix
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:59.412322'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Varix-Dim32-Varix
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Varix-Dim32-Varix
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:59.598536'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Varix-Dim48-Varix
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Varix-Dim48-Varix
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:46:59.915483'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Disentanglix-Dim16-Disentanglix
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - disentangled-representation
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Disentanglix-Dim16-Disentanglix
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:47:00.147708'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Disentanglix-Dim32-Disentanglix
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - disentangled-representation
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Disentanglix-Dim32-Disentanglix
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:47:00.329666'
+- authors:
+  - Jan Eforest
+  description: ''
+  name: Disentanglix-Dim48-Disentanglix
+  publication_date: '2026-09-25'
+  tags:
+  - autoencoder
+  - autoencodix
+  - biology
+  - disentangled-representation
+  - feature-extraction
+  - scRNA-seq
+  - single-cell
+  - variational-autoencoder
+  type: Model
+  url: https://huggingface.co/autoencodix/Disentanglix-Dim48-Disentanglix
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-10-27T19:47:00.505073'
+- authors:
+  - Kavlahkaff
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tAUTOENCODIX initial-config portfolios\n\t\n\
+    \nThis repository holds the data that\nautoencodix.propose_initial_config() uses\
+    \ to suggest\na strong starting hyperparameter configuration for an AUTOENCODIX\
+    \ model. You don't have to tune\nfrom the generic schema defaults.\nEverything\
+    \ here comes from the BBOmix benchmark: about 105,000 AUTOENCODIX training runs\n\
+    across several architectures, two datasets and many downstream tasks. There are\
+    \ two kinds of files:\n\ninitial_configs.json: ranked… See the full description\
+    \ on the dataset page: https://huggingface.co/datasets/autoencodix/initial-configs."
+  name: initial-configs
+  publication_date: '2026-10-21'
+  tags:
+  - AUTOENCODIX initial-config portfolios
+  - autoencoder
+  - autoencodix
+  - hyperparameter-optimization
+  - multi-omics
+  - transfer-learning
+  - zero-shot
+  type: Dataset
+  url: https://huggingface.co/datasets/autoencodix/initial-configs
+  license: apache-2.0
+  num_downloads: 65
+  submission_date: '2026-10-27T19:47:02.046281'
+- authors:
+  - Christian Bäuchl
+  description: "\n\t\n\t\t\n\t\n\t\n\t\tInfo\n\t\n\nSubset of the MedMNIST+ OrganMNIST3D\
+    \ dataset containing only the organ classes bladder and femur-right, prepared\
+    \ for use with the AUTOENCODIX  Imagix3D tutorial. The complete MedMNIST dataset\
+    \ collections can be found here.\nOrganMNIST3D is a three-dimensional biomedical\
+    \ image classification dataset derived from abdominal CT scans. The MedMNIST+\
+    \ version provides the volumes at a spatial resolution of 64 × 64 × 64 voxels.\n\
+    For this tutorial dataset, only samples belonging to… See the full description\
+    \ on the dataset page: https://huggingface.co/datasets/autoencodix/OrganMNIST3D-subsample."
+  name: OrganMNIST3D-subsample
+  publication_date: '2026-10-26'
+  tags:
+  - 3d
+  - NIfTI file format (.nii.gz)
+  - OrganMNIST3D Subset (Bladder and Femur-Right)
+  - autoencodix
+  - biomedical-imaging
+  - image-classification
+  - medmnist+
+  - modality:3d
+  - task_categories:image-classification
+  type: Dataset
+  url: https://huggingface.co/datasets/autoencodix/OrganMNIST3D-subsample
+  license: cc-by-nc-4.0
+  num_downloads: 32
+  submission_date: '2026-10-27T19:47:02.346494'
