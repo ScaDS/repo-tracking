@@ -9975,4 +9975,273 @@ resources:
   - Living Lab Lecture
   - Video
   url:
-  - https://www.youtube.com/watch?v=wxQAuBHW194
+  - https://www.youtube.com/watch?v=wxQAuBHW194- authors:
+  - Haase, Robert
+  description: 'This slide deck introduces us to the very basics needed to perform
+    image data science using code-generation approaches with large language models.
+    The slides here are associated with the exercise materials provided here: https://scads.github.io/hic-genai-2026'
+  license: cc-by-4.0
+  name: Generative Artificial Intelligence for Image Data Science
+  num_downloads: 26
+  publication_date: '2026-11-09'
+  submission_date: '2026-11-10T20:40:27.423811'
+  url:
+  - https://zenodo.org/records/24082016
+  - https://doi.org/10.5281/zenodo.24082016
+- authors:
+  - Haase, Robert
+  description: 'This is example data for use at the GenAI Satellite Workshop at the
+    Helmholtz Imaging Conference 2026.
+
+    Workshop website: https://scads.github.io/hic-genai-2026
+
+    Reused data origin:
+
+
+    Timelapse.tif and Timelapse.gif are a courtesy of Andra Boni, EMBL Heidelberg
+
+    Membrane2d.tif is a crop of the scikit mage example data cells3d: https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.cells3d
+
+    blobs.tif is a resave of the blobs.gif image from ImageJ
+
+    '
+  license: cc-by-4.0
+  name: Example data for the Generative AI Satellite Workshop @ Helmholtz Imaging
+    Conference 2026
+  num_downloads: 62
+  publication_date: '2026-11-07'
+  submission_date: '2026-11-10T20:40:27.950700'
+  url:
+  - https://zenodo.org/records/24033766
+  - https://doi.org/10.5281/zenodo.24033766
+- authors:
+  - Haase, Robert
+  description: In this slide deck we dive into generative artificial intelligence,
+    in particular language models for code generation.&nbsp; First we differentiate
+    the use-cases research software engineering and data science. We learn how to
+    identify training data of large language models in specific cases. Software Engineering
+    Benchmarks show us how capable LLMs actually are and drive development in this
+    domain. We dive into cyber-security and business aspects behind the technology.
+    Finally, we learn how benchmarking in one specific scientific domain allows us
+    to study capabilities of LLMs in more detail and how we can gain trust in AI-generated
+    code, potentially without knowing what results it is supposed to generate.
+  license: cc-by-4.0
+  name: Generative Artificial Intelligence for Code Generation
+  num_downloads: 39
+  publication_date: '2026-11-05'
+  submission_date: '2026-11-10T20:40:28.449939'
+  url:
+  - https://zenodo.org/records/23970051
+  - https://doi.org/10.5281/zenodo.23970051
+- authors:
+  - Vogginger, Bernhard
+  - Radhakrishna, Keerthan Kopparam
+  - Nana, Yaniv
+  - Kappel, David
+  - Jain, Vaibhav
+  - Mayr, Christian
+  description: 'ESCADE Simulator: A data center simulator for energy-aware workload
+    scheduling.
+
+    The ESCADE simulator models heterogeneous data center hardware, simulates workload
+    execution under various scheduling policies, and quantifies energy consumption
+    to support capacity-planning decisions for AI computing.
+
+    This Python-based software simulates the scheduling and execution of AI workloads
+    in an AI datacenter composed of different devices (CPUs, GPUs, ...), predicting
+    power consumption and device utilization.
+
+    This way, the tool allows to compare different hardware setups (given by the number
+    of hardware systems per type) and such find the optimal configuration for a given
+    workload, e.g. for a small AI company.
+
+    In addition to the simulator itself, the project contains examples of three cases
+    studies using the simulator to find the optimal hardware setup for given AI workloads.
+
+    This software was developed in the German Project ESCADE Energy-Efficient Large-Scale
+    Artificial Intelligence for Sustainable Data Centers: Website.
+
+    &nbsp;'
+  license: apache2.0
+  name: 'ESCADE Simulator: A data center simulator for energy-aware workload scheduling'
+  num_downloads: 2
+  publication_date: '2026-10-29'
+  submission_date: '2026-11-10T20:40:29.056558'
+  url:
+  - https://zenodo.org/records/23775822
+  - https://doi.org/10.5281/zenodo.23775822
+- authors:
+  - Haase, Robert
+  description: "This dataset is a compilation of 15364 PowerPoint slides from German\
+    \ Reseach Data Organizations, mostly including Teaching Materials. The PowerPoint\
+    \ slides were accumulated from all Zenodo Records in 77 Zenodo Organizations (listed\
+    \ in rd_zenodo_communities.csv). These records originate from 410 unique authors.\
+    \ The individual slide were rendered using the render-pptx software, processed\
+    \ using the SlideDesk software and the openai/clip-vit-base-patch32 vision embedding\
+    \ model. The three dimensional map was produced using umap-learn. The dataset\
+    \ only contains training materials from PowerPoint pptx files, and only those&nbsp;\
+    \ materials that were shared unter permissive licenses. Original DOI, pptx filename,\
+    \ slide numbers, authors and licenses are stored together with image filenames\
+    \ and UMAP coordinates in data.csv. It contains slides from PowerPoint files shared\
+    \ under permissive licenses exclusively, because contrary to PDFs, these slides\
+    \ can be modified, mixed, reassembled and reused easily. Provided code.zip contains\
+    \ scripts and notebooks used for the data processing. Code was mostly generated\
+    \ using claude.ai .\nHow to use\nAfter unzipping the data.zip file, the dataset\
+    \ can be used to explore training materials interactively, e.g. using the Vision\
+    \ Embedding Space Travelling software (see vest_recording.mp4) with this command:\n\
+    vest data.csv --image-path ./images\nYou can then navigate between the slides\
+    \ as shown in vest-recording.mp4&nbsp;\nAcknowledgements\nSpecial thanks goes\
+    \ to Lea Gihlein (ScaDS.AI / Leipzig University) who explored slide collections\
+    \ and embeddding models in the predecessor project and shared her knowledge openly.\n\
+    Big thanks goes to the authors of the reused slide-decks who shared them openly\
+    \ according to the FAIR principles and with permissive license conditions: Ana\
+    \ Agniashvili, Mohsen Ahmadi, Alexander Behr, Jim Allison, Franziska Altemeier,\
+    \ James Michael Anderson, Ann-Christin Andres, Aggarwal Anjali, Ann-Christin Andres,\
+    \ Annett Schr&ouml;ter, Annette Strauch, Annette Strauch-Davey, Esther Asef, Samy\
+    \ Ateia, Marie Baldenius, Sofia Baroncini, Anton Barty, Base4NFDI, Daniel Bauer,\
+    \ Noah Baumann, Anke Becker, Silvia Becker, Jan Beermann, Simon Bekemeier, Benjamin\
+    \ Golub, Corinna Berg, Ren&eacute; Bernard, Matthias Berndt, Jan Bernoth, Luca\
+    \ Bertinetti, Noemi Betancort Cabrera, Frauke Beyer, Katarzyna Biernacka, Victoria\
+    \ Biesterfeld, Christian Bittner, Sarah Boelter, Hannes Bohring, Tom Boissonnet,\
+    \ Peer Bork, Michele Bortolomeazzi, Sophie Bo&szlig;e, Ewa Elizabeth Bres, Brigitte\
+    \ Mathiak, Sandor Brockhauser, Jan Bumberger, Wibke Busch, Elisabeth B&ouml;ker,\
+    \ Leyla Jael Castro, Chandu Nainala, Charlotte Kastner, Christian Schmidt, Jenifer\
+    \ Tabita Ciuciu-Kiss, Thomas Clavel, Fabio Dall'Antonia, Daniela Hausen, Sarah\
+    \ Ann Danker, Jennifer Dannheim, Jakob Deich, Stefano Della Chiesa, &Eacute;variste\
+    \ Demandt, Jens Dierkes, Florian Dobener, Ron Dockhorn, Dr. Claudia Kramer, Dr.\
+    \ David Linke, Dr. Nadiia Huskova, Dr. Taras Petrenko, Dr. rer. nat. &Eacute;variste\
+    \ Demandt, Dr.-Ing. Nadiia Huskova, Dr.-Ing. Thomas B&ouml;nisch, Dr.-Ing. Vishwas\
+    \ Chandrashekhar, Stefan Dvoretskii, Nina Dworschak, Denise D&ouml;rfel, Nina\
+    \ D&uuml;vel, Jan Eberhardt, Jennifer Ecker, Judith Sophie Engel, Claudia Engelhardt,\
+    \ Rodrigo Escobar Diaz Guerrero, Janine Felden, Elisa Ferrando-May, Heiko Figgemeier,\
+    \ Fabian Fink, Fabian Fricke, Sonja Friedrichs, Philipp Fritz, Vanessa Fuchs,\
+    \ Vanessa Aphaia Fiona Fuchs, Konrad F&ouml;rstner, Konrad U. F&ouml;rstner, Vanessa\
+    \ Gabriel, Alban Gaignard, Daniel Garijo, Marie Gebhardt, Lukas Geist, Marc Gentzel,\
+    \ Jaap Geraerts, Livia Gertis, Ronny Gey, Anton Gladyshev, Roland Gl&uuml;ck,\
+    \ Anna Gnyp, Carole Goble, Michael Goedicke, Alexander Goesmann, Tim Simon Goldmann,\
+    \ Benjamin Golub, Marisabel Gonz&aacute;lez-Ocanto, Kathrin Greiff, Jonas Grieb,\
+    \ Yves Vincent Grossmann, Kathrin Grummich, Barbara G&ouml;tz, Benedikt Haas,\
+    \ Robert Haase, Claudia Hackl, Ataul Haleem, Tobias Hamann, Xiaoyao Han, Linus\
+    \ Hartmann-Enke, Canan Hastik, Daniela Adele Hausen, Nicolas Hayen, HeFDI - Hessische\
+    \ Forschungsdateninfrastrukturen, Maximilian Heber, Josef Heers, Cordula Hege,\
+    \ Kerstin Helbig, Hendrik Borgelt, Walid Hetaba, Jan-Ocko Heuer, Jasmin Heuer,\
+    \ Torsten Hiltmann, Regina Hinzmann, Thomas Hitch, Simon (Dr.) Hodson, J&ouml;rg\
+    \ Hoffmann, Isabel A. Hohle, Yiu-Kang Hsu, Carolin Hundt, Lina Lisa H&ouml;ck,\
+    \ Tanja H&ouml;rner, Fabian Isensee, Juliane Jacob, Gerald Jagusch, Sessing Jan,\
+    \ Janina Hanne, Stephan Janosch, Jens Kloppmann, Johannes Liermann, John Jolliffe,\
+    \ Sabrina Jordan, Jakob Jung, Jascha Jung, Monika Jungbauer-Gans, Nick Juty, Paul\
+    \ F J&auml;ger, Hannah J&uuml;r&szlig;, Ben Kaden, Tereza Kalov&aacute;, Jan Kamlah,\
+    \ Philipp Kandler, Renat Kaufmann, Igor Khokhriakov, Dennis-Kenji Kipker, Tobias\
+    \ Klann, Claus-Peter Klas, Wibke Kleina, Florian Kleiner, Paul Kloss, Christoph\
+    \ Koch, Katharina Koch, Ellis Kolb, Phil Kolbe, Grigory Kornilov, Thomas Brey\
+    \ Jennifer Dannheim Katharina Teschke Dieter Piepenburg Paul Koss, Uwe Kretschmer,\
+    \ Christian Krippes, Ksenia Kroo&szlig;, Lucas Kulla, Susanne Kunis, Susanna Kuper,\
+    \ Ekaterina Kutafina, Regina Kwee-Hinzmann, Martin K&ouml;hler, Birgitta K&ouml;nig-Ries,\
+    \ Erik K&ouml;rner, Markus K&uuml;hbach, Beate Ulrike La Sala, Mara Harriet Lampert,\
+    \ Matthias Lange, Florence Langermann, Patrick Langner, Roxana Maria Lazarescu,\
+    \ Sebastian B. C. Lehmann, Ursula Lehmkuhl, Felix Lettowsky, Lieselotte Lieding,\
+    \ Jimena Linares, Birte Lindst&auml;dt, Lioba Schreyer, Janna Little, Lucille\
+    \ Lopez-Delisle, Anna-Lena Lorenz, Marta Lorenz, Luis Hernando Lozano Paredes,\
+    \ Tiago Lubiana, Ulrike Lucke, Barbara L&ouml;hde, Barbara Maria L&ouml;hde, Maja\
+    \ Magel, Daniela Maier, Klaus Maier-Hein, Jan-Philipp Mallm, Antje Manske, Anca\
+    \ Margineanu, Mark D&ouml;rr, Katharina Markus, Lisa Martinello, Daniel Martini,\
+    \ Manja Marz, Riccardo Massei, Alice McHardy, Allard W. Mees, Anett Mehler-Bicher,\
+    \ Bortolomeazzi Michele, Vlatko Momirovski, Josh Moore, David Philip Morgan, Mario\
+    \ Moser, Jorge Murcia Serra, Bridget Murphy, Peter Mutschke, Hans M&auml;rz, Ralf\
+    \ M&ouml;ller, Timo M&uuml;hlhaus, Andreas M&uuml;hlichen, Bernd M&uuml;ller,\
+    \ Maximilian E. M&uuml;ller, Robert M&uuml;ller, NFDI4Earth, NFDI4Earth Consortium,\
+    \ Robert Nasarek, Melanie Nentwich, Julia Neubauer, Janna Neumann, Heike Neuroth,\
+    \ Moritz Nicolai, Elena Nicolay, Anja Nied, Marco Nolden, Norbert Kockmann, Ulisses\
+    \ Nunes da Rocha, Jo Nyffeler, Daniel N&uuml;st, Michael Oellermann, Eva Ommert,\
+    \ Nikolas Ott, J&ouml;rg Overmann, J&ouml;rg Panzer, Simon Parker, Pascal Scherreiks,\
+    \ Stefan Pauliuk, Carmen Paulmann, Vasilka Paunova, Charlie Pauvert, Britta Petersen,\
+    \ Vivien Petras, Philip Str&ouml;mert, Lukas Pielsticker, Andre Manuel Pietsch,\
+    \ Shanna Pilch, Linus Pithan, Jana Plomin, Andr&eacute; Pomp, Prof. Dr. Bernhard\
+    \ Weisser, Johannes Putzke, Nelson David Qui&ntilde;ones Virgen, Rohitha Ravinder,\
+    \ Rebekka Reichert, Dietrich Rebholz-Schuhmann, Phil Reed, Luise Reger, Marianne\
+    \ Rehage, Nils Reinosch, Johannes Reppin, Laurenz Rettig, Sebastian Reutzel, Jessica\
+    \ Rex, Elena Rey-Maz&oacute;n, Richard Lenz, Manuela Richter, Vivien Rudolph,\
+    \ Arne R&uuml;mmler, Claudia Saalbach, Wahib Sahwan, Janete Saldanha Bach, Berhan\
+    \ Sarilar, Kristin D. Sauerland, Philipp Schader, Vanessa Scharf, Merle Schatz,\
+    \ Jasmin Schenk, Pascal Scherreiks, Thomas M. Schimmer, Christian Schmidt, Marcus\
+    \ Schmidt, Thomas Schmidt, Stefan Schmunk, Hannes Schnaitter, Agnes Schneider,\
+    \ Gabriel Schneider, Kevin Schneider, Helena Schnitzer, Markus Schn&ouml;pf, Isabel\
+    \ Schober, Stefan Scholz, Christina Schr&ouml;der, Katrin Schr&ouml;der, Max Schr&ouml;der,\
+    \ Annett Schr&ouml;ter, Boram Schr&ouml;ter, Katharina Schuckmann, Sarah Schulz,\
+    \ Francesca Schulze, Irene Schumm, Gudrun Angelika Schwenk, Johannes Sch&auml;ffer,\
+    \ Sabine Sch&ouml;nau, Thomas Sch&ouml;rner-Sadenius, Alexander Sczyrba, Christian\
+    \ Seitz, Corinna Seiwerth, Melanie Seltmann, Matthias Senft, Beatriz Serrano-Solano,\
+    \ Sherjeel Shabih, Renat Shigapov, Christos Sidiropoulos, Uwe Siegel, Lea Sophie\
+    \ Singson, Benjamin Slowig, Indra Smith, Stian Soiland-Reyes, Dhwani Solanki,\
+    \ Johannes Richard Soltwedel, Sonja Herres-Pawlis, Martin Spenger, Johannes Sperling,\
+    \ Ulrike Stahl, Ksenia Stanicka-Brzezicka, Daria Stefan, Stefanie Weidtkamp-Peters,\
+    \ Gerald Steilen, Jens Stoye, Annette Strauch-Davey, Chiara Stringari, Thomas\
+    \ St&auml;cker, Nikolai Svoboda, TU9-FDM, Matthias Taeschner, Heiko Tapken, Taras\
+    \ Petrenko, Merve Tav\u015Fan, Katharina Teschke, Robert Thiele, Florian Thiery,\
+    \ Ute Trautwein-Bruns, Thorsten Trippel, Tu9-FDM, Constantin Ulrich, Sophie Unbehau,\
+    \ Michaela Unger, H&uuml;seyin Uzun, Thea Van Rossum, Justine Vandendorpe, Lucia\
+    \ Vedder, Suhasini Venkatesh, Paul Vierkant, Michael Vockenhuber, Pia Voigt, Jakob\
+    \ Vo&szlig;, Tassilo Wald, David Wallace, Paul Walter, Tobias Wamhof, Stefanie\
+    \ Weidtkamp-Peters, Claus Weiland, Lukas Weimer, Christof Weinhardt, Jens Wendt,\
+    \ Knut Wenzig, Jennifer Wettig, Cornelia Wetzker, Gery Weyd, Maximilian Weyland,\
+    \ Daniel Wibberg, Jeanne Wilbrandt, Cord Wiljes, Larissa Will, J&uuml;rgen Windeck,\
+    \ Ian Wolff, Stephan W&uuml;nsche, Bernd Zey, Meng Zhao, Thomas Zobel, Marcelo\
+    \ Zoccoler, Sandra Z&auml;nkert, Peter van der Reest"
+  license: cc-by-4.0
+  name: Visual Index of Teaching Slides about Research Data Management
+  num_downloads: 31
+  publication_date: '2026-10-18'
+  submission_date: '2026-11-10T20:40:29.593944'
+  url:
+  - https://zenodo.org/records/23453562
+  - https://doi.org/10.5281/zenodo.23453562
+- authors:
+  - Welz, Oliver
+  - Haase, Robert
+  description: 'In this slide deck we dive into applications and best-practices of
+    large language models for natural language processing for the purpose of information
+    retrieval and text translation. The target audience are scientists in linguistics
+    and translatology who want to work more deeply with artificial intelligence. These
+    slides are relate to the hands-on exercise materials published here: http://scads.github.io/ai4translatology-2026&nbsp;
+
+    The English slides were presented during the training session. The German slides
+    were auto-translated using Microsoft Copilot and translate-pptx an open source
+    alternative using sovereign IT infrastructure at the Compute Center ZIH at TU
+    Dresden.'
+  license: cc-by-4.0
+  name: AI 4 Translatology - A short deep dive in large language models
+  num_downloads: 103
+  publication_date: '2026-10-14'
+  submission_date: '2026-11-10T20:40:30.144868'
+  url:
+  - https://zenodo.org/records/23366153
+  - https://doi.org/10.5281/zenodo.23366153
+- authors:
+  - Taeschner, Matthias
+  - Haase, Robert
+  description: 'In diesem Slide-Deck lernen wir die souver&auml;ne KI-Infrastruktur
+    der Universit&auml;t Leipzig KIARA kennen. Dar&uuml;ber hinaus definieren wir
+    einige g&auml;ngie Begriffe und Vorgehensweisen im KI-Kontext, zum Beispiel Cut-Off
+    Dates, Kontextl&auml;nge und Wissensbasen. Diese Folien sind verkn&uuml;pft mit
+    den praktischen &Uuml;bungsmaterialien: https://scads.github.io/kiara-training-2026'
+  license: cc-by-4.0
+  name: KIARA Training
+  num_downloads: 67
+  publication_date: '2026-09-15'
+  submission_date: '2026-11-10T20:40:30.669590'
+  url:
+  - https://zenodo.org/records/22765275
+  - https://doi.org/10.5281/zenodo.22765275
+- authors:
+  - Haase, Robert
+  description: In diesem Slide-Deck lernen wir wie KI-Agentensysteme funktionieren,
+    die Dokumente durchsuchen und analysieren k&ouml;nnen. Wir streifen die Begriffe
+    Prompt-Engineering, Vector-Embeddings und Retrieval-Augmented Generation.
+  license: cc-by-4.0
+  name: KI-Agenten zur Dokumentenanalyse
+  num_downloads: 56
+  publication_date: '2026-08-27'
+  submission_date: '2026-11-10T20:40:31.204327'
+  url:
+  - https://zenodo.org/records/22707847
+  - https://doi.org/10.5281/zenodo.22707847
