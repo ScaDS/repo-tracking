@@ -9978,7 +9978,14 @@ resources:
   - https://www.youtube.com/watch?v=wxQAuBHW194
 - authors:
   - "Matthias T\xE4schner"
-  description: ''
+  description: 'Operating IT infrastructure means knowing, at any time, what runs where, in which version, how it is secured, and how to maintain, upgrade or restore it. That knowledge is usually scattered across wikis, tickets, chat logs and people's heads, and it goes stale quickly. This skeleton repository is a starting point for keeping it in one place: a version-controlled knowledge base that documents the infrastructure and actively helps operate it.
+
+It is built as an IT infrastructure knowledge base that serves three purposes at once:
+
+* reference for humans: interlinked Markdown files, browsable in any editor or in Obsidian
+* admin handbook: runbooks, measures, decisions and tracked issues next to the systems they concern
+* knowledge source and playbook for an AI agent: a sandboxed [OpenCode](https://opencode.ai/) agent that reads the KB, proposes read-only checks for your hosts and records what you paste back, without any access to the hosts itself
+The repository contains structure, schema, templates, tooling and the agent sandbox, but no content. You fill it with your own hosts, services and measures.'
   license: MIT License
   name: it-kb-agentic-skeleton
   publication_date: '2026-11-12T15:28:34+00:00'
