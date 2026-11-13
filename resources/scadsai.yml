@@ -9994,3 +9994,13 @@ resources:
   type: GitHub Repository
   url: https://github.com/foerster-finsternis/it-kb-agentic-skeleton
   
+- authors:
+  - Niklas Merk
+  description: ''
+  license: MIT License
+  name: NST_Strength_Control
+  publication_date: '2026-08-11T15:28:45+00:00'
+  submission_date: '2026-11-13T08:37:29.031380'
+  type: GitHub Repository
+  url: https://github.com/Kamoshiranai/NST_Strength_Control
+  
