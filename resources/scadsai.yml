@@ -9993,4 +9993,108 @@ resources:
   submission_date: '2026-11-12T19:20:07.370889'
   type: GitHub Repository
   url: https://github.com/foerster-finsternis/it-kb-agentic-skeleton
-  
+  - authors:
+  - autmoate99
+  description: ''
+  name: cactus-needle3-calendar
+  publication_date: '2026-09-23'
+  tags:
+  - base_model:Cactus-Compute/needle3
+  - base_model:finetune:Cactus-Compute/needle3
+  - cactus-needle
+  - calendar
+  - de
+  - function-calling
+  - multi-call
+  - needle
+  - on-device
+  - tool-calling
+  type: Model
+  url: https://huggingface.co/autmoate/cactus-needle3-calendar
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-11-17T22:45:13.315920'
+- authors:
+  - autmoate99
+  description: ''
+  name: cactus-needle2-calendar-write-dt
+  publication_date: '2026-09-11'
+  tags:
+  - base_model:Cactus-Compute/needle2
+  - base_model:finetune:Cactus-Compute/needle2
+  - cactus-needle
+  - calendar
+  - de
+  - edge
+  - german
+  - needle
+  - on-device
+  - tool-calling
+  type: Model
+  url: https://huggingface.co/autmoate/cactus-needle2-calendar-write-dt
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-11-17T22:45:15.713559'
+- authors:
+  - autmoate99
+  description: ''
+  name: cactus-needle2-calendar-read-dt
+  publication_date: '2026-09-11'
+  tags:
+  - base_model:Cactus-Compute/needle2
+  - base_model:finetune:Cactus-Compute/needle2
+  - cactus-needle
+  - calendar
+  - de
+  - edge
+  - german
+  - needle
+  - on-device
+  - tool-calling
+  type: Model
+  url: https://huggingface.co/autmoate/cactus-needle2-calendar-read-dt
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-11-17T22:45:15.860130'
+- authors:
+  - autmoate99
+  description: ''
+  name: cactus-needle2-reminder-dt
+  publication_date: '2026-09-11'
+  tags:
+  - base_model:Cactus-Compute/needle2
+  - base_model:finetune:Cactus-Compute/needle2
+  - cactus-needle
+  - calendar
+  - de
+  - edge
+  - german
+  - needle
+  - on-device
+  - tool-calling
+  type: Model
+  url: https://huggingface.co/autmoate/cactus-needle2-reminder-dt
+  license: apache-2.0
+  num_downloads: 0
+  submission_date: '2026-11-17T22:45:16.006081'
+- authors:
+  - autmoate99
+  description: ''
+  name: needle2-r16-e8-s42
+  publication_date: '2026-10-05'
+  tags:
+  - base_model:Cactus-Compute/needle2
+  - base_model:finetune:Cactus-Compute/needle2
+  - cactus-needle
+  - calendar
+  - de
+  - email
+  - function-calling
+  - needle
+  - on-device
+  - tool-calling
+  type: Model
+  url: https://huggingface.co/autmoate/needle2-r16-e8-s42
+  license: mit
+  num_downloads: 0
+  submission_date: '2026-11-17T22:45:16.316240'
